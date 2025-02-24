@@ -501,6 +501,54 @@ proxies:
   tls: false
   type: vmess
   uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
+- name: United States_None_hysteria_21
+  type: hysteria
+  server: 208.87.243.151
+  port: 17549
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Russia_None_hysteria_31
+  type: hysteria
+  server: 185.22.155.71
+  port: 63717
+  ports: 40000-50000
+  auth_str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: Russia_None_hysteria_41
+  type: hysteria
+  server: 185.22.155.71
+  port: 63717
+  ports: 40000-50000
+  auth_str: dongtaiwang.com
+  obfs: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
+- name: United States_None_hysteria_51
+  type: hysteria
+  server: 208.87.243.151
+  port: 17549
+  auth_str: dongtaiwang.com
+  alpn:
+  - h3
+  sni: www.bing.com
+  skip-cert-verify: true
+  up: 11 Mbps
+  down: 55 Mbps
 - name: Russia_Moscow_hy2_0
   type: hysteria2
   server: 46.17.41.189
@@ -609,6 +657,10 @@ proxy-groups:
   - Singapore_Singapore_ss_162
   - Singapore_Singapore_ss_163
   - Hong Kong_None_vmess_164
+  - United States_None_hysteria_21
+  - Russia_None_hysteria_31
+  - Russia_None_hysteria_41
+  - United States_None_hysteria_51
   - Russia_Moscow_hy2_0
   - Russia_Moscow_hy2_1
   - Russia_Moscow_hy2_2
