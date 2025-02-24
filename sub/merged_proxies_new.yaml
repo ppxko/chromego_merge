@@ -582,11 +582,83 @@ proxies:
   sni: www.bing.com
   skip-cert-verify: true
 proxy-groups:
-- name: 选择
+- name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
+  - China_None_vmess_01
+  - China_Wuhan_trojan_02
+  - Portugal_Lisbon_ss_03
+  - China_Wuhan_trojan_04
+  - Hong Kong_None_ss_05
+  - United States_Boardman_ss_06
+  - Hong Kong_None_vmess_07
+  - China_Guangzhou_ss_08
+  - China_Guangzhou_ss_09
+  - China_Guangzhou_ss_010
+  - China_Guangzhou_ss_011
+  - China_Guangzhou_ss_012
+  - China_Guangzhou_ss_013
+  - China_Guangzhou_ss_014
+  - China_Guangzhou_ss_015
+  - China_Guangzhou_ss_016
+  - China_Guangzhou_ss_017
+  - China_Guangzhou_ss_018
+  - China_Guangzhou_ss_019
+  - China_Guangzhou_ss_020
+  - China_Guangzhou_ss_021
+  - China_Guangzhou_ss_022
+  - China_Guangzhou_ss_023
+  - China_Guangzhou_ss_024
+  - China_Guangzhou_ss_025
+  - China_Guangzhou_ss_026
+  - China_Guangzhou_ss_027
+  - China_Guangzhou_ss_028
+  - China_Guangzhou_ss_029
+  - China_Guangzhou_ss_030
+  - China_Guangzhou_ss_031
+  - China_Guangzhou_ss_032
+  - China_Guangzhou_ss_033
+  - China_Guangzhou_ss_034
+  - China_Guangzhou_ss_035
+  - China_Guangzhou_ss_036
+  - China_Guangzhou_ss_037
+  - Hong Kong_Hong Kong_trojan_038
+  - China_Wuhan_ss_039
+  - Hong Kong_None_vmess_040
+  - China_Guangzhou_ss_041
+  - China_None_ss_042
+  - China_Guangzhou_ss_043
+  - China_None_ss_044
+  - China_Wuhan_ss_045
+  - China_Guangzhou_ss_046
+  - China_Guangzhou_ss_047
+  - China_None_ss_048
+  - China_None_ss_049
+  - China_Guangzhou_ss_050
+  - China_Guangzhou_ss_051
+  - South Korea_Seoul_vmess_052
+  - China_None_ss_053
+  - China_Guangzhou_ss_054
+  - China_Guangzhou_ss_055
+  - China_Guangzhou_ss_056
+  - Singapore_None_ss_057
+  - China_None_ss_058
+  - United States_Ashburn_ss_059
+  - United States_Ashburn_ss_060
+  - Singapore_Singapore_ss_061
+  - Singapore_Singapore_ss_062
+  - Singapore_Singapore_ss_063
+  - Hong Kong_None_vmess_064
+  - United States_None_hysteria_21
+  - Russia_None_hysteria_31
+  - Russia_None_hysteria_41
+  - United States_None_hysteria_51
+  - Russia_Moscow_hy2_0
+  - Russia_Moscow_hy2_1
+  - Russia_Moscow_hy2_2
+  - Russia_Moscow_hy2_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -666,26 +738,26 @@ proxy-groups:
   - Russia_Moscow_hy2_2
   - Russia_Moscow_hy2_3
 rules:
-- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,选择
-- DOMAIN-SUFFIX,services.googleapis.cn,选择
-- IP-CIDR,120.232.181.162/32,选择,no-resolve
-- IP-CIDR,120.241.147.226/32,选择,no-resolve
-- IP-CIDR,120.253.253.226/32,选择,no-resolve
-- IP-CIDR,120.253.255.162/32,选择,no-resolve
-- IP-CIDR,120.253.255.34/32,选择,no-resolve
-- IP-CIDR,120.253.255.98/32,选择,no-resolve
-- IP-CIDR,180.163.150.162/32,选择,no-resolve
-- IP-CIDR,180.163.150.34/32,选择,no-resolve
-- IP-CIDR,180.163.151.162/32,选择,no-resolve
-- IP-CIDR,180.163.151.34/32,选择,no-resolve
-- IP-CIDR,203.208.39.0/24,选择,no-resolve
-- IP-CIDR,203.208.40.0/24,选择,no-resolve
-- IP-CIDR,203.208.41.0/24,选择,no-resolve
-- IP-CIDR,203.208.43.0/24,选择,no-resolve
-- IP-CIDR,203.208.50.0/24,选择,no-resolve
-- IP-CIDR,220.181.174.162/32,选择,no-resolve
-- IP-CIDR,220.181.174.226/32,选择,no-resolve
-- IP-CIDR,220.181.174.34/32,选择,no-resolve
+- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
+- DOMAIN-SUFFIX,services.googleapis.cn,节点选择
+- IP-CIDR,120.232.181.162/32,节点选择,no-resolve
+- IP-CIDR,120.241.147.226/32,节点选择,no-resolve
+- IP-CIDR,120.253.253.226/32,节点选择,no-resolve
+- IP-CIDR,120.253.255.162/32,节点选择,no-resolve
+- IP-CIDR,120.253.255.34/32,节点选择,no-resolve
+- IP-CIDR,120.253.255.98/32,节点选择,no-resolve
+- IP-CIDR,180.163.150.162/32,节点选择,no-resolve
+- IP-CIDR,180.163.150.34/32,节点选择,no-resolve
+- IP-CIDR,180.163.151.162/32,节点选择,no-resolve
+- IP-CIDR,180.163.151.34/32,节点选择,no-resolve
+- IP-CIDR,203.208.39.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.40.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.41.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.43.0/24,节点选择,no-resolve
+- IP-CIDR,203.208.50.0/24,节点选择,no-resolve
+- IP-CIDR,220.181.174.162/32,节点选择,no-resolve
+- IP-CIDR,220.181.174.226/32,节点选择,no-resolve
+- IP-CIDR,220.181.174.34/32,节点选择,no-resolve
 - DOMAIN-SUFFIX,acl4.ssr,DIRECT
 - DOMAIN-SUFFIX,ip6-localhost,DIRECT
 - DOMAIN-SUFFIX,ip6-loopback,DIRECT
@@ -10106,4 +10178,4 @@ rules:
 - IP-CIDR,223.255.236.0/22,DIRECT,no-resolve
 - IP-CIDR,223.255.252.0/23,DIRECT,no-resolve
 - GEOIP,CN,DIRECT,no-resolve
-- MATCH,选择
+- MATCH,节点选择
