@@ -22,379 +22,371 @@ dns:
   - 223.5.5.5
   - 8.8.8.8
 proxies:
-- name: Japan_Tokyo_trojan_01
-  password: 7d9c7804-1f7d-43f7-b19a-fa7c2fff4569
-  port: 20230
-  server: jp007.421421.xyz
-  skip-cert-verify: false
-  sni: 421421.xyz
-  type: trojan
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_02
-  password: amazonskr05
-  port: 443
-  server: 13.125.186.115
-  type: ss
-- name: China_Wuhan_trojan_03
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20130
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x130.flybar.work
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_04
-  network: ws
-  port: 23614
-  server: 14.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 14.mamamajd.site
-    path: /
-- name: China_Wuhan_trojan_05
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20139
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z139.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_06
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- name: China_Wuhan_trojan_07
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_Boardman_ss_08
-  password: amazonskr05
-  port: 443
-  server: 54.244.78.72
-  type: ss
-- name: China_Wuhan_trojan_09
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 45168
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z263.hongkongnode.top
-  type: trojan
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_010
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- cipher: aes-256-cfb
-  name: United States_Boardman_ss_011
-  password: amazonskr05
-  port: 443
-  server: 35.91.187.73
-  type: ss
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: Poland_Warsaw_ss_012
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  server: 217.30.10.18
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_013
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62794aaa-7ee2-33a6-aa5b-560c694c2f9a
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: China_Guangzhou_vmess_014
-  network: tcp
-  port: 14100
-  server: dxv4.pai50288.uk
-  type: vmess
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: Finland_Helsinki_ss_015
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.143.129.230
-  type: ss
-  udp: true
-- name: China_Wuhan_trojan_016
-  password: 825654a8-5332-31d0-8096-72469a2a0690
-  port: 20299
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x299.flybar.work
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_017
-  password: 2be0c954-4291-45ea-b47d-ca713180550b
-  port: 52611
-  server: hk01.x.quickcht3.club
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: United States_Boardman_ss_018
-  password: amazonskr05
-  port: 443
-  server: 34.217.75.205
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_019
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_01
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31141
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_020
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_02
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31143
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_021
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_03
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31145
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_022
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_04
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31241
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_023
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_05
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31243
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_024
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_06
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31245
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_025
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_07
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31111
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_026
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_08
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31113
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_027
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_09
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31115
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_028
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_010
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31171
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_029
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_011
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31173
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_030
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_012
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31175
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_031
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_013
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31311
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_032
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_014
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31313
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_033
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_015
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31341
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_034
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_016
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31211
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_035
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_017
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31213
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_036
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_018
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31215
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_037
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_019
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31271
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_038
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_020
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31741
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_039
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_021
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31721
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_040
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_022
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31371
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_041
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_023
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31411
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_042
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_024
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31441
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_043
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_025
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31471
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_044
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_026
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31511
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_045
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_027
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31571
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_046
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_028
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31611
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_047
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_029
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31641
   server: free.2apzhfa.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: China_Guangzhou_ss_048
-  password: b7bc90e3-d977-4c3e-bfb6-1a904e625d85
+  name: China_Guangzhou_ss_030
+  password: 08f67450-f724-4d8f-86f5-a29b5aed25f2
   port: 31671
   server: free.2apzhfa.xyz
   type: ss
   udp: true
-- name: Hong Kong_Hong Kong_trojan_049
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_031
+  password: amazonskr05
+  port: 443
+  server: 18.181.198.147
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_032
+  password: 8a69c58d-6f19-494f-a1e0-77be2ea2cf0d
+  port: 20032
+  server: gy.666666222.shop
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: China_None_ss_033
+  password: 8f9ee4d3-f070-43ab-a0cd-b708d9e8de10
+  port: 12001
+  server: mdss-hk.04z3susick.download
+  type: ss
+- cipher: chacha20-ietf
+  name: Hong Kong_None_ss_034
+  password: asd123456
+  port: 8388
+  server: 103.149.182.191
+  type: ss
+- cipher: aes-128-gcm
+  name: China_None_ss_035
+  password: 8f9ee4d3-f070-43ab-a0cd-b708d9e8de10
+  port: 12020
+  server: mdss-sg.04z3susick.download
+  type: ss
+- cipher: aes-256-cfb
+  name: United States_Boardman_ssr_036
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 34.212.0.149
+  type: ssr
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  name: United States_None_vmess_037
+  network: ws
+  port: 80
+  server: 151.101.128.155
+  servername: telegram-isvvpn.dev
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6e3ac406-a15b-461d-8b05-ca01b284d9a0
+  ws-opts:
+    headers:
+      HOST: telegram-isvvpn.dev
+    path: /racevpn
+- cipher: aes-256-cfb
+  name: United States_Boardman_ssr_038
+  obfs: plain
+  password: amazonskr05
+  port: 443
+  protocol: origin
+  server: 52.33.5.226
+  type: ssr
+- alterId: '64'
+  cipher: auto
+  name: China_None_vmess_039
+  network: tcp
+  port: 30565
+  server: 120.198.71.214
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: Japan_Tokyo_trojan_040
+  password: '3787016276694802432'
+  port: 443
+  server: light-minnow.husky461.skin
+  skip-cert-verify: true
+  sni: light-minnow.husky461.skin
+  type: trojan
+- cipher: aes-256-cfb
+  name: Slovakia_Bratislava_ss_041
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+- cipher: aes-256-cfb
+  name: United States_Boardman_ss_042
+  password: amazonskr05
+  port: 443
+  server: 54.212.61.99
+  type: ss
+- cipher: aes-256-cfb
+  name: Poland_Warsaw_ss_043
+  password: BejrQvtu9sqUeNuZ
+  port: 9024
+  server: 217.30.10.18
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_044
+  network: ws
+  port: 23619
+  server: 19.mamamajd.site
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6dbcb4d1-23da-30bd-b3e0-8e4f31100b77
+  ws-opts:
+    headers:
+      Host: 19.mamamajd.site
+    path: /
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_045
+  password: amazonskr05
+  port: 443
+  server: 54.238.247.32
+  type: ss
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: Finland_Helsinki_ss_046
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.143.129.230
+  type: ss
+  udp: true
+- name: China_Wuhan_trojan_047
+  password: 5c36d88d-1196-3b10-b982-c376d4574ef0
+  port: 20305
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z305.hongkongnode.top
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_048
+  password: amazonskr05
+  port: 443
+  server: 54.180.251.210
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: United States_Boardman_ss_049
+  password: amazonskr05
+  port: 443
+  server: 52.34.200.48
+  type: ss
+- name: China_Wuhan_trojan_050
+  password: 5c36d88d-1196-3b10-b982-c376d4574ef0
+  port: 22741
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: dufu.hongkongnode.top
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_051
   network: tcp
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
@@ -402,7 +394,14 @@ proxies:
   skip-cert-verify: true
   sni: hezijiasuqi.com
   type: trojan
-- name: Hong Kong_Hong Kong_trojan_050
+- cipher: chacha20-ietf-poly1305
+  name: China_Wuhan_ss_052
+  password: 2be0c954-4291-45ea-b47d-ca713180550b
+  port: 52611
+  server: hk01.x.quickcht3.club
+  tfo: false
+  type: ss
+- name: Hong Kong_Hong Kong_trojan_053
   network: tcp
   password: Vad3.123a)asd1234-asdasd.asdazzS.123
   port: 443
@@ -411,152 +410,118 @@ proxies:
   sni: xx.tc.hk.go.107421.xyz
   type: trojan
 - cipher: aes-256-gcm
-  name: China_None_ss_051
-  password: 2H98UZT9LT1TE3X9
-  port: 15008
-  server: w72tapyb.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: China_Guangzhou_ss_052
+  name: China_Guangzhou_ss_054
   password: LZQ0R9BL69GCC6FS
   port: 15005
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_053
+  name: China_None_ss_055
+  password: 2H98UZT9LT1TE3X9
+  port: 15008
+  server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: China_Guangzhou_ss_056
   password: RBN1UNGVPF1BQXPK
   port: 15006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_None_ss_054
+  name: China_None_ss_057
   password: TCEL1H0XD7TWAKI0
   port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: China_Wuhan_ss_055
+  name: China_Wuhan_ss_058
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: rc4-md5
-  name: China_Shenzhen_ss_056
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 3603
-  server: pr1.jymzffbquawl.com
+- alterId: 0
+  cipher: auto
+  name: China_None_vmess_059
+  port: 33311
+  server: bg.guangsu888.cc
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: China_Shenzhen_ss_057
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 3026
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_058
+  name: China_Guangzhou_ss_060
   password: QF377GGQ00RATCMK
   port: 21004
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_059
+  name: China_Guangzhou_ss_061
   password: Y2U58S90E3GST1AQ
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_None_ss_060
+  name: China_None_ss_062
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_None_ss_061
+  name: China_None_ss_063
   password: 4S85LF2Q3QK92171
   port: 18008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_062
+  name: China_Guangzhou_ss_064
   password: YMB3QL85L7F1KJR7
   port: 18013
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_063
+  name: China_Guangzhou_ss_065
   password: 84HMRAWILKB49QUZ
   port: 18002
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: rc4-md5
-  name: China_Shenzhen_ss_064
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 4602
-  server: pr3.jymzffbquawl.com
-  tfo: false
-  type: ss
 - cipher: aes-256-gcm
-  name: China_None_ss_065
+  name: China_None_ss_066
   password: B5CJMEHJMSMNQ120
   port: 16012
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_066
+  name: China_Guangzhou_ss_067
   password: BFYCOKHTC8HIWWRB
   port: 16006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: China_Guangzhou_ss_067
-  password: WNW5MZJX57ZJUNQU
-  port: 16009
-  server: 8tv68qhq.slashdevslashnetslashtun.net
+- cipher: chacha20-ietf-poly1305
+  name: China_None_ss_068
+  password: b7e92acc-70e2-4945-9625-c909251ca5ee
+  port: 30001
+  server: gdgs.tarioblink.me
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: China_Guangzhou_ss_068
+  name: China_Guangzhou_ss_069
   password: IHWLYZSSSX4GSKLA
   port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: rc4-md5
-  name: China_Shenzhen_ss_069
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 6606
-  server: pr3.jymzffbquawl.com
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -566,58 +531,30 @@ proxies:
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: China_None_vmess_071
-  port: 50004
-  server: 50004.baidu-cdn.top
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
-- cipher: rc4-md5
-  name: China_Shenzhen_ss_072
-  password: RenzheCloudSS
-  plugin: obfs
-  plugin-opts:
-    host: 20c0d292462.microsoft.com
-    mode: http
-  port: 5609
-  server: pr3.jymzffbquawl.com
+- cipher: aes-256-cfb
+  name: South Korea_Incheon_ss_071
+  password: amazonskr05
+  port: 443
+  server: 3.34.144.30
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: South Korea_None_ss_073
+  name: Singapore_Singapore_ss_072
   password: amazonskr05
   port: 443
-  server: 13.125.218.26
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: South Korea_Incheon_ss_074
-  password: amazonskr05
-  port: 443
-  server: 3.38.214.76
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: Singapore_Singapore_ss_075
-  password: amazonskr05
-  port: 443
-  server: 47.129.8.153
+  server: 47.129.225.199
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: China_None_vmess_076
+  name: China_None_vmess_073
   network: tcp
-  port: '50004'
-  server: 50004.baidu-cdn.top
+  port: '33311'
+  server: bg.guangsu888.cc
   servername: ''
   tls: false
   type: vmess
-  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
 - name: United States_None_hysteria_21
   type: hysteria
   server: 208.87.243.151
@@ -704,24 +641,24 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
-  - Japan_Tokyo_trojan_01
-  - South Korea_None_ss_02
-  - China_Wuhan_trojan_03
-  - China_None_vmess_04
-  - China_Wuhan_trojan_05
-  - China_None_vmess_06
-  - China_Wuhan_trojan_07
-  - United States_Boardman_ss_08
-  - China_Wuhan_trojan_09
-  - China_None_vmess_010
-  - United States_Boardman_ss_011
-  - Poland_Warsaw_ss_012
-  - China_None_vmess_013
-  - China_Guangzhou_vmess_014
-  - Finland_Helsinki_ss_015
-  - China_Wuhan_trojan_016
-  - China_Wuhan_ss_017
-  - United States_Boardman_ss_018
+  - China_Guangzhou_ss_01
+  - China_Guangzhou_ss_02
+  - China_Guangzhou_ss_03
+  - China_Guangzhou_ss_04
+  - China_Guangzhou_ss_05
+  - China_Guangzhou_ss_06
+  - China_Guangzhou_ss_07
+  - China_Guangzhou_ss_08
+  - China_Guangzhou_ss_09
+  - China_Guangzhou_ss_010
+  - China_Guangzhou_ss_011
+  - China_Guangzhou_ss_012
+  - China_Guangzhou_ss_013
+  - China_Guangzhou_ss_014
+  - China_Guangzhou_ss_015
+  - China_Guangzhou_ss_016
+  - China_Guangzhou_ss_017
+  - China_Guangzhou_ss_018
   - China_Guangzhou_ss_019
   - China_Guangzhou_ss_020
   - China_Guangzhou_ss_021
@@ -734,52 +671,49 @@ proxy-groups:
   - China_Guangzhou_ss_028
   - China_Guangzhou_ss_029
   - China_Guangzhou_ss_030
-  - China_Guangzhou_ss_031
-  - China_Guangzhou_ss_032
-  - China_Guangzhou_ss_033
-  - China_Guangzhou_ss_034
-  - China_Guangzhou_ss_035
-  - China_Guangzhou_ss_036
-  - China_Guangzhou_ss_037
-  - China_Guangzhou_ss_038
-  - China_Guangzhou_ss_039
-  - China_Guangzhou_ss_040
-  - China_Guangzhou_ss_041
-  - China_Guangzhou_ss_042
-  - China_Guangzhou_ss_043
-  - China_Guangzhou_ss_044
-  - China_Guangzhou_ss_045
-  - China_Guangzhou_ss_046
-  - China_Guangzhou_ss_047
-  - China_Guangzhou_ss_048
-  - Hong Kong_Hong Kong_trojan_049
-  - Hong Kong_Hong Kong_trojan_050
-  - China_None_ss_051
-  - China_Guangzhou_ss_052
-  - China_Guangzhou_ss_053
-  - China_None_ss_054
-  - China_Wuhan_ss_055
-  - China_Shenzhen_ss_056
-  - China_Shenzhen_ss_057
-  - China_Guangzhou_ss_058
-  - China_Guangzhou_ss_059
-  - China_None_ss_060
-  - China_None_ss_061
-  - China_Guangzhou_ss_062
-  - China_Guangzhou_ss_063
-  - China_Shenzhen_ss_064
-  - China_None_ss_065
-  - China_Guangzhou_ss_066
+  - Japan_Tokyo_ss_031
+  - China_None_ss_032
+  - China_None_ss_033
+  - Hong Kong_None_ss_034
+  - China_None_ss_035
+  - United States_Boardman_ssr_036
+  - United States_None_vmess_037
+  - United States_Boardman_ssr_038
+  - China_None_vmess_039
+  - Japan_Tokyo_trojan_040
+  - Slovakia_Bratislava_ss_041
+  - United States_Boardman_ss_042
+  - Poland_Warsaw_ss_043
+  - China_None_vmess_044
+  - Japan_Tokyo_ss_045
+  - Finland_Helsinki_ss_046
+  - China_Wuhan_trojan_047
+  - South Korea_Incheon_ss_048
+  - United States_Boardman_ss_049
+  - China_Wuhan_trojan_050
+  - Hong Kong_Hong Kong_trojan_051
+  - China_Wuhan_ss_052
+  - Hong Kong_Hong Kong_trojan_053
+  - China_Guangzhou_ss_054
+  - China_None_ss_055
+  - China_Guangzhou_ss_056
+  - China_None_ss_057
+  - China_Wuhan_ss_058
+  - China_None_vmess_059
+  - China_Guangzhou_ss_060
+  - China_Guangzhou_ss_061
+  - China_None_ss_062
+  - China_None_ss_063
+  - China_Guangzhou_ss_064
+  - China_Guangzhou_ss_065
+  - China_None_ss_066
   - China_Guangzhou_ss_067
-  - China_Guangzhou_ss_068
-  - China_Shenzhen_ss_069
+  - China_None_ss_068
+  - China_Guangzhou_ss_069
   - China_None_ss_070
-  - China_None_vmess_071
-  - China_Shenzhen_ss_072
-  - South Korea_None_ss_073
-  - South Korea_Incheon_ss_074
-  - Singapore_Singapore_ss_075
-  - China_None_vmess_076
+  - South Korea_Incheon_ss_071
+  - Singapore_Singapore_ss_072
+  - China_None_vmess_073
   - United States_None_hysteria_21
   - Russia_None_hysteria_31
   - Russia_None_hysteria_41
@@ -794,24 +728,24 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - Japan_Tokyo_trojan_01
-  - South Korea_None_ss_02
-  - China_Wuhan_trojan_03
-  - China_None_vmess_04
-  - China_Wuhan_trojan_05
-  - China_None_vmess_06
-  - China_Wuhan_trojan_07
-  - United States_Boardman_ss_08
-  - China_Wuhan_trojan_09
-  - China_None_vmess_010
-  - United States_Boardman_ss_011
-  - Poland_Warsaw_ss_012
-  - China_None_vmess_013
-  - China_Guangzhou_vmess_014
-  - Finland_Helsinki_ss_015
-  - China_Wuhan_trojan_016
-  - China_Wuhan_ss_017
-  - United States_Boardman_ss_018
+  - China_Guangzhou_ss_01
+  - China_Guangzhou_ss_02
+  - China_Guangzhou_ss_03
+  - China_Guangzhou_ss_04
+  - China_Guangzhou_ss_05
+  - China_Guangzhou_ss_06
+  - China_Guangzhou_ss_07
+  - China_Guangzhou_ss_08
+  - China_Guangzhou_ss_09
+  - China_Guangzhou_ss_010
+  - China_Guangzhou_ss_011
+  - China_Guangzhou_ss_012
+  - China_Guangzhou_ss_013
+  - China_Guangzhou_ss_014
+  - China_Guangzhou_ss_015
+  - China_Guangzhou_ss_016
+  - China_Guangzhou_ss_017
+  - China_Guangzhou_ss_018
   - China_Guangzhou_ss_019
   - China_Guangzhou_ss_020
   - China_Guangzhou_ss_021
@@ -824,52 +758,49 @@ proxy-groups:
   - China_Guangzhou_ss_028
   - China_Guangzhou_ss_029
   - China_Guangzhou_ss_030
-  - China_Guangzhou_ss_031
-  - China_Guangzhou_ss_032
-  - China_Guangzhou_ss_033
-  - China_Guangzhou_ss_034
-  - China_Guangzhou_ss_035
-  - China_Guangzhou_ss_036
-  - China_Guangzhou_ss_037
-  - China_Guangzhou_ss_038
-  - China_Guangzhou_ss_039
-  - China_Guangzhou_ss_040
-  - China_Guangzhou_ss_041
-  - China_Guangzhou_ss_042
-  - China_Guangzhou_ss_043
-  - China_Guangzhou_ss_044
-  - China_Guangzhou_ss_045
-  - China_Guangzhou_ss_046
-  - China_Guangzhou_ss_047
-  - China_Guangzhou_ss_048
-  - Hong Kong_Hong Kong_trojan_049
-  - Hong Kong_Hong Kong_trojan_050
-  - China_None_ss_051
-  - China_Guangzhou_ss_052
-  - China_Guangzhou_ss_053
-  - China_None_ss_054
-  - China_Wuhan_ss_055
-  - China_Shenzhen_ss_056
-  - China_Shenzhen_ss_057
-  - China_Guangzhou_ss_058
-  - China_Guangzhou_ss_059
-  - China_None_ss_060
-  - China_None_ss_061
-  - China_Guangzhou_ss_062
-  - China_Guangzhou_ss_063
-  - China_Shenzhen_ss_064
-  - China_None_ss_065
-  - China_Guangzhou_ss_066
+  - Japan_Tokyo_ss_031
+  - China_None_ss_032
+  - China_None_ss_033
+  - Hong Kong_None_ss_034
+  - China_None_ss_035
+  - United States_Boardman_ssr_036
+  - United States_None_vmess_037
+  - United States_Boardman_ssr_038
+  - China_None_vmess_039
+  - Japan_Tokyo_trojan_040
+  - Slovakia_Bratislava_ss_041
+  - United States_Boardman_ss_042
+  - Poland_Warsaw_ss_043
+  - China_None_vmess_044
+  - Japan_Tokyo_ss_045
+  - Finland_Helsinki_ss_046
+  - China_Wuhan_trojan_047
+  - South Korea_Incheon_ss_048
+  - United States_Boardman_ss_049
+  - China_Wuhan_trojan_050
+  - Hong Kong_Hong Kong_trojan_051
+  - China_Wuhan_ss_052
+  - Hong Kong_Hong Kong_trojan_053
+  - China_Guangzhou_ss_054
+  - China_None_ss_055
+  - China_Guangzhou_ss_056
+  - China_None_ss_057
+  - China_Wuhan_ss_058
+  - China_None_vmess_059
+  - China_Guangzhou_ss_060
+  - China_Guangzhou_ss_061
+  - China_None_ss_062
+  - China_None_ss_063
+  - China_Guangzhou_ss_064
+  - China_Guangzhou_ss_065
+  - China_None_ss_066
   - China_Guangzhou_ss_067
-  - China_Guangzhou_ss_068
-  - China_Shenzhen_ss_069
+  - China_None_ss_068
+  - China_Guangzhou_ss_069
   - China_None_ss_070
-  - China_None_vmess_071
-  - China_Shenzhen_ss_072
-  - South Korea_None_ss_073
-  - South Korea_Incheon_ss_074
-  - Singapore_Singapore_ss_075
-  - China_None_vmess_076
+  - South Korea_Incheon_ss_071
+  - Singapore_Singapore_ss_072
+  - China_None_vmess_073
   - United States_None_hysteria_21
   - Russia_None_hysteria_31
   - Russia_None_hysteria_41
