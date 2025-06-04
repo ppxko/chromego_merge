@@ -34,7 +34,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: Qatar_Doha_vmess_02
+  name: Mexico_None_vmess_02
   network: tcp
   port: '443'
   server: web.51.la
@@ -44,7 +44,7 @@ proxies:
   uuid: c6e84072-2e69-4928-90af-436b3fcd0663
 - alterId: 0
   cipher: auto
-  name: Mexico_None_vmess_03
+  name: Qatar_Doha_vmess_03
   network: tcp
   port: '443'
   server: web.51.la
@@ -54,7 +54,7 @@ proxies:
   uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
 - alterId: 0
   cipher: auto
-  name: Qatar_Doha_vmess_11
+  name: Mexico_None_vmess_11
   network: tcp
   port: '443'
   server: web.51.la
@@ -64,7 +64,7 @@ proxies:
   uuid: 88888888-8888-8888-8888-888888888888
 - alterId: 0
   cipher: auto
-  name: Mexico_None_vmess_12
+  name: Qatar_Doha_vmess_12
   network: tcp
   port: '443'
   server: web.51.la
@@ -74,7 +74,7 @@ proxies:
   uuid: c6e84072-2e69-4928-90af-436b3fcd0663
 - alterId: 0
   cipher: auto
-  name: Qatar_Doha_vmess_13
+  name: Mexico_None_vmess_13
   network: tcp
   port: '443'
   server: web.51.la
@@ -166,11 +166,11 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - Mexico_None_vmess_01
-  - Qatar_Doha_vmess_02
-  - Mexico_None_vmess_03
-  - Qatar_Doha_vmess_11
-  - Mexico_None_vmess_12
-  - Qatar_Doha_vmess_13
+  - Mexico_None_vmess_02
+  - Qatar_Doha_vmess_03
+  - Mexico_None_vmess_11
+  - Qatar_Doha_vmess_12
+  - Mexico_None_vmess_13
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
   - Russia_None_hysteria_41
@@ -186,11 +186,11 @@ proxy-groups:
   tolerance: 50
   proxies:
   - Mexico_None_vmess_01
-  - Qatar_Doha_vmess_02
-  - Mexico_None_vmess_03
-  - Qatar_Doha_vmess_11
-  - Mexico_None_vmess_12
-  - Qatar_Doha_vmess_13
+  - Mexico_None_vmess_02
+  - Qatar_Doha_vmess_03
+  - Mexico_None_vmess_11
+  - Qatar_Doha_vmess_12
+  - Mexico_None_vmess_13
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
   - Russia_None_hysteria_41
