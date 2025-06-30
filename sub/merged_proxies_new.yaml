@@ -22,6 +22,36 @@ dns:
   - 223.5.5.5
   - 8.8.8.8
 proxies:
+- alterId: 0
+  cipher: auto
+  name: Qatar_Doha_vmess_11
+  network: tcp
+  port: '443'
+  server: web.51.la
+  servername: web.51.la
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Mexico_None_vmess_12
+  network: tcp
+  port: '443'
+  server: web.51.la
+  servername: web.51.la
+  tls: true
+  type: vmess
+  uuid: c6e84072-2e69-4928-90af-436b3fcd0663
+- alterId: 0
+  cipher: auto
+  name: Qatar_Doha_vmess_13
+  network: tcp
+  port: '443'
+  server: web.51.la
+  servername: web.51.la
+  tls: true
+  type: vmess
+  uuid: e0c6b3b7-9f5b-4bd6-9abf-260663aa4f1b
 - name: United States_None_hysteria_21
   type: hysteria
   server: 208.87.243.151
@@ -105,6 +135,9 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - Qatar_Doha_vmess_11
+  - Mexico_None_vmess_12
+  - Qatar_Doha_vmess_13
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
   - Russia_None_hysteria_41
@@ -119,6 +152,9 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - Qatar_Doha_vmess_11
+  - Mexico_None_vmess_12
+  - Qatar_Doha_vmess_13
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
   - Russia_None_hysteria_41
