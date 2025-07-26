@@ -45,14 +45,14 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: Russia_None_hysteria_41
+- name: United States_Dallas_hysteria_41
   type: hysteria
-  server: 185.22.155.71
-  port: 10803
+  server: 172.245.235.201
+  port: 38814
   auth_str: dongtaiwang.com
   alpn:
   - h3
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
@@ -67,37 +67,37 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: Russia_Moscow_hy2_0
+- name: France_Paris_hy2_0
   type: hysteria2
-  server: 45.129.2.108
-  port: 50850
+  server: 64.31.63.57
+  port: 44462
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
-- name: Russia_Moscow_hy2_1
+- name: France_Paris_hy2_1
   type: hysteria2
-  server: 46.17.41.217
-  port: 30033
+  server: 64.31.63.57
+  port: 44462
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
-- name: The Netherlands_Amsterdam_hy2_2
+- name: France_Paris_hy2_2
   type: hysteria2
-  server: 163.172.217.10
-  port: 10011
+  server: 64.31.63.57
+  port: 44462
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
-- name: The Netherlands_Amsterdam_hy2_3
+- name: France_Paris_hy2_3
   type: hysteria2
-  server: 163.172.217.10
-  port: 10011
+  server: 64.31.63.57
+  port: 44462
   password: dongtaiwang.com
   fast-open: true
-  sni: www.bing.com
+  sni: apple.com
   skip-cert-verify: true
 proxy-groups:
 - name: 节点选择
@@ -107,12 +107,12 @@ proxy-groups:
   - DIRECT
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - Russia_None_hysteria_41
+  - United States_Dallas_hysteria_41
   - United States_None_hysteria_51
-  - Russia_Moscow_hy2_0
-  - Russia_Moscow_hy2_1
-  - The Netherlands_Amsterdam_hy2_2
-  - The Netherlands_Amsterdam_hy2_3
+  - France_Paris_hy2_0
+  - France_Paris_hy2_1
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -121,12 +121,12 @@ proxy-groups:
   proxies:
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
-  - Russia_None_hysteria_41
+  - United States_Dallas_hysteria_41
   - United States_None_hysteria_51
-  - Russia_Moscow_hy2_0
-  - Russia_Moscow_hy2_1
-  - The Netherlands_Amsterdam_hy2_2
-  - The Netherlands_Amsterdam_hy2_3
+  - France_Paris_hy2_0
+  - France_Paris_hy2_1
+  - France_Paris_hy2_2
+  - France_Paris_hy2_3
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
