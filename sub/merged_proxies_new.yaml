@@ -67,34 +67,34 @@ proxies:
   skip-cert-verify: true
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hy2_0
+- name: United States_Los Angeles_hy2_0
   type: hysteria2
-  server: 64.31.63.57
-  port: 44462
+  server: 104.168.10.176
+  port: 35205
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: France_Paris_hy2_1
+- name: United States_Los Angeles_hy2_1
   type: hysteria2
-  server: 64.31.63.57
-  port: 44462
+  server: 104.168.10.176
+  port: 35205
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: France_Paris_hy2_2
+- name: United States_Los Angeles_hy2_2
   type: hysteria2
-  server: 64.31.63.57
-  port: 44462
+  server: 104.168.10.176
+  port: 35205
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
   skip-cert-verify: true
-- name: France_Paris_hy2_3
+- name: United States_Los Angeles_hy2_3
   type: hysteria2
-  server: 64.31.63.57
-  port: 44462
+  server: 104.168.10.176
+  port: 35205
   password: dongtaiwang.com
   fast-open: true
   sni: apple.com
@@ -109,10 +109,10 @@ proxy-groups:
   - United States_Los Angeles_hysteria_31
   - United States_Dallas_hysteria_41
   - United States_None_hysteria_51
-  - France_Paris_hy2_0
-  - France_Paris_hy2_1
-  - France_Paris_hy2_2
-  - France_Paris_hy2_3
+  - United States_Los Angeles_hy2_0
+  - United States_Los Angeles_hy2_1
+  - United States_Los Angeles_hy2_2
+  - United States_Los Angeles_hy2_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -123,10 +123,10 @@ proxy-groups:
   - United States_Los Angeles_hysteria_31
   - United States_Dallas_hysteria_41
   - United States_None_hysteria_51
-  - France_Paris_hy2_0
-  - France_Paris_hy2_1
-  - France_Paris_hy2_2
-  - France_Paris_hy2_3
+  - United States_Los Angeles_hy2_0
+  - United States_Los Angeles_hy2_1
+  - United States_Los Angeles_hy2_2
+  - United States_Los Angeles_hy2_3
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
