@@ -113,10 +113,10 @@ proxies:
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
 - cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_011
+  name: Ireland_Dublin_ss_011
   password: amazonskr05
   port: 443
-  server: 18.184.59.16
+  server: 34.242.33.79
   tfo: false
   type: ss
 - alterId: 2
@@ -150,14 +150,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- name: Hong Kong_Hong Kong_trojan_014
-  network: tcp
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 103.252.116.138
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_None_vmess_014
+  port: 21186
+  server: 43.247.134.190
   skip-cert-verify: false
-  sni: hk.freeguard.org
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
 - name: China_None_trojan_015
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -168,16 +170,16 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_016
+  name: Hong Kong_Sha Tin Wai_vmess_016
   network: ws
   port: '80'
-  server: hkt.gotochinatown.net
+  server: 5bf9e2f8-t15b40-t6eg6k-1pckg.hk3.p5pv.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 3be8cba8-b721-11ec-8b04-f23c91cfbbc9
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -190,28 +192,22 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- alterId: 2
+- alterId: 64
   cipher: auto
-  name: Hong Kong_Central_vmess_018
-  network: ws
-  port: '80'
-  server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com
-  servername: ''
+  name: China_None_vmess_018
+  port: 42272
+  server: 183.240.245.239
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_None_ss_019
+  name: China_Guangzhou_ss_019
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-C3Laaffn48.download.microsoft.com
+    host: 202508150964186-XFJ7C2EYDL.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -248,21 +244,15 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_023
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19852
-  server: mm.huawei-api.top
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_024
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  tfo: false
-  type: ss
-- name: China_None_trojan_025
+- name: Japan_Tokyo_trojan_023
+  network: tcp
+  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  port: 6668
+  server: 52.194.230.74
+  skip-cert-verify: true
+  sni: baidu.com
+  type: trojan
+- name: China_None_trojan_024
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1256
@@ -270,7 +260,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_026
+- name: China_None_trojan_025
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 406
@@ -278,7 +268,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: United States_None_trojan_027
+- name: United States_None_trojan_026
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
   port: 443
@@ -291,17 +281,17 @@ proxies:
       Host: xXcdvFgt.191268.XYz
     path: /ctdmgeIg3NII3ibrzzKXJGy3S1
 - cipher: rc4-md5
-  name: China_None_ss_028
+  name: China_Guangzhou_ss_027
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-C3Laaffn48.download.microsoft.com
+    host: 202508150964186-XFJ7C2EYDL.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: China_None_trojan_029
+- name: China_None_trojan_028
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 347
@@ -309,7 +299,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_030
+- name: China_None_trojan_029
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 22006
@@ -317,9 +307,36 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
+- cipher: aes-256-cfb
+  name: Vietnam_None_ss_030
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.24
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  name: United States_Ashburn_vmess_031
+  name: Hong Kong_None_vmess_031
+  network: tcp
+  port: '21186'
+  server: 43.247.134.190
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
+- alterId: 64
+  cipher: auto
+  name: China_None_vmess_032
+  network: tcp
+  port: '42272'
+  server: 183.240.245.239
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: United States_Ashburn_vmess_033
   network: kcp
   port: '3351'
   server: 47.83.181.154
@@ -329,7 +346,7 @@ proxies:
   uuid: 0bfc8acf-ac40-45c1-8dde-7f3417621286
 - alterId: 0
   cipher: auto
-  name: Japan_Tokyo_vmess_032
+  name: Japan_Tokyo_vmess_034
   network: kcp
   port: '37257'
   server: 47.74.57.10
@@ -337,7 +354,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: United States_None_trojan_033
+- name: United States_None_trojan_035
   network: ws
   password: 7248e825-887c-48b9-83bc-c26bc6392bf8
   port: 443
@@ -348,7 +365,7 @@ proxies:
     headers:
       Host: xXcdvFgt.191268.XYz
     path: '%2FctdmgeIg3NII3ibrzzKXJGy3S1'
-- name: Armenia_None_trojan_034
+- name: Armenia_None_trojan_036
   network: ws
   password: Aimer
   port: 8443
@@ -361,7 +378,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Armenia_None_trojan_035
+- name: Armenia_None_trojan_037
   network: ws
   password: Aimer
   port: 443
@@ -374,7 +391,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Armenia_None_trojan_036
+- name: Armenia_None_trojan_038
   network: ws
   password: Aimer
   port: 2096
@@ -387,7 +404,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Armenia_None_trojan_037
+- name: Armenia_None_trojan_039
   network: ws
   password: Aimer
   port: 8443
@@ -400,7 +417,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_Hanover_trojan_038
+- name: United States_Hanover_trojan_040
   network: ws
   password: Aimer
   port: 443
@@ -413,7 +430,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Hong Kong_None_trojan_039
+- name: Hong Kong_None_trojan_041
   network: ws
   password: Aimer
   port: 2096
@@ -426,7 +443,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Hong Kong_None_trojan_040
+- name: Hong Kong_None_trojan_042
   network: ws
   password: Aimer
   port: 8443
@@ -439,7 +456,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Hong Kong_None_trojan_041
+- name: Hong Kong_None_trojan_043
   network: ws
   password: Aimer
   port: 443
@@ -452,7 +469,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Hong Kong_None_trojan_042
+- name: Hong Kong_None_trojan_044
   network: ws
   password: Aimer
   port: 443
@@ -465,7 +482,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Japan_None_trojan_043
+- name: Japan_None_trojan_045
   network: ws
   password: Aimer
   port: 2087
@@ -478,7 +495,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Japan_None_trojan_044
+- name: Japan_None_trojan_046
   network: ws
   password: Aimer
   port: 443
@@ -491,7 +508,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Japan_None_trojan_045
+- name: Japan_None_trojan_047
   network: ws
   password: Aimer
   port: 443
@@ -504,7 +521,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Japan_None_trojan_046
+- name: Japan_None_trojan_048
   network: ws
   password: Aimer
   port: 2083
@@ -517,7 +534,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: South Korea_Yongin-si_trojan_047
+- name: South Korea_Yongin-si_trojan_049
   network: ws
   password: Aimer
   port: 12367
@@ -530,7 +547,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Kazakhstan_Almaty_trojan_048
+- name: Kazakhstan_Almaty_trojan_050
   network: ws
   password: tg-fq521free
   port: 443
@@ -543,7 +560,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United Kingdom_London_trojan_049
+- name: United Kingdom_London_trojan_051
   network: ws
   password: ttfang
   port: 2096
@@ -556,7 +573,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /TelegramU0001F1E8U0001F1F3
-- name: Russia_None_trojan_050
+- name: Russia_None_trojan_052
   network: ws
   password: Aimer
   port: 443
@@ -569,7 +586,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_051
+- name: Russia_None_trojan_053
   network: ws
   password: Aimer
   port: 2053
@@ -582,7 +599,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_052
+- name: Russia_None_trojan_054
   network: ws
   password: Aimer
   port: 2087
@@ -595,7 +612,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_053
+- name: Russia_None_trojan_055
   network: ws
   password: Aimer
   port: 2096
@@ -608,7 +625,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_054
+- name: Russia_None_trojan_056
   network: ws
   password: tg-fq521free
   port: 443
@@ -621,7 +638,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: Russia_None_trojan_055
+- name: Russia_None_trojan_057
   network: ws
   password: Aimer
   port: 2087
@@ -634,7 +651,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_056
+- name: Russia_None_trojan_058
   network: ws
   password: Aimer
   port: 443
@@ -647,7 +664,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_057
+- name: Russia_None_trojan_059
   network: ws
   password: Aimer
   port: 2083
@@ -660,7 +677,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Seychelles_None_trojan_058
+- name: Seychelles_None_trojan_060
   network: ws
   password: Aimer
   port: 8443
@@ -673,7 +690,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Seychelles_None_trojan_059
+- name: Seychelles_None_trojan_061
   network: ws
   password: Aimer
   port: 2053
@@ -686,7 +703,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Seychelles_None_trojan_060
+- name: Seychelles_None_trojan_062
   network: ws
   password: Aimer
   port: 2053
@@ -699,7 +716,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_061
+- name: Singapore_None_trojan_063
   network: ws
   password: Aimer
   port: 443
@@ -712,7 +729,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_062
+- name: Singapore_None_trojan_064
   network: ws
   password: Aimer
   port: 2096
@@ -725,7 +742,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_063
+- name: Singapore_None_trojan_065
   network: ws
   password: Aimer
   port: 2087
@@ -738,7 +755,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_064
+- name: Singapore_None_trojan_066
   network: ws
   password: Aimer
   port: 2087
@@ -751,7 +768,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_065
+- name: Singapore_None_trojan_067
   network: ws
   password: Aimer
   port: 2087
@@ -764,7 +781,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_066
+- name: Singapore_None_trojan_068
   network: ws
   password: Aimer
   port: 443
@@ -777,7 +794,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_067
+- name: Singapore_None_trojan_069
   network: ws
   password: Aimer
   port: 2083
@@ -790,7 +807,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_None_trojan_068
+- name: Singapore_None_trojan_070
   network: ws
   password: Aimer
   port: 8443
@@ -803,7 +820,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_Los Angeles_trojan_069
+- name: United States_Los Angeles_trojan_071
   network: ws
   password: Aimer
   port: 7000
@@ -816,7 +833,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_070
+- name: United States_None_trojan_072
   network: ws
   password: Aimer
   port: 8443
@@ -829,7 +846,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_071
+- name: United States_None_trojan_073
   network: ws
   password: tg-fq521free
   port: 443
@@ -842,7 +859,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United States_None_trojan_072
+- name: United States_None_trojan_074
   network: ws
   password: tg-fq521free
   port: 443
@@ -855,7 +872,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United States_None_trojan_073
+- name: United States_None_trojan_075
   network: ws
   password: Aimer
   port: 2053
@@ -868,7 +885,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: None_None_trojan_074
+- name: None_None_trojan_076
   network: ws
   password: slch2024
   port: 8443
@@ -881,7 +898,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /
-- name: United States_None_trojan_075
+- name: United States_None_trojan_077
   network: ws
   password: Aimer
   port: 2087
@@ -894,7 +911,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_076
+- name: United States_None_trojan_078
   network: ws
   password: Aimer
   port: 2083
@@ -907,7 +924,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_077
+- name: United States_None_trojan_079
   network: ws
   password: Aimer
   port: 8443
@@ -920,7 +937,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_078
+- name: United States_None_trojan_080
   network: ws
   password: Aimer
   port: 2083
@@ -933,7 +950,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_079
+- name: United States_None_trojan_081
   network: ws
   password: Aimer
   port: 2083
@@ -946,7 +963,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_080
+- name: United States_None_trojan_082
   network: ws
   password: Aimer
   port: 2096
@@ -959,7 +976,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_081
+- name: United States_None_trojan_083
   network: ws
   password: Aimer
   port: 2087
@@ -972,7 +989,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_082
+- name: United States_None_trojan_084
   network: ws
   password: Aimer
   port: 2096
@@ -985,7 +1002,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_083
+- name: United States_None_trojan_085
   network: ws
   password: Aimer
   port: 8443
@@ -998,7 +1015,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_084
+- name: United States_None_trojan_086
   network: ws
   password: Aimer
   port: 2096
@@ -1011,7 +1028,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_085
+- name: United States_None_trojan_087
   network: ws
   password: Aimer
   port: 2083
@@ -1024,7 +1041,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Singapore_Singapore_trojan_086
+- name: Singapore_Singapore_trojan_088
   network: ws
   password: Aimer
   port: 2053
@@ -1037,7 +1054,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_087
+- name: United States_None_trojan_089
   network: ws
   password: Aimer
   port: 443
@@ -1050,7 +1067,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_088
+- name: United States_None_trojan_090
   network: ws
   password: Aimer
   port: 2083
@@ -1063,7 +1080,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_089
+- name: United States_None_trojan_091
   network: ws
   password: Aimer
   port: 2087
@@ -1076,7 +1093,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_090
+- name: United States_None_trojan_092
   network: ws
   password: Aimer
   port: 2083
@@ -1089,7 +1106,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_091
+- name: United States_None_trojan_093
   network: ws
   password: Aimer
   port: 443
@@ -1102,7 +1119,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_092
+- name: United States_None_trojan_094
   network: ws
   password: Aimer
   port: 2087
@@ -1115,7 +1132,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_093
+- name: United States_None_trojan_095
   network: ws
   password: Aimer
   port: 2087
@@ -1128,7 +1145,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_Santa Clara_trojan_094
+- name: United States_Santa Clara_trojan_096
   network: ws
   password: Aimer
   port: 443
@@ -1141,7 +1158,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_095
+- name: United States_None_trojan_097
   network: ws
   password: Aimer
   port: 2096
@@ -1154,7 +1171,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_096
+- name: United States_None_trojan_098
   network: ws
   password: Aimer
   port: 2083
@@ -1167,7 +1184,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_Santa Clara_trojan_097
+- name: United States_Santa Clara_trojan_099
   network: ws
   password: Aimer
   port: 2087
@@ -1180,7 +1197,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_Santa Clara_trojan_098
+- name: United States_Santa Clara_trojan_0100
   network: ws
   password: Aimer
   port: 12354
@@ -1273,7 +1290,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_18
+  name: Hong Kong_Sha Tin Wai_vmess_18
   network: ws
   port: '80'
   server: f0364aea-t13gg0-t1rksu-1ssud.hk3.p5pv.com
@@ -1288,7 +1305,7 @@ proxies:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - cipher: rc4-md5
-  name: China_None_ss_19
+  name: China_Guangzhou_ss_19
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -1372,7 +1389,7 @@ proxies:
       Host: xXcdvFgt.191268.XYz
     path: /ctdmgeIg3NII3ibrzzKXJGy3S1
 - cipher: rc4-md5
-  name: China_None_ss_118
+  name: China_Guangzhou_ss_118
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -2368,72 +2385,72 @@ proxy-groups:
   - Unknown_vmess_08
   - Unknown_vmess_09
   - Unknown_vmess_010
-  - Germany_Frankfurt am Main_ss_011
+  - Ireland_Dublin_ss_011
   - China_None_vmess_012
   - Hong Kong_None_ss_013
-  - Hong Kong_Hong Kong_trojan_014
+  - Hong Kong_None_vmess_014
   - China_None_trojan_015
-  - Hong Kong_Central_vmess_016
+  - Hong Kong_Sha Tin Wai_vmess_016
   - China_None_trojan_017
-  - Hong Kong_Central_vmess_018
-  - China_None_ss_019
+  - China_None_vmess_018
+  - China_Guangzhou_ss_019
   - Japan_Tokyo_ss_020
   - China_None_trojan_021
   - China_None_trojan_022
-  - China_None_ss_023
-  - South Korea_None_ss_024
+  - Japan_Tokyo_trojan_023
+  - China_None_trojan_024
   - China_None_trojan_025
-  - China_None_trojan_026
-  - United States_None_trojan_027
-  - China_None_ss_028
+  - United States_None_trojan_026
+  - China_Guangzhou_ss_027
+  - China_None_trojan_028
   - China_None_trojan_029
-  - China_None_trojan_030
-  - United States_Ashburn_vmess_031
-  - Japan_Tokyo_vmess_032
-  - United States_None_trojan_033
-  - Armenia_None_trojan_034
-  - Armenia_None_trojan_035
+  - Vietnam_None_ss_030
+  - Hong Kong_None_vmess_031
+  - China_None_vmess_032
+  - United States_Ashburn_vmess_033
+  - Japan_Tokyo_vmess_034
+  - United States_None_trojan_035
   - Armenia_None_trojan_036
   - Armenia_None_trojan_037
-  - United States_Hanover_trojan_038
-  - Hong Kong_None_trojan_039
-  - Hong Kong_None_trojan_040
+  - Armenia_None_trojan_038
+  - Armenia_None_trojan_039
+  - United States_Hanover_trojan_040
   - Hong Kong_None_trojan_041
   - Hong Kong_None_trojan_042
-  - Japan_None_trojan_043
-  - Japan_None_trojan_044
+  - Hong Kong_None_trojan_043
+  - Hong Kong_None_trojan_044
   - Japan_None_trojan_045
   - Japan_None_trojan_046
-  - South Korea_Yongin-si_trojan_047
-  - Kazakhstan_Almaty_trojan_048
-  - United Kingdom_London_trojan_049
-  - Russia_None_trojan_050
-  - Russia_None_trojan_051
+  - Japan_None_trojan_047
+  - Japan_None_trojan_048
+  - South Korea_Yongin-si_trojan_049
+  - Kazakhstan_Almaty_trojan_050
+  - United Kingdom_London_trojan_051
   - Russia_None_trojan_052
   - Russia_None_trojan_053
   - Russia_None_trojan_054
   - Russia_None_trojan_055
   - Russia_None_trojan_056
   - Russia_None_trojan_057
-  - Seychelles_None_trojan_058
-  - Seychelles_None_trojan_059
+  - Russia_None_trojan_058
+  - Russia_None_trojan_059
   - Seychelles_None_trojan_060
-  - Singapore_None_trojan_061
-  - Singapore_None_trojan_062
+  - Seychelles_None_trojan_061
+  - Seychelles_None_trojan_062
   - Singapore_None_trojan_063
   - Singapore_None_trojan_064
   - Singapore_None_trojan_065
   - Singapore_None_trojan_066
   - Singapore_None_trojan_067
   - Singapore_None_trojan_068
-  - United States_Los Angeles_trojan_069
-  - United States_None_trojan_070
-  - United States_None_trojan_071
+  - Singapore_None_trojan_069
+  - Singapore_None_trojan_070
+  - United States_Los Angeles_trojan_071
   - United States_None_trojan_072
   - United States_None_trojan_073
-  - None_None_trojan_074
+  - United States_None_trojan_074
   - United States_None_trojan_075
-  - United States_None_trojan_076
+  - None_None_trojan_076
   - United States_None_trojan_077
   - United States_None_trojan_078
   - United States_None_trojan_079
@@ -2443,19 +2460,21 @@ proxy-groups:
   - United States_None_trojan_083
   - United States_None_trojan_084
   - United States_None_trojan_085
-  - Singapore_Singapore_trojan_086
+  - United States_None_trojan_086
   - United States_None_trojan_087
-  - United States_None_trojan_088
+  - Singapore_Singapore_trojan_088
   - United States_None_trojan_089
   - United States_None_trojan_090
   - United States_None_trojan_091
   - United States_None_trojan_092
   - United States_None_trojan_093
-  - United States_Santa Clara_trojan_094
+  - United States_None_trojan_094
   - United States_None_trojan_095
-  - United States_None_trojan_096
-  - United States_Santa Clara_trojan_097
-  - United States_Santa Clara_trojan_098
+  - United States_Santa Clara_trojan_096
+  - United States_None_trojan_097
+  - United States_None_trojan_098
+  - United States_Santa Clara_trojan_099
+  - United States_Santa Clara_trojan_0100
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -2463,8 +2482,8 @@ proxy-groups:
   - China_None_trojan_15
   - Hong Kong_Central_vmess_16
   - China_None_trojan_17
-  - Hong Kong_Central_vmess_18
-  - China_None_ss_19
+  - Hong Kong_Sha Tin Wai_vmess_18
+  - China_Guangzhou_ss_19
   - Japan_Tokyo_ss_110
   - China_None_trojan_111
   - China_None_trojan_112
@@ -2473,7 +2492,7 @@ proxy-groups:
   - China_None_trojan_115
   - China_None_trojan_116
   - United States_None_trojan_117
-  - China_None_ss_118
+  - China_Guangzhou_ss_118
   - China_None_trojan_119
   - China_None_trojan_120
   - United States_Ashburn_vmess_121
@@ -2568,72 +2587,72 @@ proxy-groups:
   - Unknown_vmess_08
   - Unknown_vmess_09
   - Unknown_vmess_010
-  - Germany_Frankfurt am Main_ss_011
+  - Ireland_Dublin_ss_011
   - China_None_vmess_012
   - Hong Kong_None_ss_013
-  - Hong Kong_Hong Kong_trojan_014
+  - Hong Kong_None_vmess_014
   - China_None_trojan_015
-  - Hong Kong_Central_vmess_016
+  - Hong Kong_Sha Tin Wai_vmess_016
   - China_None_trojan_017
-  - Hong Kong_Central_vmess_018
-  - China_None_ss_019
+  - China_None_vmess_018
+  - China_Guangzhou_ss_019
   - Japan_Tokyo_ss_020
   - China_None_trojan_021
   - China_None_trojan_022
-  - China_None_ss_023
-  - South Korea_None_ss_024
+  - Japan_Tokyo_trojan_023
+  - China_None_trojan_024
   - China_None_trojan_025
-  - China_None_trojan_026
-  - United States_None_trojan_027
-  - China_None_ss_028
+  - United States_None_trojan_026
+  - China_Guangzhou_ss_027
+  - China_None_trojan_028
   - China_None_trojan_029
-  - China_None_trojan_030
-  - United States_Ashburn_vmess_031
-  - Japan_Tokyo_vmess_032
-  - United States_None_trojan_033
-  - Armenia_None_trojan_034
-  - Armenia_None_trojan_035
+  - Vietnam_None_ss_030
+  - Hong Kong_None_vmess_031
+  - China_None_vmess_032
+  - United States_Ashburn_vmess_033
+  - Japan_Tokyo_vmess_034
+  - United States_None_trojan_035
   - Armenia_None_trojan_036
   - Armenia_None_trojan_037
-  - United States_Hanover_trojan_038
-  - Hong Kong_None_trojan_039
-  - Hong Kong_None_trojan_040
+  - Armenia_None_trojan_038
+  - Armenia_None_trojan_039
+  - United States_Hanover_trojan_040
   - Hong Kong_None_trojan_041
   - Hong Kong_None_trojan_042
-  - Japan_None_trojan_043
-  - Japan_None_trojan_044
+  - Hong Kong_None_trojan_043
+  - Hong Kong_None_trojan_044
   - Japan_None_trojan_045
   - Japan_None_trojan_046
-  - South Korea_Yongin-si_trojan_047
-  - Kazakhstan_Almaty_trojan_048
-  - United Kingdom_London_trojan_049
-  - Russia_None_trojan_050
-  - Russia_None_trojan_051
+  - Japan_None_trojan_047
+  - Japan_None_trojan_048
+  - South Korea_Yongin-si_trojan_049
+  - Kazakhstan_Almaty_trojan_050
+  - United Kingdom_London_trojan_051
   - Russia_None_trojan_052
   - Russia_None_trojan_053
   - Russia_None_trojan_054
   - Russia_None_trojan_055
   - Russia_None_trojan_056
   - Russia_None_trojan_057
-  - Seychelles_None_trojan_058
-  - Seychelles_None_trojan_059
+  - Russia_None_trojan_058
+  - Russia_None_trojan_059
   - Seychelles_None_trojan_060
-  - Singapore_None_trojan_061
-  - Singapore_None_trojan_062
+  - Seychelles_None_trojan_061
+  - Seychelles_None_trojan_062
   - Singapore_None_trojan_063
   - Singapore_None_trojan_064
   - Singapore_None_trojan_065
   - Singapore_None_trojan_066
   - Singapore_None_trojan_067
   - Singapore_None_trojan_068
-  - United States_Los Angeles_trojan_069
-  - United States_None_trojan_070
-  - United States_None_trojan_071
+  - Singapore_None_trojan_069
+  - Singapore_None_trojan_070
+  - United States_Los Angeles_trojan_071
   - United States_None_trojan_072
   - United States_None_trojan_073
-  - None_None_trojan_074
+  - United States_None_trojan_074
   - United States_None_trojan_075
-  - United States_None_trojan_076
+  - None_None_trojan_076
   - United States_None_trojan_077
   - United States_None_trojan_078
   - United States_None_trojan_079
@@ -2643,19 +2662,21 @@ proxy-groups:
   - United States_None_trojan_083
   - United States_None_trojan_084
   - United States_None_trojan_085
-  - Singapore_Singapore_trojan_086
+  - United States_None_trojan_086
   - United States_None_trojan_087
-  - United States_None_trojan_088
+  - Singapore_Singapore_trojan_088
   - United States_None_trojan_089
   - United States_None_trojan_090
   - United States_None_trojan_091
   - United States_None_trojan_092
   - United States_None_trojan_093
-  - United States_Santa Clara_trojan_094
+  - United States_None_trojan_094
   - United States_None_trojan_095
-  - United States_None_trojan_096
-  - United States_Santa Clara_trojan_097
-  - United States_Santa Clara_trojan_098
+  - United States_Santa Clara_trojan_096
+  - United States_None_trojan_097
+  - United States_None_trojan_098
+  - United States_Santa Clara_trojan_099
+  - United States_Santa Clara_trojan_0100
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -2663,8 +2684,8 @@ proxy-groups:
   - China_None_trojan_15
   - Hong Kong_Central_vmess_16
   - China_None_trojan_17
-  - Hong Kong_Central_vmess_18
-  - China_None_ss_19
+  - Hong Kong_Sha Tin Wai_vmess_18
+  - China_Guangzhou_ss_19
   - Japan_Tokyo_ss_110
   - China_None_trojan_111
   - China_None_trojan_112
@@ -2673,7 +2694,7 @@ proxy-groups:
   - China_None_trojan_115
   - China_None_trojan_116
   - United States_None_trojan_117
-  - China_None_ss_118
+  - China_Guangzhou_ss_118
   - China_None_trojan_119
   - China_None_trojan_120
   - United States_Ashburn_vmess_121
