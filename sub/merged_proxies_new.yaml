@@ -1102,8 +1102,8 @@ proxies:
 - name: Japan_None_trojan_127
   network: ws
   password: Aimer
-  port: 443
-  server: 103.116.7.235
+  port: 2087
+  server: 103.116.7.100
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1115,8 +1115,8 @@ proxies:
 - name: Japan_None_trojan_128
   network: ws
   password: Aimer
-  port: 2087
-  server: 103.116.7.100
+  port: 443
+  server: 103.116.7.189
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1129,7 +1129,7 @@ proxies:
   network: ws
   password: Aimer
   port: 443
-  server: 103.116.7.189
+  server: 103.116.7.235
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1180,6 +1180,19 @@ proxies:
 - name: Russia_None_trojan_133
   network: ws
   password: Aimer
+  port: 2053
+  server: 77.232.140.114
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: Russia_None_trojan_134
+  network: ws
+  password: Aimer
   port: 443
   server: 5.182.84.244
   skip-cert-verify: true
@@ -1190,7 +1203,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_134
+- name: Russia_None_trojan_135
   network: ws
   password: Aimer
   port: 2096
@@ -1203,33 +1216,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: Russia_None_trojan_135
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 77.232.140.114
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
 - name: Russia_None_trojan_136
-  network: ws
-  password: Aimer
-  port: 443
-  server: 176.124.223.92
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_137
   network: ws
   password: tg-fq521free
   port: 443
@@ -1242,6 +1229,19 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- name: Russia_None_trojan_137
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 5.182.84.52
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
 - name: Russia_None_trojan_138
   network: ws
   password: Aimer
@@ -1258,8 +1258,8 @@ proxies:
 - name: Russia_None_trojan_139
   network: ws
   password: Aimer
-  port: 2083
-  server: 5.182.84.52
+  port: 443
+  server: 176.124.223.92
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1284,8 +1284,8 @@ proxies:
 - name: Singapore_None_trojan_141
   network: ws
   password: Aimer
-  port: 8443
-  server: 92.243.74.3
+  port: 2096
+  server: 92.243.74.23
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1297,8 +1297,8 @@ proxies:
 - name: Singapore_None_trojan_142
   network: ws
   password: Aimer
-  port: 2096
-  server: 92.243.74.23
+  port: 8443
+  server: 92.243.74.3
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1308,19 +1308,6 @@ proxies:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
 - name: United States_None_trojan_143
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_144
   network: ws
   password: Aimer
   port: 8443
@@ -1333,33 +1320,20 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
+- name: United States_None_trojan_144
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
 - name: United States_None_trojan_145
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 66.81.247.88
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_146
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 199.34.228.164
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_147
   network: ws
   password: Aimer
   port: 8443
@@ -1372,20 +1346,33 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: None_None_trojan_148
+- name: United States_None_trojan_146
   network: ws
-  password: slch2024
-  port: 8443
-  server: 104.18.3.108
+  password: Aimer
+  port: 2083
+  server: 66.81.247.88
   skip-cert-verify: true
-  sni: ocost-dy.wmlefl.cc
+  sni: epgc.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /
-- name: United States_None_trojan_149
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: United States_None_trojan_147
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 135.84.74.254
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
+- name: United States_None_trojan_148
   network: ws
   password: Aimer
   port: 2083
@@ -1398,20 +1385,7 @@ proxies:
     headers:
       Host: epgc.aimercc.dpdns.org
     path: /?ed=2560
-- name: United States_None_trojan_150
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_151
+- name: United States_None_trojan_149
   network: ws
   password: tg-fq521free
   port: 443
@@ -1424,11 +1398,37 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
+- name: None_None_trojan_150
+  network: ws
+  password: slch2024
+  port: 8443
+  server: 104.18.3.108
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /
+- name: United States_None_trojan_151
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 199.34.228.164
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
 - name: United States_None_trojan_152
   network: ws
   password: Aimer
   port: 2083
-  server: 135.84.74.254
+  server: 192.200.160.35
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1465,17 +1465,17 @@ proxies:
     path: /?ed=2560
 - name: United States_None_trojan_155
   network: ws
-  password: Aimer
-  port: 2096
-  server: 66.81.247.230
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
+  password: tg-fq521free
+  port: 443
+  server: 198.62.62.67
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
 - name: United States_None_trojan_156
   network: ws
   password: Aimer
@@ -1493,7 +1493,7 @@ proxies:
   network: ws
   password: Aimer
   port: 2083
-  server: 130.250.137.63
+  server: 198.62.62.61
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1504,22 +1504,22 @@ proxies:
     path: /?ed=2560
 - name: United States_None_trojan_158
   network: ws
-  password: tg-fq521free
-  port: 443
-  server: 198.62.62.67
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
+  password: Aimer
+  port: 2083
+  server: 130.250.137.63
+  skip-cert-verify: true
+  sni: epgc.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
+      Host: epgc.aimercc.dpdns.org
+    path: /?ed=2560
 - name: United States_None_trojan_159
   network: ws
   password: Aimer
-  port: 2083
-  server: 198.62.62.61
+  port: 2096
+  server: 66.81.247.230
   skip-cert-verify: true
   sni: epgc.aimercc.dpdns.org
   type: trojan
@@ -1756,9 +1756,9 @@ proxy-groups:
   - United States_None_trojan_145
   - United States_None_trojan_146
   - United States_None_trojan_147
-  - None_None_trojan_148
+  - United States_None_trojan_148
   - United States_None_trojan_149
-  - United States_None_trojan_150
+  - None_None_trojan_150
   - United States_None_trojan_151
   - United States_None_trojan_152
   - United States_None_trojan_153
@@ -1902,9 +1902,9 @@ proxy-groups:
   - United States_None_trojan_145
   - United States_None_trojan_146
   - United States_None_trojan_147
-  - None_None_trojan_148
+  - United States_None_trojan_148
   - United States_None_trojan_149
-  - United States_None_trojan_150
+  - None_None_trojan_150
   - United States_None_trojan_151
   - United States_None_trojan_152
   - United States_None_trojan_153
