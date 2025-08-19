@@ -194,7 +194,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_019
+  name: China_None_ss_019
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -266,7 +266,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_027
+  name: China_None_ss_027
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -346,72 +346,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: United States_Hanover_trojan_036
-  network: ws
-  password: Aimer
-  port: 443
-  server: 141.11.203.168
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_037
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 103.116.7.100
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_038
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.116.7.189
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_039
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.116.7.235
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_040
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 103.116.7.103
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Kazakhstan_Almaty_trojan_041
+- name: Kazakhstan_Almaty_trojan_036
   network: ws
   password: tg-fq521free
   port: 443
@@ -424,59 +359,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: Russia_None_trojan_042
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 5.182.84.9
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_043
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 77.232.140.114
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_044
-  network: ws
-  password: Aimer
-  port: 443
-  server: 5.182.84.244
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_045
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 5.182.85.255
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_046
+- name: Russia_None_trojan_037
   network: ws
   password: tg-fq521free
   port: 443
@@ -489,176 +372,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: Russia_None_trojan_047
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 5.182.84.52
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_048
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 5.182.84.229
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_049
-  network: ws
-  password: Aimer
-  port: 443
-  server: 176.124.223.92
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Singapore_None_trojan_050
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Singapore_None_trojan_051
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 92.243.74.23
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Singapore_None_trojan_052
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.3
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_053
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 135.84.74.27
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_054
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_055
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.167.255
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_056
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 66.81.247.88
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_057
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 135.84.74.254
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_058
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 155.46.213.38
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_059
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: None_None_trojan_060
+- name: None_None_trojan_038
   network: ws
   password: slch2024
   port: 8443
@@ -671,59 +385,20 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /
-- name: United States_None_trojan_061
+- name: United States_None_trojan_039
   network: ws
-  password: Aimer
-  port: 2087
-  server: 199.34.228.164
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_062
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_063
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 63.141.128.66
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_064
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 167.68.5.248
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_065
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: United States_None_trojan_040
   network: ws
   password: tg-fq521free
   port: 443
@@ -736,89 +411,11 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United States_None_trojan_066
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.166.131
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_067
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 198.62.62.61
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_068
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 130.250.137.63
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_069
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 66.81.247.230
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_070
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.0.54.221
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_071
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 209.94.90.87
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
 - cipher: aes-256-cfb
   name: Ireland_Dublin_ss_11
   password: amazonskr05
   port: 443
-  server: 34.244.73.113
+  server: 52.215.235.115
   tfo: false
   type: ss
 - alterId: 2
@@ -870,7 +467,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_16
+- cipher: aes-128-gcm
+  name: Malaysia_Kuala Lumpur_ss_16
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13872
+  server: hk1-20250813213806be3c17japantm01.tmdns-sing.top
+  tfo: false
+  type: ss
+- name: China_None_trojan_17
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 444
@@ -878,13 +482,6 @@ proxies:
   skip-cert-verify: true
   sni: www.ithome.com
   type: trojan
-- cipher: aes-128-gcm
-  name: Malaysia_Kuala Lumpur_ss_17
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13872
-  server: hk1-20250813213806be3c17japantm01.tmdns-sing.top
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   name: China_None_vmess_18
@@ -895,26 +492,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-128-gcm
-  name: Colombia_Bogotá_ss_19
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13876
-  server: twlite-20250815011717878c9d.tmdns-sing.top
-  tfo: false
-  type: ss
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_110
+  name: China_None_ss_19
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-iN9Ka3jcO2.download.microsoft.com
+    host: 202508150964186-3bI5FffInl.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: Japan_Tokyo_ss_111
+  name: Japan_Tokyo_ss_110
   password: 823e135ed103
   plugin: v2ray-plugin
   plugin-opts:
@@ -928,7 +518,7 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: China_None_trojan_112
+- name: China_None_trojan_111
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 409
@@ -936,7 +526,7 @@ proxies:
   skip-cert-verify: true
   sni: 1-dy.ixigua.com
   type: trojan
-- name: China_None_trojan_113
+- name: China_None_trojan_112
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 461
@@ -944,21 +534,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-128-gcm
-  name: Japan_Tokyo_ss_114
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13890
-  server: japan001.tmdns-sing.top
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  name: South Korea_Seoul_ss_115
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13882
-  server: hanguo01.tmdns-sing.top
-  tfo: false
-  type: ss
-- name: China_None_trojan_116
+- name: China_None_trojan_113
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1256
@@ -966,7 +542,14 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_117
+- cipher: aes-128-gcm
+  name: South Korea_Seoul_ss_114
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13882
+  server: hanguo01.tmdns-sing.top
+  tfo: false
+  type: ss
+- name: China_None_trojan_115
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 406
@@ -975,36 +558,31 @@ proxies:
   sni: www.baidu.com
   type: trojan
 - cipher: aes-128-gcm
-  name: Malaysia_Johor Bahru_ss_118
+  name: Malaysia_Johor Bahru_ss_116
   password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
   port: 13886
   server: xinjiapo.tmdns-sing.top
   tfo: false
   type: ss
-- name: United States_None_trojan_119
-  network: ws
-  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
-  port: 443
-  server: 172.67.214.21
-  skip-cert-verify: false
-  sni: xXcdvFgt.191268.XYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xXcdvFgt.191268.XYz
-    path: /ctdmgeIg3NII3ibrzzKXJGy3S1
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_120
+  name: China_None_ss_117
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-iN9Ka3jcO2.download.microsoft.com
+    host: 202508150964186-3bI5FffInl.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: China_None_trojan_121
+- cipher: aes-128-gcm
+  name: United States_Mountain View_ss_118
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13892
+  server: usa022.tmdns-sing.top
+  tfo: false
+  type: ss
+- name: China_None_trojan_119
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 347
@@ -1012,24 +590,24 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_122
+- name: China_None_trojan_120
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 22006
-  server: 36.156.102.67
+  server: 36.156.102.78
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- cipher: aes-128-gcm
-  name: United States_Los Angeles_ss_123
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13874
-  server: usa20250815010624020199.tmdns-sing.top
+- cipher: aes-256-cfb
+  name: Vietnam_None_ss_121
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.31
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: Hong Kong_None_vmess_124
+  name: Hong Kong_None_vmess_122
   network: tcp
   port: '21186'
   server: 43.247.134.190
@@ -1039,7 +617,7 @@ proxies:
   uuid: bc6f4625-0ce3-4dca-b441-22c34808e6f2
 - alterId: 64
   cipher: auto
-  name: China_None_vmess_125
+  name: China_None_vmess_123
   network: tcp
   port: '42272'
   server: 183.240.245.239
@@ -1049,7 +627,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: United States_Ashburn_vmess_126
+  name: United States_Ashburn_vmess_124
   network: kcp
   port: '3351'
   server: 47.83.181.154
@@ -1059,7 +637,7 @@ proxies:
   uuid: 0bfc8acf-ac40-45c1-8dde-7f3417621286
 - alterId: 0
   cipher: auto
-  name: Japan_Tokyo_vmess_127
+  name: Japan_Tokyo_vmess_125
   network: kcp
   port: '37257'
   server: 47.74.57.10
@@ -1067,83 +645,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: United States_None_trojan_128
-  network: ws
-  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
-  port: 443
-  server: 172.67.214.21
-  sni: xXcdvFgt.191268.XYz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: xXcdvFgt.191268.XYz
-    path: '%2FctdmgeIg3NII3ibrzzKXJGy3S1'
-- name: United States_Hanover_trojan_129
-  network: ws
-  password: Aimer
-  port: 443
-  server: 141.11.203.168
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_130
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 103.116.7.100
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_131
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.116.7.189
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_132
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.116.7.235
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Japan_None_trojan_133
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 103.116.7.103
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Kazakhstan_Almaty_trojan_134
+- name: Kazakhstan_Almaty_trojan_126
   network: ws
   password: tg-fq521free
   port: 443
@@ -1156,59 +658,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: Russia_None_trojan_135
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 5.182.84.9
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_136
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 77.232.140.114
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_137
-  network: ws
-  password: Aimer
-  port: 443
-  server: 5.182.84.244
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_138
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 5.182.85.255
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_139
+- name: Russia_None_trojan_127
   network: ws
   password: tg-fq521free
   port: 443
@@ -1221,176 +671,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: Russia_None_trojan_140
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 5.182.84.52
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_141
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 5.182.84.229
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Russia_None_trojan_142
-  network: ws
-  password: Aimer
-  port: 443
-  server: 176.124.223.92
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Singapore_None_trojan_143
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Singapore_None_trojan_144
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 92.243.74.23
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: Singapore_None_trojan_145
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.3
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_146
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 135.84.74.27
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_147
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_148
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.167.255
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_149
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 66.81.247.88
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_150
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 135.84.74.254
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_151
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 155.46.213.38
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_152
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: None_None_trojan_153
+- name: None_None_trojan_128
   network: ws
   password: slch2024
   port: 8443
@@ -1403,59 +684,20 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /
-- name: United States_None_trojan_154
+- name: United States_None_trojan_129
   network: ws
-  password: Aimer
-  port: 2087
-  server: 199.34.228.164
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_155
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_156
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 63.141.128.66
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_157
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 167.68.5.248
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_158
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: United States_None_trojan_130
   network: ws
   password: tg-fq521free
   port: 443
@@ -1468,84 +710,6 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United States_None_trojan_159
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 104.129.166.131
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_160
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 198.62.62.61
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_161
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 130.250.137.63
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_162
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 66.81.247.230
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_163
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.0.54.221
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
-- name: United States_None_trojan_164
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 209.94.90.87
-  skip-cert-verify: true
-  sni: epgc.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epgc.aimercc.dpdns.org
-    path: /?ed=2560
 - name: United States_None_hysteria_21
   type: hysteria
   server: 208.87.243.151
@@ -1648,7 +812,7 @@ proxy-groups:
   - Malaysia_Kuala Lumpur_ss_016
   - China_None_trojan_017
   - China_None_vmess_018
-  - China_Guangzhou_ss_019
+  - China_None_ss_019
   - Japan_Tokyo_ss_020
   - China_None_trojan_021
   - China_None_trojan_022
@@ -1656,7 +820,7 @@ proxy-groups:
   - South Korea_Seoul_ss_024
   - China_None_trojan_025
   - Malaysia_Johor Bahru_ss_026
-  - China_Guangzhou_ss_027
+  - China_None_ss_027
   - United States_Mountain View_ss_028
   - China_None_trojan_029
   - China_None_trojan_030
@@ -1665,106 +829,41 @@ proxy-groups:
   - China_None_vmess_033
   - United States_Ashburn_vmess_034
   - Japan_Tokyo_vmess_035
-  - United States_Hanover_trojan_036
-  - Japan_None_trojan_037
-  - Japan_None_trojan_038
-  - Japan_None_trojan_039
-  - Japan_None_trojan_040
-  - Kazakhstan_Almaty_trojan_041
-  - Russia_None_trojan_042
-  - Russia_None_trojan_043
-  - Russia_None_trojan_044
-  - Russia_None_trojan_045
-  - Russia_None_trojan_046
-  - Russia_None_trojan_047
-  - Russia_None_trojan_048
-  - Russia_None_trojan_049
-  - Singapore_None_trojan_050
-  - Singapore_None_trojan_051
-  - Singapore_None_trojan_052
-  - United States_None_trojan_053
-  - United States_None_trojan_054
-  - United States_None_trojan_055
-  - United States_None_trojan_056
-  - United States_None_trojan_057
-  - United States_None_trojan_058
-  - United States_None_trojan_059
-  - None_None_trojan_060
-  - United States_None_trojan_061
-  - United States_None_trojan_062
-  - United States_None_trojan_063
-  - United States_None_trojan_064
-  - United States_None_trojan_065
-  - United States_None_trojan_066
-  - United States_None_trojan_067
-  - United States_None_trojan_068
-  - United States_None_trojan_069
-  - United States_None_trojan_070
-  - United States_None_trojan_071
+  - Kazakhstan_Almaty_trojan_036
+  - Russia_None_trojan_037
+  - None_None_trojan_038
+  - United States_None_trojan_039
+  - United States_None_trojan_040
   - Ireland_Dublin_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
   - China_None_trojan_15
-  - China_None_trojan_16
-  - Malaysia_Kuala Lumpur_ss_17
+  - Malaysia_Kuala Lumpur_ss_16
+  - China_None_trojan_17
   - China_None_vmess_18
-  - Colombia_Bogotá_ss_19
-  - China_Guangzhou_ss_110
-  - Japan_Tokyo_ss_111
+  - China_None_ss_19
+  - Japan_Tokyo_ss_110
+  - China_None_trojan_111
   - China_None_trojan_112
   - China_None_trojan_113
-  - Japan_Tokyo_ss_114
-  - South Korea_Seoul_ss_115
-  - China_None_trojan_116
-  - China_None_trojan_117
-  - Malaysia_Johor Bahru_ss_118
-  - United States_None_trojan_119
-  - China_Guangzhou_ss_120
-  - China_None_trojan_121
-  - China_None_trojan_122
-  - United States_Los Angeles_ss_123
-  - Hong Kong_None_vmess_124
-  - China_None_vmess_125
-  - United States_Ashburn_vmess_126
-  - Japan_Tokyo_vmess_127
-  - United States_None_trojan_128
-  - United States_Hanover_trojan_129
-  - Japan_None_trojan_130
-  - Japan_None_trojan_131
-  - Japan_None_trojan_132
-  - Japan_None_trojan_133
-  - Kazakhstan_Almaty_trojan_134
-  - Russia_None_trojan_135
-  - Russia_None_trojan_136
-  - Russia_None_trojan_137
-  - Russia_None_trojan_138
-  - Russia_None_trojan_139
-  - Russia_None_trojan_140
-  - Russia_None_trojan_141
-  - Russia_None_trojan_142
-  - Singapore_None_trojan_143
-  - Singapore_None_trojan_144
-  - Singapore_None_trojan_145
-  - United States_None_trojan_146
-  - United States_None_trojan_147
-  - United States_None_trojan_148
-  - United States_None_trojan_149
-  - United States_None_trojan_150
-  - United States_None_trojan_151
-  - United States_None_trojan_152
-  - None_None_trojan_153
-  - United States_None_trojan_154
-  - United States_None_trojan_155
-  - United States_None_trojan_156
-  - United States_None_trojan_157
-  - United States_None_trojan_158
-  - United States_None_trojan_159
-  - United States_None_trojan_160
-  - United States_None_trojan_161
-  - United States_None_trojan_162
-  - United States_None_trojan_163
-  - United States_None_trojan_164
+  - South Korea_Seoul_ss_114
+  - China_None_trojan_115
+  - Malaysia_Johor Bahru_ss_116
+  - China_None_ss_117
+  - United States_Mountain View_ss_118
+  - China_None_trojan_119
+  - China_None_trojan_120
+  - Vietnam_None_ss_121
+  - Hong Kong_None_vmess_122
+  - China_None_vmess_123
+  - United States_Ashburn_vmess_124
+  - Japan_Tokyo_vmess_125
+  - Kazakhstan_Almaty_trojan_126
+  - Russia_None_trojan_127
+  - None_None_trojan_128
+  - United States_None_trojan_129
+  - United States_None_trojan_130
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
@@ -1797,7 +896,7 @@ proxy-groups:
   - Malaysia_Kuala Lumpur_ss_016
   - China_None_trojan_017
   - China_None_vmess_018
-  - China_Guangzhou_ss_019
+  - China_None_ss_019
   - Japan_Tokyo_ss_020
   - China_None_trojan_021
   - China_None_trojan_022
@@ -1805,7 +904,7 @@ proxy-groups:
   - South Korea_Seoul_ss_024
   - China_None_trojan_025
   - Malaysia_Johor Bahru_ss_026
-  - China_Guangzhou_ss_027
+  - China_None_ss_027
   - United States_Mountain View_ss_028
   - China_None_trojan_029
   - China_None_trojan_030
@@ -1814,106 +913,41 @@ proxy-groups:
   - China_None_vmess_033
   - United States_Ashburn_vmess_034
   - Japan_Tokyo_vmess_035
-  - United States_Hanover_trojan_036
-  - Japan_None_trojan_037
-  - Japan_None_trojan_038
-  - Japan_None_trojan_039
-  - Japan_None_trojan_040
-  - Kazakhstan_Almaty_trojan_041
-  - Russia_None_trojan_042
-  - Russia_None_trojan_043
-  - Russia_None_trojan_044
-  - Russia_None_trojan_045
-  - Russia_None_trojan_046
-  - Russia_None_trojan_047
-  - Russia_None_trojan_048
-  - Russia_None_trojan_049
-  - Singapore_None_trojan_050
-  - Singapore_None_trojan_051
-  - Singapore_None_trojan_052
-  - United States_None_trojan_053
-  - United States_None_trojan_054
-  - United States_None_trojan_055
-  - United States_None_trojan_056
-  - United States_None_trojan_057
-  - United States_None_trojan_058
-  - United States_None_trojan_059
-  - None_None_trojan_060
-  - United States_None_trojan_061
-  - United States_None_trojan_062
-  - United States_None_trojan_063
-  - United States_None_trojan_064
-  - United States_None_trojan_065
-  - United States_None_trojan_066
-  - United States_None_trojan_067
-  - United States_None_trojan_068
-  - United States_None_trojan_069
-  - United States_None_trojan_070
-  - United States_None_trojan_071
+  - Kazakhstan_Almaty_trojan_036
+  - Russia_None_trojan_037
+  - None_None_trojan_038
+  - United States_None_trojan_039
+  - United States_None_trojan_040
   - Ireland_Dublin_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
   - China_None_trojan_15
-  - China_None_trojan_16
-  - Malaysia_Kuala Lumpur_ss_17
+  - Malaysia_Kuala Lumpur_ss_16
+  - China_None_trojan_17
   - China_None_vmess_18
-  - Colombia_Bogotá_ss_19
-  - China_Guangzhou_ss_110
-  - Japan_Tokyo_ss_111
+  - China_None_ss_19
+  - Japan_Tokyo_ss_110
+  - China_None_trojan_111
   - China_None_trojan_112
   - China_None_trojan_113
-  - Japan_Tokyo_ss_114
-  - South Korea_Seoul_ss_115
-  - China_None_trojan_116
-  - China_None_trojan_117
-  - Malaysia_Johor Bahru_ss_118
-  - United States_None_trojan_119
-  - China_Guangzhou_ss_120
-  - China_None_trojan_121
-  - China_None_trojan_122
-  - United States_Los Angeles_ss_123
-  - Hong Kong_None_vmess_124
-  - China_None_vmess_125
-  - United States_Ashburn_vmess_126
-  - Japan_Tokyo_vmess_127
-  - United States_None_trojan_128
-  - United States_Hanover_trojan_129
-  - Japan_None_trojan_130
-  - Japan_None_trojan_131
-  - Japan_None_trojan_132
-  - Japan_None_trojan_133
-  - Kazakhstan_Almaty_trojan_134
-  - Russia_None_trojan_135
-  - Russia_None_trojan_136
-  - Russia_None_trojan_137
-  - Russia_None_trojan_138
-  - Russia_None_trojan_139
-  - Russia_None_trojan_140
-  - Russia_None_trojan_141
-  - Russia_None_trojan_142
-  - Singapore_None_trojan_143
-  - Singapore_None_trojan_144
-  - Singapore_None_trojan_145
-  - United States_None_trojan_146
-  - United States_None_trojan_147
-  - United States_None_trojan_148
-  - United States_None_trojan_149
-  - United States_None_trojan_150
-  - United States_None_trojan_151
-  - United States_None_trojan_152
-  - None_None_trojan_153
-  - United States_None_trojan_154
-  - United States_None_trojan_155
-  - United States_None_trojan_156
-  - United States_None_trojan_157
-  - United States_None_trojan_158
-  - United States_None_trojan_159
-  - United States_None_trojan_160
-  - United States_None_trojan_161
-  - United States_None_trojan_162
-  - United States_None_trojan_163
-  - United States_None_trojan_164
+  - South Korea_Seoul_ss_114
+  - China_None_trojan_115
+  - Malaysia_Johor Bahru_ss_116
+  - China_None_ss_117
+  - United States_Mountain View_ss_118
+  - China_None_trojan_119
+  - China_None_trojan_120
+  - Vietnam_None_ss_121
+  - Hong Kong_None_vmess_122
+  - China_None_vmess_123
+  - United States_Ashburn_vmess_124
+  - Japan_Tokyo_vmess_125
+  - Kazakhstan_Almaty_trojan_126
+  - Russia_None_trojan_127
+  - None_None_trojan_128
+  - United States_None_trojan_129
+  - United States_None_trojan_130
   - United States_None_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
