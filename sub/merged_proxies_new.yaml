@@ -150,16 +150,16 @@ proxies:
   server: 103.103.245.158
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: Hong Kong_None_vmess_014
-  port: 31552
-  server: 38.147.189.37
+  name: China_None_vmess_014
+  port: 47272
+  server: 183.240.245.250
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: China_None_trojan_015
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
@@ -168,57 +168,41 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: Hong Kong_Central_vmess_016
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
-- name: Hong Kong_Kowloon_trojan_017
+- name: China_None_trojan_016
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
-  port: 443
-  server: 42.2.237.179
+  port: 1546
+  server: 36.150.215.188
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: Taiwan_Taichung_ss_018
-  password: 72ba05a3-632e-490b-ad00-158578664c18
-  port: 10032
-  server: 125.230.12.246
+  name: Taiwan_Taichung_ss_017
+  password: 87db2955-048b-4ac9-bf8d-fb1bfe760e71
+  port: 10148
+  server: 36.232.74.25
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: Taiwan_Taichung_ss_019
-  password: befbdd4b-0cb5-42f1-9aad-7aae3ba11ed9
-  port: 10121
-  server: 125.229.88.58
+  name: Taiwan_Kaohsiung City_ss_018
+  password: 0a28538e-d7a3-4185-928a-c8bd49bb9c6b
+  port: 10141
+  server: 36.232.100.114
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_None_ss_020
+  name: China_None_ss_019
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-1Vi6U9m87m.download.microsoft.com
+    host: 202508150964186-5vnd5Hsmlh.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: Japan_Tokyo_ss_021
+  name: Japan_Tokyo_ss_020
   password: 823e135ed103
   plugin: v2ray-plugin
   plugin-opts:
@@ -232,7 +216,7 @@ proxies:
   server: 137.220.191.40
   tfo: false
   type: ss
-- name: China_None_trojan_022
+- name: China_None_trojan_021
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3270
@@ -240,7 +224,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_023
+- name: China_None_trojan_022
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 40950
@@ -248,7 +232,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_024
+- name: China_None_trojan_023
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 3043
@@ -256,7 +240,7 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: China_None_trojan_025
+- name: China_None_trojan_024
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4397
@@ -264,34 +248,25 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_026
-  network: ws
-  port: '443'
-  server: ssssssssssssfffffffgh.2032.pp.ua
-  servername: ssssssssssssfffffffgh.2032.pp.ua
-  skip-cert-verify: false
+- cipher: aes-128-gcm
+  name: China_None_ss_025
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12023
+  server: awes35lesl.blhao0o.dpdns.org
   tfo: false
-  tls: true
-  type: vmess
-  uuid: 4174b95d-115e-4d39-add6-1f8db95bb860
-  ws-opts:
-    headers:
-      Host: ssssssssssssfffffffgh.2032.pp.ua
-    path: /6We3U9Df1WGxgFnoFPw1
+  type: ss
 - cipher: rc4-md5
-  name: China_None_ss_027
+  name: China_None_ss_026
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202508150964186-1Vi6U9m87m.download.microsoft.com
+    host: 202508150964186-5vnd5Hsmlh.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: China_None_trojan_028
+- name: China_None_trojan_027
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4801
@@ -299,7 +274,7 @@ proxies:
   skip-cert-verify: true
   sni: 36.156.102.116
   type: trojan
-- name: China_None_trojan_029
+- name: China_None_trojan_028
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 7177
@@ -307,19 +282,19 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: Hong Kong_None_vmess_030
+  name: China_None_vmess_029
   network: tcp
-  port: '31552'
-  server: 38.147.189.37
+  port: '47272'
+  server: 183.240.245.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 07048eb8-af77-407f-9426-af79a45d2bb1
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: Hong Kong_Hong Kong_vmess_031
+  name: Hong Kong_Hong Kong_vmess_030
   network: kcp
   port: '28590'
   server: 47.239.183.87
@@ -329,15 +304,15 @@ proxies:
   uuid: d75481c7-b5c8-40a9-811a-02b709e74816
 - alterId: 0
   cipher: auto
-  name: Japan_Tokyo_vmess_032
+  name: Japan_Tokyo_vmess_031
   network: kcp
-  port: '37257'
-  server: 47.74.57.10
+  port: '56627'
+  server: 8.209.248.248
   servername: ''
   tls: false
   type: vmess
-  uuid: cb774883-1c2f-4b8a-8637-828f356e0c76
-- name: Kazakhstan_Almaty_trojan_033
+  uuid: ecb304fc-1e5b-4538-989c-cf8110ae0447
+- name: Kazakhstan_Almaty_trojan_032
   network: ws
   password: tg-fq521free
   port: 443
@@ -350,7 +325,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United States_Ashburn_trojan_034
+- name: United States_Ashburn_trojan_033
   network: ws
   password: ttfang
   port: 2096
@@ -363,7 +338,7 @@ proxies:
     headers:
       Host: ttfang.fange.me
     path: /TelegramU0001F1E8U0001F1F3
-- name: Russia_None_trojan_035
+- name: Russia_None_trojan_034
   network: ws
   password: tg-fq521free
   port: 443
@@ -376,7 +351,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United States_None_trojan_036
+- name: United States_None_trojan_035
   network: ws
   password: tg-fq521free
   port: 443
@@ -389,7 +364,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: United States_None_trojan_037
+- name: United States_None_trojan_036
   network: ws
   password: tg-fq521free
   port: 443
@@ -460,7 +435,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_16
+  name: Hong Kong_Jordan_vmess_16
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -800,36 +775,35 @@ proxy-groups:
   - Ireland_Dublin_ss_011
   - China_None_vmess_012
   - Hong Kong_None_ss_013
-  - Hong Kong_None_vmess_014
+  - China_None_vmess_014
   - China_None_trojan_015
-  - Hong Kong_Central_vmess_016
-  - Hong Kong_Kowloon_trojan_017
-  - Taiwan_Taichung_ss_018
-  - Taiwan_Taichung_ss_019
-  - China_None_ss_020
-  - Japan_Tokyo_ss_021
+  - China_None_trojan_016
+  - Taiwan_Taichung_ss_017
+  - Taiwan_Kaohsiung City_ss_018
+  - China_None_ss_019
+  - Japan_Tokyo_ss_020
+  - China_None_trojan_021
   - China_None_trojan_022
   - China_None_trojan_023
   - China_None_trojan_024
-  - China_None_trojan_025
-  - United States_None_vmess_026
-  - China_None_ss_027
+  - China_None_ss_025
+  - China_None_ss_026
+  - China_None_trojan_027
   - China_None_trojan_028
-  - China_None_trojan_029
-  - Hong Kong_None_vmess_030
-  - Hong Kong_Hong Kong_vmess_031
-  - Japan_Tokyo_vmess_032
-  - Kazakhstan_Almaty_trojan_033
-  - United States_Ashburn_trojan_034
-  - Russia_None_trojan_035
+  - China_None_vmess_029
+  - Hong Kong_Hong Kong_vmess_030
+  - Japan_Tokyo_vmess_031
+  - Kazakhstan_Almaty_trojan_032
+  - United States_Ashburn_trojan_033
+  - Russia_None_trojan_034
+  - United States_None_trojan_035
   - United States_None_trojan_036
-  - United States_None_trojan_037
   - Ireland_Dublin_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
   - China_None_trojan_15
-  - Hong Kong_Central_vmess_16
+  - Hong Kong_Jordan_vmess_16
   - Hong Kong_Kowloon_trojan_17
   - Taiwan_Taichung_ss_18
   - Taiwan_Taichung_ss_19
@@ -879,36 +853,35 @@ proxy-groups:
   - Ireland_Dublin_ss_011
   - China_None_vmess_012
   - Hong Kong_None_ss_013
-  - Hong Kong_None_vmess_014
+  - China_None_vmess_014
   - China_None_trojan_015
-  - Hong Kong_Central_vmess_016
-  - Hong Kong_Kowloon_trojan_017
-  - Taiwan_Taichung_ss_018
-  - Taiwan_Taichung_ss_019
-  - China_None_ss_020
-  - Japan_Tokyo_ss_021
+  - China_None_trojan_016
+  - Taiwan_Taichung_ss_017
+  - Taiwan_Kaohsiung City_ss_018
+  - China_None_ss_019
+  - Japan_Tokyo_ss_020
+  - China_None_trojan_021
   - China_None_trojan_022
   - China_None_trojan_023
   - China_None_trojan_024
-  - China_None_trojan_025
-  - United States_None_vmess_026
-  - China_None_ss_027
+  - China_None_ss_025
+  - China_None_ss_026
+  - China_None_trojan_027
   - China_None_trojan_028
-  - China_None_trojan_029
-  - Hong Kong_None_vmess_030
-  - Hong Kong_Hong Kong_vmess_031
-  - Japan_Tokyo_vmess_032
-  - Kazakhstan_Almaty_trojan_033
-  - United States_Ashburn_trojan_034
-  - Russia_None_trojan_035
+  - China_None_vmess_029
+  - Hong Kong_Hong Kong_vmess_030
+  - Japan_Tokyo_vmess_031
+  - Kazakhstan_Almaty_trojan_032
+  - United States_Ashburn_trojan_033
+  - Russia_None_trojan_034
+  - United States_None_trojan_035
   - United States_None_trojan_036
-  - United States_None_trojan_037
   - Ireland_Dublin_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
   - China_None_trojan_15
-  - Hong Kong_Central_vmess_16
+  - Hong Kong_Jordan_vmess_16
   - Hong Kong_Kowloon_trojan_17
   - Taiwan_Taichung_ss_18
   - Taiwan_Taichung_ss_19
