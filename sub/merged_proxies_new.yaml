@@ -348,6 +348,45 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- name: Costa Rica_None_trojan_035
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 190.93.247.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: Russia_None_trojan_036
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.53.53.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: United States_None_trojan_037
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
 - cipher: aes-256-cfb
   name: Germany_Frankfurt am Main_ss_11
   password: amazonskr05
@@ -584,6 +623,45 @@ proxies:
   tls: false
   type: vmess
   uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- name: Costa Rica_None_trojan_125
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 190.93.247.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: Russia_None_trojan_126
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.53.53.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: United States_None_trojan_127
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2604:6600:2004::18b
@@ -713,6 +791,9 @@ proxy-groups:
   - China_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
+  - Costa Rica_None_trojan_035
+  - Russia_None_trojan_036
+  - United States_None_trojan_037
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -737,6 +818,9 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
+  - Costa Rica_None_trojan_125
+  - Russia_None_trojan_126
+  - United States_None_trojan_127
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
@@ -786,6 +870,9 @@ proxy-groups:
   - China_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
+  - Costa Rica_None_trojan_035
+  - Russia_None_trojan_036
+  - United States_None_trojan_037
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -810,6 +897,9 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
+  - Costa Rica_None_trojan_125
+  - Russia_None_trojan_126
+  - United States_None_trojan_127
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
