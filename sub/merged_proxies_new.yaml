@@ -22,6 +22,36 @@ dns:
   - 223.5.5.5
   - 8.8.8.8
 proxies:
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_01
+  network: tcp
+  port: '1'
+  server: 0.0.0.0
+  servername: web.51.la
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_02
+  network: tcp
+  port: '2'
+  server: 0.0.0.0
+  servername: web.51.la
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_03
+  network: tcp
+  port: '3'
+  server: 0.0.0.0
+  servername: web.51.la
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2604:6600:2004::18b
@@ -117,6 +147,9 @@ proxy-groups:
   proxies:
   - 自动选择
   - DIRECT
+  - Unknown_vmess_01
+  - Unknown_vmess_02
+  - Unknown_vmess_03
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
@@ -132,6 +165,9 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
+  - Unknown_vmess_01
+  - Unknown_vmess_02
+  - Unknown_vmess_03
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
