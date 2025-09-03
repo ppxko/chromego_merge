@@ -310,11 +310,24 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: Costa Rica_None_trojan_126
+- name: United States_None_trojan_126
   network: ws
   password: slch2024
   port: 2096
-  server: 190.93.247.195
+  server: 185.148.107.195
+  skip-cert-verify: true
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /TelegramU0001F1E8U0001F1F3
+- name: Russia_None_trojan_127
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.221.160.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -323,32 +336,19 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /Telegram🇨🇳
-- name: Spain_None_trojan_127
+- name: None_None_trojan_128
   network: ws
-  password: slch2024
-  port: 2096
-  server: 185.238.228.195
+  password: 318cab24-ec99-40a6-a54a-0db9c661a3d0
+  port: 443
+  server: aio.proxybox.dpdns.org
   skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
+  sni: aio.proxybox.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
-- name: Russia_None_trojan_128
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 194.53.53.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: /Telegram🇨🇳
+      Host: aio.proxybox.dpdns.org
+    path: /188.34.160.97-2053
 - name: United States_None_trojan_129
   network: ws
   password: slch2024
@@ -364,17 +364,30 @@ proxies:
     path: /Telegram🇨🇳
 - name: United States_None_trojan_130
   network: ws
-  password: 318cab24-ec99-40a6-a54a-0db9c661a3d0
-  port: 443
-  server: aio.proxybox.dpdns.org
+  password: slch2024
+  port: 2096
+  server: 185.148.105.195
   skip-cert-verify: false
-  sni: aio.proxybox.dpdns.org
+  sni: ocost-dy.wmlefl.cc
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: aio.proxybox.dpdns.org
-    path: /188.34.160.97-2053
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: United States_None_trojan_131
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 199.68.156.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2604:6600:2004::18b
@@ -498,11 +511,12 @@ proxy-groups:
   - China_Shanghai_vmess_123
   - Japan_Tokyo_vmess_124
   - Switzerland_None_trojan_125
-  - Costa Rica_None_trojan_126
-  - Spain_None_trojan_127
-  - Russia_None_trojan_128
+  - United States_None_trojan_126
+  - Russia_None_trojan_127
+  - None_None_trojan_128
   - United States_None_trojan_129
   - United States_None_trojan_130
+  - United States_None_trojan_131
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
@@ -546,11 +560,12 @@ proxy-groups:
   - China_Shanghai_vmess_123
   - Japan_Tokyo_vmess_124
   - Switzerland_None_trojan_125
-  - Costa Rica_None_trojan_126
-  - Spain_None_trojan_127
-  - Russia_None_trojan_128
+  - United States_None_trojan_126
+  - Russia_None_trojan_127
+  - None_None_trojan_128
   - United States_None_trojan_129
   - United States_None_trojan_130
+  - United States_None_trojan_131
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
