@@ -52,6 +52,329 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: Germany_Frankfurt am Main_ss_11
+  password: amazonskr05
+  port: 443
+  server: 18.195.55.29
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_12
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- cipher: aes-256-gcm
+  name: China_None_ss_13
+  password: 2b5fad3874e5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /aqwshiog
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 156.251.179.135
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_None_vmess_14
+  port: 47405
+  server: 38.147.188.96
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 84513b8e-2aad-4151-956e-09593c5f107c
+- name: Hong Kong_Central_trojan_15
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 219.77.131.1
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Central_vmess_16
+  network: ws
+  port: '80'
+  server: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 93fb69fc-77cf-11ee-85ee-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: 1e426046-t0fds0-t12cnj-1ol97.hk.p5pv.com
+    path: /
+- name: Hong Kong_Wong Tai Sin_trojan_17
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 443
+  server: 1.65.215.113
+  skip-cert-verify: true
+  sni: fe2.update.microsoft.com
+  type: trojan
+- cipher: aes-128-gcm
+  name: China_None_ss_18
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12008
+  server: awes35lesl.blhao0o.dpdns.org
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: China_Shanghai_vmess_19
+  port: 50002
+  server: 47.116.166.178
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: rc4-md5
+  name: China_Shenzhen_ss_110
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202508150964186-5McRC3HiAX.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: Japan_Tokyo_ss_111
+  password: 8a6ca14c0936
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jpxw9v1.dashengjs.net
+    mode: websocket
+    mux: false
+    path: /wrdfiatyd
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 137.220.142.150
+  tfo: false
+  type: ss
+- name: Japan_Tokyo_trojan_112
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4613
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: Japan_Tokyo_trojan_113
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1924
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: Japan_Tokyo_trojan_114
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3957
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: Japan_Tokyo_trojan_115
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 3043
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_116
+  network: ws
+  port: '30839'
+  server: v39.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- cipher: aes-128-gcm
+  name: China_None_ss_117
+  password: 01721e43-5389-4f97-b21c-900abb2bda9e
+  port: 12020
+  server: awes35lesl.blhao0o.dpdns.org
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: China_Shenzhen_ss_118
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202508150964186-5McRC3HiAX.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- name: Japan_Tokyo_trojan_119
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4801
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- name: Japan_Tokyo_trojan_120
+  network: tcp
+  password: 253bc477d4e43c209f2d427272968280
+  port: 4317
+  server: xingxing.jiasu123.org
+  skip-cert-verify: true
+  sni: 23.45.86.28
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_None_vmess_121
+  network: tcp
+  port: '47405'
+  server: 38.147.188.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84513b8e-2aad-4151-956e-09593c5f107c
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_Hong Kong_vmess_122
+  network: kcp
+  port: '28590'
+  server: 47.239.183.87
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d75481c7-b5c8-40a9-811a-02b709e74816
+- alterId: 64
+  cipher: auto
+  name: China_Shanghai_vmess_123
+  network: tcp
+  port: '50002'
+  server: 47.116.166.178
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: Japan_Tokyo_vmess_124
+  network: kcp
+  port: '34933'
+  server: 8.209.211.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8a9150bc-b9c8-40ac-be83-aaec45176a81
+- name: Switzerland_None_trojan_125
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.18.250.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: Costa Rica_None_trojan_126
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 190.93.247.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: Spain_None_trojan_127
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.238.228.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: Russia_None_trojan_128
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 194.53.53.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: United States_None_trojan_129
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 209.94.90.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /Telegram🇨🇳
+- name: United States_None_trojan_130
+  network: ws
+  password: 318cab24-ec99-40a6-a54a-0db9c661a3d0
+  port: 443
+  server: aio.proxybox.dpdns.org
+  skip-cert-verify: false
+  sni: aio.proxybox.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: aio.proxybox.dpdns.org
+    path: /188.34.160.97-2053
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2604:6600:2004::18b
@@ -150,6 +473,36 @@ proxy-groups:
   - Unknown_vmess_01
   - Unknown_vmess_02
   - Unknown_vmess_03
+  - Germany_Frankfurt am Main_ss_11
+  - China_None_vmess_12
+  - China_None_ss_13
+  - Hong Kong_None_vmess_14
+  - Hong Kong_Central_trojan_15
+  - Hong Kong_Central_vmess_16
+  - Hong Kong_Wong Tai Sin_trojan_17
+  - China_None_ss_18
+  - China_Shanghai_vmess_19
+  - China_Shenzhen_ss_110
+  - Japan_Tokyo_ss_111
+  - Japan_Tokyo_trojan_112
+  - Japan_Tokyo_trojan_113
+  - Japan_Tokyo_trojan_114
+  - Japan_Tokyo_trojan_115
+  - China_None_vmess_116
+  - China_None_ss_117
+  - China_Shenzhen_ss_118
+  - Japan_Tokyo_trojan_119
+  - Japan_Tokyo_trojan_120
+  - Hong Kong_None_vmess_121
+  - Hong Kong_Hong Kong_vmess_122
+  - China_Shanghai_vmess_123
+  - Japan_Tokyo_vmess_124
+  - Switzerland_None_trojan_125
+  - Costa Rica_None_trojan_126
+  - Spain_None_trojan_127
+  - Russia_None_trojan_128
+  - United States_None_trojan_129
+  - United States_None_trojan_130
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
@@ -168,6 +521,36 @@ proxy-groups:
   - Unknown_vmess_01
   - Unknown_vmess_02
   - Unknown_vmess_03
+  - Germany_Frankfurt am Main_ss_11
+  - China_None_vmess_12
+  - China_None_ss_13
+  - Hong Kong_None_vmess_14
+  - Hong Kong_Central_trojan_15
+  - Hong Kong_Central_vmess_16
+  - Hong Kong_Wong Tai Sin_trojan_17
+  - China_None_ss_18
+  - China_Shanghai_vmess_19
+  - China_Shenzhen_ss_110
+  - Japan_Tokyo_ss_111
+  - Japan_Tokyo_trojan_112
+  - Japan_Tokyo_trojan_113
+  - Japan_Tokyo_trojan_114
+  - Japan_Tokyo_trojan_115
+  - China_None_vmess_116
+  - China_None_ss_117
+  - China_Shenzhen_ss_118
+  - Japan_Tokyo_trojan_119
+  - Japan_Tokyo_trojan_120
+  - Hong Kong_None_vmess_121
+  - Hong Kong_Hong Kong_vmess_122
+  - China_Shanghai_vmess_123
+  - Japan_Tokyo_vmess_124
+  - Switzerland_None_trojan_125
+  - Costa Rica_None_trojan_126
+  - Spain_None_trojan_127
+  - Russia_None_trojan_128
+  - United States_None_trojan_129
+  - United States_None_trojan_130
   - Unknown_hysteria_21
   - United States_Los Angeles_hysteria_31
   - The Netherlands_Amsterdam_hysteria_41
