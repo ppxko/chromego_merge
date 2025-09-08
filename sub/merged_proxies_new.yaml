@@ -152,7 +152,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_014
+  name: Hong Kong_Kowloon_vmess_014
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -204,7 +204,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_020
+  name: China_None_ss_020
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -229,7 +229,7 @@ proxies:
   server: 137.220.142.150
   tfo: false
   type: ss
-- name: United States_None_trojan_022
+- name: Japan_Tokyo_trojan_022
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
@@ -245,7 +245,7 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: United States_None_trojan_024
+- name: Japan_Tokyo_trojan_024
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 9160
@@ -270,7 +270,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_026
+  name: China_None_ss_026
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -280,7 +280,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: United States_None_trojan_027
+- name: Japan_Tokyo_trojan_027
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4801
@@ -288,7 +288,7 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: United States_None_trojan_028
+- name: Japan_Tokyo_trojan_028
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 47293
@@ -785,7 +785,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_14
+  name: Hong Kong_Kowloon_vmess_14
   network: ws
   port: '80'
   server: hkt.gotochinatown.net
@@ -837,7 +837,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_110
+  name: China_None_ss_110
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -862,7 +862,7 @@ proxies:
   server: 137.220.142.150
   tfo: false
   type: ss
-- name: United States_None_trojan_112
+- name: Japan_Tokyo_trojan_112
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 1924
@@ -878,7 +878,7 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: United States_None_trojan_114
+- name: Japan_Tokyo_trojan_114
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 9160
@@ -903,7 +903,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_116
+  name: China_None_ss_116
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -913,7 +913,7 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- name: United States_None_trojan_117
+- name: Japan_Tokyo_trojan_117
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 4801
@@ -921,7 +921,7 @@ proxies:
   skip-cert-verify: true
   sni: 23.45.86.28
   type: trojan
-- name: United States_None_trojan_118
+- name: Japan_Tokyo_trojan_118
   network: tcp
   password: 253bc477d4e43c209f2d427272968280
   port: 47293
@@ -1477,21 +1477,21 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_011
   - China_None_vmess_012
   - China_None_ss_013
-  - Hong Kong_Central_vmess_014
+  - Hong Kong_Kowloon_vmess_014
   - Hong Kong_Central_trojan_015
   - Hong Kong_Central_trojan_016
   - Taiwan_Taichung_ss_017
   - Taiwan_Taichung_ss_018
   - Taiwan_Taichung_ss_019
-  - China_Guangzhou_ss_020
+  - China_None_ss_020
   - Japan_Tokyo_ss_021
-  - United States_None_trojan_022
+  - Japan_Tokyo_trojan_022
   - Hong Kong_None_trojan_023
-  - United States_None_trojan_024
+  - Japan_Tokyo_trojan_024
   - China_None_vmess_025
-  - China_Guangzhou_ss_026
-  - United States_None_trojan_027
-  - United States_None_trojan_028
+  - China_None_ss_026
+  - Japan_Tokyo_trojan_027
+  - Japan_Tokyo_trojan_028
   - Hong Kong_Hong Kong_vmess_029
   - Japan_Tokyo_vmess_030
   - Austria_Vienna_trojan_031
@@ -1530,21 +1530,21 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - China_None_ss_13
-  - Hong Kong_Central_vmess_14
+  - Hong Kong_Kowloon_vmess_14
   - Hong Kong_Central_trojan_15
   - Hong Kong_Central_trojan_16
   - Taiwan_Taichung_ss_17
   - Taiwan_Taichung_ss_18
   - Taiwan_Taichung_ss_19
-  - China_Guangzhou_ss_110
+  - China_None_ss_110
   - Japan_Tokyo_ss_111
-  - United States_None_trojan_112
+  - Japan_Tokyo_trojan_112
   - Hong Kong_None_trojan_113
-  - United States_None_trojan_114
+  - Japan_Tokyo_trojan_114
   - China_None_vmess_115
-  - China_Guangzhou_ss_116
-  - United States_None_trojan_117
-  - United States_None_trojan_118
+  - China_None_ss_116
+  - Japan_Tokyo_trojan_117
+  - Japan_Tokyo_trojan_118
   - Hong Kong_Hong Kong_vmess_119
   - Japan_Tokyo_vmess_120
   - Austria_Vienna_trojan_121
@@ -1607,21 +1607,21 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_011
   - China_None_vmess_012
   - China_None_ss_013
-  - Hong Kong_Central_vmess_014
+  - Hong Kong_Kowloon_vmess_014
   - Hong Kong_Central_trojan_015
   - Hong Kong_Central_trojan_016
   - Taiwan_Taichung_ss_017
   - Taiwan_Taichung_ss_018
   - Taiwan_Taichung_ss_019
-  - China_Guangzhou_ss_020
+  - China_None_ss_020
   - Japan_Tokyo_ss_021
-  - United States_None_trojan_022
+  - Japan_Tokyo_trojan_022
   - Hong Kong_None_trojan_023
-  - United States_None_trojan_024
+  - Japan_Tokyo_trojan_024
   - China_None_vmess_025
-  - China_Guangzhou_ss_026
-  - United States_None_trojan_027
-  - United States_None_trojan_028
+  - China_None_ss_026
+  - Japan_Tokyo_trojan_027
+  - Japan_Tokyo_trojan_028
   - Hong Kong_Hong Kong_vmess_029
   - Japan_Tokyo_vmess_030
   - Austria_Vienna_trojan_031
@@ -1660,21 +1660,21 @@ proxy-groups:
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - China_None_ss_13
-  - Hong Kong_Central_vmess_14
+  - Hong Kong_Kowloon_vmess_14
   - Hong Kong_Central_trojan_15
   - Hong Kong_Central_trojan_16
   - Taiwan_Taichung_ss_17
   - Taiwan_Taichung_ss_18
   - Taiwan_Taichung_ss_19
-  - China_Guangzhou_ss_110
+  - China_None_ss_110
   - Japan_Tokyo_ss_111
-  - United States_None_trojan_112
+  - Japan_Tokyo_trojan_112
   - Hong Kong_None_trojan_113
-  - United States_None_trojan_114
+  - Japan_Tokyo_trojan_114
   - China_None_vmess_115
-  - China_Guangzhou_ss_116
-  - United States_None_trojan_117
-  - United States_None_trojan_118
+  - China_None_ss_116
+  - Japan_Tokyo_trojan_117
+  - Japan_Tokyo_trojan_118
   - Hong Kong_Hong Kong_vmess_119
   - Japan_Tokyo_vmess_120
   - Austria_Vienna_trojan_121
