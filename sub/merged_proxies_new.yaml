@@ -198,7 +198,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_None_ss_020
+  name: China_Guangzhou_ss_020
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -289,7 +289,7 @@ proxies:
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
 - cipher: rc4-md5
-  name: China_None_ss_029
+  name: China_Guangzhou_ss_029
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -355,19 +355,14 @@ proxies:
   tls: false
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- name: Singapore_None_trojan_036
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
+- name: France_Aubervilliers_trojan_036
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: fr.viefast.net
   skip-cert-verify: true
-  sni: hsdgbuys.pages.dev
+  sni: csapp.catch.net.tw
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
 - cipher: aes-256-cfb
   name: Sweden_Stockholm_ss_11
   password: amazonskr05
@@ -454,7 +449,7 @@ proxies:
   tfo: false
   type: ss
 - cipher: rc4-md5
-  name: China_None_ss_110
+  name: China_Guangzhou_ss_110
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -545,7 +540,7 @@ proxies:
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
 - cipher: rc4-md5
-  name: China_None_ss_119
+  name: China_Guangzhou_ss_119
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -611,19 +606,14 @@ proxies:
   tls: false
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- name: Singapore_None_trojan_126
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
+- name: France_Aubervilliers_trojan_126
+  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
+  port: 443
+  server: fr.viefast.net
   skip-cert-verify: true
-  sni: hsdgbuys.pages.dev
+  sni: csapp.catch.net.tw
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -729,7 +719,7 @@ proxy-groups:
   - Hong Kong_Central_trojan_017
   - Taiwan_Hsinchu County_ss_018
   - Taiwan_Taichung_ss_019
-  - China_None_ss_020
+  - China_Guangzhou_ss_020
   - Japan_Tokyo_ss_021
   - Japan_Tokyo_trojan_022
   - China_None_trojan_023
@@ -738,14 +728,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_026
   - China_None_vmess_027
   - United States_Dallas_vmess_028
-  - China_None_ss_029
+  - China_Guangzhou_ss_029
   - China_None_trojan_030
   - Japan_Tokyo_trojan_031
   - Hong Kong_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
   - United States_Dallas_vmess_035
-  - Singapore_None_trojan_036
+  - France_Aubervilliers_trojan_036
   - Sweden_Stockholm_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -755,7 +745,7 @@ proxy-groups:
   - Hong Kong_Central_trojan_17
   - Taiwan_Hsinchu County_ss_18
   - Taiwan_Taichung_ss_19
-  - China_None_ss_110
+  - China_Guangzhou_ss_110
   - Japan_Tokyo_ss_111
   - Japan_Tokyo_trojan_112
   - China_None_trojan_113
@@ -764,14 +754,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_116
   - China_None_vmess_117
   - United States_Dallas_vmess_118
-  - China_None_ss_119
+  - China_Guangzhou_ss_119
   - China_None_trojan_120
   - Japan_Tokyo_trojan_121
   - Hong Kong_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
   - United States_Dallas_vmess_125
-  - Singapore_None_trojan_126
+  - France_Aubervilliers_trojan_126
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -805,7 +795,7 @@ proxy-groups:
   - Hong Kong_Central_trojan_017
   - Taiwan_Hsinchu County_ss_018
   - Taiwan_Taichung_ss_019
-  - China_None_ss_020
+  - China_Guangzhou_ss_020
   - Japan_Tokyo_ss_021
   - Japan_Tokyo_trojan_022
   - China_None_trojan_023
@@ -814,14 +804,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_026
   - China_None_vmess_027
   - United States_Dallas_vmess_028
-  - China_None_ss_029
+  - China_Guangzhou_ss_029
   - China_None_trojan_030
   - Japan_Tokyo_trojan_031
   - Hong Kong_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
   - United States_Dallas_vmess_035
-  - Singapore_None_trojan_036
+  - France_Aubervilliers_trojan_036
   - Sweden_Stockholm_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -831,7 +821,7 @@ proxy-groups:
   - Hong Kong_Central_trojan_17
   - Taiwan_Hsinchu County_ss_18
   - Taiwan_Taichung_ss_19
-  - China_None_ss_110
+  - China_Guangzhou_ss_110
   - Japan_Tokyo_ss_111
   - Japan_Tokyo_trojan_112
   - China_None_trojan_113
@@ -840,14 +830,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_116
   - China_None_vmess_117
   - United States_Dallas_vmess_118
-  - China_None_ss_119
+  - China_Guangzhou_ss_119
   - China_None_trojan_120
   - Japan_Tokyo_trojan_121
   - Hong Kong_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
   - United States_Dallas_vmess_125
-  - Singapore_None_trojan_126
+  - France_Aubervilliers_trojan_126
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
