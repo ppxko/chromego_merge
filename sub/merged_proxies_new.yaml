@@ -592,12 +592,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 79f0cb97-d631-493e-84a1-82a0576fa952
-- name: Singapore_None_trojan_125
-  password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
-  port: 443
-  server: de.viefast.net
+- name: The Netherlands_Meppel_trojan_125
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
   skip-cert-verify: true
-  sni: csapp.catch.net.tw
+  sni: 38.180.249.177
   type: trojan
   udp: true
 - name: Unknown_hysteria_21
@@ -745,7 +745,7 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
-  - Singapore_None_trojan_125
+  - The Netherlands_Meppel_trojan_125
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -819,7 +819,7 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
-  - Singapore_None_trojan_125
+  - The Netherlands_Meppel_trojan_125
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
