@@ -194,7 +194,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_None_ss_019
+  name: China_Guangzhou_ss_019
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -275,7 +275,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_027
+  name: China_Guangzhou_ss_027
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -348,14 +348,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 79f0cb97-d631-493e-84a1-82a0576fa952
-- name: The Netherlands_Meppel_trojan_035
-  password: installshield
-  port: 8443
-  server: 38.180.249.177
-  skip-cert-verify: true
-  sni: 38.180.249.177
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: Sweden_Stockholm_ss_11
   password: amazonskr05
@@ -438,7 +430,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_None_ss_19
+  name: China_Guangzhou_ss_19
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -519,7 +511,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_117
+  name: China_Guangzhou_ss_117
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -592,14 +584,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 79f0cb97-d631-493e-84a1-82a0576fa952
-- name: The Netherlands_Meppel_trojan_125
-  password: installshield
-  port: 8443
-  server: 38.180.249.177
-  skip-cert-verify: true
-  sni: 38.180.249.177
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -704,7 +688,7 @@ proxy-groups:
   - Hong Kong_None_ss_016
   - China_None_trojan_017
   - China_None_vmess_018
-  - China_None_ss_019
+  - China_Guangzhou_ss_019
   - Japan_Tokyo_ss_020
   - Japan_None_trojan_021
   - China_None_trojan_022
@@ -712,7 +696,7 @@ proxy-groups:
   - China_None_trojan_024
   - China_None_trojan_025
   - China_None_vmess_026
-  - China_None_ss_027
+  - China_Guangzhou_ss_027
   - Japan_None_trojan_028
   - Japan_None_trojan_029
   - Vietnam_None_ss_030
@@ -720,7 +704,6 @@ proxy-groups:
   - China_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
-  - The Netherlands_Meppel_trojan_035
   - Sweden_Stockholm_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -729,7 +712,7 @@ proxy-groups:
   - Hong Kong_None_ss_16
   - China_None_trojan_17
   - China_None_vmess_18
-  - China_None_ss_19
+  - China_Guangzhou_ss_19
   - Japan_Tokyo_ss_110
   - Japan_None_trojan_111
   - China_None_trojan_112
@@ -737,7 +720,7 @@ proxy-groups:
   - China_None_trojan_114
   - China_None_trojan_115
   - China_None_vmess_116
-  - China_None_ss_117
+  - China_Guangzhou_ss_117
   - Japan_None_trojan_118
   - Japan_None_trojan_119
   - Vietnam_None_ss_120
@@ -745,7 +728,6 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
-  - The Netherlands_Meppel_trojan_125
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -778,7 +760,7 @@ proxy-groups:
   - Hong Kong_None_ss_016
   - China_None_trojan_017
   - China_None_vmess_018
-  - China_None_ss_019
+  - China_Guangzhou_ss_019
   - Japan_Tokyo_ss_020
   - Japan_None_trojan_021
   - China_None_trojan_022
@@ -786,7 +768,7 @@ proxy-groups:
   - China_None_trojan_024
   - China_None_trojan_025
   - China_None_vmess_026
-  - China_None_ss_027
+  - China_Guangzhou_ss_027
   - Japan_None_trojan_028
   - Japan_None_trojan_029
   - Vietnam_None_ss_030
@@ -794,7 +776,6 @@ proxy-groups:
   - China_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
-  - The Netherlands_Meppel_trojan_035
   - Sweden_Stockholm_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -803,7 +784,7 @@ proxy-groups:
   - Hong Kong_None_ss_16
   - China_None_trojan_17
   - China_None_vmess_18
-  - China_None_ss_19
+  - China_Guangzhou_ss_19
   - Japan_Tokyo_ss_110
   - Japan_None_trojan_111
   - China_None_trojan_112
@@ -811,7 +792,7 @@ proxy-groups:
   - China_None_trojan_114
   - China_None_trojan_115
   - China_None_vmess_116
-  - China_None_ss_117
+  - China_Guangzhou_ss_117
   - Japan_None_trojan_118
   - Japan_None_trojan_119
   - Vietnam_None_ss_120
@@ -819,7 +800,6 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
-  - The Netherlands_Meppel_trojan_125
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
