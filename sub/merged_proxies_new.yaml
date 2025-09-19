@@ -194,7 +194,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_None_ss_019
+  name: China_Shenzhen_ss_019
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -275,7 +275,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_027
+  name: China_Shenzhen_ss_027
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -348,14 +348,72 @@ proxies:
   tls: false
   type: vmess
   uuid: af07bf42-c942-4085-a7cb-80f9bed88776
-- name: Singapore_None_trojan_035
+- name: China_Guangzhou_trojan_035
+  password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
+  port: 13028
+  server: suningyunyou.judelvin.com
+  skip-cert-verify: false
+  sni: 3t49hrhac.qqtoup81.top
+  type: trojan
+  udp: true
+- name: China_Guangzhou_trojan_036
+  password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
+  port: 13033
+  server: suningyunyou.judelvin.com
+  skip-cert-verify: false
+  sni: hg2983hrfx.qqtoup81.top
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_037
+  password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
+  port: 12000
+  server: 165.154.112.107
+  skip-cert-verify: true
+  sni: aliyun.com
+  type: trojan
+  udp: true
+- name: Japan_Osaka_trojan_038
+  network: ws
+  password: juzi
+  port: 22735
+  server: 140.83.57.183
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
+- name: Japan_Tokyo_trojan_039
   password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
   port: 443
-  server: www.tiktok.com.jp2.viefast.net
+  server: 160.16.104.143
   skip-cert-verify: true
   sni: www.linemo.jp
   type: trojan
   udp: true
+- name: The Netherlands_Meppel_trojan_040
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  skip-cert-verify: true
+  sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_041
+  network: ws
+  password: juzi
+  port: 443
+  server: 154.29.155.249
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
 - cipher: aes-256-cfb
   name: Sweden_Stockholm_ss_11
   password: amazonskr05
@@ -438,7 +496,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: China_None_ss_19
+  name: China_Shenzhen_ss_19
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -519,7 +577,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_117
+  name: China_Shenzhen_ss_117
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -592,14 +650,72 @@ proxies:
   tls: false
   type: vmess
   uuid: af07bf42-c942-4085-a7cb-80f9bed88776
-- name: Singapore_None_trojan_125
+- name: China_Guangzhou_trojan_125
+  password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
+  port: 13028
+  server: suningyunyou.judelvin.com
+  skip-cert-verify: false
+  sni: 3t49hrhac.qqtoup81.top
+  type: trojan
+  udp: true
+- name: China_Guangzhou_trojan_126
+  password: 453121aa-6c1d-33ed-a175-cb46aa8f22f0
+  port: 13033
+  server: suningyunyou.judelvin.com
+  skip-cert-verify: false
+  sni: hg2983hrfx.qqtoup81.top
+  type: trojan
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_127
+  password: 1640ef52-2db0-44ab-b3f3-8690b762ebc9
+  port: 12000
+  server: 165.154.112.107
+  skip-cert-verify: true
+  sni: aliyun.com
+  type: trojan
+  udp: true
+- name: Japan_Osaka_trojan_128
+  network: ws
+  password: juzi
+  port: 22735
+  server: 140.83.57.183
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
+- name: Japan_Tokyo_trojan_129
   password: 9e76767d-4bfa-4f04-a800-42e2f63afed2
   port: 443
-  server: www.tiktok.com.jp2.viefast.net
+  server: 160.16.104.143
   skip-cert-verify: true
   sni: www.linemo.jp
   type: trojan
   udp: true
+- name: The Netherlands_Meppel_trojan_130
+  password: installshield
+  port: 8443
+  server: 38.180.249.177
+  skip-cert-verify: true
+  sni: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  type: trojan
+  udp: true
+- name: United States_Los Angeles_trojan_131
+  network: ws
+  password: juzi
+  port: 443
+  server: 154.29.155.249
+  skip-cert-verify: true
+  sni: juzi8186-sr1.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: juzi8186-sr1.pages.dev
+    path: /?ed=2560
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -704,7 +820,7 @@ proxy-groups:
   - United States_None_ss_016
   - Japan_Tokyo_trojan_017
   - China_None_vmess_018
-  - China_None_ss_019
+  - China_Shenzhen_ss_019
   - Japan_Tokyo_ss_020
   - Japan_Tokyo_trojan_021
   - China_None_trojan_022
@@ -712,7 +828,7 @@ proxy-groups:
   - China_None_trojan_024
   - China_None_trojan_025
   - China_None_vmess_026
-  - China_None_ss_027
+  - China_Shenzhen_ss_027
   - Japan_None_trojan_028
   - Japan_None_trojan_029
   - Vietnam_None_ss_030
@@ -720,7 +836,13 @@ proxy-groups:
   - China_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
-  - Singapore_None_trojan_035
+  - China_Guangzhou_trojan_035
+  - China_Guangzhou_trojan_036
+  - Hong Kong_Hong Kong_trojan_037
+  - Japan_Osaka_trojan_038
+  - Japan_Tokyo_trojan_039
+  - The Netherlands_Meppel_trojan_040
+  - United States_Los Angeles_trojan_041
   - Sweden_Stockholm_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -729,7 +851,7 @@ proxy-groups:
   - United States_None_ss_16
   - Japan_Tokyo_trojan_17
   - China_None_vmess_18
-  - China_None_ss_19
+  - China_Shenzhen_ss_19
   - Japan_Tokyo_ss_110
   - Japan_Tokyo_trojan_111
   - China_None_trojan_112
@@ -737,7 +859,7 @@ proxy-groups:
   - China_None_trojan_114
   - China_None_trojan_115
   - China_None_vmess_116
-  - China_None_ss_117
+  - China_Shenzhen_ss_117
   - Japan_None_trojan_118
   - Japan_None_trojan_119
   - Vietnam_None_ss_120
@@ -745,7 +867,13 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
-  - Singapore_None_trojan_125
+  - China_Guangzhou_trojan_125
+  - China_Guangzhou_trojan_126
+  - Hong Kong_Hong Kong_trojan_127
+  - Japan_Osaka_trojan_128
+  - Japan_Tokyo_trojan_129
+  - The Netherlands_Meppel_trojan_130
+  - United States_Los Angeles_trojan_131
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -778,7 +906,7 @@ proxy-groups:
   - United States_None_ss_016
   - Japan_Tokyo_trojan_017
   - China_None_vmess_018
-  - China_None_ss_019
+  - China_Shenzhen_ss_019
   - Japan_Tokyo_ss_020
   - Japan_Tokyo_trojan_021
   - China_None_trojan_022
@@ -786,7 +914,7 @@ proxy-groups:
   - China_None_trojan_024
   - China_None_trojan_025
   - China_None_vmess_026
-  - China_None_ss_027
+  - China_Shenzhen_ss_027
   - Japan_None_trojan_028
   - Japan_None_trojan_029
   - Vietnam_None_ss_030
@@ -794,7 +922,13 @@ proxy-groups:
   - China_None_vmess_032
   - Hong Kong_Hong Kong_vmess_033
   - Japan_Tokyo_vmess_034
-  - Singapore_None_trojan_035
+  - China_Guangzhou_trojan_035
+  - China_Guangzhou_trojan_036
+  - Hong Kong_Hong Kong_trojan_037
+  - Japan_Osaka_trojan_038
+  - Japan_Tokyo_trojan_039
+  - The Netherlands_Meppel_trojan_040
+  - United States_Los Angeles_trojan_041
   - Sweden_Stockholm_ss_11
   - China_None_vmess_12
   - China_None_ss_13
@@ -803,7 +937,7 @@ proxy-groups:
   - United States_None_ss_16
   - Japan_Tokyo_trojan_17
   - China_None_vmess_18
-  - China_None_ss_19
+  - China_Shenzhen_ss_19
   - Japan_Tokyo_ss_110
   - Japan_Tokyo_trojan_111
   - China_None_trojan_112
@@ -811,7 +945,7 @@ proxy-groups:
   - China_None_trojan_114
   - China_None_trojan_115
   - China_None_vmess_116
-  - China_None_ss_117
+  - China_Shenzhen_ss_117
   - Japan_None_trojan_118
   - Japan_None_trojan_119
   - Vietnam_None_ss_120
@@ -819,7 +953,13 @@ proxy-groups:
   - China_None_vmess_122
   - Hong Kong_Hong Kong_vmess_123
   - Japan_Tokyo_vmess_124
-  - Singapore_None_trojan_125
+  - China_Guangzhou_trojan_125
+  - China_Guangzhou_trojan_126
+  - Hong Kong_Hong Kong_trojan_127
+  - Japan_Osaka_trojan_128
+  - Japan_Tokyo_trojan_129
+  - The Netherlands_Meppel_trojan_130
+  - United States_Los Angeles_trojan_131
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
