@@ -201,7 +201,7 @@ proxies:
   type: vmess
   uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
 - cipher: rc4-md5
-  name: China_None_ss_020
+  name: China_Shenzhen_ss_020
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -275,7 +275,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_027
+  name: China_Shenzhen_ss_027
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -437,7 +437,7 @@ proxies:
   type: vmess
   uuid: a9024f1d-77a1-4c56-87c7-eeee5398667e
 - cipher: rc4-md5
-  name: China_None_ss_110
+  name: China_Shenzhen_ss_110
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -511,7 +511,7 @@ proxies:
       Host: baidu.com
     path: /oooo
 - cipher: rc4-md5
-  name: China_None_ss_117
+  name: China_Shenzhen_ss_117
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -584,57 +584,6 @@ proxies:
   tls: false
   type: vmess
   uuid: af07bf42-c942-4085-a7cb-80f9bed88776
-- name: United States_Los Angeles_trojan_125
-  password: 0C3YaEDx46ODTFTcaF8lXlZ3zeqSlF33wZagexzRjIyODa8RDwp8XSCO93ygCSYcSYABA
-  port: 18332
-  server: blength.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_126
-  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
-  port: 28333
-  server: connect.appagent.net
-  skip-cert-verify: true
-  sni: connect.appagent.net
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_127
-  password: CZC2eFReAwaON4nzF3zY7XC9nB3IqIaT3Eaa8S7D3B5Y3XuSEp8Z0ygl08S3SSxy6wDRC
-  port: 28332
-  server: blender.appagent.net
-  skip-cert-verify: true
-  sni: blender.appagent.net
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_128
-  password: eYaw9xlNDu4695IF3CyY2leZOTnY8ZSOD3Xa3DClz0xqZy7Z3eaBFaTKOSwCSAOyEap4D
-  port: 28333
-  server: connect.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_129
-  password: OaFFcTDe9pSlez6x3SY8AARXwClzCRRDwSN8F3OqZAEYC0SE6F8gp3wCTCSTDYllcNceagCDD2C59S3
-  port: 28332
-  server: bolster.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_130
-  password: Npgx9nO3OBaZF5yxARYl93lFX08TlR3waDla733az8SqXe3YS3zjESECSZpAw428a6SID
-  port: 443
-  server: metallic.isquirrel.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: United States_Los Angeles_trojan_131
-  password: F9OKESxKjSDExSeaOw7XyINxDzaOZqeKxCeIczYYED8ewZ2Yl9AppAySO3XwFNy3lCaXDDCFnlACSB0
-  port: 28334
-  server: pricey.appagent.net
-  skip-cert-verify: false
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -740,14 +689,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_017
   - China_None_ss_018
   - Taiwan_Taipei City_vmess_019
-  - China_None_ss_020
+  - China_Shenzhen_ss_020
   - Japan_Tokyo_ss_021
   - Japan_Tokyo_trojan_022
   - Japan_Tokyo_trojan_023
   - Japan_Tokyo_trojan_024
   - Japan_Tokyo_trojan_025
   - China_None_vmess_026
-  - China_None_ss_027
+  - China_Shenzhen_ss_027
   - Japan_Tokyo_trojan_028
   - Japan_Tokyo_trojan_029
   - Vietnam_None_ss_030
@@ -764,14 +713,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_17
   - China_None_ss_18
   - Taiwan_Taipei City_vmess_19
-  - China_None_ss_110
+  - China_Shenzhen_ss_110
   - Japan_Tokyo_ss_111
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - China_None_vmess_116
-  - China_None_ss_117
+  - China_Shenzhen_ss_117
   - Japan_Tokyo_trojan_118
   - Japan_Tokyo_trojan_119
   - Vietnam_None_ss_120
@@ -779,13 +728,6 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_122
   - Taiwan_Taipei City_vmess_123
   - Japan_Tokyo_vmess_124
-  - United States_Los Angeles_trojan_125
-  - United States_Los Angeles_trojan_126
-  - United States_Los Angeles_trojan_127
-  - United States_Los Angeles_trojan_128
-  - United States_Los Angeles_trojan_129
-  - United States_Los Angeles_trojan_130
-  - United States_Los Angeles_trojan_131
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -819,14 +761,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_017
   - China_None_ss_018
   - Taiwan_Taipei City_vmess_019
-  - China_None_ss_020
+  - China_Shenzhen_ss_020
   - Japan_Tokyo_ss_021
   - Japan_Tokyo_trojan_022
   - Japan_Tokyo_trojan_023
   - Japan_Tokyo_trojan_024
   - Japan_Tokyo_trojan_025
   - China_None_vmess_026
-  - China_None_ss_027
+  - China_Shenzhen_ss_027
   - Japan_Tokyo_trojan_028
   - Japan_Tokyo_trojan_029
   - Vietnam_None_ss_030
@@ -843,14 +785,14 @@ proxy-groups:
   - Japan_Tokyo_trojan_17
   - China_None_ss_18
   - Taiwan_Taipei City_vmess_19
-  - China_None_ss_110
+  - China_Shenzhen_ss_110
   - Japan_Tokyo_ss_111
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - China_None_vmess_116
-  - China_None_ss_117
+  - China_Shenzhen_ss_117
   - Japan_Tokyo_trojan_118
   - Japan_Tokyo_trojan_119
   - Vietnam_None_ss_120
@@ -858,13 +800,6 @@ proxy-groups:
   - Hong Kong_Hong Kong_vmess_122
   - Taiwan_Taipei City_vmess_123
   - Japan_Tokyo_vmess_124
-  - United States_Los Angeles_trojan_125
-  - United States_Los Angeles_trojan_126
-  - United States_Los Angeles_trojan_127
-  - United States_Los Angeles_trojan_128
-  - United States_Los Angeles_trojan_129
-  - United States_Los Angeles_trojan_130
-  - United States_Los Angeles_trojan_131
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
