@@ -177,7 +177,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_017
+  name: China_Guangzhou_ss_017
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -399,7 +399,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: China_Shenzhen_ss_17
+  name: China_Guangzhou_ss_17
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -604,38 +604,6 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: United States_Los Angeles_hy2_0
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_1
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_2
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
-- name: United States_Los Angeles_hy2_3
-  type: hysteria2
-  server: 104.168.10.176
-  port: 35205
-  password: dongtaiwang.com
-  fast-open: true
-  sni: apple.com
-  skip-cert-verify: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -658,7 +626,7 @@ proxy-groups:
   - Hong Kong_None_vmess_014
   - Japan_None_trojan_015
   - Japan_Tokyo_trojan_016
-  - China_Shenzhen_ss_017
+  - China_Guangzhou_ss_017
   - Japan_Tokyo_trojan_018
   - Japan_Tokyo_trojan_019
   - China_Wuhan_vmess_020
@@ -681,7 +649,7 @@ proxy-groups:
   - Hong Kong_None_vmess_14
   - Japan_None_trojan_15
   - Japan_Tokyo_trojan_16
-  - China_Shenzhen_ss_17
+  - China_Guangzhou_ss_17
   - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - China_Wuhan_vmess_110
@@ -702,10 +670,6 @@ proxy-groups:
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
   - Unknown_hysteria_51
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -728,7 +692,7 @@ proxy-groups:
   - Hong Kong_None_vmess_014
   - Japan_None_trojan_015
   - Japan_Tokyo_trojan_016
-  - China_Shenzhen_ss_017
+  - China_Guangzhou_ss_017
   - Japan_Tokyo_trojan_018
   - Japan_Tokyo_trojan_019
   - China_Wuhan_vmess_020
@@ -751,7 +715,7 @@ proxy-groups:
   - Hong Kong_None_vmess_14
   - Japan_None_trojan_15
   - Japan_Tokyo_trojan_16
-  - China_Shenzhen_ss_17
+  - China_Guangzhou_ss_17
   - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - China_Wuhan_vmess_110
@@ -772,10 +736,6 @@ proxy-groups:
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
   - Unknown_hysteria_51
-  - United States_Los Angeles_hy2_0
-  - United States_Los Angeles_hy2_1
-  - United States_Los Angeles_hy2_2
-  - United States_Los Angeles_hy2_3
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
