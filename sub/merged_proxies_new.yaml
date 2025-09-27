@@ -177,7 +177,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_017
+  name: China_None_ss_017
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -288,14 +288,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
-- name: China_None_trojan_029
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
-  skip-cert-verify: true
-  sni: aliyun.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: Ireland_Dublin_ss_11
   password: amazonskr05
@@ -361,7 +353,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: rc4-md5
-  name: China_Guangzhou_ss_17
+  name: China_None_ss_17
   password: efanccyun
   plugin: obfs
   plugin-opts:
@@ -472,14 +464,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 1cc84891-1657-4f71-97d0-287df565820e
-- name: China_None_trojan_119
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
-  skip-cert-verify: true
-  sni: aliyun.com
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -550,7 +534,7 @@ proxy-groups:
   - Hong Kong_None_vmess_014
   - Hong Kong_San Po Kong_trojan_015
   - China_None_trojan_016
-  - China_Guangzhou_ss_017
+  - China_None_ss_017
   - Japan_Tokyo_trojan_018
   - Japan_Tokyo_trojan_019
   - Japan_Tokyo_trojan_020
@@ -562,14 +546,13 @@ proxy-groups:
   - Hong Kong_None_vmess_026
   - Hong Kong_Hong Kong_vmess_027
   - Japan_Tokyo_vmess_028
-  - China_None_trojan_029
   - Ireland_Dublin_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
   - Hong Kong_San Po Kong_trojan_15
   - China_None_trojan_16
-  - China_Guangzhou_ss_17
+  - China_None_ss_17
   - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - Japan_Tokyo_trojan_110
@@ -581,7 +564,6 @@ proxy-groups:
   - Hong Kong_None_vmess_116
   - Hong Kong_Hong Kong_vmess_117
   - Japan_Tokyo_vmess_118
-  - China_None_trojan_119
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -608,7 +590,7 @@ proxy-groups:
   - Hong Kong_None_vmess_014
   - Hong Kong_San Po Kong_trojan_015
   - China_None_trojan_016
-  - China_Guangzhou_ss_017
+  - China_None_ss_017
   - Japan_Tokyo_trojan_018
   - Japan_Tokyo_trojan_019
   - Japan_Tokyo_trojan_020
@@ -620,14 +602,13 @@ proxy-groups:
   - Hong Kong_None_vmess_026
   - Hong Kong_Hong Kong_vmess_027
   - Japan_Tokyo_vmess_028
-  - China_None_trojan_029
   - Ireland_Dublin_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
   - Hong Kong_San Po Kong_trojan_15
   - China_None_trojan_16
-  - China_Guangzhou_ss_17
+  - China_None_ss_17
   - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - Japan_Tokyo_trojan_110
@@ -639,7 +620,6 @@ proxy-groups:
   - Hong Kong_None_vmess_116
   - Hong Kong_Hong Kong_vmess_117
   - Japan_Tokyo_vmess_118
-  - China_None_trojan_119
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
