@@ -241,6 +241,27 @@ proxies:
   tls: false
   type: vmess
   uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+- name: China_None_trojan_025
+  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
+  port: 12000
+  server: 106.75.134.1
+  skip-cert-verify: true
+  sni: aliyun.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_026
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs?ed=2560
 - cipher: aes-256-cfb
   name: Australia_Sydney_ss_11
   password: amazonskr05
@@ -370,6 +391,27 @@ proxies:
   tls: false
   type: vmess
   uuid: bc4e0275-2a83-43be-a5b7-332a61615f1d
+- name: China_None_trojan_115
+  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
+  port: 12000
+  server: 106.75.134.1
+  skip-cert-verify: true
+  sni: aliyun.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_116
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs?ed=2560
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -448,6 +490,8 @@ proxy-groups:
   - Vietnam_None_ss_022
   - Japan_Tokyo_vmess_023
   - Japan_Tokyo_vmess_024
+  - China_None_trojan_025
+  - United States_None_trojan_026
   - Australia_Sydney_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -462,6 +506,8 @@ proxy-groups:
   - Vietnam_None_ss_112
   - Japan_Tokyo_vmess_113
   - Japan_Tokyo_vmess_114
+  - China_None_trojan_115
+  - United States_None_trojan_116
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -496,6 +542,8 @@ proxy-groups:
   - Vietnam_None_ss_022
   - Japan_Tokyo_vmess_023
   - Japan_Tokyo_vmess_024
+  - China_None_trojan_025
+  - United States_None_trojan_026
   - Australia_Sydney_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -510,6 +558,8 @@ proxy-groups:
   - Vietnam_None_ss_112
   - Japan_Tokyo_vmess_113
   - Japan_Tokyo_vmess_114
+  - China_None_trojan_115
+  - United States_None_trojan_116
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
