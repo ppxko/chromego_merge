@@ -288,24 +288,12 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: Singapore_None_trojan_029
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
-- name: Singapore_Singapore_trojan_030
-  password: installshield
-  port: 8443
-  server: 38.180.106.124
+- name: Hong Kong_Hong Kong_trojan_029
+  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
+  port: 26004
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
   skip-cert-verify: true
+  sni: www.bilibili.com
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -484,24 +472,12 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: Singapore_None_trojan_119
-  network: ws
-  password: wb6368
-  port: 2087
-  server: 92.243.75.49
-  skip-cert-verify: false
-  sni: hsdgbuys.pages.dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hsdgbuys.pages.dev
-    path: /
-- name: Singapore_Singapore_trojan_120
-  password: installshield
-  port: 8443
-  server: 38.180.106.124
+- name: Hong Kong_Hong Kong_trojan_119
+  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
+  port: 26004
+  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
   skip-cert-verify: true
+  sni: www.bilibili.com
   type: trojan
   udp: true
 - name: Unknown_hysteria_21
@@ -586,8 +562,7 @@ proxy-groups:
   - Vietnam_None_ss_026
   - Hong Kong_None_vmess_027
   - Singapore_None_vmess_028
-  - Singapore_None_trojan_029
-  - Singapore_Singapore_trojan_030
+  - Hong Kong_Hong Kong_trojan_029
   - France_Paris_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -606,8 +581,7 @@ proxy-groups:
   - Vietnam_None_ss_116
   - Hong Kong_None_vmess_117
   - Singapore_None_vmess_118
-  - Singapore_None_trojan_119
-  - Singapore_Singapore_trojan_120
+  - Hong Kong_Hong Kong_trojan_119
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -646,8 +620,7 @@ proxy-groups:
   - Vietnam_None_ss_026
   - Hong Kong_None_vmess_027
   - Singapore_None_vmess_028
-  - Singapore_None_trojan_029
-  - Singapore_Singapore_trojan_030
+  - Hong Kong_Hong Kong_trojan_029
   - France_Paris_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -666,8 +639,7 @@ proxy-groups:
   - Vietnam_None_ss_116
   - Hong Kong_None_vmess_117
   - Singapore_None_vmess_118
-  - Singapore_None_trojan_119
-  - Singapore_Singapore_trojan_120
+  - Hong Kong_Hong Kong_trojan_119
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
