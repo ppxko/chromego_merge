@@ -356,33 +356,25 @@ proxies:
   tls: false
   type: vmess
   uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
-- name: China_None_trojan_15
+- name: Japan_Minokamo_trojan_15
   network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 4400
-  server: 221.128.195.222
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 443
+  server: 60.82.70.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_Man Kok_trojan_16
   network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
+  password: c53647f3153f784b3c695ffbe5fb43c0
   port: 443
   server: 58.152.53.162
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- name: China_None_trojan_17
-  network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 1920
-  server: 36.156.102.84
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
 - alterId: 2
   cipher: auto
-  name: China_None_vmess_18
+  name: China_None_vmess_17
   network: ws
   port: '30806'
   server: v6.heduian.link
@@ -396,46 +388,40 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: China_None_trojan_19
+- name: China_None_trojan_18
   network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 3271
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 3272
   server: 36.156.102.84
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_110
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 194.68.27.76
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_111
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.90.63.177
-  tfo: false
-  type: ss
-- name: China_None_trojan_112
+- name: China_None_trojan_19
   network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 2173
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 1806
   server: 36.156.102.84
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: China_None_trojan_113
+- name: China_None_trojan_110
   network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 5321
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 2283
   server: 36.156.102.84
-  skip-cert-verify: true
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: China_None_trojan_111
+  network: tcp
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 1085
+  server: 36.156.102.84
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: Singapore_Singapore_ss_114
+  name: Singapore_Singapore_ss_112
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
   plugin: obfs
   plugin-opts:
@@ -445,32 +431,42 @@ proxies:
   server: 5.44.249.43
   tfo: false
   type: ss
-- name: China_None_trojan_115
+- alterId: 0
+  cipher: auto
+  name: Singapore_None_vmess_113
+  port: 22433
+  server: 47.245.106.193
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
+- name: China_None_trojan_114
   network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
-  port: 24673
+  password: c53647f3153f784b3c695ffbe5fb43c0
+  port: 6752
   server: 36.156.102.84
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
-- name: China_None_trojan_116
+- name: China_None_trojan_115
   network: tcp
-  password: e9368912c4ed6046dca6949229cbff02
+  password: c53647f3153f784b3c695ffbe5fb43c0
   port: 2381
   server: 36.156.102.84
   skip-cert-verify: true
   sni: fe2.update.microsoft.com
   type: trojan
 - cipher: aes-256-cfb
-  name: Vietnam_None_ss_117
+  name: Vietnam_None_ss_116
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.27
+  server: 103.186.154.237
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: Hong Kong_None_vmess_118
+  name: Hong Kong_None_vmess_117
   network: tcp
   port: '41522'
   server: 43.247.135.17
@@ -478,6 +474,16 @@ proxies:
   tls: false
   type: vmess
   uuid: ea897b9a-0894-4f17-ab5b-7e059678734d
+- alterId: 0
+  cipher: auto
+  name: Singapore_None_vmess_118
+  network: tcp
+  port: '22433'
+  server: 47.245.106.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
 - name: Singapore_None_trojan_119
   network: ws
   password: wb6368
@@ -586,20 +592,20 @@ proxy-groups:
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
-  - China_None_trojan_15
+  - Japan_Minokamo_trojan_15
   - Hong Kong_Man Kok_trojan_16
-  - China_None_trojan_17
-  - China_None_vmess_18
+  - China_None_vmess_17
+  - China_None_trojan_18
   - China_None_trojan_19
-  - Japan_Tokyo_ss_110
-  - South Korea_None_ss_111
-  - China_None_trojan_112
-  - China_None_trojan_113
-  - Singapore_Singapore_ss_114
+  - China_None_trojan_110
+  - China_None_trojan_111
+  - Singapore_Singapore_ss_112
+  - Singapore_None_vmess_113
+  - China_None_trojan_114
   - China_None_trojan_115
-  - China_None_trojan_116
-  - Vietnam_None_ss_117
-  - Hong Kong_None_vmess_118
+  - Vietnam_None_ss_116
+  - Hong Kong_None_vmess_117
+  - Singapore_None_vmess_118
   - Singapore_None_trojan_119
   - Singapore_Singapore_trojan_120
   - Unknown_hysteria_21
@@ -646,20 +652,20 @@ proxy-groups:
   - China_None_vmess_12
   - Hong Kong_None_ss_13
   - Hong Kong_None_vmess_14
-  - China_None_trojan_15
+  - Japan_Minokamo_trojan_15
   - Hong Kong_Man Kok_trojan_16
-  - China_None_trojan_17
-  - China_None_vmess_18
+  - China_None_vmess_17
+  - China_None_trojan_18
   - China_None_trojan_19
-  - Japan_Tokyo_ss_110
-  - South Korea_None_ss_111
-  - China_None_trojan_112
-  - China_None_trojan_113
-  - Singapore_Singapore_ss_114
+  - China_None_trojan_110
+  - China_None_trojan_111
+  - Singapore_Singapore_ss_112
+  - Singapore_None_vmess_113
+  - China_None_trojan_114
   - China_None_trojan_115
-  - China_None_trojan_116
-  - Vietnam_None_ss_117
-  - Hong Kong_None_vmess_118
+  - Vietnam_None_ss_116
+  - Hong Kong_None_vmess_117
+  - Singapore_None_vmess_118
   - Singapore_None_trojan_119
   - Singapore_Singapore_trojan_120
   - Unknown_hysteria_21
