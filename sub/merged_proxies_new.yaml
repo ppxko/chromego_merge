@@ -283,14 +283,6 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: Hong Kong_Hong Kong_trojan_030
-  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-  port: 26004
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -462,14 +454,6 @@ proxies:
   tls: false
   type: vmess
   uuid: bfcb103f-2133-4965-8684-6b4c8ef7a774
-- name: Hong Kong_Hong Kong_trojan_120
-  password: e531d1bc-a56f-4e1a-a295-1442369a19c1
-  port: 26004
-  server: e4d7a1c2f3b80976a5e2c1d4b3f0a987.1kmei.com
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -553,7 +537,6 @@ proxy-groups:
   - France_None_ss_027
   - Singapore_None_vmess_028
   - Singapore_None_vmess_029
-  - Hong Kong_Hong Kong_trojan_030
   - United States_None_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -573,7 +556,6 @@ proxy-groups:
   - France_None_ss_117
   - Singapore_None_vmess_118
   - Singapore_None_vmess_119
-  - Hong Kong_Hong Kong_trojan_120
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -613,7 +595,6 @@ proxy-groups:
   - France_None_ss_027
   - Singapore_None_vmess_028
   - Singapore_None_vmess_029
-  - Hong Kong_Hong Kong_trojan_030
   - United States_None_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -633,7 +614,6 @@ proxy-groups:
   - France_None_ss_117
   - Singapore_None_vmess_118
   - Singapore_None_vmess_119
-  - Hong Kong_Hong Kong_trojan_120
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
