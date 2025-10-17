@@ -304,6 +304,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
+- name: United States_None_trojan_031
+  network: ws
+  password: d0728e94-82c2-456b-b5d4-eeab540599df
+  port: 443
+  server: 172.67.192.215
+  skip-cert-verify: false
+  sni: joss.krikkrik.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.krikkrik.xyz
+    path: /Free-VPN-CF-Geo-Project/AE5
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -496,6 +509,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 230938d9-ae9d-49e7-b3cb-9f44168f89e8
+- name: United States_None_trojan_121
+  network: ws
+  password: d0728e94-82c2-456b-b5d4-eeab540599df
+  port: 443
+  server: 172.67.192.215
+  skip-cert-verify: false
+  sni: joss.krikkrik.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.krikkrik.xyz
+    path: /Free-VPN-CF-Geo-Project/AE5
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -580,6 +606,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_028
   - Vietnam_None_ss_029
   - Hong Kong_None_vmess_030
+  - United States_None_trojan_031
   - United States_None_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -600,6 +627,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_118
   - Vietnam_None_ss_119
   - Hong Kong_None_vmess_120
+  - United States_None_trojan_121
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -640,6 +668,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_028
   - Vietnam_None_ss_029
   - Hong Kong_None_vmess_030
+  - United States_None_trojan_031
   - United States_None_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -660,6 +689,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_118
   - Vietnam_None_ss_119
   - Hong Kong_None_vmess_120
+  - United States_None_trojan_121
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
