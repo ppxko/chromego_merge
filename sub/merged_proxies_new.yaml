@@ -165,6 +165,7 @@ proxies:
   server: 36.151.195.112
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: Japan_Tokyo_trojan_016
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -246,19 +247,27 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: United States_None_trojan_025
+- name: Taiwan_Chiayi City_trojan_025
+  password: 890c928b-9ceb-4048-aff2-944461463ee8
+  port: 25502
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: None_None_trojan_026
   network: ws
-  password: d0728e94-82c2-456b-b5d4-eeab540599df
-  port: 443
-  server: 172.67.192.215
+  password: trojan
+  port: 8443
+  server: www.visa.com.sg
   skip-cert-verify: false
-  sni: joss.krikkrik.xyz
+  sni: azadnet-f03.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: joss.krikkrik.xyz
-    path: /Free-VPN-CF-Geo-Project/AE5
+      Host: azadnet-f03.pages.dev
+    path: /?ed=2560
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -312,6 +321,7 @@ proxies:
   server: 36.151.195.112
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: Japan_Tokyo_trojan_16
   network: tcp
   password: c53647f3153f784b3c695ffbe5fb43c0
@@ -393,19 +403,27 @@ proxies:
   skip-cert-verify: true
   sni: www.baidu.com
   type: trojan
-- name: United States_None_trojan_115
+- name: Taiwan_Chiayi City_trojan_115
+  password: 890c928b-9ceb-4048-aff2-944461463ee8
+  port: 25502
+  server: cdnfire.xiaomispeed.com
+  skip-cert-verify: true
+  sni: cdnfire.xiaomispeed.com
+  type: trojan
+  udp: true
+- name: None_None_trojan_116
   network: ws
-  password: d0728e94-82c2-456b-b5d4-eeab540599df
-  port: 443
-  server: 172.67.192.215
+  password: trojan
+  port: 8443
+  server: www.visa.com.sg
   skip-cert-verify: false
-  sni: joss.krikkrik.xyz
+  sni: azadnet-f03.pages.dev
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: joss.krikkrik.xyz
-    path: /Free-VPN-CF-Geo-Project/AE5
+      Host: azadnet-f03.pages.dev
+    path: /?ed=2560
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -484,7 +502,8 @@ proxy-groups:
   - Singapore_Singapore_ss_022
   - Japan_Tokyo_trojan_023
   - Japan_Tokyo_trojan_024
-  - United States_None_trojan_025
+  - Taiwan_Chiayi City_trojan_025
+  - None_None_trojan_026
   - United States_None_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -499,7 +518,8 @@ proxy-groups:
   - Singapore_Singapore_ss_112
   - Japan_Tokyo_trojan_113
   - Japan_Tokyo_trojan_114
-  - United States_None_trojan_115
+  - Taiwan_Chiayi City_trojan_115
+  - None_None_trojan_116
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -534,7 +554,8 @@ proxy-groups:
   - Singapore_Singapore_ss_022
   - Japan_Tokyo_trojan_023
   - Japan_Tokyo_trojan_024
-  - United States_None_trojan_025
+  - Taiwan_Chiayi City_trojan_025
+  - None_None_trojan_026
   - United States_None_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -549,7 +570,8 @@ proxy-groups:
   - Singapore_Singapore_ss_112
   - Japan_Tokyo_trojan_113
   - Japan_Tokyo_trojan_114
-  - United States_None_trojan_115
+  - Taiwan_Chiayi City_trojan_115
+  - None_None_trojan_116
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
