@@ -175,6 +175,7 @@ proxies:
   server: 36.150.215.138
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: China_None_trojan_017
   network: tcp
   password: BxceQaOe
@@ -260,7 +261,6 @@ proxies:
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: China_None_vmess_027
@@ -291,13 +291,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- name: China_None_trojan_030
-  password: BxceQaOe
-  port: 811
-  server: 36.151.251.18
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: Germany_Frankfurt am Main_ss_11
   password: amazonskr05
@@ -361,6 +354,7 @@ proxies:
   server: 36.150.215.138
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: China_None_trojan_17
   network: tcp
   password: BxceQaOe
@@ -446,7 +440,6 @@ proxies:
   server: 36.156.102.115
   skip-cert-verify: true
   type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: China_None_vmess_117
@@ -477,13 +470,6 @@ proxies:
   tls: false
   type: vmess
   uuid: fd49381f-9fd8-4403-8698-48331a4d775d
-- name: China_None_trojan_120
-  password: BxceQaOe
-  port: 811
-  server: 36.151.251.18
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -567,7 +553,6 @@ proxy-groups:
   - China_None_vmess_027
   - Hong Kong_None_vmess_028
   - China_None_vmess_029
-  - China_None_trojan_030
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -587,7 +572,6 @@ proxy-groups:
   - China_None_vmess_117
   - Hong Kong_None_vmess_118
   - China_None_vmess_119
-  - China_None_trojan_120
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -627,7 +611,6 @@ proxy-groups:
   - China_None_vmess_027
   - Hong Kong_None_vmess_028
   - China_None_vmess_029
-  - China_None_trojan_030
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -647,7 +630,6 @@ proxy-groups:
   - China_None_vmess_117
   - Hong Kong_None_vmess_118
   - China_None_vmess_119
-  - China_None_trojan_120
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
