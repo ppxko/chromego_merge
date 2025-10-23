@@ -291,14 +291,19 @@ proxies:
   server: lazy.rsqpq.cn
   skip-cert-verify: true
   type: trojan
-- name: China_None_trojan_033
-  password: BxceQaOe
-  port: 4451
-  server: 36.150.215.138
-  skip-cert-verify: true
-  sni: 36.150.215.138
+- name: United States_None_trojan_033
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs
 - cipher: aes-256-cfb
   name: Germany_Frankfurt am Main_ss_11
   password: amazonskr05
@@ -478,14 +483,19 @@ proxies:
   server: lazy.rsqpq.cn
   skip-cert-verify: true
   type: trojan
-- name: China_None_trojan_123
-  password: BxceQaOe
-  port: 4451
-  server: 36.150.215.138
-  skip-cert-verify: true
-  sni: 36.150.215.138
+- name: United States_None_trojan_123
+  network: ws
+  password: T@_WvT8Ho@LW%w_,
+  port: 2053
+  server: nop-55q.pages.dev
+  skip-cert-verify: false
+  sni: NOp-55q.pAgEs.dEv
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: NOp-55q.pAgEs.dEv
+    path: /trGPZDfetEwuO25SAs
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -572,7 +582,7 @@ proxy-groups:
   - Bangladesh_None_trojan_030
   - Bangladesh_None_trojan_031
   - Bangladesh_None_trojan_032
-  - China_None_trojan_033
+  - United States_None_trojan_033
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -595,7 +605,7 @@ proxy-groups:
   - Bangladesh_None_trojan_120
   - Bangladesh_None_trojan_121
   - Bangladesh_None_trojan_122
-  - China_None_trojan_123
+  - United States_None_trojan_123
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -638,7 +648,7 @@ proxy-groups:
   - Bangladesh_None_trojan_030
   - Bangladesh_None_trojan_031
   - Bangladesh_None_trojan_032
-  - China_None_trojan_033
+  - United States_None_trojan_033
   - Germany_Frankfurt am Main_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -661,7 +671,7 @@ proxy-groups:
   - Bangladesh_None_trojan_120
   - Bangladesh_None_trojan_121
   - Bangladesh_None_trojan_122
-  - China_None_trojan_123
+  - United States_None_trojan_123
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
