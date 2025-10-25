@@ -168,6 +168,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: China_None_trojan_016
   network: tcp
   password: BxceQaOe
@@ -175,6 +176,7 @@ proxies:
   server: 36.151.251.23
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: China_None_trojan_017
   network: tcp
   password: BxceQaOe
@@ -229,6 +231,7 @@ proxies:
   server: 36.151.251.35
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: Japan_Tokyo_trojan_024
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
@@ -331,6 +334,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: China_None_trojan_16
   network: tcp
   password: BxceQaOe
@@ -338,6 +342,7 @@ proxies:
   server: 36.151.251.23
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: China_None_trojan_17
   network: tcp
   password: BxceQaOe
@@ -392,6 +397,7 @@ proxies:
   server: 36.151.251.35
   skip-cert-verify: true
   type: trojan
+  udp: true
 - name: Japan_Tokyo_trojan_114
   network: tcp
   password: ea39fa94f1ee00999337ea1fd3318e69
