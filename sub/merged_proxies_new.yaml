@@ -299,20 +299,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
-- name: China_None_trojan_031
-  password: BxceQaOe
-  port: 4451
-  server: 36.151.251.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: China_None_trojan_032
-  password: BxceQaOe
-  port: 24392
-  server: 36.151.251.35
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United Kingdom_London_ss_11
   password: amazonskr05
@@ -500,20 +486,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
-- name: China_None_trojan_121
-  password: BxceQaOe
-  port: 4451
-  server: 36.151.251.23
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: China_None_trojan_122
-  password: BxceQaOe
-  port: 24392
-  server: 36.151.251.35
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -598,8 +570,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_028
   - China_None_trojan_029
   - Hong Kong_None_vmess_030
-  - China_None_trojan_031
-  - China_None_trojan_032
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -620,8 +590,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_118
   - China_None_trojan_119
   - Hong Kong_None_vmess_120
-  - China_None_trojan_121
-  - China_None_trojan_122
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
@@ -662,8 +630,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_028
   - China_None_trojan_029
   - Hong Kong_None_vmess_030
-  - China_None_trojan_031
-  - China_None_trojan_032
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -684,8 +650,6 @@ proxy-groups:
   - Japan_Tokyo_trojan_118
   - China_None_trojan_119
   - Hong Kong_None_vmess_120
-  - China_None_trojan_121
-  - China_None_trojan_122
   - Unknown_hysteria_21
   - France_Paris_hysteria_31
   - France_Paris_hysteria_41
