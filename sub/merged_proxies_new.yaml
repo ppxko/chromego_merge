@@ -180,6 +180,7 @@ proxies:
   skip-cert-verify: true
   sni: v1-dy.ixigua.com
   type: trojan
+  udp: true
 - name: China_None_trojan_018
   network: tcp
   password: BxceQaOe
@@ -249,6 +250,7 @@ proxies:
   server: 36.156.102.74
   skip-cert-verify: true
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: Vietnam_None_ss_027
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -324,6 +326,7 @@ proxies:
   skip-cert-verify: true
   sni: v1-dy.ixigua.com
   type: trojan
+  udp: true
 - name: China_None_trojan_18
   network: tcp
   password: BxceQaOe
@@ -393,6 +396,7 @@ proxies:
   server: 36.156.102.74
   skip-cert-verify: true
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: Vietnam_None_ss_117
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
