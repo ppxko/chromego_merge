@@ -327,9 +327,10 @@ proxies:
 - name: China_None_trojan_15
   network: tcp
   password: BxceQaOe
-  port: 4556
-  server: 36.151.192.242
+  port: 1655
+  server: 36.150.215.231
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_San Po Kong_trojan_16
   network: tcp
@@ -337,6 +338,7 @@ proxies:
   port: 443
   server: 203.198.122.129
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
@@ -351,23 +353,24 @@ proxies:
 - name: China_None_trojan_18
   network: tcp
   password: BxceQaOe
-  port: 1924
-  server: 36.150.215.239
+  port: 5156
+  server: 36.150.215.137
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
-- name: Japan_Tokyo_trojan_19
+- name: China_Chengdu_trojan_19
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 316
-  server: 160.16.151.196
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: China_Chengdu_trojan_110
   network: tcp
   password: e4e262d453466988575c397a30562337
-  port: 4452
-  server: 117.172.176.24
+  port: 1332
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -385,39 +388,41 @@ proxies:
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 2283
-  server: 117.172.176.24
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: China_None_trojan_113
   network: tcp
   password: BxceQaOe
-  port: 24392
-  server: 36.150.215.239
+  port: 9713
+  server: 36.150.215.137
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: China_Chengdu_trojan_114
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 4553
-  server: 117.172.176.24
+  server: 117.172.176.23
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: China_Chengdu_trojan_115
+- name: Japan_Tokyo_trojan_115
   network: tcp
   password: e4e262d453466988575c397a30562337
   port: 3777
-  server: 117.172.176.24
+  server: 160.16.231.103
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: China_None_trojan_116
   network: tcp
   password: BxceQaOe
-  port: 53743
-  server: 36.150.215.239
+  port: 9269
+  server: 36.150.215.245
   skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
@@ -439,6 +444,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
+- name: China_Guangzhou_trojan_119
+  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
+  port: 20021
+  server: oss-cn-shanghai.letssepub.com
+  skip-cert-verify: false
+  sni: dingding-doc.com
+  type: trojan
+  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -451,9 +464,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_31
+- name: France_None_hysteria_31
   type: hysteria
-  server: 62.210.127.217
+  server: 62.210.10.186
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -463,9 +476,9 @@ proxies:
   protocol: udp
   up: 11 Mbps
   down: 55 Mbps
-- name: France_Paris_hysteria_41
+- name: Unknown_hysteria_41
   type: hysteria
-  server: 62.210.127.217
+  server: 2001:bc8:32d7:158::2
   port: 50011
   auth-str: dongtaiwang.com
   sni: apple.com
@@ -529,19 +542,20 @@ proxy-groups:
   - Hong Kong_San Po Kong_trojan_16
   - China_Jinan_vmess_17
   - China_None_trojan_18
-  - Japan_Tokyo_trojan_19
+  - China_Chengdu_trojan_19
   - China_Chengdu_trojan_110
   - United Kingdom_None_vmess_111
   - China_Chengdu_trojan_112
   - China_None_trojan_113
   - China_Chengdu_trojan_114
-  - China_Chengdu_trojan_115
+  - Japan_Tokyo_trojan_115
   - China_None_trojan_116
   - China_Jinan_vmess_117
   - United Kingdom_None_vmess_118
+  - China_Guangzhou_trojan_119
   - Unknown_hysteria_21
-  - France_Paris_hysteria_31
-  - France_Paris_hysteria_41
+  - France_None_hysteria_31
+  - Unknown_hysteria_41
   - Unknown_hysteria_51
 - name: 自动选择
   type: url-test
@@ -585,19 +599,20 @@ proxy-groups:
   - Hong Kong_San Po Kong_trojan_16
   - China_Jinan_vmess_17
   - China_None_trojan_18
-  - Japan_Tokyo_trojan_19
+  - China_Chengdu_trojan_19
   - China_Chengdu_trojan_110
   - United Kingdom_None_vmess_111
   - China_Chengdu_trojan_112
   - China_None_trojan_113
   - China_Chengdu_trojan_114
-  - China_Chengdu_trojan_115
+  - Japan_Tokyo_trojan_115
   - China_None_trojan_116
   - China_Jinan_vmess_117
   - United Kingdom_None_vmess_118
+  - China_Guangzhou_trojan_119
   - Unknown_hysteria_21
-  - France_Paris_hysteria_31
-  - France_Paris_hysteria_41
+  - France_None_hysteria_31
+  - Unknown_hysteria_41
   - Unknown_hysteria_51
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
