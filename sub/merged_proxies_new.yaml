@@ -444,14 +444,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 7eebdcd7-9d77-4663-bde4-b67a51d13975
-- name: China_Guangzhou_trojan_119
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  skip-cert-verify: false
-  sni: dingding-doc.com
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -552,7 +544,6 @@ proxy-groups:
   - China_None_trojan_116
   - China_Jinan_vmess_117
   - United Kingdom_None_vmess_118
-  - China_Guangzhou_trojan_119
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -609,7 +600,6 @@ proxy-groups:
   - China_None_trojan_116
   - China_Jinan_vmess_117
   - United Kingdom_None_vmess_118
-  - China_Guangzhou_trojan_119
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
