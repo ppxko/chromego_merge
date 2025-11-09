@@ -273,6 +273,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: Vietnam_None_ss_029
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -301,19 +302,27 @@ proxies:
   type: vmess
   uuid: c74f0304-5b43-3772-852a-2b108c423d23
 - name: China_None_trojan_032
-  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
-  port: 13007
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  password: BxceQaOe
+  port: 38799
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_Central_trojan_033
+- name: Hong Kong_San Po Kong_trojan_033
   password: BxceQaOe
   port: 443
-  server: 58.152.46.98
+  server: 203.198.122.129
   skip-cert-verify: true
-  sni: 58.152.46.98
+  sni: 203.198.122.129
+  type: trojan
+  udp: true
+- name: United States_None_trojan_034
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.45.27.162
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -477,6 +486,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: Vietnam_None_ss_119
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
@@ -505,19 +515,27 @@ proxies:
   type: vmess
   uuid: c74f0304-5b43-3772-852a-2b108c423d23
 - name: China_None_trojan_122
-  password: dce3c42b-f259-4b18-b5c1-a42ebef4e732
-  port: 13007
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  password: BxceQaOe
+  port: 38799
+  server: 36.151.251.38
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_Central_trojan_123
+- name: Hong Kong_San Po Kong_trojan_123
   password: BxceQaOe
   port: 443
-  server: 58.152.46.98
+  server: 203.198.122.129
   skip-cert-verify: true
-  sni: 58.152.46.98
+  sni: 203.198.122.129
+  type: trojan
+  udp: true
+- name: United States_None_trojan_124
+  password: telegram-id-directvpn
+  port: 22223
+  server: 51.45.27.162
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
 - name: Unknown_hysteria_21
@@ -606,7 +624,8 @@ proxy-groups:
   - Singapore_None_vmess_030
   - Singapore_None_vmess_031
   - China_None_trojan_032
-  - Hong Kong_Central_trojan_033
+  - Hong Kong_San Po Kong_trojan_033
+  - United States_None_trojan_034
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -629,7 +648,8 @@ proxy-groups:
   - Singapore_None_vmess_120
   - Singapore_None_vmess_121
   - China_None_trojan_122
-  - Hong Kong_Central_trojan_123
+  - Hong Kong_San Po Kong_trojan_123
+  - United States_None_trojan_124
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -672,7 +692,8 @@ proxy-groups:
   - Singapore_None_vmess_030
   - Singapore_None_vmess_031
   - China_None_trojan_032
-  - Hong Kong_Central_trojan_033
+  - Hong Kong_San Po Kong_trojan_033
+  - United States_None_trojan_034
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -695,7 +716,8 @@ proxy-groups:
   - Singapore_None_vmess_120
   - Singapore_None_vmess_121
   - China_None_trojan_122
-  - Hong Kong_Central_trojan_123
+  - Hong Kong_San Po Kong_trojan_123
+  - United States_None_trojan_124
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
