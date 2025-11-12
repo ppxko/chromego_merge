@@ -243,38 +243,53 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: China_None_trojan_026
+- name: Hong Kong_Central_trojan_026
   password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: China_None_trojan_027
-  password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
+  port: 4569
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_San Po Kong_trojan_028
-  password: BxceQaOe
+- name: The Netherlands_None_trojan_027
+  network: ws
+  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
   port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: 203.198.122.129
+  server: 194.147.115.149
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
   type: trojan
   udp: true
-- name: United States_None_trojan_029
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.45.27.162
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
+- name: Poland_Warsaw_trojan_028
+  network: ws
+  password: 49d416e1-4cec-41e1-bff6-3748c466f275
+  port: 8443
+  server: 45.144.48.158
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
+- name: Russia_None_trojan_029
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - cipher: aes-256-cfb
   name: United Kingdom_London_ss_11
   password: amazonskr05
@@ -406,38 +421,53 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: China_None_trojan_116
+- name: Hong Kong_Central_trojan_116
   password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: China_None_trojan_117
-  password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
+  port: 4569
+  server: 116.49.237.130
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_San Po Kong_trojan_118
-  password: BxceQaOe
+- name: The Netherlands_None_trojan_117
+  network: ws
+  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
   port: 443
-  server: 203.198.122.129
-  skip-cert-verify: true
-  sni: 203.198.122.129
+  server: 194.147.115.149
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
   type: trojan
   udp: true
-- name: United States_None_trojan_119
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.45.27.162
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
+- name: Poland_Warsaw_trojan_118
+  network: ws
+  password: 49d416e1-4cec-41e1-bff6-3748c466f275
+  port: 8443
+  server: 45.144.48.158
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
+- name: Russia_None_trojan_119
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -517,10 +547,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_023
   - China_Chengdu_trojan_024
   - Hong Kong_Central_trojan_025
-  - China_None_trojan_026
-  - China_None_trojan_027
-  - Hong Kong_San Po Kong_trojan_028
-  - United States_None_trojan_029
+  - Hong Kong_Central_trojan_026
+  - The Netherlands_None_trojan_027
+  - Poland_Warsaw_trojan_028
+  - Russia_None_trojan_029
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -536,10 +566,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - China_Chengdu_trojan_114
   - Hong Kong_Central_trojan_115
-  - China_None_trojan_116
-  - China_None_trojan_117
-  - Hong Kong_San Po Kong_trojan_118
-  - United States_None_trojan_119
+  - Hong Kong_Central_trojan_116
+  - The Netherlands_None_trojan_117
+  - Poland_Warsaw_trojan_118
+  - Russia_None_trojan_119
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -575,10 +605,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_023
   - China_Chengdu_trojan_024
   - Hong Kong_Central_trojan_025
-  - China_None_trojan_026
-  - China_None_trojan_027
-  - Hong Kong_San Po Kong_trojan_028
-  - United States_None_trojan_029
+  - Hong Kong_Central_trojan_026
+  - The Netherlands_None_trojan_027
+  - Poland_Warsaw_trojan_028
+  - Russia_None_trojan_029
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -594,10 +624,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - China_Chengdu_trojan_114
   - Hong Kong_Central_trojan_115
-  - China_None_trojan_116
-  - China_None_trojan_117
-  - Hong Kong_San Po Kong_trojan_118
-  - United States_None_trojan_119
+  - Hong Kong_Central_trojan_116
+  - The Netherlands_None_trojan_117
+  - Poland_Warsaw_trojan_118
+  - Russia_None_trojan_119
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
