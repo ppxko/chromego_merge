@@ -280,19 +280,11 @@ proxies:
   tls: false
   type: vmess
   uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
-- name: Hong Kong_Central_trojan_030
-  password: BxceQaOe
-  port: 4569
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: The Netherlands_None_trojan_031
+- name: Belgium_Brussels_trojan_030
   network: ws
-  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
+  password: 88701884-7690-4b79-ac5d-36d299e05e83
   port: 443
-  server: 194.147.115.149
+  server: 34.22.190.30
   skip-cert-verify: false
   sni: joss.dus.biz.id
   type: trojan
@@ -300,12 +292,12 @@ proxies:
   ws-opts:
     headers:
       Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
-- name: Poland_Warsaw_trojan_032
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
+- name: Israel_None_trojan_031
   network: ws
-  password: 49d416e1-4cec-41e1-bff6-3748c466f275
-  port: 8443
-  server: 45.144.48.158
+  password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
+  port: 81
+  server: 94.131.114.50
   skip-cert-verify: false
   sni: joss.dus.biz.id
   type: trojan
@@ -313,8 +305,34 @@ proxies:
   ws-opts:
     headers:
       Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
-- name: Russia_None_trojan_033
+    path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
+- name: The Netherlands_Dronten_trojan_032
+  network: ws
+  password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
+  port: 443
+  server: 86.107.197.239
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+- name: Poland_Warsaw_trojan_033
+  network: ws
+  password: 55d19115-ec40-407b-a674-74e6a948347a
+  port: 2053
+  server: 45.144.48.55
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
+- name: Russia_None_trojan_034
   network: ws
   password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
   port: 2053
@@ -327,6 +345,19 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
+- name: Singapore_None_trojan_035
+  network: ws
+  password: edeff73d-065d-4b0a-b848-aad9d3380223
+  port: 443
+  server: 77.221.141.207
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
 - cipher: aes-256-cfb
   name: United Kingdom_London_ss_11
   password: amazonskr05
@@ -495,19 +526,11 @@ proxies:
   tls: false
   type: vmess
   uuid: d2540325-9ad6-33d7-be86-259b5bba4ef8
-- name: Hong Kong_Central_trojan_120
-  password: BxceQaOe
-  port: 4569
-  server: 116.49.237.130
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: The Netherlands_None_trojan_121
+- name: Belgium_Brussels_trojan_120
   network: ws
-  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
+  password: 88701884-7690-4b79-ac5d-36d299e05e83
   port: 443
-  server: 194.147.115.149
+  server: 34.22.190.30
   skip-cert-verify: false
   sni: joss.dus.biz.id
   type: trojan
@@ -515,12 +538,12 @@ proxies:
   ws-opts:
     headers:
       Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
-- name: Poland_Warsaw_trojan_122
+    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
+- name: Israel_None_trojan_121
   network: ws
-  password: 49d416e1-4cec-41e1-bff6-3748c466f275
-  port: 8443
-  server: 45.144.48.158
+  password: a5a3350e-6ea2-4e12-ae84-20db849ce1fc
+  port: 81
+  server: 94.131.114.50
   skip-cert-verify: false
   sni: joss.dus.biz.id
   type: trojan
@@ -528,8 +551,34 @@ proxies:
   ws-opts:
     headers:
       Host: joss.dus.biz.id
-    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
-- name: Russia_None_trojan_123
+    path: /Free-VPN-CF-Geo-Project/94.131.114.50=81
+- name: The Netherlands_Dronten_trojan_122
+  network: ws
+  password: 5ad5fe82-6b60-4f59-977b-93910ef7a9ca
+  port: 443
+  server: 86.107.197.239
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/86.107.197.239=443
+- name: Poland_Warsaw_trojan_123
+  network: ws
+  password: 55d19115-ec40-407b-a674-74e6a948347a
+  port: 2053
+  server: 45.144.48.55
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.55=2053
+- name: Russia_None_trojan_124
   network: ws
   password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
   port: 2053
@@ -542,6 +591,19 @@ proxies:
     headers:
       Host: joss.dus.biz.id
     path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
+- name: Singapore_None_trojan_125
+  network: ws
+  password: edeff73d-065d-4b0a-b848-aad9d3380223
+  port: 443
+  server: 77.221.141.207
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/77.221.141.207=443
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -625,10 +687,12 @@ proxy-groups:
   - China_Chengdu_trojan_027
   - China_None_trojan_028
   - Bangladesh_None_vmess_029
-  - Hong Kong_Central_trojan_030
-  - The Netherlands_None_trojan_031
-  - Poland_Warsaw_trojan_032
-  - Russia_None_trojan_033
+  - Belgium_Brussels_trojan_030
+  - Israel_None_trojan_031
+  - The Netherlands_Dronten_trojan_032
+  - Poland_Warsaw_trojan_033
+  - Russia_None_trojan_034
+  - Singapore_None_trojan_035
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -648,10 +712,12 @@ proxy-groups:
   - China_Chengdu_trojan_117
   - China_None_trojan_118
   - Bangladesh_None_vmess_119
-  - Hong Kong_Central_trojan_120
-  - The Netherlands_None_trojan_121
-  - Poland_Warsaw_trojan_122
-  - Russia_None_trojan_123
+  - Belgium_Brussels_trojan_120
+  - Israel_None_trojan_121
+  - The Netherlands_Dronten_trojan_122
+  - Poland_Warsaw_trojan_123
+  - Russia_None_trojan_124
+  - Singapore_None_trojan_125
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -691,10 +757,12 @@ proxy-groups:
   - China_Chengdu_trojan_027
   - China_None_trojan_028
   - Bangladesh_None_vmess_029
-  - Hong Kong_Central_trojan_030
-  - The Netherlands_None_trojan_031
-  - Poland_Warsaw_trojan_032
-  - Russia_None_trojan_033
+  - Belgium_Brussels_trojan_030
+  - Israel_None_trojan_031
+  - The Netherlands_Dronten_trojan_032
+  - Poland_Warsaw_trojan_033
+  - Russia_None_trojan_034
+  - Singapore_None_trojan_035
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -714,10 +782,12 @@ proxy-groups:
   - China_Chengdu_trojan_117
   - China_None_trojan_118
   - Bangladesh_None_vmess_119
-  - Hong Kong_Central_trojan_120
-  - The Netherlands_None_trojan_121
-  - Poland_Warsaw_trojan_122
-  - Russia_None_trojan_123
+  - Belgium_Brussels_trojan_120
+  - Israel_None_trojan_121
+  - The Netherlands_Dronten_trojan_122
+  - Poland_Warsaw_trojan_123
+  - Russia_None_trojan_124
+  - Singapore_None_trojan_125
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
