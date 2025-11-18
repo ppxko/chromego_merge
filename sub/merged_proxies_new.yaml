@@ -268,6 +268,38 @@ proxies:
   tls: false
   type: vmess
   uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
+- name: Germany_None_trojan_029
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: The Netherlands_None_trojan_030
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 45.144.172.243
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_031
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 108.165.255.5
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_032
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.132
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
   name: United Kingdom_London_ss_11
   password: amazonskr05
@@ -424,6 +456,38 @@ proxies:
   tls: false
   type: vmess
   uuid: edf4c847-3164-4d63-ab9b-c98acba96f1e
+- name: Germany_None_trojan_119
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 194.87.18.124
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: The Netherlands_None_trojan_120
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 45.144.172.243
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_121
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 108.165.255.5
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_122
+  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+  port: 443
+  server: 96.126.190.132
+  skip-cert-verify: true
+  sni: www.bilibili.com
+  type: trojan
+  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -506,6 +570,10 @@ proxy-groups:
   - Hong Kong_Central_trojan_026
   - Vietnam_None_ss_027
   - Japan_Osaka_vmess_028
+  - Germany_None_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_None_trojan_031
+  - United States_None_trojan_032
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -524,6 +592,10 @@ proxy-groups:
   - Hong Kong_Central_trojan_116
   - Vietnam_None_ss_117
   - Japan_Osaka_vmess_118
+  - Germany_None_trojan_119
+  - The Netherlands_None_trojan_120
+  - United States_None_trojan_121
+  - United States_None_trojan_122
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -562,6 +634,10 @@ proxy-groups:
   - Hong Kong_Central_trojan_026
   - Vietnam_None_ss_027
   - Japan_Osaka_vmess_028
+  - Germany_None_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_None_trojan_031
+  - United States_None_trojan_032
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -580,6 +656,10 @@ proxy-groups:
   - Hong Kong_Central_trojan_116
   - Vietnam_None_ss_117
   - Japan_Osaka_vmess_118
+  - Germany_None_trojan_119
+  - The Netherlands_None_trojan_120
+  - United States_None_trojan_121
+  - United States_None_trojan_122
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
