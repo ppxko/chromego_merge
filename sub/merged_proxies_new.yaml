@@ -163,6 +163,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: Hong Kong_Central_trojan_016
   network: tcp
   password: BxceQaOe
@@ -268,36 +269,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
-- name: Germany_None_trojan_029
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+- name: Hong Kong_San Tung Chung Hang_trojan_029
+  password: BxceQaOe
   port: 443
-  server: 194.87.18.124
+  server: 58.152.26.173
   skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: The Netherlands_None_trojan_030
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 45.144.172.243
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_031
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 108.165.255.5
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_032
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 96.126.190.132
-  skip-cert-verify: true
-  sni: www.bilibili.com
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -351,6 +328,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - name: Hong Kong_Central_trojan_16
   network: tcp
   password: BxceQaOe
@@ -456,36 +434,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 2a49163d-eaff-38d2-bb0e-5048a031f6b6
-- name: Germany_None_trojan_119
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
+- name: Hong Kong_San Tung Chung Hang_trojan_119
+  password: BxceQaOe
   port: 443
-  server: 194.87.18.124
+  server: 58.152.26.173
   skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: The Netherlands_None_trojan_120
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 45.144.172.243
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_121
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 108.165.255.5
-  skip-cert-verify: true
-  sni: www.bilibili.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_122
-  password: 019a8c1f-3d28-74e8-8a8e-40045d7ec77f
-  port: 443
-  server: 96.126.190.132
-  skip-cert-verify: true
-  sni: www.bilibili.com
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
 - name: Unknown_hysteria_21
@@ -570,10 +524,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_026
   - Hong Kong_None_trojan_027
   - China_Guangzhou_vmess_028
-  - Germany_None_trojan_029
-  - The Netherlands_None_trojan_030
-  - United States_None_trojan_031
-  - United States_None_trojan_032
+  - Hong Kong_San Tung Chung Hang_trojan_029
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -592,10 +543,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_116
   - Hong Kong_None_trojan_117
   - China_Guangzhou_vmess_118
-  - Germany_None_trojan_119
-  - The Netherlands_None_trojan_120
-  - United States_None_trojan_121
-  - United States_None_trojan_122
+  - Hong Kong_San Tung Chung Hang_trojan_119
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -634,10 +582,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_026
   - Hong Kong_None_trojan_027
   - China_Guangzhou_vmess_028
-  - Germany_None_trojan_029
-  - The Netherlands_None_trojan_030
-  - United States_None_trojan_031
-  - United States_None_trojan_032
+  - Hong Kong_San Tung Chung Hang_trojan_029
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -656,10 +601,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_116
   - Hong Kong_None_trojan_117
   - China_Guangzhou_vmess_118
-  - Germany_None_trojan_119
-  - The Netherlands_None_trojan_120
-  - United States_None_trojan_121
-  - United States_None_trojan_122
+  - Hong Kong_San Tung Chung Hang_trojan_119
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
