@@ -155,6 +155,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: Hong Kong_Central_trojan_015
   network: tcp
   password: BxceQaOe
@@ -274,11 +275,11 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Belgium_Brussels_trojan_030
+- name: Canada_Toronto_trojan_030
   network: ws
-  password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
+  password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
   port: 443
-  server: 34.22.190.30
+  server: 69.28.82.253
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -286,76 +287,37 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: Belgium_Brussels_trojan_031
-  network: ws
-  password: 0a477acf-1f95-47cb-b4a5-a627b4c57de3
-  port: 443
-  server: 34.22.190.30
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: United Kingdom_None_trojan_032
-  network: ws
-  password: 5c8c8b61-9b24-4c5a-b6ad-f6560df2e9d3
-  port: 443
-  server: 89.28.236.243
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: United Kingdom_None_trojan_033
-  network: ws
-  password: e9249478-ea4e-432f-a918-e84c1ce143c6
-  port: 443
-  server: 89.28.236.243
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: Estonia_Tallinn_trojan_034
-  network: ws
-  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
-  port: 443
-  server: 37.252.5.75
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
-- name: France_Paris_trojan_035
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.39.169.16
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: France_Paris_trojan_036
+    path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
+- name: Germany_Frankfurt am Main_trojan_031
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.39.169.16
+  server: 52.57.38.0
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: France_None_trojan_037
+- name: Germany_Frankfurt am Main_trojan_032
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.57.38.0
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: Spain_Madrid_trojan_033
+  network: ws
+  password: 9ccc3e1d-3df5-4348-aa05-738310149cc3
+  port: 443
+  server: 45.86.229.28
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/45.86.229.28=443
+- name: France_None_trojan_034
   network: ws
   password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
   port: 443
@@ -368,11 +330,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
-- name: France_Paris_trojan_038
+- name: Italy_Arezzo_trojan_035
   network: ws
-  password: c2de1269-17cb-41f6-ab97-f8c11a6f0f4f
+  password: e04af4a8-ce76-4026-8480-82d0e35dd239
   port: 8443
-  server: 158.178.206.197
+  server: 94.177.199.119
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -380,29 +342,8 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/158.178.206.197=8443
-- name: United Kingdom_None_trojan_039
-  network: ws
-  password: d69e725c-7c7e-4c75-9786-4859b4e0bbc6
-  port: 443
-  server: 109.169.76.23
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/109.169.76.23=443
-- name: Hong Kong_Sai Wan_trojan_040
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: The Netherlands_Meppel_trojan_041
+    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
+- name: The Netherlands_Meppel_trojan_036
   network: ws
   password: ee339912-0c35-4fac-8d85-180b65bcd49c
   port: 443
@@ -415,11 +356,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/81.22.132.183=443
-- name: Hungary_Budapest_trojan_042
+- name: The Netherlands_Amsterdam_trojan_037
   network: ws
-  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  password: 35f8e682-54bd-42c7-b537-94a8e4c84bcd
   port: 443
-  server: 138.124.30.8
+  server: 89.110.120.197
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -427,20 +368,7 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
-- name: Russia_None_trojan_043
-  network: ws
-  password: d78d48df-b788-4a95-9e9f-77c9b2f69822
-  port: 8443
-  server: 193.233.114.58
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/193.233.114.58=8443
+    path: /Free-VPN-CF-Geo-Project/89.110.120.197=443
 - cipher: aes-256-cfb
   name: United Kingdom_London_ss_11
   password: amazonskr05
@@ -484,6 +412,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: Hong Kong_Central_trojan_15
   network: tcp
   password: BxceQaOe
@@ -603,11 +532,11 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Belgium_Brussels_trojan_120
+- name: Canada_Toronto_trojan_120
   network: ws
-  password: fea8b7a7-cc83-4a78-a3fc-bbce9cc89ddb
+  password: 8001fbf7-4b59-4415-a4bd-8bfded02c9c6
   port: 443
-  server: 34.22.190.30
+  server: 69.28.82.253
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -615,76 +544,37 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: Belgium_Brussels_trojan_121
-  network: ws
-  password: 0a477acf-1f95-47cb-b4a5-a627b4c57de3
-  port: 443
-  server: 34.22.190.30
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/34.22.190.30=443
-- name: United Kingdom_None_trojan_122
-  network: ws
-  password: 5c8c8b61-9b24-4c5a-b6ad-f6560df2e9d3
-  port: 443
-  server: 89.28.236.243
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: United Kingdom_None_trojan_123
-  network: ws
-  password: e9249478-ea4e-432f-a918-e84c1ce143c6
-  port: 443
-  server: 89.28.236.243
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/89.28.236.243=443
-- name: Estonia_Tallinn_trojan_124
-  network: ws
-  password: 3208e968-b862-4e2e-ad90-2b49e7ce7afb
-  port: 443
-  server: 37.252.5.75
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/37.252.5.75=443
-- name: France_Paris_trojan_125
-  password: telegram-id-directvpn
-  port: 22223
-  server: 13.39.169.16
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: France_Paris_trojan_126
+    path: /Free-VPN-CF-Geo-Project/69.28.82.253=443
+- name: Germany_Frankfurt am Main_trojan_121
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.39.169.16
+  server: 52.57.38.0
   skip-cert-verify: true
   sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-- name: France_None_trojan_127
+- name: Germany_Frankfurt am Main_trojan_122
+  password: telegram-id-directvpn
+  port: 22223
+  server: 52.57.38.0
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: Spain_Madrid_trojan_123
+  network: ws
+  password: 9ccc3e1d-3df5-4348-aa05-738310149cc3
+  port: 443
+  server: 45.86.229.28
+  skip-cert-verify: false
+  sni: joss.gpj1.web.id
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/45.86.229.28=443
+- name: France_None_trojan_124
   network: ws
   password: e6f0e8b0-3dc5-4d53-a23a-86c02d5ba098
   port: 443
@@ -697,11 +587,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/51.15.210.1=443
-- name: France_Paris_trojan_128
+- name: Italy_Arezzo_trojan_125
   network: ws
-  password: c2de1269-17cb-41f6-ab97-f8c11a6f0f4f
+  password: e04af4a8-ce76-4026-8480-82d0e35dd239
   port: 8443
-  server: 158.178.206.197
+  server: 94.177.199.119
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -709,29 +599,8 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/158.178.206.197=8443
-- name: United Kingdom_None_trojan_129
-  network: ws
-  password: d69e725c-7c7e-4c75-9786-4859b4e0bbc6
-  port: 443
-  server: 109.169.76.23
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/109.169.76.23=443
-- name: Hong Kong_Sai Wan_trojan_130
-  password: BxceQaOe
-  port: 443
-  server: 58.152.25.241
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: The Netherlands_Meppel_trojan_131
+    path: /Free-VPN-CF-Geo-Project/94.177.199.119=8443
+- name: The Netherlands_Meppel_trojan_126
   network: ws
   password: ee339912-0c35-4fac-8d85-180b65bcd49c
   port: 443
@@ -744,11 +613,11 @@ proxies:
     headers:
       Host: joss.gpj1.web.id
     path: /Free-VPN-CF-Geo-Project/81.22.132.183=443
-- name: Hungary_Budapest_trojan_132
+- name: The Netherlands_Amsterdam_trojan_127
   network: ws
-  password: 0311306e-56d4-4aa1-bde5-8cede7fcd3e4
+  password: 35f8e682-54bd-42c7-b537-94a8e4c84bcd
   port: 443
-  server: 138.124.30.8
+  server: 89.110.120.197
   skip-cert-verify: false
   sni: joss.gpj1.web.id
   type: trojan
@@ -756,20 +625,7 @@ proxies:
   ws-opts:
     headers:
       Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/138.124.30.8=443
-- name: Russia_None_trojan_133
-  network: ws
-  password: d78d48df-b788-4a95-9e9f-77c9b2f69822
-  port: 8443
-  server: 193.233.114.58
-  skip-cert-verify: false
-  sni: joss.gpj1.web.id
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: joss.gpj1.web.id
-    path: /Free-VPN-CF-Geo-Project/193.233.114.58=8443
+    path: /Free-VPN-CF-Geo-Project/89.110.120.197=443
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -853,20 +709,14 @@ proxy-groups:
   - Poland_None_trojan_027
   - United Kingdom_None_vmess_028
   - United Kingdom_None_vmess_029
-  - Belgium_Brussels_trojan_030
-  - Belgium_Brussels_trojan_031
-  - United Kingdom_None_trojan_032
-  - United Kingdom_None_trojan_033
-  - Estonia_Tallinn_trojan_034
-  - France_Paris_trojan_035
-  - France_Paris_trojan_036
-  - France_None_trojan_037
-  - France_Paris_trojan_038
-  - United Kingdom_None_trojan_039
-  - Hong Kong_Sai Wan_trojan_040
-  - The Netherlands_Meppel_trojan_041
-  - Hungary_Budapest_trojan_042
-  - Russia_None_trojan_043
+  - Canada_Toronto_trojan_030
+  - Germany_Frankfurt am Main_trojan_031
+  - Germany_Frankfurt am Main_trojan_032
+  - Spain_Madrid_trojan_033
+  - France_None_trojan_034
+  - Italy_Arezzo_trojan_035
+  - The Netherlands_Meppel_trojan_036
+  - The Netherlands_Amsterdam_trojan_037
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -886,20 +736,14 @@ proxy-groups:
   - Poland_None_trojan_117
   - United Kingdom_None_vmess_118
   - United Kingdom_None_vmess_119
-  - Belgium_Brussels_trojan_120
-  - Belgium_Brussels_trojan_121
-  - United Kingdom_None_trojan_122
-  - United Kingdom_None_trojan_123
-  - Estonia_Tallinn_trojan_124
-  - France_Paris_trojan_125
-  - France_Paris_trojan_126
-  - France_None_trojan_127
-  - France_Paris_trojan_128
-  - United Kingdom_None_trojan_129
-  - Hong Kong_Sai Wan_trojan_130
-  - The Netherlands_Meppel_trojan_131
-  - Hungary_Budapest_trojan_132
-  - Russia_None_trojan_133
+  - Canada_Toronto_trojan_120
+  - Germany_Frankfurt am Main_trojan_121
+  - Germany_Frankfurt am Main_trojan_122
+  - Spain_Madrid_trojan_123
+  - France_None_trojan_124
+  - Italy_Arezzo_trojan_125
+  - The Netherlands_Meppel_trojan_126
+  - The Netherlands_Amsterdam_trojan_127
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -939,20 +783,14 @@ proxy-groups:
   - Poland_None_trojan_027
   - United Kingdom_None_vmess_028
   - United Kingdom_None_vmess_029
-  - Belgium_Brussels_trojan_030
-  - Belgium_Brussels_trojan_031
-  - United Kingdom_None_trojan_032
-  - United Kingdom_None_trojan_033
-  - Estonia_Tallinn_trojan_034
-  - France_Paris_trojan_035
-  - France_Paris_trojan_036
-  - France_None_trojan_037
-  - France_Paris_trojan_038
-  - United Kingdom_None_trojan_039
-  - Hong Kong_Sai Wan_trojan_040
-  - The Netherlands_Meppel_trojan_041
-  - Hungary_Budapest_trojan_042
-  - Russia_None_trojan_043
+  - Canada_Toronto_trojan_030
+  - Germany_Frankfurt am Main_trojan_031
+  - Germany_Frankfurt am Main_trojan_032
+  - Spain_Madrid_trojan_033
+  - France_None_trojan_034
+  - Italy_Arezzo_trojan_035
+  - The Netherlands_Meppel_trojan_036
+  - The Netherlands_Amsterdam_trojan_037
   - United Kingdom_London_ss_11
   - China_None_vmess_12
   - Hong Kong_None_ss_13
@@ -972,20 +810,14 @@ proxy-groups:
   - Poland_None_trojan_117
   - United Kingdom_None_vmess_118
   - United Kingdom_None_vmess_119
-  - Belgium_Brussels_trojan_120
-  - Belgium_Brussels_trojan_121
-  - United Kingdom_None_trojan_122
-  - United Kingdom_None_trojan_123
-  - Estonia_Tallinn_trojan_124
-  - France_Paris_trojan_125
-  - France_Paris_trojan_126
-  - France_None_trojan_127
-  - France_Paris_trojan_128
-  - United Kingdom_None_trojan_129
-  - Hong Kong_Sai Wan_trojan_130
-  - The Netherlands_Meppel_trojan_131
-  - Hungary_Budapest_trojan_132
-  - Russia_None_trojan_133
+  - Canada_Toronto_trojan_120
+  - Germany_Frankfurt am Main_trojan_121
+  - Germany_Frankfurt am Main_trojan_122
+  - Spain_Madrid_trojan_123
+  - France_None_trojan_124
+  - Italy_Arezzo_trojan_125
+  - The Netherlands_Meppel_trojan_126
+  - The Netherlands_Amsterdam_trojan_127
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
