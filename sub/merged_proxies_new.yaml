@@ -444,14 +444,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 40290609-2743-4d85-c9c3-4c72dd151b9f
-- name: Hong Kong_Central_trojan_121
-  password: BxceQaOe
-  port: 443
-  server: 58.152.30.120
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -556,7 +548,6 @@ proxy-groups:
   - Vietnam_None_ss_118
   - Hong Kong_Tuen Mun_vmess_119
   - Hong Kong_Hong Kong_vmess_120
-  - Hong Kong_Central_trojan_121
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -617,7 +608,6 @@ proxy-groups:
   - Vietnam_None_ss_118
   - Hong Kong_Tuen Mun_vmess_119
   - Hong Kong_Hong Kong_vmess_120
-  - Hong Kong_Central_trojan_121
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
