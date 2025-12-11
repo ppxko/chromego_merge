@@ -275,14 +275,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9018c068-87ee-4c17-848a-540d36a0ab7b
-- name: Hong Kong_Sheung Shui_trojan_030
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 58.152.110.82
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -446,14 +438,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 9018c068-87ee-4c17-848a-540d36a0ab7b
-- name: Hong Kong_Sheung Shui_trojan_120
-  password: 76d630f2af6619c4a5de0ef953df3c6a
-  port: 443
-  server: 58.152.110.82
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-  udp: true
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:158::4
@@ -537,7 +521,6 @@ proxy-groups:
   - None_None_vmess_027
   - Hong Kong_Central_vmess_028
   - China_None_vmess_029
-  - Hong Kong_Sheung Shui_trojan_030
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - China_Guangzhou_trojan_13
@@ -557,7 +540,6 @@ proxy-groups:
   - None_None_vmess_117
   - Hong Kong_Central_vmess_118
   - China_None_vmess_119
-  - Hong Kong_Sheung Shui_trojan_120
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
@@ -597,7 +579,6 @@ proxy-groups:
   - None_None_vmess_027
   - Hong Kong_Central_vmess_028
   - China_None_vmess_029
-  - Hong Kong_Sheung Shui_trojan_030
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - China_Guangzhou_trojan_13
@@ -617,7 +598,6 @@ proxy-groups:
   - None_None_vmess_117
   - Hong Kong_Central_vmess_118
   - China_None_vmess_119
-  - Hong Kong_Sheung Shui_trojan_120
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - Unknown_hysteria_41
