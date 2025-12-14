@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -129,7 +129,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tai Kok Tsui_vmess_013
+  name: Hong Kong_Central_vmess_013
   network: ws
   port: 80
   server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
@@ -244,7 +244,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_028
+  name: Hong Kong_Central_vmess_028
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -354,6 +354,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: United States_None_trojan_042
+  network: ws
+  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
+  port: 8443
+  server: 69.84.182.108
+  skip-cert-verify: false
+  sni: cdn-node-oss-61.anycdn.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn-node-oss-61.anycdn.de
+    path: /profile/us1
+- name: United States_None_trojan_043
+  network: ws
+  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
+  port: 8443
+  server: 69.84.182.18
+  skip-cert-verify: false
+  sni: cdn-node-oss-62.anycdn.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn-node-oss-62.anycdn.de
+    path: /profile/us2
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -362,7 +388,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -371,7 +397,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tai Kok Tsui_vmess_13
+  name: Hong Kong_Central_vmess_13
   network: ws
   port: 80
   server: 74ebcaaa-t70f40-t8be2y-1ryup.hkt.gotochinatown.net
@@ -486,7 +512,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_118
+  name: Hong Kong_Central_vmess_118
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -596,6 +622,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: United States_None_trojan_132
+  network: ws
+  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
+  port: 8443
+  server: 69.84.182.108
+  skip-cert-verify: false
+  sni: cdn-node-oss-61.anycdn.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn-node-oss-61.anycdn.de
+    path: /profile/us1
+- name: United States_None_trojan_133
+  network: ws
+  password: b1fec179-3d5a-4ec5-bf3c-e10668543b4b
+  port: 8443
+  server: 69.84.182.18
+  skip-cert-verify: false
+  sni: cdn-node-oss-62.anycdn.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cdn-node-oss-62.anycdn.de
+    path: /profile/us2
 - name: Unknown_hysteria_21
   type: hysteria
   server: 2001:bc8:32d7:902::3
@@ -661,8 +713,8 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Yuen Long San Hui_vmess_012
-  - Hong Kong_Tai Kok Tsui_vmess_013
+  - Hong Kong_Central_vmess_012
+  - Hong Kong_Central_vmess_013
   - Hong Kong_Kowloon_trojan_014
   - Hong Kong_Central_trojan_015
   - Hong Kong_Central_trojan_016
@@ -677,7 +729,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_025
   - Japan_Tokyo_trojan_026
   - Japan_Tokyo_trojan_027
-  - Hong Kong_Yuen Long San Hui_vmess_028
+  - Hong Kong_Central_vmess_028
   - China_None_vmess_029
   - Hong Kong_Kowloon_trojan_030
   - Hong Kong_Man Kok_trojan_031
@@ -691,9 +743,11 @@ proxy-groups:
   - Japan_Tokyo_trojan_039
   - Japan_Tokyo_trojan_040
   - Hong Kong_None_trojan_041
+  - United States_None_trojan_042
+  - United States_None_trojan_043
   - United States_None_ss_11
-  - Hong Kong_Yuen Long San Hui_vmess_12
-  - Hong Kong_Tai Kok Tsui_vmess_13
+  - Hong Kong_Central_vmess_12
+  - Hong Kong_Central_vmess_13
   - Hong Kong_Kowloon_trojan_14
   - Hong Kong_Central_trojan_15
   - Hong Kong_Central_trojan_16
@@ -708,7 +762,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_115
   - Japan_Tokyo_trojan_116
   - Japan_Tokyo_trojan_117
-  - Hong Kong_Yuen Long San Hui_vmess_118
+  - Hong Kong_Central_vmess_118
   - China_None_vmess_119
   - Hong Kong_Kowloon_trojan_120
   - Hong Kong_Man Kok_trojan_121
@@ -722,6 +776,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_129
   - Japan_Tokyo_trojan_130
   - Hong Kong_None_trojan_131
+  - United States_None_trojan_132
+  - United States_None_trojan_133
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - France_None_hysteria_41
@@ -743,8 +799,8 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Yuen Long San Hui_vmess_012
-  - Hong Kong_Tai Kok Tsui_vmess_013
+  - Hong Kong_Central_vmess_012
+  - Hong Kong_Central_vmess_013
   - Hong Kong_Kowloon_trojan_014
   - Hong Kong_Central_trojan_015
   - Hong Kong_Central_trojan_016
@@ -759,7 +815,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_025
   - Japan_Tokyo_trojan_026
   - Japan_Tokyo_trojan_027
-  - Hong Kong_Yuen Long San Hui_vmess_028
+  - Hong Kong_Central_vmess_028
   - China_None_vmess_029
   - Hong Kong_Kowloon_trojan_030
   - Hong Kong_Man Kok_trojan_031
@@ -773,9 +829,11 @@ proxy-groups:
   - Japan_Tokyo_trojan_039
   - Japan_Tokyo_trojan_040
   - Hong Kong_None_trojan_041
+  - United States_None_trojan_042
+  - United States_None_trojan_043
   - United States_None_ss_11
-  - Hong Kong_Yuen Long San Hui_vmess_12
-  - Hong Kong_Tai Kok Tsui_vmess_13
+  - Hong Kong_Central_vmess_12
+  - Hong Kong_Central_vmess_13
   - Hong Kong_Kowloon_trojan_14
   - Hong Kong_Central_trojan_15
   - Hong Kong_Central_trojan_16
@@ -790,7 +848,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_115
   - Japan_Tokyo_trojan_116
   - Japan_Tokyo_trojan_117
-  - Hong Kong_Yuen Long San Hui_vmess_118
+  - Hong Kong_Central_vmess_118
   - China_None_vmess_119
   - Hong Kong_Kowloon_trojan_120
   - Hong Kong_Man Kok_trojan_121
@@ -804,6 +862,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_129
   - Japan_Tokyo_trojan_130
   - Hong Kong_None_trojan_131
+  - United States_None_trojan_132
+  - United States_None_trojan_133
   - Unknown_hysteria_21
   - France_None_hysteria_31
   - France_None_hysteria_41
