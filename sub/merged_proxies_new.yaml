@@ -304,20 +304,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: United States_None_trojan_033
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: cf.130519.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: None_None_trojan_034
+- name: None_None_trojan_033
   network: ws
   password: 5a2c16f9
   port: 443
@@ -329,35 +316,6 @@ proxies:
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
-    path: /
-- name: Taiwan_Chiayi City_trojan_035
-  password: 15299860-fadf-4a95-bb62-63666856822b
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: Taiwan_Chiayi City_trojan_036
-  password: adb3985f-f23b-42f9-9332-cac7604021fd
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_037
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
     path: /
 - cipher: aes-256-cfb
   name: United States_None_ss_11
@@ -429,6 +387,7 @@ proxies:
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: snippets.kkii.eu.org
@@ -551,20 +510,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: United States_None_trojan_123
-  network: ws
-  password: 5a2c16f9
-  port: 443
-  server: cf.130519.xyz
-  skip-cert-verify: false
-  sni: snippets.kkii.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: snippets.kkii.eu.org
-    path: /
-- name: None_None_trojan_124
+- name: None_None_trojan_123
   network: ws
   password: 5a2c16f9
   port: 443
@@ -577,35 +523,188 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: Taiwan_Chiayi City_trojan_125
-  password: 15299860-fadf-4a95-bb62-63666856822b
-  port: 31102
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: Taiwan_Chiayi City_trojan_126
-  password: adb3985f-f23b-42f9-9332-cac7604021fd
-  port: 35501
-  server: green2.cdntencentmusic.com
-  skip-cert-verify: true
-  sni: green2.cdntencentmusic.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_127
+- name: None_None_trojan_124
   network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
   skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
+  sni: snippets.kkii.eu.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: epge.muarua.filegear-sg.me
+      Host: snippets.kkii.eu.org
     path: /
+- name: None_None_trojan_125
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_126
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_127
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_128
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.24.131
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_129
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.205
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_130
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 777.ai7777777.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_131
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 162.159.128.253
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_San Francisco_trojan_132
+  network: ws
+  password: 87d1bfd4-574e-4c96-ad42-0426f27461ff
+  port: 443
+  server: cf.zhetengsha.eu.org
+  skip-cert-verify: false
+  sni: _acme-challenge.2go.cloudns.be
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: _acme-challenge.2go.cloudns.be
+    path: /
+- name: None_None_trojan_133
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2053
+  server: www.shopify.com
+  skip-cert-verify: true
+  sni: cm2-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm2-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- name: United States_San Francisco_trojan_134
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2096
+  server: mfa.gov.ua
+  skip-cert-verify: true
+  sni: cm2-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm2-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- name: United States_San Francisco_trojan_135
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2083
+  server: cf.090227.xyz
+  skip-cert-verify: false
+  sni: cm2-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm2-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- name: United States_None_trojan_136
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 443
+  server: ct.877774.xyz
+  skip-cert-verify: false
+  sni: cm2-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm2-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
+- name: United States_San Francisco_trojan_137
+  network: ws
+  password: 22367c45-f6c4-4ca8-8d52-d9787d7bbe91
+  port: 2087
+  server: cf.877774.xyz
+  skip-cert-verify: true
+  sni: cm2-bpg.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: cm2-bpg.filegear-sg.me
+    path: /proxyip=210.61.97.241:81
 proxy-groups:
 - name: 节点选择
   type: select
@@ -644,11 +743,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_030
   - None_None_trojan_031
   - United Kingdom_None_vmess_032
-  - United States_None_trojan_033
-  - None_None_trojan_034
-  - Taiwan_Chiayi City_trojan_035
-  - Taiwan_Chiayi City_trojan_036
-  - United States_None_trojan_037
+  - None_None_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_Hong Kong_vmess_13
@@ -671,11 +766,21 @@ proxy-groups:
   - Hong Kong_Central_vmess_120
   - None_None_trojan_121
   - United Kingdom_None_vmess_122
-  - United States_None_trojan_123
+  - None_None_trojan_123
   - None_None_trojan_124
-  - Taiwan_Chiayi City_trojan_125
-  - Taiwan_Chiayi City_trojan_126
-  - United States_None_trojan_127
+  - None_None_trojan_125
+  - United States_None_trojan_126
+  - None_None_trojan_127
+  - None_None_trojan_128
+  - United States_None_trojan_129
+  - United States_None_trojan_130
+  - None_None_trojan_131
+  - United States_San Francisco_trojan_132
+  - None_None_trojan_133
+  - United States_San Francisco_trojan_134
+  - United States_San Francisco_trojan_135
+  - United States_None_trojan_136
+  - United States_San Francisco_trojan_137
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -714,11 +819,7 @@ proxy-groups:
   - Hong Kong_Central_vmess_030
   - None_None_trojan_031
   - United Kingdom_None_vmess_032
-  - United States_None_trojan_033
-  - None_None_trojan_034
-  - Taiwan_Chiayi City_trojan_035
-  - Taiwan_Chiayi City_trojan_036
-  - United States_None_trojan_037
+  - None_None_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_Hong Kong_vmess_13
@@ -741,11 +842,21 @@ proxy-groups:
   - Hong Kong_Central_vmess_120
   - None_None_trojan_121
   - United Kingdom_None_vmess_122
-  - United States_None_trojan_123
+  - None_None_trojan_123
   - None_None_trojan_124
-  - Taiwan_Chiayi City_trojan_125
-  - Taiwan_Chiayi City_trojan_126
-  - United States_None_trojan_127
+  - None_None_trojan_125
+  - United States_None_trojan_126
+  - None_None_trojan_127
+  - None_None_trojan_128
+  - United States_None_trojan_129
+  - United States_None_trojan_130
+  - None_None_trojan_131
+  - United States_San Francisco_trojan_132
+  - None_None_trojan_133
+  - United States_San Francisco_trojan_134
+  - United States_San Francisco_trojan_135
+  - United States_None_trojan_136
+  - United States_San Francisco_trojan_137
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
