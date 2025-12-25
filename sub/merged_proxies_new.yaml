@@ -434,7 +434,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: None_None_trojan_119
+- name: United States_None_trojan_119
   network: ws
   password: 5a2c16f9
   port: 443
@@ -514,7 +514,7 @@ proxy-groups:
   - United Kingdom_None_vmess_116
   - Hong Kong_Central_vmess_117
   - United Kingdom_None_vmess_118
-  - None_None_trojan_119
+  - United States_None_trojan_119
   - None_None_trojan_120
 - name: 自动选择
   type: url-test
@@ -570,7 +570,7 @@ proxy-groups:
   - United Kingdom_None_vmess_116
   - Hong Kong_Central_vmess_117
   - United Kingdom_None_vmess_118
-  - None_None_trojan_119
+  - United States_None_trojan_119
   - None_None_trojan_120
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
