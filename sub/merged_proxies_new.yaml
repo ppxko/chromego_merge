@@ -258,11 +258,59 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: None_None_trojan_029
+- name: China_None_trojan_029
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27043
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_030
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27033
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_031
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27031
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_032
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27044
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_033
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27041
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_034
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27045
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: None_None_trojan_035
   network: ws
   password: 5a2c16f9
   port: 443
-  server: cf.130519.xyz
+  server: freeyx.cloudflare88.eu.org
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
@@ -271,11 +319,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: None_None_trojan_030
+- name: None_None_trojan_036
   network: ws
   password: 5a2c16f9
   port: 443
-  server: freeyx.cloudflare88.eu.org
+  server: cf.130519.xyz
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
@@ -430,11 +478,59 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: United States_None_trojan_119
+- name: China_None_trojan_119
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27043
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_120
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27033
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_121
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27031
+  server: lt-jpn.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_122
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27044
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_123
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27041
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_124
+  password: c930b945-d54a-4db2-9b39-7bcfd85dafa4
+  port: 27045
+  server: lt-sin.ltdns.top
+  skip-cert-verify: true
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- name: None_None_trojan_125
   network: ws
   password: 5a2c16f9
   port: 443
-  server: cf.130519.xyz
+  server: freeyx.cloudflare88.eu.org
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
@@ -443,11 +539,11 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: None_None_trojan_120
+- name: United States_None_trojan_126
   network: ws
   password: 5a2c16f9
   port: 443
-  server: freeyx.cloudflare88.eu.org
+  server: cf.130519.xyz
   skip-cert-verify: false
   sni: snippets.kkii.eu.org
   type: trojan
@@ -490,8 +586,14 @@ proxy-groups:
   - Vietnam_None_ss_026
   - Hong Kong_Central_vmess_027
   - United Kingdom_None_vmess_028
-  - None_None_trojan_029
-  - None_None_trojan_030
+  - China_None_trojan_029
+  - China_None_trojan_030
+  - China_None_trojan_031
+  - China_None_trojan_032
+  - China_None_trojan_033
+  - China_None_trojan_034
+  - None_None_trojan_035
+  - None_None_trojan_036
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_Kowloon_trojan_13
@@ -510,8 +612,14 @@ proxy-groups:
   - Vietnam_None_ss_116
   - Hong Kong_Central_vmess_117
   - United Kingdom_None_vmess_118
-  - United States_None_trojan_119
-  - None_None_trojan_120
+  - China_None_trojan_119
+  - China_None_trojan_120
+  - China_None_trojan_121
+  - China_None_trojan_122
+  - China_None_trojan_123
+  - China_None_trojan_124
+  - None_None_trojan_125
+  - United States_None_trojan_126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -546,8 +654,14 @@ proxy-groups:
   - Vietnam_None_ss_026
   - Hong Kong_Central_vmess_027
   - United Kingdom_None_vmess_028
-  - None_None_trojan_029
-  - None_None_trojan_030
+  - China_None_trojan_029
+  - China_None_trojan_030
+  - China_None_trojan_031
+  - China_None_trojan_032
+  - China_None_trojan_033
+  - China_None_trojan_034
+  - None_None_trojan_035
+  - None_None_trojan_036
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_Kowloon_trojan_13
@@ -566,8 +680,14 @@ proxy-groups:
   - Vietnam_None_ss_116
   - Hong Kong_Central_vmess_117
   - United Kingdom_None_vmess_118
-  - United States_None_trojan_119
-  - None_None_trojan_120
+  - China_None_trojan_119
+  - China_None_trojan_120
+  - China_None_trojan_121
+  - China_None_trojan_122
+  - China_None_trojan_123
+  - China_None_trojan_124
+  - None_None_trojan_125
+  - United States_None_trojan_126
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
