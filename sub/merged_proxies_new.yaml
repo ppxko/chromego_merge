@@ -129,7 +129,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: Hong Kong_Kowloon_trojan_013
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 443
   server: 112.118.116.8
   skip-cert-verify: false
@@ -153,41 +153,41 @@ proxies:
   type: trojan
 - name: Japan_Tokyo_trojan_016
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 3093
-  server: 160.16.70.180
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: United States_None_trojan_017
-  network: tcp
   password: BxceQaOe
   port: 11945
-  server: 13.158.131.92
+  server: 52.194.193.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Japan_None_trojan_018
+- name: Japan_Tokyo_trojan_017
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 3093
+  server: 153.121.38.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_018
+  network: tcp
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3169
-  server: 153.121.65.107
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_019
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 2760
-  server: 160.16.106.144
+  server: 160.16.223.205
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_020
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 2760
-  server: 160.16.227.93
+  server: 160.16.82.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -195,49 +195,49 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 3579
-  server: 18.166.223.179
+  server: 18.167.99.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Japan_Tokyo_trojan_022
+- cipher: chacha20-ietf-poly1305
+  name: Singapore_Singapore_ss_022
+  password: '1697'
+  port: 8899
+  server: sgmob222.asuscomm.com
+  type: ss
+- name: Japan_Tokyo_trojan_023
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 4054
-  server: 160.16.214.6
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 2890
+  server: 160.16.223.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_023
+- name: Hong Kong_None_trojan_024
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2890
-  server: 18.166.223.179
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 4054
+  server: 18.162.244.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_024
+- name: Japan_Tokyo_trojan_025
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 95.40.81.42
+  port: 1112
+  server: 13.231.208.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_025
+  name: United Kingdom_None_vmess_026
   port: 180
   server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: Vietnam_None_ss_026
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.225
-  type: ss
 - alterId: 2
   cipher: auto
   name: Hong Kong_Central_vmess_027
@@ -349,7 +349,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: United States_None_trojan_036
+- name: None_None_trojan_036
   network: ws
   password: 5a2c16f9
   port: 443
@@ -431,7 +431,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: Hong Kong_Kowloon_trojan_13
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 443
   server: 112.118.116.8
   skip-cert-verify: false
@@ -455,41 +455,41 @@ proxies:
   type: trojan
 - name: Japan_Tokyo_trojan_16
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 3093
-  server: 160.16.70.180
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: United States_None_trojan_17
-  network: tcp
   password: BxceQaOe
   port: 11945
-  server: 13.158.131.92
+  server: 52.194.193.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Japan_None_trojan_18
+- name: Japan_Tokyo_trojan_17
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 3093
+  server: 153.121.38.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_18
+  network: tcp
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 3169
-  server: 153.121.65.107
+  server: 153.121.45.139
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_19
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 2760
-  server: 160.16.106.144
+  server: 160.16.223.205
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_110
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
   port: 2760
-  server: 160.16.227.93
+  server: 160.16.82.24
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -497,49 +497,49 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 3579
-  server: 18.166.223.179
+  server: 18.167.99.12
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Japan_Tokyo_trojan_112
+- cipher: chacha20-ietf-poly1305
+  name: Singapore_Singapore_ss_112
+  password: '1697'
+  port: 8899
+  server: sgmob222.asuscomm.com
+  type: ss
+- name: Japan_Tokyo_trojan_113
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 4054
-  server: 160.16.214.6
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 2890
+  server: 160.16.223.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_113
+- name: Hong Kong_None_trojan_114
   network: tcp
-  password: 44e660b0ee21cf3ac66aee2c08af85d2
-  port: 2890
-  server: 18.166.223.179
+  password: f36f4495b4b26cc2fe346cfa23e05b1b
+  port: 4054
+  server: 18.162.244.22
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_114
+- name: Japan_Tokyo_trojan_115
   network: tcp
   password: BxceQaOe
-  port: 1221
-  server: 95.40.81.42
+  port: 1112
+  server: 13.231.208.147
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_115
+  name: United Kingdom_None_vmess_116
   port: 180
   server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-cfb
-  name: Vietnam_None_ss_116
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.225
-  type: ss
 - alterId: 2
   cipher: auto
   name: Hong Kong_Central_vmess_117
@@ -651,7 +651,7 @@ proxies:
     headers:
       Host: snippets.kkii.eu.org
     path: /
-- name: None_None_trojan_126
+- name: United States_None_trojan_126
   network: ws
   password: 5a2c16f9
   port: 443
@@ -738,16 +738,16 @@ proxy-groups:
   - Hong Kong_Central_trojan_014
   - Hong Kong_Central_trojan_015
   - Japan_Tokyo_trojan_016
-  - United States_None_trojan_017
-  - Japan_None_trojan_018
+  - Japan_Tokyo_trojan_017
+  - Japan_Tokyo_trojan_018
   - Japan_Tokyo_trojan_019
   - Japan_Tokyo_trojan_020
   - Hong Kong_None_trojan_021
-  - Japan_Tokyo_trojan_022
-  - Hong Kong_None_trojan_023
-  - Poland_None_trojan_024
-  - United Kingdom_None_vmess_025
-  - Vietnam_None_ss_026
+  - Singapore_Singapore_ss_022
+  - Japan_Tokyo_trojan_023
+  - Hong Kong_None_trojan_024
+  - Japan_Tokyo_trojan_025
+  - United Kingdom_None_vmess_026
   - Hong Kong_Central_vmess_027
   - United Kingdom_None_vmess_028
   - None_None_trojan_029
@@ -757,7 +757,7 @@ proxy-groups:
   - None_None_trojan_033
   - None_None_trojan_034
   - None_None_trojan_035
-  - United States_None_trojan_036
+  - None_None_trojan_036
   - United States_None_trojan_037
   - None_None_trojan_038
   - United States_None_trojan_039
@@ -768,16 +768,16 @@ proxy-groups:
   - Hong Kong_Central_trojan_14
   - Hong Kong_Central_trojan_15
   - Japan_Tokyo_trojan_16
-  - United States_None_trojan_17
-  - Japan_None_trojan_18
+  - Japan_Tokyo_trojan_17
+  - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - Japan_Tokyo_trojan_110
   - Hong Kong_None_trojan_111
-  - Japan_Tokyo_trojan_112
-  - Hong Kong_None_trojan_113
-  - Poland_None_trojan_114
-  - United Kingdom_None_vmess_115
-  - Vietnam_None_ss_116
+  - Singapore_Singapore_ss_112
+  - Japan_Tokyo_trojan_113
+  - Hong Kong_None_trojan_114
+  - Japan_Tokyo_trojan_115
+  - United Kingdom_None_vmess_116
   - Hong Kong_Central_vmess_117
   - United Kingdom_None_vmess_118
   - None_None_trojan_119
@@ -787,7 +787,7 @@ proxy-groups:
   - None_None_trojan_123
   - None_None_trojan_124
   - None_None_trojan_125
-  - None_None_trojan_126
+  - United States_None_trojan_126
   - United States_None_trojan_127
   - None_None_trojan_128
   - United States_None_trojan_129
@@ -814,16 +814,16 @@ proxy-groups:
   - Hong Kong_Central_trojan_014
   - Hong Kong_Central_trojan_015
   - Japan_Tokyo_trojan_016
-  - United States_None_trojan_017
-  - Japan_None_trojan_018
+  - Japan_Tokyo_trojan_017
+  - Japan_Tokyo_trojan_018
   - Japan_Tokyo_trojan_019
   - Japan_Tokyo_trojan_020
   - Hong Kong_None_trojan_021
-  - Japan_Tokyo_trojan_022
-  - Hong Kong_None_trojan_023
-  - Poland_None_trojan_024
-  - United Kingdom_None_vmess_025
-  - Vietnam_None_ss_026
+  - Singapore_Singapore_ss_022
+  - Japan_Tokyo_trojan_023
+  - Hong Kong_None_trojan_024
+  - Japan_Tokyo_trojan_025
+  - United Kingdom_None_vmess_026
   - Hong Kong_Central_vmess_027
   - United Kingdom_None_vmess_028
   - None_None_trojan_029
@@ -833,7 +833,7 @@ proxy-groups:
   - None_None_trojan_033
   - None_None_trojan_034
   - None_None_trojan_035
-  - United States_None_trojan_036
+  - None_None_trojan_036
   - United States_None_trojan_037
   - None_None_trojan_038
   - United States_None_trojan_039
@@ -844,16 +844,16 @@ proxy-groups:
   - Hong Kong_Central_trojan_14
   - Hong Kong_Central_trojan_15
   - Japan_Tokyo_trojan_16
-  - United States_None_trojan_17
-  - Japan_None_trojan_18
+  - Japan_Tokyo_trojan_17
+  - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - Japan_Tokyo_trojan_110
   - Hong Kong_None_trojan_111
-  - Japan_Tokyo_trojan_112
-  - Hong Kong_None_trojan_113
-  - Poland_None_trojan_114
-  - United Kingdom_None_vmess_115
-  - Vietnam_None_ss_116
+  - Singapore_Singapore_ss_112
+  - Japan_Tokyo_trojan_113
+  - Hong Kong_None_trojan_114
+  - Japan_Tokyo_trojan_115
+  - United Kingdom_None_vmess_116
   - Hong Kong_Central_vmess_117
   - United Kingdom_None_vmess_118
   - None_None_trojan_119
@@ -863,7 +863,7 @@ proxy-groups:
   - None_None_trojan_123
   - None_None_trojan_124
   - None_None_trojan_125
-  - None_None_trojan_126
+  - United States_None_trojan_126
   - United States_None_trojan_127
   - None_None_trojan_128
   - United States_None_trojan_129
