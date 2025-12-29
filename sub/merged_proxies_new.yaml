@@ -287,21 +287,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Hong Kong_Central_trojan_032
-  password: BxceQaOe
-  port: 443
-  server: 203.198.84.221
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: United States_Dallas_trojan_033
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -477,21 +462,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Hong Kong_Central_trojan_122
-  password: BxceQaOe
-  port: 443
-  server: 203.198.84.221
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
-- name: United States_Dallas_trojan_123
-  password: kkzh2prsyr2ik47as615
-  port: 57142
-  server: 64.94.95.118
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -529,8 +499,6 @@ proxy-groups:
   - Hong Kong_Yuen Long San Hui_vmess_029
   - Japan_Osaka_trojan_030
   - United Kingdom_None_vmess_031
-  - Hong Kong_Central_trojan_032
-  - United States_Dallas_trojan_033
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_ss_13
@@ -552,8 +520,6 @@ proxy-groups:
   - Hong Kong_Yuen Long San Hui_vmess_119
   - Japan_Osaka_trojan_120
   - United Kingdom_None_vmess_121
-  - Hong Kong_Central_trojan_122
-  - United States_Dallas_trojan_123
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -591,8 +557,6 @@ proxy-groups:
   - Hong Kong_Yuen Long San Hui_vmess_029
   - Japan_Osaka_trojan_030
   - United Kingdom_None_vmess_031
-  - Hong Kong_Central_trojan_032
-  - United States_Dallas_trojan_033
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_ss_13
@@ -614,8 +578,6 @@ proxy-groups:
   - Hong Kong_Yuen Long San Hui_vmess_119
   - Japan_Osaka_trojan_120
   - United Kingdom_None_vmess_121
-  - Hong Kong_Central_trojan_122
-  - United States_Dallas_trojan_123
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
