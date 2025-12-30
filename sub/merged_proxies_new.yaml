@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_012
+  name: Hong Kong_Kowloon_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -261,7 +261,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_030
+  name: Hong Kong_Kowloon_vmess_030
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -289,6 +289,175 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: None_None_trojan_033
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_034
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_035
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.16.246.188
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_036
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_037
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.162.3
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_038
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_039
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_040
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.33
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_041
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.55.205
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_042
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.2
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_043
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.65
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_044
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.6
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_045
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -297,7 +466,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Kowloon_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -438,7 +607,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_120
+  name: Hong Kong_Kowloon_vmess_120
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -466,6 +635,175 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: None_None_trojan_123
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.220.22
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_124
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.167.134
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_125
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.16.246.188
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_126
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_127
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.17.162.3
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_128
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.82
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_129
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: freeyx.cloudflare88.eu.org
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_130
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.33
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_131
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.19.55.205
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_132
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.2
+  skip-cert-verify: true
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_133
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.65
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: United States_None_trojan_134
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 172.64.229.6
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: None_None_trojan_135
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 104.26.1.110
+  skip-cert-verify: false
+  sni: snippets.kkii.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -483,7 +821,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Kowloon_vmess_012
   - Hong Kong_Hong Kong_vmess_013
   - Hong Kong_Central_trojan_014
   - Hong Kong_Central_trojan_015
@@ -501,11 +839,24 @@ proxy-groups:
   - United Kingdom_None_vmess_027
   - Vietnam_None_ss_028
   - China_None_ss_029
-  - Hong Kong_Tuen Mun_vmess_030
+  - Hong Kong_Kowloon_vmess_030
   - Hong Kong_Hong Kong_vmess_031
   - United Kingdom_None_vmess_032
+  - None_None_trojan_033
+  - None_None_trojan_034
+  - None_None_trojan_035
+  - None_None_trojan_036
+  - None_None_trojan_037
+  - United States_None_trojan_038
+  - None_None_trojan_039
+  - United States_None_trojan_040
+  - None_None_trojan_041
+  - United States_None_trojan_042
+  - United States_None_trojan_043
+  - United States_None_trojan_044
+  - None_None_trojan_045
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Kowloon_vmess_12
   - Hong Kong_Hong Kong_vmess_13
   - Hong Kong_Central_trojan_14
   - Hong Kong_Central_trojan_15
@@ -523,9 +874,22 @@ proxy-groups:
   - United Kingdom_None_vmess_117
   - Vietnam_None_ss_118
   - China_None_ss_119
-  - Hong Kong_Tuen Mun_vmess_120
+  - Hong Kong_Kowloon_vmess_120
   - Hong Kong_Hong Kong_vmess_121
   - United Kingdom_None_vmess_122
+  - None_None_trojan_123
+  - None_None_trojan_124
+  - None_None_trojan_125
+  - None_None_trojan_126
+  - None_None_trojan_127
+  - United States_None_trojan_128
+  - None_None_trojan_129
+  - United States_None_trojan_130
+  - None_None_trojan_131
+  - United States_None_trojan_132
+  - United States_None_trojan_133
+  - United States_None_trojan_134
+  - None_None_trojan_135
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -543,7 +907,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Kowloon_vmess_012
   - Hong Kong_Hong Kong_vmess_013
   - Hong Kong_Central_trojan_014
   - Hong Kong_Central_trojan_015
@@ -561,11 +925,24 @@ proxy-groups:
   - United Kingdom_None_vmess_027
   - Vietnam_None_ss_028
   - China_None_ss_029
-  - Hong Kong_Tuen Mun_vmess_030
+  - Hong Kong_Kowloon_vmess_030
   - Hong Kong_Hong Kong_vmess_031
   - United Kingdom_None_vmess_032
+  - None_None_trojan_033
+  - None_None_trojan_034
+  - None_None_trojan_035
+  - None_None_trojan_036
+  - None_None_trojan_037
+  - United States_None_trojan_038
+  - None_None_trojan_039
+  - United States_None_trojan_040
+  - None_None_trojan_041
+  - United States_None_trojan_042
+  - United States_None_trojan_043
+  - United States_None_trojan_044
+  - None_None_trojan_045
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Kowloon_vmess_12
   - Hong Kong_Hong Kong_vmess_13
   - Hong Kong_Central_trojan_14
   - Hong Kong_Central_trojan_15
@@ -583,9 +960,22 @@ proxy-groups:
   - United Kingdom_None_vmess_117
   - Vietnam_None_ss_118
   - China_None_ss_119
-  - Hong Kong_Tuen Mun_vmess_120
+  - Hong Kong_Kowloon_vmess_120
   - Hong Kong_Hong Kong_vmess_121
   - United Kingdom_None_vmess_122
+  - None_None_trojan_123
+  - None_None_trojan_124
+  - None_None_trojan_125
+  - None_None_trojan_126
+  - None_None_trojan_127
+  - United States_None_trojan_128
+  - None_None_trojan_129
+  - United States_None_trojan_130
+  - None_None_trojan_131
+  - United States_None_trojan_132
+  - United States_None_trojan_133
+  - United States_None_trojan_134
+  - None_None_trojan_135
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
