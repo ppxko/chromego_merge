@@ -439,7 +439,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_048
+  name: Hong Kong_Central_vmess_048
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -563,7 +563,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_064
+  name: Hong Kong_Central_vmess_064
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -589,7 +589,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -713,7 +713,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_118
+  name: Hong Kong_Central_vmess_118
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -784,7 +784,7 @@ proxy-groups:
   - United Kingdom_None_vmess_045
   - Singapore_None_vmess_046
   - United States_None_ss_047
-  - Hong Kong_Tuen Mun_vmess_048
+  - Hong Kong_Central_vmess_048
   - Hong Kong_Hong Kong_vmess_049
   - Hong Kong_Central_trojan_050
   - Hong Kong_Sai Wan_trojan_051
@@ -800,10 +800,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_061
   - Japan_Tokyo_trojan_062
   - Japan_Tokyo_trojan_063
-  - Hong Kong_Tuen Mun_vmess_064
+  - Hong Kong_Central_vmess_064
   - Hong Kong_Hong Kong_vmess_065
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_Hong Kong_vmess_13
   - Hong Kong_Central_trojan_14
   - Hong Kong_Sai Wan_trojan_15
@@ -819,7 +819,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_115
   - Japan_Tokyo_trojan_116
   - Japan_Tokyo_trojan_117
-  - Hong Kong_Tuen Mun_vmess_118
+  - Hong Kong_Central_vmess_118
   - Hong Kong_Hong Kong_vmess_119
 - name: 自动选择
   type: url-test
@@ -874,7 +874,7 @@ proxy-groups:
   - United Kingdom_None_vmess_045
   - Singapore_None_vmess_046
   - United States_None_ss_047
-  - Hong Kong_Tuen Mun_vmess_048
+  - Hong Kong_Central_vmess_048
   - Hong Kong_Hong Kong_vmess_049
   - Hong Kong_Central_trojan_050
   - Hong Kong_Sai Wan_trojan_051
@@ -890,10 +890,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_061
   - Japan_Tokyo_trojan_062
   - Japan_Tokyo_trojan_063
-  - Hong Kong_Tuen Mun_vmess_064
+  - Hong Kong_Central_vmess_064
   - Hong Kong_Hong Kong_vmess_065
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_Hong Kong_vmess_13
   - Hong Kong_Central_trojan_14
   - Hong Kong_Sai Wan_trojan_15
@@ -909,7 +909,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_115
   - Japan_Tokyo_trojan_116
   - Japan_Tokyo_trojan_117
-  - Hong Kong_Tuen Mun_vmess_118
+  - Hong Kong_Central_vmess_118
   - Hong Kong_Hong Kong_vmess_119
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
