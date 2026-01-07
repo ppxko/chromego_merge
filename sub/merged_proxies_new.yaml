@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -240,7 +240,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_027
+  name: Hong Kong_Central_vmess_027
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -258,19 +258,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Singapore_Singapore_trojan_029
-  network: ws
-  password: 97e79a62-f686-4b91-87a7-be39c9e57658
-  port: 443
-  server: 34.143.159.175
-  skip-cert-verify: false
-  sni: page.anjue39.qzz.io
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-    path: /
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -279,7 +266,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -399,7 +386,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_117
+  name: Hong Kong_Central_vmess_117
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -417,19 +404,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Singapore_Singapore_trojan_119
-  network: ws
-  password: 97e79a62-f686-4b91-87a7-be39c9e57658
-  port: 443
-  server: 34.143.159.175
-  skip-cert-verify: false
-  sni: page.anjue39.qzz.io
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: page.anjue39.qzz.io
-    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -447,7 +421,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Man Kok_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_Central_vmess_013
   - Hong Kong_Sheung Shui_trojan_014
   - Hong Kong_Sai Wan_trojan_015
@@ -462,11 +436,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_024
   - Japan_Tokyo_trojan_025
   - Hong Kong_None_trojan_026
-  - Hong Kong_Man Kok_vmess_027
+  - Hong Kong_Central_vmess_027
   - Hong Kong_Central_vmess_028
-  - Singapore_Singapore_trojan_029
   - United States_None_ss_11
-  - Hong Kong_Man Kok_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_Central_vmess_13
   - Hong Kong_Sheung Shui_trojan_14
   - Hong Kong_Sai Wan_trojan_15
@@ -481,9 +454,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - Hong Kong_None_trojan_116
-  - Hong Kong_Man Kok_vmess_117
+  - Hong Kong_Central_vmess_117
   - Hong Kong_Central_vmess_118
-  - Singapore_Singapore_trojan_119
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -501,7 +473,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Man Kok_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_Central_vmess_013
   - Hong Kong_Sheung Shui_trojan_014
   - Hong Kong_Sai Wan_trojan_015
@@ -516,11 +488,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_024
   - Japan_Tokyo_trojan_025
   - Hong Kong_None_trojan_026
-  - Hong Kong_Man Kok_vmess_027
+  - Hong Kong_Central_vmess_027
   - Hong Kong_Central_vmess_028
-  - Singapore_Singapore_trojan_029
   - United States_None_ss_11
-  - Hong Kong_Man Kok_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_Central_vmess_13
   - Hong Kong_Sheung Shui_trojan_14
   - Hong Kong_Sai Wan_trojan_15
@@ -535,9 +506,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - Hong Kong_None_trojan_116
-  - Hong Kong_Man Kok_vmess_117
+  - Hong Kong_Central_vmess_117
   - Hong Kong_Central_vmess_118
-  - Singapore_Singapore_trojan_119
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
