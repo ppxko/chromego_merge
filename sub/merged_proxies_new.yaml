@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_012
+  name: Hong Kong_Mid Levels_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -235,7 +235,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_027
+  name: Hong Kong_Mid Levels_vmess_027
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -243,22 +243,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Germany_Frankfurt am Main_trojan_028
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: Germany_Frankfurt am Main_trojan_029
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -267,7 +251,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_12
+  name: Hong Kong_Mid Levels_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -382,7 +366,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_117
+  name: Hong Kong_Mid Levels_vmess_117
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -390,22 +374,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Germany_Frankfurt am Main_trojan_118
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: Germany_Frankfurt am Main_trojan_119
-  password: telegram-id-directvpn
-  port: 22223
-  server: 3.66.94.128
-  skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -423,7 +391,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Kowloon_vmess_012
+  - Hong Kong_Mid Levels_vmess_012
   - Hong Kong_Kowloon_trojan_013
   - Hong Kong_Central_trojan_014
   - Japan_Tokyo_trojan_015
@@ -438,11 +406,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_024
   - Japan_Tokyo_trojan_025
   - Hong Kong_None_trojan_026
-  - Hong Kong_Kowloon_vmess_027
-  - Germany_Frankfurt am Main_trojan_028
-  - Germany_Frankfurt am Main_trojan_029
+  - Hong Kong_Mid Levels_vmess_027
   - United States_None_ss_11
-  - Hong Kong_Kowloon_vmess_12
+  - Hong Kong_Mid Levels_vmess_12
   - Hong Kong_Kowloon_trojan_13
   - Hong Kong_Central_trojan_14
   - Japan_Tokyo_trojan_15
@@ -457,9 +423,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - Hong Kong_None_trojan_116
-  - Hong Kong_Kowloon_vmess_117
-  - Germany_Frankfurt am Main_trojan_118
-  - Germany_Frankfurt am Main_trojan_119
+  - Hong Kong_Mid Levels_vmess_117
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -477,7 +441,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Kowloon_vmess_012
+  - Hong Kong_Mid Levels_vmess_012
   - Hong Kong_Kowloon_trojan_013
   - Hong Kong_Central_trojan_014
   - Japan_Tokyo_trojan_015
@@ -492,11 +456,9 @@ proxy-groups:
   - Japan_Tokyo_trojan_024
   - Japan_Tokyo_trojan_025
   - Hong Kong_None_trojan_026
-  - Hong Kong_Kowloon_vmess_027
-  - Germany_Frankfurt am Main_trojan_028
-  - Germany_Frankfurt am Main_trojan_029
+  - Hong Kong_Mid Levels_vmess_027
   - United States_None_ss_11
-  - Hong Kong_Kowloon_vmess_12
+  - Hong Kong_Mid Levels_vmess_12
   - Hong Kong_Kowloon_trojan_13
   - Hong Kong_Central_trojan_14
   - Japan_Tokyo_trojan_15
@@ -511,9 +473,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - Hong Kong_None_trojan_116
-  - Hong Kong_Kowloon_vmess_117
-  - Germany_Frankfurt am Main_trojan_118
-  - Germany_Frankfurt am Main_trojan_119
+  - Hong Kong_Mid Levels_vmess_117
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
