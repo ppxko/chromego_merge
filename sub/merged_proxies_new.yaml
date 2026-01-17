@@ -124,7 +124,7 @@ proxies:
     headers:
       Host: 17685523784912.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_012
+- name: None_None_trojan_012
   network: ws
   password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
   port: 2087
@@ -148,7 +148,7 @@ proxies:
     headers:
       Host: 17685523785604.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_014
+- name: None_None_trojan_014
   network: ws
   password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
   port: 2087
@@ -160,7 +160,7 @@ proxies:
     headers:
       Host: 17685523784957.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_015
+- name: United States_San Francisco_trojan_015
   network: ws
   password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
   port: 2096
@@ -196,7 +196,7 @@ proxies:
     headers:
       Host: 17685523781279.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_San Francisco_trojan_018
+- name: None_None_trojan_018
   network: ws
   password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
   port: 2053
@@ -316,7 +316,7 @@ proxies:
     headers:
       Host: 17685523788699.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_028
+- name: United States_None_trojan_028
   network: ws
   password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
   port: 2096
@@ -340,7 +340,7 @@ proxies:
     headers:
       Host: 17685523783110.206353.xyz
     path: '%2Fagrbniuh'
-- name: United States_None_trojan_030
+- name: None_None_trojan_030
   network: ws
   password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
   port: 2083
@@ -352,7 +352,7 @@ proxies:
     headers:
       Host: 17685523787610.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_None_trojan_031
+- name: None_None_trojan_031
   network: ws
   password: 148f82fa-d43a-4e1c-9536-4109e8c022a5
   port: 8443
@@ -1341,7 +1341,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_0148
+  name: Hong Kong_Central_vmess_0148
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -1444,7 +1444,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_0161
+  name: Hong Kong_Central_vmess_0161
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1468,7 +1468,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -1579,7 +1579,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_116
+  name: Hong Kong_Central_vmess_116
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1612,13 +1612,13 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_San Francisco_trojan_011
-  - United States_San Francisco_trojan_012
+  - None_None_trojan_012
   - United States_San Francisco_trojan_013
-  - United States_San Francisco_trojan_014
-  - None_None_trojan_015
+  - None_None_trojan_014
+  - United States_San Francisco_trojan_015
   - United States_San Francisco_trojan_016
   - United States_San Francisco_trojan_017
-  - United States_San Francisco_trojan_018
+  - None_None_trojan_018
   - None_None_trojan_019
   - None_None_trojan_020
   - None_None_trojan_021
@@ -1628,10 +1628,10 @@ proxy-groups:
   - None_None_trojan_025
   - None_None_trojan_026
   - None_None_trojan_027
-  - None_None_trojan_028
+  - United States_None_trojan_028
   - None_None_trojan_029
-  - United States_None_trojan_030
-  - United States_None_trojan_031
+  - None_None_trojan_030
+  - None_None_trojan_031
   - United States_None_trojan_032
   - United States_None_trojan_033
   - India_None_vmess_034
@@ -1748,7 +1748,7 @@ proxy-groups:
   - United Kingdom_None_vmess_0145
   - United Kingdom_None_vmess_0146
   - United States_None_ss_0147
-  - Hong Kong_Tuen Mun_vmess_0148
+  - Hong Kong_Central_vmess_0148
   - Japan_Tokyo_trojan_0149
   - Hong Kong_Sheung Shui_trojan_0150
   - Japan_Tokyo_trojan_0151
@@ -1761,10 +1761,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_0158
   - Japan_Tokyo_trojan_0159
   - Hong Kong_None_trojan_0160
-  - Hong Kong_Tuen Mun_vmess_0161
+  - Hong Kong_Central_vmess_0161
   - Canada_Toronto_trojan_0162
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_Central_trojan_13
   - Japan_Tokyo_trojan_14
   - Hong Kong_Sheung Shui_trojan_15
@@ -1778,7 +1778,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - Japan_Tokyo_trojan_114
   - Hong Kong_None_trojan_115
-  - Hong Kong_Tuen Mun_vmess_116
+  - Hong Kong_Central_vmess_116
   - Canada_Toronto_trojan_117
 - name: 自动选择
   type: url-test
@@ -1797,13 +1797,13 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_San Francisco_trojan_011
-  - United States_San Francisco_trojan_012
+  - None_None_trojan_012
   - United States_San Francisco_trojan_013
-  - United States_San Francisco_trojan_014
-  - None_None_trojan_015
+  - None_None_trojan_014
+  - United States_San Francisco_trojan_015
   - United States_San Francisco_trojan_016
   - United States_San Francisco_trojan_017
-  - United States_San Francisco_trojan_018
+  - None_None_trojan_018
   - None_None_trojan_019
   - None_None_trojan_020
   - None_None_trojan_021
@@ -1813,10 +1813,10 @@ proxy-groups:
   - None_None_trojan_025
   - None_None_trojan_026
   - None_None_trojan_027
-  - None_None_trojan_028
+  - United States_None_trojan_028
   - None_None_trojan_029
-  - United States_None_trojan_030
-  - United States_None_trojan_031
+  - None_None_trojan_030
+  - None_None_trojan_031
   - United States_None_trojan_032
   - United States_None_trojan_033
   - India_None_vmess_034
@@ -1933,7 +1933,7 @@ proxy-groups:
   - United Kingdom_None_vmess_0145
   - United Kingdom_None_vmess_0146
   - United States_None_ss_0147
-  - Hong Kong_Tuen Mun_vmess_0148
+  - Hong Kong_Central_vmess_0148
   - Japan_Tokyo_trojan_0149
   - Hong Kong_Sheung Shui_trojan_0150
   - Japan_Tokyo_trojan_0151
@@ -1946,10 +1946,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_0158
   - Japan_Tokyo_trojan_0159
   - Hong Kong_None_trojan_0160
-  - Hong Kong_Tuen Mun_vmess_0161
+  - Hong Kong_Central_vmess_0161
   - Canada_Toronto_trojan_0162
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_Central_trojan_13
   - Japan_Tokyo_trojan_14
   - Hong Kong_Sheung Shui_trojan_15
@@ -1963,7 +1963,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - Japan_Tokyo_trojan_114
   - Hong Kong_None_trojan_115
-  - Hong Kong_Tuen Mun_vmess_116
+  - Hong Kong_Central_vmess_116
   - Canada_Toronto_trojan_117
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
