@@ -580,7 +580,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_071
+  name: Hong Kong_Man Kok_vmess_071
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -665,7 +665,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_082
+  name: Hong Kong_Man Kok_vmess_082
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -673,7 +673,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Canada_Toronto_trojan_083
+- name: United States_None_trojan_083
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro006.instconn.com
@@ -689,7 +689,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Man Kok_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -807,7 +807,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_117
+  name: Hong Kong_Man Kok_vmess_117
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -815,7 +815,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Canada_Toronto_trojan_118
+- name: United States_None_trojan_118
   password: 30077070-596e-48ea-9400-14c8ed07bd97
   port: 443
   server: tuntro006.instconn.com
@@ -899,7 +899,7 @@ proxy-groups:
   - France_None_trojan_068
   - United Kingdom_London_vmess_069
   - United States_None_ss_070
-  - Hong Kong_Central_vmess_071
+  - Hong Kong_Man Kok_vmess_071
   - Japan_Tokyo_trojan_072
   - Japan_Tokyo_trojan_073
   - Canada_None_ss_074
@@ -910,10 +910,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_079
   - Japan_Tokyo_trojan_080
   - Japan_Tokyo_trojan_081
-  - Hong Kong_Central_vmess_082
-  - Canada_Toronto_trojan_083
+  - Hong Kong_Man Kok_vmess_082
+  - United States_None_trojan_083
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Man Kok_vmess_12
   - Hong Kong_Central_trojan_13
   - Hong Kong_Central_trojan_14
   - Hong Kong_Sheung Shui_trojan_15
@@ -928,8 +928,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - Japan_Tokyo_trojan_116
-  - Hong Kong_Central_vmess_117
-  - Canada_Toronto_trojan_118
+  - Hong Kong_Man Kok_vmess_117
+  - United States_None_trojan_118
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1006,7 +1006,7 @@ proxy-groups:
   - France_None_trojan_068
   - United Kingdom_London_vmess_069
   - United States_None_ss_070
-  - Hong Kong_Central_vmess_071
+  - Hong Kong_Man Kok_vmess_071
   - Japan_Tokyo_trojan_072
   - Japan_Tokyo_trojan_073
   - Canada_None_ss_074
@@ -1017,10 +1017,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_079
   - Japan_Tokyo_trojan_080
   - Japan_Tokyo_trojan_081
-  - Hong Kong_Central_vmess_082
-  - Canada_Toronto_trojan_083
+  - Hong Kong_Man Kok_vmess_082
+  - United States_None_trojan_083
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Man Kok_vmess_12
   - Hong Kong_Central_trojan_13
   - Hong Kong_Central_trojan_14
   - Hong Kong_Sheung Shui_trojan_15
@@ -1035,8 +1035,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Japan_Tokyo_trojan_115
   - Japan_Tokyo_trojan_116
-  - Hong Kong_Central_vmess_117
-  - Canada_Toronto_trojan_118
+  - Hong Kong_Man Kok_vmess_117
+  - United States_None_trojan_118
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
