@@ -608,6 +608,155 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: China_None_trojan_071
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 59009
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_072
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 19797
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_073
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 40391
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_074
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 33243
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: United Kingdom_Canary Wharf_trojan_075
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 31687
+  server: 185.245.83.41
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: The Netherlands_Meppel_trojan_076
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 443
+  server: 163.5.207.235
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: The Netherlands_Meppel_trojan_077
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 443
+  server: 163.5.207.31
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: The Netherlands_Meppel_trojan_078
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 444
+  server: 2.59.183.233
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: Poland_None_trojan_079
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 2053
+  server: 31.133.0.167
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: Türkiye_Izmir_trojan_080
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 443
+  server: 45.89.52.247
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: United States_None_trojan_081
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
+  skip-cert-verify: true
+  sni: gzjx.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: gzjx.dpdns.org
+    path: /51.91.253.83=8443
+- name: United States_None_trojan_082
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 8443
+  server: 176.105.253.102
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: United States_None_trojan_083
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 54443
+  server: 173.249.201.109
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -729,6 +878,155 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: China_None_trojan_116
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 59009
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_117
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 19797
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_118
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 40391
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: China_None_trojan_119
+  password: 2f0e3d6c-87b2-49a6-8091-99373bf39ab5
+  port: 33243
+  server: mofahx2.til69.com
+  skip-cert-verify: true
+  sni: v1-dy.ixigua.com
+  type: trojan
+  udp: true
+- name: United Kingdom_Canary Wharf_trojan_120
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 31687
+  server: 185.245.83.41
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: The Netherlands_Meppel_trojan_121
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 443
+  server: 163.5.207.235
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: The Netherlands_Meppel_trojan_122
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 443
+  server: 163.5.207.31
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: The Netherlands_Meppel_trojan_123
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 444
+  server: 2.59.183.233
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: Poland_None_trojan_124
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 2053
+  server: 31.133.0.167
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: Türkiye_Izmir_trojan_125
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 443
+  server: 45.89.52.247
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: United States_None_trojan_126
+  network: ws
+  password: 2238e2f3-1a01-485e-8c22-24b65764c68b
+  port: 443
+  server: 208.103.161.231
+  skip-cert-verify: true
+  sni: gzjx.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: gzjx.dpdns.org
+    path: /51.91.253.83=8443
+- name: United States_None_trojan_127
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 8443
+  server: 176.105.253.102
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
+- name: United States_None_trojan_128
+  network: ws
+  password: 42bbf526-5530-470a-aeec-3b919b21c58d
+  port: 54443
+  server: 173.249.201.109
+  skip-cert-verify: true
+  sni: 0000.hkvip.ip-ddns.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 0000.hkvip.ip-ddns.com
+    path: /?ed=2560
 proxy-groups:
 - name: 节点选择
   type: select
@@ -805,6 +1103,19 @@ proxy-groups:
   - Japan_Tokyo_trojan_068
   - Japan_Tokyo_trojan_069
   - Hong Kong_Central_vmess_070
+  - China_None_trojan_071
+  - China_None_trojan_072
+  - China_None_trojan_073
+  - China_None_trojan_074
+  - United Kingdom_Canary Wharf_trojan_075
+  - The Netherlands_Meppel_trojan_076
+  - The Netherlands_Meppel_trojan_077
+  - The Netherlands_Meppel_trojan_078
+  - Poland_None_trojan_079
+  - Türkiye_Izmir_trojan_080
+  - United States_None_trojan_081
+  - United States_None_trojan_082
+  - United States_None_trojan_083
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_Sheung Shui_trojan_13
@@ -820,6 +1131,19 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - United States_None_trojan_114
   - Hong Kong_Central_vmess_115
+  - China_None_trojan_116
+  - China_None_trojan_117
+  - China_None_trojan_118
+  - China_None_trojan_119
+  - United Kingdom_Canary Wharf_trojan_120
+  - The Netherlands_Meppel_trojan_121
+  - The Netherlands_Meppel_trojan_122
+  - The Netherlands_Meppel_trojan_123
+  - Poland_None_trojan_124
+  - Türkiye_Izmir_trojan_125
+  - United States_None_trojan_126
+  - United States_None_trojan_127
+  - United States_None_trojan_128
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -896,6 +1220,19 @@ proxy-groups:
   - Japan_Tokyo_trojan_068
   - Japan_Tokyo_trojan_069
   - Hong Kong_Central_vmess_070
+  - China_None_trojan_071
+  - China_None_trojan_072
+  - China_None_trojan_073
+  - China_None_trojan_074
+  - United Kingdom_Canary Wharf_trojan_075
+  - The Netherlands_Meppel_trojan_076
+  - The Netherlands_Meppel_trojan_077
+  - The Netherlands_Meppel_trojan_078
+  - Poland_None_trojan_079
+  - Türkiye_Izmir_trojan_080
+  - United States_None_trojan_081
+  - United States_None_trojan_082
+  - United States_None_trojan_083
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_Sheung Shui_trojan_13
@@ -911,6 +1248,19 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - United States_None_trojan_114
   - Hong Kong_Central_vmess_115
+  - China_None_trojan_116
+  - China_None_trojan_117
+  - China_None_trojan_118
+  - China_None_trojan_119
+  - United Kingdom_Canary Wharf_trojan_120
+  - The Netherlands_Meppel_trojan_121
+  - The Netherlands_Meppel_trojan_122
+  - The Netherlands_Meppel_trojan_123
+  - Poland_None_trojan_124
+  - Türkiye_Izmir_trojan_125
+  - United States_None_trojan_126
+  - United States_None_trojan_127
+  - United States_None_trojan_128
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
