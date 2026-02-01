@@ -191,7 +191,7 @@ proxies:
     headers:
       Host: 17698512164336.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_None_trojan_021
+- name: None_None_trojan_021
   network: ws
   password: 056b39f5-ffb3-4145-8f75-2ffdeb53cb48
   port: 2083
@@ -562,21 +562,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-- name: China_None_trojan_066
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: China_None_trojan_067
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: faq1.lieerr222.cn
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -723,21 +708,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 8d74803e-aa74-47ef-e3ae-23eeaa96f89d
-- name: China_None_trojan_119
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: China_None_trojan_120
-  password: 685343f2-49e1-41f8-a7fc-5d0993afb6c6
-  port: 43533
-  server: faq1.lieerr222.cn
-  skip-cert-verify: true
-  sni: faq1.lieerr222.cn
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -764,7 +734,7 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_018
   - Hong Kong_Tsim Sha Tsui_trojan_019
   - None_None_trojan_020
-  - United States_None_trojan_021
+  - None_None_trojan_021
   - Taiwan_Chiayi City_trojan_022
   - Taiwan_Chiayi City_trojan_023
   - Taiwan_Chiayi City_trojan_024
@@ -809,8 +779,6 @@ proxy-groups:
   - South Korea_Songpa-gu_ss_063
   - Hong Kong_Yuen Long San Hui_vmess_064
   - Unknown_vmess_065
-  - China_None_trojan_066
-  - China_None_trojan_067
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_San Po Kong_trojan_13
@@ -829,8 +797,6 @@ proxy-groups:
   - South Korea_Songpa-gu_ss_116
   - Hong Kong_Yuen Long San Hui_vmess_117
   - Unknown_vmess_118
-  - China_None_trojan_119
-  - China_None_trojan_120
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -857,7 +823,7 @@ proxy-groups:
   - Hong Kong_Tsim Sha Tsui_trojan_018
   - Hong Kong_Tsim Sha Tsui_trojan_019
   - None_None_trojan_020
-  - United States_None_trojan_021
+  - None_None_trojan_021
   - Taiwan_Chiayi City_trojan_022
   - Taiwan_Chiayi City_trojan_023
   - Taiwan_Chiayi City_trojan_024
@@ -902,8 +868,6 @@ proxy-groups:
   - South Korea_Songpa-gu_ss_063
   - Hong Kong_Yuen Long San Hui_vmess_064
   - Unknown_vmess_065
-  - China_None_trojan_066
-  - China_None_trojan_067
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_San Po Kong_trojan_13
@@ -922,8 +886,6 @@ proxy-groups:
   - South Korea_Songpa-gu_ss_116
   - Hong Kong_Yuen Long San Hui_vmess_117
   - Unknown_vmess_118
-  - China_None_trojan_119
-  - China_None_trojan_120
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
