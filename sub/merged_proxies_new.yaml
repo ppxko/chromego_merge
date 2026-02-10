@@ -392,7 +392,7 @@ proxies:
   skip-cert-verify: true
   sni: green2.cdntencentmusic.com
   type: trojan
-- name: United States_San Francisco_trojan_044
+- name: None_None_trojan_044
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 2087
@@ -428,7 +428,7 @@ proxies:
     headers:
       Host: 17707072629966.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_047
+- name: None_None_trojan_047
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 2087
@@ -440,7 +440,7 @@ proxies:
     headers:
       Host: 17707072624880.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_048
+- name: United States_San Francisco_trojan_048
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 2096
@@ -464,7 +464,7 @@ proxies:
     headers:
       Host: 17707072629954.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_050
+- name: United States_San Francisco_trojan_050
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 8443
@@ -476,7 +476,7 @@ proxies:
     headers:
       Host: 17707072628988.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_051
+- name: None_None_trojan_051
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 2053
@@ -644,7 +644,7 @@ proxies:
     headers:
       Host: 17707072628400.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: United States_None_trojan_065
+- name: None_None_trojan_065
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 8443
@@ -668,7 +668,7 @@ proxies:
     headers:
       Host: 17707072629215.206355.xyz
     path: '%2Fvideomuaawe'
-- name: None_None_trojan_067
+- name: United States_None_trojan_067
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 2083
@@ -680,7 +680,7 @@ proxies:
     headers:
       Host: 17707072628453.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: United States_None_trojan_068
+- name: None_None_trojan_068
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 8443
@@ -704,7 +704,7 @@ proxies:
     headers:
       Host: 17707072625920.206353.xyz
     path: '%2Fagrbniuh'
-- name: None_None_trojan_070
+- name: United States_None_trojan_070
   network: ws
   password: 5d21ca08-7d16-4230-a20b-01edd62751f4
   port: 8443
@@ -864,7 +864,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_North Point_vmess_088
+  name: Hong Kong_Yuen Long San Hui_vmess_088
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -969,7 +969,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_North Point_vmess_0101
+  name: Hong Kong_Yuen Long San Hui_vmess_0101
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -977,55 +977,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: France_None_trojan_0102
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
+- name: Germany_Frankfurt am Main_trojan_0102
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.77.68.129
   skip-cert-verify: true
-  sni: nodes.830901.xyz
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: Hong Kong_Hung Hom_trojan_0103
-  password: BxceQaOe
+- name: Germany_Frankfurt am Main_trojan_0103
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.195.91.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: France_Paris_trojan_0104
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.72.19
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: Indonesia_Jakarta_trojan_0105
+  password: M7v%w11Se*
   port: 443
-  server: 112.120.31.36
+  server: qfdfsg.wsone.icu
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: qfdfsg.wsone.icu
   type: trojan
   udp: true
-- name: Hong Kong_Hung Hom_trojan_0104
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: Hong Kong_Hung Hom_trojan_0105
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: United States_None_trojan_0106
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -1034,7 +1016,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_North Point_vmess_12
+  name: Hong Kong_Yuen Long San Hui_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -1139,7 +1121,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_North Point_vmess_115
+  name: Hong Kong_Yuen Long San Hui_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1147,55 +1129,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: France_None_trojan_116
-  network: ws
-  password: iwangjie
-  port: 2053
-  server: 135.125.232.253
+- name: Germany_Frankfurt am Main_trojan_116
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.77.68.129
   skip-cert-verify: true
-  sni: nodes.830901.xyz
+  sni: trojan.burgerip.co.uk
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: nodes.830901.xyz
-    path: /?ed=2560
-- name: Hong Kong_Hung Hom_trojan_117
-  password: BxceQaOe
+- name: Germany_Frankfurt am Main_trojan_117
+  password: telegram-id-directvpn
+  port: 22223
+  server: 18.195.91.205
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: France_Paris_trojan_118
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 35.180.72.19
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+  udp: true
+- name: Indonesia_Jakarta_trojan_119
+  password: M7v%w11Se*
   port: 443
-  server: 112.120.31.36
+  server: qfdfsg.wsone.icu
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: qfdfsg.wsone.icu
   type: trojan
   udp: true
-- name: Hong Kong_Hung Hom_trojan_118
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: Hong Kong_Hung Hom_trojan_119
-  password: BxceQaOe
-  port: 443
-  server: 112.120.31.36
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: United States_None_trojan_120
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epge.muarua.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epge.muarua.filegear-sg.me
-    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -1245,14 +1209,14 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_041
   - Taiwan_Chiayi City_trojan_042
   - Taiwan_Chiayi City_trojan_043
-  - United States_San Francisco_trojan_044
+  - None_None_trojan_044
   - None_None_trojan_045
   - United States_San Francisco_trojan_046
-  - United States_San Francisco_trojan_047
-  - None_None_trojan_048
+  - None_None_trojan_047
+  - United States_San Francisco_trojan_048
   - United States_San Francisco_trojan_049
-  - None_None_trojan_050
-  - United States_San Francisco_trojan_051
+  - United States_San Francisco_trojan_050
+  - None_None_trojan_051
   - None_None_trojan_052
   - None_None_trojan_053
   - None_None_trojan_054
@@ -1266,12 +1230,12 @@ proxy-groups:
   - None_None_trojan_062
   - None_None_trojan_063
   - United States_None_trojan_064
-  - United States_None_trojan_065
+  - None_None_trojan_065
   - None_None_trojan_066
-  - None_None_trojan_067
-  - United States_None_trojan_068
+  - United States_None_trojan_067
+  - None_None_trojan_068
   - United States_None_trojan_069
-  - None_None_trojan_070
+  - United States_None_trojan_070
   - None_None_trojan_071
   - Unknown_vmess_072
   - China_None_vmess_073
@@ -1289,7 +1253,7 @@ proxy-groups:
   - United States_Los Angeles_trojan_085
   - United States_Los Angeles_trojan_086
   - United States_None_ss_087
-  - Hong Kong_North Point_vmess_088
+  - Hong Kong_Yuen Long San Hui_vmess_088
   - Japan_Tokyo_trojan_089
   - Hong Kong_San Po Kong_trojan_090
   - Hong Kong_Central_trojan_091
@@ -1302,14 +1266,13 @@ proxy-groups:
   - Japan_Tokyo_trojan_098
   - Japan_Tokyo_trojan_099
   - Hong Kong_None_trojan_0100
-  - Hong Kong_North Point_vmess_0101
-  - France_None_trojan_0102
-  - Hong Kong_Hung Hom_trojan_0103
-  - Hong Kong_Hung Hom_trojan_0104
-  - Hong Kong_Hung Hom_trojan_0105
-  - United States_None_trojan_0106
+  - Hong Kong_Yuen Long San Hui_vmess_0101
+  - Germany_Frankfurt am Main_trojan_0102
+  - Germany_Frankfurt am Main_trojan_0103
+  - France_Paris_trojan_0104
+  - Indonesia_Jakarta_trojan_0105
   - United States_None_ss_11
-  - Hong Kong_North Point_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - Japan_Tokyo_trojan_13
   - Hong Kong_San Po Kong_trojan_14
   - Hong Kong_Central_trojan_15
@@ -1322,12 +1285,11 @@ proxy-groups:
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
   - Hong Kong_None_trojan_114
-  - Hong Kong_North Point_vmess_115
-  - France_None_trojan_116
-  - Hong Kong_Hung Hom_trojan_117
-  - Hong Kong_Hung Hom_trojan_118
-  - Hong Kong_Hung Hom_trojan_119
-  - United States_None_trojan_120
+  - Hong Kong_Yuen Long San Hui_vmess_115
+  - Germany_Frankfurt am Main_trojan_116
+  - Germany_Frankfurt am Main_trojan_117
+  - France_Paris_trojan_118
+  - Indonesia_Jakarta_trojan_119
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1377,14 +1339,14 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_041
   - Taiwan_Chiayi City_trojan_042
   - Taiwan_Chiayi City_trojan_043
-  - United States_San Francisco_trojan_044
+  - None_None_trojan_044
   - None_None_trojan_045
   - United States_San Francisco_trojan_046
-  - United States_San Francisco_trojan_047
-  - None_None_trojan_048
+  - None_None_trojan_047
+  - United States_San Francisco_trojan_048
   - United States_San Francisco_trojan_049
-  - None_None_trojan_050
-  - United States_San Francisco_trojan_051
+  - United States_San Francisco_trojan_050
+  - None_None_trojan_051
   - None_None_trojan_052
   - None_None_trojan_053
   - None_None_trojan_054
@@ -1398,12 +1360,12 @@ proxy-groups:
   - None_None_trojan_062
   - None_None_trojan_063
   - United States_None_trojan_064
-  - United States_None_trojan_065
+  - None_None_trojan_065
   - None_None_trojan_066
-  - None_None_trojan_067
-  - United States_None_trojan_068
+  - United States_None_trojan_067
+  - None_None_trojan_068
   - United States_None_trojan_069
-  - None_None_trojan_070
+  - United States_None_trojan_070
   - None_None_trojan_071
   - Unknown_vmess_072
   - China_None_vmess_073
@@ -1421,7 +1383,7 @@ proxy-groups:
   - United States_Los Angeles_trojan_085
   - United States_Los Angeles_trojan_086
   - United States_None_ss_087
-  - Hong Kong_North Point_vmess_088
+  - Hong Kong_Yuen Long San Hui_vmess_088
   - Japan_Tokyo_trojan_089
   - Hong Kong_San Po Kong_trojan_090
   - Hong Kong_Central_trojan_091
@@ -1434,14 +1396,13 @@ proxy-groups:
   - Japan_Tokyo_trojan_098
   - Japan_Tokyo_trojan_099
   - Hong Kong_None_trojan_0100
-  - Hong Kong_North Point_vmess_0101
-  - France_None_trojan_0102
-  - Hong Kong_Hung Hom_trojan_0103
-  - Hong Kong_Hung Hom_trojan_0104
-  - Hong Kong_Hung Hom_trojan_0105
-  - United States_None_trojan_0106
+  - Hong Kong_Yuen Long San Hui_vmess_0101
+  - Germany_Frankfurt am Main_trojan_0102
+  - Germany_Frankfurt am Main_trojan_0103
+  - France_Paris_trojan_0104
+  - Indonesia_Jakarta_trojan_0105
   - United States_None_ss_11
-  - Hong Kong_North Point_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - Japan_Tokyo_trojan_13
   - Hong Kong_San Po Kong_trojan_14
   - Hong Kong_Central_trojan_15
@@ -1454,12 +1415,11 @@ proxy-groups:
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
   - Hong Kong_None_trojan_114
-  - Hong Kong_North Point_vmess_115
-  - France_None_trojan_116
-  - Hong Kong_Hung Hom_trojan_117
-  - Hong Kong_Hung Hom_trojan_118
-  - Hong Kong_Hung Hom_trojan_119
-  - United States_None_trojan_120
+  - Hong Kong_Yuen Long San Hui_vmess_115
+  - Germany_Frankfurt am Main_trojan_116
+  - Germany_Frankfurt am Main_trojan_117
+  - France_Paris_trojan_118
+  - Indonesia_Jakarta_trojan_119
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
