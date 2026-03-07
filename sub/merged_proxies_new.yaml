@@ -156,7 +156,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: '12306'
-  name: Hong Kong_Kowloon_vmess_015
+  name: Hong Kong_Ha Kwai Chung_vmess_015
   network: grpc
   port: '443'
   server: hk02.653ebeeb-5f60-4be5-958d-7bf4839cdccd.ef6616fd-5b06-482f-9d64-183745659cbf.byteprivatelink.com
@@ -192,7 +192,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_019
+  name: None_None_vmess_019
   network: ws
   port: '443'
   server: gbnh.1oo.ccwu.cc
@@ -206,7 +206,7 @@ proxies:
     path: /iSRWSKUJKNuXvVzsYHmsMrnO
 - alpn:
   - http/1.1
-  name: United States_None_trojan_020
+  name: None_None_trojan_020
   network: ws
   password: 4e45c1b4-9107-45dd-9995-cdf7cbb44d9d
   port: 443
@@ -510,12 +510,12 @@ proxy-groups:
   - United Kingdom_None_vmess_012
   - China_None_vmess_013
   - Hong Kong_Central_vmess_014
-  - Hong Kong_Kowloon_vmess_015
+  - Hong Kong_Ha Kwai Chung_vmess_015
   - Iran_None_vmess_016
   - China_None_vmess_017
   - Taiwan_Chiayi City_trojan_018
-  - United States_None_vmess_019
-  - United States_None_trojan_020
+  - None_None_vmess_019
+  - None_None_trojan_020
   - United States_None_trojan_021
   - China_None_vmess_022
   - China_None_vmess_023
@@ -569,12 +569,12 @@ proxy-groups:
   - United Kingdom_None_vmess_012
   - China_None_vmess_013
   - Hong Kong_Central_vmess_014
-  - Hong Kong_Kowloon_vmess_015
+  - Hong Kong_Ha Kwai Chung_vmess_015
   - Iran_None_vmess_016
   - China_None_vmess_017
   - Taiwan_Chiayi City_trojan_018
-  - United States_None_vmess_019
-  - United States_None_trojan_020
+  - None_None_vmess_019
+  - None_None_trojan_020
   - United States_None_trojan_021
   - China_None_vmess_022
   - China_None_vmess_023
