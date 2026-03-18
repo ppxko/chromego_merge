@@ -293,105 +293,114 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Japan_Tokyo_trojan_13
+- alterId: 0
+  cipher: auto
+  name: United States_Los Angeles_vmess_13
+  port: 6001
+  server: cn01.365cloud8754.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+- name: Japan_Tokyo_trojan_14
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 921
-  server: 13.112.59.34
+  port: 19256
+  server: 43.207.153.203
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_14
+- name: Hong Kong_Central_trojan_15
   network: tcp
   password: BxceQaOe
-  port: 5823
-  server: 18.183.223.166
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: Japan_Tokyo_trojan_15
-  network: tcp
-  password: BxceQaOe
-  port: 5823
-  server: 3.112.237.156
+  port: 443
+  server: 58.152.18.123
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_16
   network: tcp
   password: BxceQaOe
-  port: 21508
-  server: 13.112.59.34
+  port: 921
+  server: 13.231.159.112
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  sni: t.me%2Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_17
   network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4937
-  server: 160.16.70.180
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  password: BxceQaOe
+  port: 16919
+  server: 52.198.90.187
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_18
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
   port: 2001
-  server: 160.16.72.33
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_19
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4674
-  server: 18.183.223.166
+  port: 4937
+  server: 13.230.254.47
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_110
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4674
-  server: 160.16.72.33
+  port: 3419
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: United States_None_trojan_111
+- name: Japan_Tokyo_trojan_111
   network: tcp
-  password: BxceQaOe
-  port: 52951
-  server: 54.46.15.40
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 3419
+  server: 43.207.164.92
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_112
   network: tcp
-  password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 3057
-  server: 160.16.72.33
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  password: BxceQaOe
+  port: 41973
+  server: 13.230.254.47
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_113
   network: tcp
   password: 86e150eb21c6faee48e81d496d7f61c2
-  port: 4019
-  server: 160.16.70.180
+  port: 3057
+  server: 160.16.106.99
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_114
+- name: Japan_Tokyo_trojan_114
+  network: tcp
+  password: 86e150eb21c6faee48e81d496d7f61c2
+  port: 4920
+  server: 13.231.19.155
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_115
   network: tcp
   password: BxceQaOe
-  port: 8401
-  server: 16.163.155.36
+  port: 37223
+  server: 43.207.164.92
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_115
+  name: Hong Kong_Central_vmess_116
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -399,7 +408,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: South Korea_Paju_trojan_116
+- alterId: 0
+  cipher: aes-128-gcm
+  name: United States_Los Angeles_vmess_117
+  network: tcp
+  port: '6001'
+  server: cn01.365cloud8754.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
+- name: South Korea_Paju_trojan_118
   network: ws
   password: trojan
   port: 11434
@@ -412,7 +431,7 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: United States_San Jose_trojan_117
+- name: United States_San Jose_trojan_119
   network: ws
   password: trojan
   port: 7071
@@ -462,21 +481,23 @@ proxy-groups:
   - United States_San Jose_trojan_029
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
-  - Japan_Tokyo_trojan_13
+  - United States_Los Angeles_vmess_13
   - Japan_Tokyo_trojan_14
-  - Japan_Tokyo_trojan_15
+  - Hong Kong_Central_trojan_15
   - Japan_Tokyo_trojan_16
   - Japan_Tokyo_trojan_17
   - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - Japan_Tokyo_trojan_110
-  - United States_None_trojan_111
+  - Japan_Tokyo_trojan_111
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
-  - Hong Kong_None_trojan_114
-  - Hong Kong_Central_vmess_115
-  - South Korea_Paju_trojan_116
-  - United States_San Jose_trojan_117
+  - Japan_Tokyo_trojan_114
+  - Japan_Tokyo_trojan_115
+  - Hong Kong_Central_vmess_116
+  - United States_Los Angeles_vmess_117
+  - South Korea_Paju_trojan_118
+  - United States_San Jose_trojan_119
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -514,21 +535,23 @@ proxy-groups:
   - United States_San Jose_trojan_029
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
-  - Japan_Tokyo_trojan_13
+  - United States_Los Angeles_vmess_13
   - Japan_Tokyo_trojan_14
-  - Japan_Tokyo_trojan_15
+  - Hong Kong_Central_trojan_15
   - Japan_Tokyo_trojan_16
   - Japan_Tokyo_trojan_17
   - Japan_Tokyo_trojan_18
   - Japan_Tokyo_trojan_19
   - Japan_Tokyo_trojan_110
-  - United States_None_trojan_111
+  - Japan_Tokyo_trojan_111
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
-  - Hong Kong_None_trojan_114
-  - Hong Kong_Central_vmess_115
-  - South Korea_Paju_trojan_116
-  - United States_San Jose_trojan_117
+  - Japan_Tokyo_trojan_114
+  - Japan_Tokyo_trojan_115
+  - Hong Kong_Central_vmess_116
+  - United States_Los Angeles_vmess_117
+  - South Korea_Paju_trojan_118
+  - United States_San Jose_trojan_119
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
