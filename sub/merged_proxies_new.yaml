@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Yuen Long San Hui_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -240,7 +240,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_027
+  name: Hong Kong_Yuen Long San Hui_vmess_027
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -258,20 +258,32 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: United Kingdom_Epping_trojan_029
+- name: Australia_Sydney_trojan_029
   password: IL37892054
   port: 443
-  server: upright-rhino.rooster465.autos
+  server: engaged-ram.rooster465.autos
   skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
   type: trojan
   udp: true
-- name: Romania_None_trojan_030
+- name: South Korea_Jung-gu_trojan_030
+  network: ws
+  password: trojan
+  port: 11000
+  server: 220.92.22.170
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: Luxembourg_None_trojan_031
   password: IL37892054
   port: 443
-  server: apt-magpie.rooster465.autos
+  server: outgoing-ladybird.rooster465.autos
   skip-cert-verify: false
-  sni: apt-magpie.rooster465.autos
+  sni: outgoing-ladybird.rooster465.autos
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -282,7 +294,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Yuen Long San Hui_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -402,7 +414,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_117
+  name: Hong Kong_Yuen Long San Hui_vmess_117
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -420,20 +432,32 @@ proxies:
   tls: false
   type: vmess
   uuid: db75bc92-4e32-48dd-b792-d7a8b707626c
-- name: United Kingdom_Epping_trojan_119
+- name: Australia_Sydney_trojan_119
   password: IL37892054
   port: 443
-  server: upright-rhino.rooster465.autos
+  server: engaged-ram.rooster465.autos
   skip-cert-verify: false
-  sni: upright-rhino.rooster465.autos
   type: trojan
   udp: true
-- name: Romania_None_trojan_120
+- name: South Korea_Jung-gu_trojan_120
+  network: ws
+  password: trojan
+  port: 11000
+  server: 220.92.22.170
+  skip-cert-verify: true
+  sni: jflsjlaf.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jflsjlaf.pages.dev
+    path: /
+- name: Luxembourg_None_trojan_121
   password: IL37892054
   port: 443
-  server: apt-magpie.rooster465.autos
+  server: outgoing-ladybird.rooster465.autos
   skip-cert-verify: false
-  sni: apt-magpie.rooster465.autos
+  sni: outgoing-ladybird.rooster465.autos
   type: trojan
   udp: true
 proxy-groups:
@@ -453,7 +477,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - United States_Los Angeles_vmess_013
   - Japan_Tokyo_trojan_014
   - Japan_Tokyo_trojan_015
@@ -468,12 +492,13 @@ proxy-groups:
   - Japan_Tokyo_trojan_024
   - Poland_None_trojan_025
   - China_None_ss_026
-  - Hong Kong_Central_vmess_027
+  - Hong Kong_Yuen Long San Hui_vmess_027
   - United States_Los Angeles_vmess_028
-  - United Kingdom_Epping_trojan_029
-  - Romania_None_trojan_030
+  - Australia_Sydney_trojan_029
+  - South Korea_Jung-gu_trojan_030
+  - Luxembourg_None_trojan_031
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - United States_Los Angeles_vmess_13
   - Japan_Tokyo_trojan_14
   - Japan_Tokyo_trojan_15
@@ -488,10 +513,11 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Poland_None_trojan_115
   - China_None_ss_116
-  - Hong Kong_Central_vmess_117
+  - Hong Kong_Yuen Long San Hui_vmess_117
   - United States_Los Angeles_vmess_118
-  - United Kingdom_Epping_trojan_119
-  - Romania_None_trojan_120
+  - Australia_Sydney_trojan_119
+  - South Korea_Jung-gu_trojan_120
+  - Luxembourg_None_trojan_121
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -509,7 +535,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - United States_Los Angeles_vmess_013
   - Japan_Tokyo_trojan_014
   - Japan_Tokyo_trojan_015
@@ -524,12 +550,13 @@ proxy-groups:
   - Japan_Tokyo_trojan_024
   - Poland_None_trojan_025
   - China_None_ss_026
-  - Hong Kong_Central_vmess_027
+  - Hong Kong_Yuen Long San Hui_vmess_027
   - United States_Los Angeles_vmess_028
-  - United Kingdom_Epping_trojan_029
-  - Romania_None_trojan_030
+  - Australia_Sydney_trojan_029
+  - South Korea_Jung-gu_trojan_030
+  - Luxembourg_None_trojan_031
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - United States_Los Angeles_vmess_13
   - Japan_Tokyo_trojan_14
   - Japan_Tokyo_trojan_15
@@ -544,10 +571,11 @@ proxy-groups:
   - Japan_Tokyo_trojan_114
   - Poland_None_trojan_115
   - China_None_ss_116
-  - Hong Kong_Central_vmess_117
+  - Hong Kong_Yuen Long San Hui_vmess_117
   - United States_Los Angeles_vmess_118
-  - United Kingdom_Epping_trojan_119
-  - Romania_None_trojan_120
+  - Australia_Sydney_trojan_119
+  - South Korea_Jung-gu_trojan_120
+  - Luxembourg_None_trojan_121
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
