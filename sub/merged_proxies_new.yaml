@@ -284,19 +284,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_13
+- name: Hong Kong_None_trojan_13
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 921
-  server: 13.193.218.6
+  server: 16.162.33.118
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_14
+- name: Japan_Tokyo_trojan_14
   network: tcp
   password: BxceQaOe
-  port: 9211
-  server: 95.40.35.187
+  port: 2001
+  server: 54.168.216.209
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -304,31 +304,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 6313
-  server: 3.112.236.46
+  server: 3.112.197.74
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_16
   network: tcp
   password: BxceQaOe
-  port: 16919
-  server: 43.207.66.138
+  port: 3122
+  server: 54.238.193.143
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_17
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 4937
-  server: 160.16.106.99
+  port: 2001
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_18
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 2001
-  server: 160.16.106.99
+  port: 4937
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -336,7 +336,7 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
-  server: 160.16.106.99
+  server: 160.16.72.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -344,15 +344,15 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 4674
-  server: 3.113.31.8
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_111
   network: tcp
   password: BxceQaOe
-  port: 30726
-  server: 16.163.147.176
+  port: 28033
+  server: 18.162.169.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -360,23 +360,23 @@ proxies:
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
   port: 3057
-  server: 3.113.31.8
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_113
   network: tcp
   password: 9f7d5cb76d1645101994d9b25891e3b7
-  port: 3057
-  server: 160.16.106.99
+  port: 4019
+  server: 54.168.216.209
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_114
+- name: Japan_Tokyo_trojan_114
   network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 43.198.248.119
+  port: 23255
+  server: 13.114.26.172
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -463,8 +463,8 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_029
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
-  - United States_None_trojan_13
-  - Poland_None_trojan_14
+  - Hong Kong_None_trojan_13
+  - Japan_Tokyo_trojan_14
   - Japan_Tokyo_trojan_15
   - Japan_Tokyo_trojan_16
   - Japan_Tokyo_trojan_17
@@ -474,7 +474,7 @@ proxy-groups:
   - Hong Kong_None_trojan_111
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
-  - Hong Kong_None_trojan_114
+  - Japan_Tokyo_trojan_114
   - Hong Kong_Tuen Mun_vmess_115
   - Austria_None_trojan_116
   - India_Mumbai_trojan_117
@@ -517,8 +517,8 @@ proxy-groups:
   - The Netherlands_Meppel_trojan_029
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
-  - United States_None_trojan_13
-  - Poland_None_trojan_14
+  - Hong Kong_None_trojan_13
+  - Japan_Tokyo_trojan_14
   - Japan_Tokyo_trojan_15
   - Japan_Tokyo_trojan_16
   - Japan_Tokyo_trojan_17
@@ -528,7 +528,7 @@ proxy-groups:
   - Hong Kong_None_trojan_111
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
-  - Hong Kong_None_trojan_114
+  - Japan_Tokyo_trojan_114
   - Hong Kong_Tuen Mun_vmess_115
   - Austria_None_trojan_116
   - India_Mumbai_trojan_117
