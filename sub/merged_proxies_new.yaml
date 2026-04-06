@@ -233,12 +233,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Austria_None_trojan_026
+- name: The Netherlands_Meppel_trojan_026
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: United States_None_trojan_027
   network: ws
   password: trojan
-  port: 8888
-  server: 152.53.45.251
-  skip-cert-verify: false
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
@@ -246,29 +253,6 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: India_Mumbai_trojan_027
-  password: M7v%w11Se*
-  port: 443
-  server: tttyder.wsone.icu
-  skip-cert-verify: true
-  sni: tttyder.wsone.icu
-  type: trojan
-  udp: true
-- name: The Netherlands_Meppel_trojan_028
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: The Netherlands_Meppel_trojan_029
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  sni: 94.131.105.125
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -390,12 +374,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Austria_None_trojan_116
+- name: The Netherlands_Meppel_trojan_116
+  password: strong-secret-pass-777
+  port: 4443
+  server: 94.131.105.125
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: United States_None_trojan_117
   network: ws
   password: trojan
-  port: 8888
-  server: 152.53.45.251
-  skip-cert-verify: false
+  port: 8025
+  server: 54.46.72.234
+  skip-cert-verify: true
   sni: jflsjlaf.pages.dev
   type: trojan
   udp: true
@@ -403,29 +394,6 @@ proxies:
     headers:
       Host: jflsjlaf.pages.dev
     path: /
-- name: India_Mumbai_trojan_117
-  password: M7v%w11Se*
-  port: 443
-  server: tttyder.wsone.icu
-  skip-cert-verify: true
-  sni: tttyder.wsone.icu
-  type: trojan
-  udp: true
-- name: The Netherlands_Meppel_trojan_118
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: The Netherlands_Meppel_trojan_119
-  password: strong-secret-pass-777
-  port: 4443
-  server: 94.131.105.125
-  skip-cert-verify: true
-  sni: 94.131.105.125
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -457,10 +425,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_023
   - Poland_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
-  - Austria_None_trojan_026
-  - India_Mumbai_trojan_027
-  - The Netherlands_Meppel_trojan_028
-  - The Netherlands_Meppel_trojan_029
+  - The Netherlands_Meppel_trojan_026
+  - United States_None_trojan_027
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
@@ -476,10 +442,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - Poland_None_trojan_114
   - Hong Kong_Tuen Mun_vmess_115
-  - Austria_None_trojan_116
-  - India_Mumbai_trojan_117
-  - The Netherlands_Meppel_trojan_118
-  - The Netherlands_Meppel_trojan_119
+  - The Netherlands_Meppel_trojan_116
+  - United States_None_trojan_117
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -511,10 +475,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_023
   - Poland_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
-  - Austria_None_trojan_026
-  - India_Mumbai_trojan_027
-  - The Netherlands_Meppel_trojan_028
-  - The Netherlands_Meppel_trojan_029
+  - The Netherlands_Meppel_trojan_026
+  - United States_None_trojan_027
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
@@ -530,10 +492,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_113
   - Poland_None_trojan_114
   - Hong Kong_Tuen Mun_vmess_115
-  - Austria_None_trojan_116
-  - India_Mumbai_trojan_117
-  - The Netherlands_Meppel_trojan_118
-  - The Netherlands_Meppel_trojan_119
+  - The Netherlands_Meppel_trojan_116
+  - United States_None_trojan_117
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
