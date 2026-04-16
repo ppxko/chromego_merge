@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Sham Shui Po_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -225,7 +225,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_025
+  name: Hong Kong_Sham Shui Po_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -254,7 +254,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Sham Shui Po_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -359,7 +359,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_115
+  name: Hong Kong_Sham Shui Po_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -397,7 +397,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Sham Shui Po_vmess_012
   - Poland_None_trojan_013
   - Japan_Tokyo_trojan_014
   - Hong Kong_None_trojan_015
@@ -410,10 +410,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_022
   - Japan_Tokyo_trojan_023
   - Hong Kong_None_trojan_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Sham Shui Po_vmess_025
   - Canada_Toronto_trojan_026
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Sham Shui Po_vmess_12
   - Poland_None_trojan_13
   - Japan_Tokyo_trojan_14
   - Hong Kong_None_trojan_15
@@ -426,7 +426,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
   - Hong Kong_None_trojan_114
-  - Hong Kong_Central_vmess_115
+  - Hong Kong_Sham Shui Po_vmess_115
   - Canada_Toronto_trojan_116
 - name: 自动选择
   type: url-test
@@ -445,7 +445,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Sham Shui Po_vmess_012
   - Poland_None_trojan_013
   - Japan_Tokyo_trojan_014
   - Hong Kong_None_trojan_015
@@ -458,10 +458,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_022
   - Japan_Tokyo_trojan_023
   - Hong Kong_None_trojan_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Sham Shui Po_vmess_025
   - Canada_Toronto_trojan_026
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Sham Shui Po_vmess_12
   - Poland_None_trojan_13
   - Japan_Tokyo_trojan_14
   - Hong Kong_None_trojan_15
@@ -474,7 +474,7 @@ proxy-groups:
   - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
   - Hong Kong_None_trojan_114
-  - Hong Kong_Central_vmess_115
+  - Hong Kong_Sham Shui Po_vmess_115
   - Canada_Toronto_trojan_116
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
