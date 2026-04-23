@@ -233,6 +233,695 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: Austria_None_trojan_026
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 152.53.119.132
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Austria_None_trojan_027
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 152.53.119.132
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Bulgaria_None_trojan_028
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 93.123.84.194
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Bulgaria_None_trojan_029
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 94.125.101.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_030
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.121
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Poland_Warsaw_trojan_031
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.28.173
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_032
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.120
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Poland_Warsaw_trojan_033
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.28.173
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Poland_Warsaw_trojan_034
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.28.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Moldova_Chisinau_trojan_035
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 138.124.87.163
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_036
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.0
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_037
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Israel_Jerusalem_trojan_038
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.240.36
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Canada_Ottawa_trojan_039
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.49.137
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Czechia_Doksy_trojan_040
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.234.43
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Czechia_Mimon_trojan_041
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.232.148
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Czechia_Mimon_trojan_042
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.233.44
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_043
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 193.23.218.192
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_Frankfurt am Main_trojan_044
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 87.251.88.215
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_Frankfurt am Main_trojan_045
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 185.65.202.222
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_Nuremberg_trojan_046
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 202.61.195.167
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Denmark_None_trojan_047
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 159.195.5.181
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Russia_None_trojan_048
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 94.141.123.243
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Battersea_trojan_049
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 82.21.117.137
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Canterbury_trojan_050
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 148.253.210.141
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Cornwall_trojan_051
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 2.27.120.108
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_None_trojan_052
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 77.239.127.77
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Dagenham_trojan_053
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 148.253.215.61
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_None_trojan_054
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 185.170.153.115
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Iraq_None_trojan_055
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 178.17.48.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Iran_None_trojan_056
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 213.176.78.192
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Iran_None_trojan_057
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 213.176.77.231
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lebanon_None_trojan_058
+  network: ws
+  password: '1234567890'
+  port: 2053
+  server: 213.165.39.142
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Russia_Krasnogorsk_trojan_059
+  network: ws
+  password: '1234567890'
+  port: 2053
+  server: 89.169.9.177
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Seychelles_None_trojan_060
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 45.9.116.160
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Türkiye_Izmir_trojan_061
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 80.253.249.66
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_062
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 194.87.77.2
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_063
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 194.87.77.91
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_064
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 194.87.77.2
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: United States_New York_trojan_065
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 95.164.123.131
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_066
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_067
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.70.233
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_068
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.116.8
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_069
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.85.72
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_070
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.139.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_071
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.70.233
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: United States_None_trojan_072
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: United States_None_trojan_073
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.98.216
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_074
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.216.160
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_075
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.218.10
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_076
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.188.6
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_077
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 144.31.213.59
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Unknown_trojan_078
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 104.128.139.68
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -354,6 +1043,695 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: Austria_None_trojan_116
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 152.53.119.132
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Austria_None_trojan_117
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 152.53.119.132
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Bulgaria_None_trojan_118
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 93.123.84.194
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Bulgaria_None_trojan_119
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 94.125.101.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_120
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.121
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Poland_Warsaw_trojan_121
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.28.173
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_122
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.120
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Poland_Warsaw_trojan_123
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.28.173
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Poland_Warsaw_trojan_124
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.28.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Moldova_Chisinau_trojan_125
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 138.124.87.163
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_126
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.0
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lithuania_Vilnius_trojan_127
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.32.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Israel_Jerusalem_trojan_128
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.240.36
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Canada_Ottawa_trojan_129
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 138.124.49.137
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: Czechia_Doksy_trojan_130
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.234.43
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Czechia_Mimon_trojan_131
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.232.148
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Czechia_Mimon_trojan_132
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 95.85.233.44
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_133
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 193.23.218.192
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_Frankfurt am Main_trojan_134
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 87.251.88.215
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_Frankfurt am Main_trojan_135
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 185.65.202.222
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_Nuremberg_trojan_136
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 202.61.195.167
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Denmark_None_trojan_137
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 159.195.5.181
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Russia_None_trojan_138
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 94.141.123.243
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Battersea_trojan_139
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 82.21.117.137
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Canterbury_trojan_140
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 148.253.210.141
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Cornwall_trojan_141
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 2.27.120.108
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_None_trojan_142
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 77.239.127.77
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_Dagenham_trojan_143
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 148.253.215.61
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United Kingdom_None_trojan_144
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 185.170.153.115
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Iraq_None_trojan_145
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 178.17.48.78
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Iran_None_trojan_146
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 213.176.78.192
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Iran_None_trojan_147
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 213.176.77.231
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Lebanon_None_trojan_148
+  network: ws
+  password: '1234567890'
+  port: 2053
+  server: 213.165.39.142
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Russia_Krasnogorsk_trojan_149
+  network: ws
+  password: '1234567890'
+  port: 2053
+  server: 89.169.9.177
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Seychelles_None_trojan_150
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 45.9.116.160
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Türkiye_Izmir_trojan_151
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 80.253.249.66
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_152
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 194.87.77.2
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_153
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 194.87.77.91
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Germany_None_trojan_154
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 194.87.77.2
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: United States_New York_trojan_155
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 95.164.123.131
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_156
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_157
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.70.233
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_158
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.116.8
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_159
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.85.72
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_160
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.139.103
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_161
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 64.188.70.233
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: United States_None_trojan_162
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.118.170
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /
+- name: United States_None_trojan_163
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.98.216
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_164
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.216.160
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_165
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.218.10
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_166
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 144.31.188.6
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: United States_None_trojan_167
+  network: ws
+  password: '1234567890'
+  port: 8443
+  server: 144.31.213.59
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
+- name: Unknown_trojan_168
+  network: ws
+  password: '1234567890'
+  port: 443
+  server: 104.128.139.68
+  skip-cert-verify: false
+  sni: kfm-bn0.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kfm-bn0.pages.dev
+    path: /?ed=2560
 proxy-groups:
 - name: 节点选择
   type: select
@@ -385,6 +1763,59 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Japan_Tokyo_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
+  - Austria_None_trojan_026
+  - Austria_None_trojan_027
+  - Bulgaria_None_trojan_028
+  - Bulgaria_None_trojan_029
+  - Lithuania_Vilnius_trojan_030
+  - Poland_Warsaw_trojan_031
+  - Lithuania_Vilnius_trojan_032
+  - Poland_Warsaw_trojan_033
+  - Poland_Warsaw_trojan_034
+  - Moldova_Chisinau_trojan_035
+  - Lithuania_Vilnius_trojan_036
+  - Lithuania_Vilnius_trojan_037
+  - Israel_Jerusalem_trojan_038
+  - Canada_Ottawa_trojan_039
+  - Czechia_Doksy_trojan_040
+  - Czechia_Mimon_trojan_041
+  - Czechia_Mimon_trojan_042
+  - Germany_None_trojan_043
+  - Germany_Frankfurt am Main_trojan_044
+  - Germany_Frankfurt am Main_trojan_045
+  - Germany_Nuremberg_trojan_046
+  - Denmark_None_trojan_047
+  - Russia_None_trojan_048
+  - United Kingdom_Battersea_trojan_049
+  - United Kingdom_Canterbury_trojan_050
+  - United Kingdom_Cornwall_trojan_051
+  - United Kingdom_None_trojan_052
+  - United Kingdom_Dagenham_trojan_053
+  - United Kingdom_None_trojan_054
+  - Iraq_None_trojan_055
+  - Iran_None_trojan_056
+  - Iran_None_trojan_057
+  - Lebanon_None_trojan_058
+  - Russia_Krasnogorsk_trojan_059
+  - Seychelles_None_trojan_060
+  - Türkiye_Izmir_trojan_061
+  - Germany_None_trojan_062
+  - Germany_None_trojan_063
+  - Germany_None_trojan_064
+  - United States_New York_trojan_065
+  - United States_None_trojan_066
+  - United States_None_trojan_067
+  - United States_None_trojan_068
+  - United States_None_trojan_069
+  - United States_None_trojan_070
+  - United States_None_trojan_071
+  - United States_None_trojan_072
+  - United States_None_trojan_073
+  - United States_None_trojan_074
+  - United States_None_trojan_075
+  - United States_None_trojan_076
+  - United States_None_trojan_077
+  - Unknown_trojan_078
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Japan_Tokyo_trojan_13
@@ -400,6 +1831,59 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Japan_Tokyo_trojan_114
   - Hong Kong_Tuen Mun_vmess_115
+  - Austria_None_trojan_116
+  - Austria_None_trojan_117
+  - Bulgaria_None_trojan_118
+  - Bulgaria_None_trojan_119
+  - Lithuania_Vilnius_trojan_120
+  - Poland_Warsaw_trojan_121
+  - Lithuania_Vilnius_trojan_122
+  - Poland_Warsaw_trojan_123
+  - Poland_Warsaw_trojan_124
+  - Moldova_Chisinau_trojan_125
+  - Lithuania_Vilnius_trojan_126
+  - Lithuania_Vilnius_trojan_127
+  - Israel_Jerusalem_trojan_128
+  - Canada_Ottawa_trojan_129
+  - Czechia_Doksy_trojan_130
+  - Czechia_Mimon_trojan_131
+  - Czechia_Mimon_trojan_132
+  - Germany_None_trojan_133
+  - Germany_Frankfurt am Main_trojan_134
+  - Germany_Frankfurt am Main_trojan_135
+  - Germany_Nuremberg_trojan_136
+  - Denmark_None_trojan_137
+  - Russia_None_trojan_138
+  - United Kingdom_Battersea_trojan_139
+  - United Kingdom_Canterbury_trojan_140
+  - United Kingdom_Cornwall_trojan_141
+  - United Kingdom_None_trojan_142
+  - United Kingdom_Dagenham_trojan_143
+  - United Kingdom_None_trojan_144
+  - Iraq_None_trojan_145
+  - Iran_None_trojan_146
+  - Iran_None_trojan_147
+  - Lebanon_None_trojan_148
+  - Russia_Krasnogorsk_trojan_149
+  - Seychelles_None_trojan_150
+  - Türkiye_Izmir_trojan_151
+  - Germany_None_trojan_152
+  - Germany_None_trojan_153
+  - Germany_None_trojan_154
+  - United States_New York_trojan_155
+  - United States_None_trojan_156
+  - United States_None_trojan_157
+  - United States_None_trojan_158
+  - United States_None_trojan_159
+  - United States_None_trojan_160
+  - United States_None_trojan_161
+  - United States_None_trojan_162
+  - United States_None_trojan_163
+  - United States_None_trojan_164
+  - United States_None_trojan_165
+  - United States_None_trojan_166
+  - United States_None_trojan_167
+  - Unknown_trojan_168
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -431,6 +1915,59 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Japan_Tokyo_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
+  - Austria_None_trojan_026
+  - Austria_None_trojan_027
+  - Bulgaria_None_trojan_028
+  - Bulgaria_None_trojan_029
+  - Lithuania_Vilnius_trojan_030
+  - Poland_Warsaw_trojan_031
+  - Lithuania_Vilnius_trojan_032
+  - Poland_Warsaw_trojan_033
+  - Poland_Warsaw_trojan_034
+  - Moldova_Chisinau_trojan_035
+  - Lithuania_Vilnius_trojan_036
+  - Lithuania_Vilnius_trojan_037
+  - Israel_Jerusalem_trojan_038
+  - Canada_Ottawa_trojan_039
+  - Czechia_Doksy_trojan_040
+  - Czechia_Mimon_trojan_041
+  - Czechia_Mimon_trojan_042
+  - Germany_None_trojan_043
+  - Germany_Frankfurt am Main_trojan_044
+  - Germany_Frankfurt am Main_trojan_045
+  - Germany_Nuremberg_trojan_046
+  - Denmark_None_trojan_047
+  - Russia_None_trojan_048
+  - United Kingdom_Battersea_trojan_049
+  - United Kingdom_Canterbury_trojan_050
+  - United Kingdom_Cornwall_trojan_051
+  - United Kingdom_None_trojan_052
+  - United Kingdom_Dagenham_trojan_053
+  - United Kingdom_None_trojan_054
+  - Iraq_None_trojan_055
+  - Iran_None_trojan_056
+  - Iran_None_trojan_057
+  - Lebanon_None_trojan_058
+  - Russia_Krasnogorsk_trojan_059
+  - Seychelles_None_trojan_060
+  - Türkiye_Izmir_trojan_061
+  - Germany_None_trojan_062
+  - Germany_None_trojan_063
+  - Germany_None_trojan_064
+  - United States_New York_trojan_065
+  - United States_None_trojan_066
+  - United States_None_trojan_067
+  - United States_None_trojan_068
+  - United States_None_trojan_069
+  - United States_None_trojan_070
+  - United States_None_trojan_071
+  - United States_None_trojan_072
+  - United States_None_trojan_073
+  - United States_None_trojan_074
+  - United States_None_trojan_075
+  - United States_None_trojan_076
+  - United States_None_trojan_077
+  - Unknown_trojan_078
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Japan_Tokyo_trojan_13
@@ -446,6 +1983,59 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Japan_Tokyo_trojan_114
   - Hong Kong_Tuen Mun_vmess_115
+  - Austria_None_trojan_116
+  - Austria_None_trojan_117
+  - Bulgaria_None_trojan_118
+  - Bulgaria_None_trojan_119
+  - Lithuania_Vilnius_trojan_120
+  - Poland_Warsaw_trojan_121
+  - Lithuania_Vilnius_trojan_122
+  - Poland_Warsaw_trojan_123
+  - Poland_Warsaw_trojan_124
+  - Moldova_Chisinau_trojan_125
+  - Lithuania_Vilnius_trojan_126
+  - Lithuania_Vilnius_trojan_127
+  - Israel_Jerusalem_trojan_128
+  - Canada_Ottawa_trojan_129
+  - Czechia_Doksy_trojan_130
+  - Czechia_Mimon_trojan_131
+  - Czechia_Mimon_trojan_132
+  - Germany_None_trojan_133
+  - Germany_Frankfurt am Main_trojan_134
+  - Germany_Frankfurt am Main_trojan_135
+  - Germany_Nuremberg_trojan_136
+  - Denmark_None_trojan_137
+  - Russia_None_trojan_138
+  - United Kingdom_Battersea_trojan_139
+  - United Kingdom_Canterbury_trojan_140
+  - United Kingdom_Cornwall_trojan_141
+  - United Kingdom_None_trojan_142
+  - United Kingdom_Dagenham_trojan_143
+  - United Kingdom_None_trojan_144
+  - Iraq_None_trojan_145
+  - Iran_None_trojan_146
+  - Iran_None_trojan_147
+  - Lebanon_None_trojan_148
+  - Russia_Krasnogorsk_trojan_149
+  - Seychelles_None_trojan_150
+  - Türkiye_Izmir_trojan_151
+  - Germany_None_trojan_152
+  - Germany_None_trojan_153
+  - Germany_None_trojan_154
+  - United States_New York_trojan_155
+  - United States_None_trojan_156
+  - United States_None_trojan_157
+  - United States_None_trojan_158
+  - United States_None_trojan_159
+  - United States_None_trojan_160
+  - United States_None_trojan_161
+  - United States_None_trojan_162
+  - United States_None_trojan_163
+  - United States_None_trojan_164
+  - United States_None_trojan_165
+  - United States_None_trojan_166
+  - United States_None_trojan_167
+  - Unknown_trojan_168
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
