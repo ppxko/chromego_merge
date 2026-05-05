@@ -30,7 +30,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Sham Tseng_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -121,7 +121,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_113
+  name: Hong Kong_Sham Tseng_vmess_113
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -156,7 +156,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Sham Tseng_vmess_12
   - Japan_Tokyo_trojan_13
   - Hong Kong_None_trojan_14
   - Japan_Honcho_trojan_15
@@ -167,7 +167,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United Kingdom_None_vmess_111
   - United Kingdom_None_vmess_112
-  - Hong Kong_Central_vmess_113
+  - Hong Kong_Sham Tseng_vmess_113
   - United Kingdom_None_vmess_114
   - United Kingdom_None_vmess_115
 - name: 自动选择
@@ -177,7 +177,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Sham Tseng_vmess_12
   - Japan_Tokyo_trojan_13
   - Hong Kong_None_trojan_14
   - Japan_Honcho_trojan_15
@@ -188,7 +188,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United Kingdom_None_vmess_111
   - United Kingdom_None_vmess_112
-  - Hong Kong_Central_vmess_113
+  - Hong Kong_Sham Tseng_vmess_113
   - United Kingdom_None_vmess_114
   - United Kingdom_None_vmess_115
 rules:
