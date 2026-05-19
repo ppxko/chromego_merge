@@ -164,20 +164,9 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Hong Kong_None_trojan_015
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 213.176.92.138
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
 - allowInsecure: '1'
   fp: chrome
-  name: Japan_Tokyo_trojan_016
+  name: Japan_Tokyo_trojan_015
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -191,7 +180,43 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Hong Kong_Central_trojan_017
+- name: United States_None_trojan_016
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 45.136.14.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Hong Kong_None_trojan_017
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 213.176.92.138
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: China_None_vmess_018
+  network: tcp
+  port: 11947
+  server: board-01.ddnskunlun.com
+  servername: board-01.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+- name: Hong Kong_Central_trojan_019
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -203,32 +228,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Hong Kong_Central_trojan_018
+- name: Hong Kong_Central_trojan_020
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 219.76.13.180
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
-- name: United States_None_trojan_019
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 143.20.204.5
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Unknown_trojan_020
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 23.175.201.2
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -250,6 +254,17 @@ proxies:
 - name: United States_None_trojan_022
   network: ws
   password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 143.20.204.5
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_None_trojan_023
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 64.188.58.138
   sni: Koma-YT.PAGeS.Dev
@@ -259,19 +274,14 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Hong Kong_Central_trojan_023
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 219.76.13.183
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - name: Hong Kong_Hong Kong_trojan_024
+  password: 8r<[9'l6hAO#8ZQi
+  port: 46639
+  server: 192.131.142.161
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: Hong Kong_Hong Kong_trojan_025
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -284,7 +294,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Russia_None_trojan_025
+- name: Russia_None_trojan_026
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -297,20 +307,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Hong Kong_Central_trojan_026
+- name: Hong Kong_Central_trojan_027
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 219.76.13.167
+  server: 219.76.13.169
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
-- name: Hong Kong_Hong Kong_trojan_027
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Hong Kong_Hong Kong_trojan_028
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -323,42 +331,20 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Hong Kong_Central_trojan_028
+- name: Hong Kong_Central_trojan_029
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 219.76.13.169
+  server: 219.76.13.167
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: China_None_vmess_029
-  network: tcp
-  port: 11919
-  server: board-01.ddnskunlun.com
-  servername: board-01.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
-- alterId: 0
-  cipher: auto
-  name: China_None_vmess_030
-  network: tcp
-  port: 11894
-  server: board-02.ddnskunlun.com
-  servername: board-02.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
-- name: Taiwan_Pingtung City_trojan_031
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: Taiwan_Pingtung City_trojan_030
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
@@ -366,44 +352,44 @@ proxies:
   sni: bing.com
   tls: true
   type: trojan
-- name: Japan_None_trojan_032
+- name: Japan_Tokyo_trojan_031
   network: ws
-  password: '162534'
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 198.13.37.176
+  server: 153.121.45.101
   skip-cert-verify: true
-  sni: cchh2.pages.dev
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: Japan_Hakusancho-sada_trojan_033
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 20770
-  server: 219.103.68.164
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: Japan_None_trojan_034
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 140.83.34.214
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Japan_None_trojan_035
+- name: Iran_None_trojan_032
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 31.57.172.187
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- name: Japan_Osaka_trojan_033
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2083
+  server: 64.176.38.23
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: Japan_None_trojan_034
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -415,11 +401,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Japan_Tokyo_trojan_036
+- name: Japan_Wada_trojan_035
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 185.130.46.81
+  server: 126.220.82.161
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -428,7 +414,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Japan_None_trojan_037
+- name: Japan_None_trojan_036
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -439,6 +425,19 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: Taiwan_None_vmess_037
+  network: http
+  port: 54291
+  server: 103.127.243.66
+  type: vmess
+  uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - name: Japan_Tokyo_trojan_038
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -452,6 +451,19 @@ proxies:
 - name: Japan_Tokyo_trojan_039
   network: ws
   password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.130.46.81
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Japan_Tokyo_trojan_040
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 10563
   server: 88.214.22.165
   skip-cert-verify: true
@@ -460,50 +472,33 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳
-- name: Japan_None_trojan_040
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 103.31.77.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Ashburn_trojan_041
+- name: Japan_Osaka_trojan_041
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 47.84.54.115
-  skip-cert-verify: true
+  server: 64.110.104.30
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_None_trojan_042
+    path: /trTelegram🇨🇳
+- name: Japan_None_trojan_042
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 138.2.87.237
+  server: 167.179.76.8
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_Singapore_trojan_043
+- name: Japan_Osaka_trojan_043
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 66.42.61.215
+  server: 168.138.46.67
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -512,7 +507,52 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_044
+- name: Unknown_trojan_044
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 161.248.254.27
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Japan_Tokyo_trojan_045
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 103.125.216.22
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: Singapore_Singapore_trojan_046
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.195.223
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Singapore_None_trojan_047
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 188.239.21.47
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_None_trojan_048
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -523,11 +563,26 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_045
+- name: Singapore_None_trojan_049
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 47.82.155.79
+  port: 14706
+  server: 8.222.195.24
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Singapore_Singapore_trojan_050
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 209.97.163.209
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -535,7 +590,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_046
+- name: United States_None_trojan_051
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -548,67 +603,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_Singapore_trojan_047
+- name: Singapore_None_trojan_052
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.134.174.114
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_Singapore_trojan_048
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 165.232.165.200
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_Singapore_trojan_049
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 159.89.205.195
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: Singapore_Singapore_trojan_050
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 5.34.176.71
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_Singapore_trojan_051
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 174.138.24.153
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_Singapore_trojan_052
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 209.97.171.87
+  server: 188.239.9.91
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -621,7 +620,28 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 167.71.221.62
+  server: 188.166.217.179
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Singapore_Singapore_trojan_054
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.89.207.154
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Singapore_Singapore_trojan_055
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 150.109.11.223
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -630,35 +650,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: Singapore_Singapore_trojan_054
+- name: Singapore_Singapore_trojan_056
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 5.34.176.240
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
-- name: United States_None_trojan_055
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 47.82.178.58
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
-- name: United States_None_trojan_056
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 129.212.233.197
+  server: 165.22.104.36
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -671,25 +667,115 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.60.89
+  server: 159.89.205.195
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: Singapore_Singapore_trojan_058
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 5.34.176.71
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: China_None_vmess_058
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: United States_Santa Clara_trojan_059
+- name: Singapore_Singapore_trojan_059
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 178.128.190.138
+  server: 194.127.192.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Singapore_Singapore_trojan_060
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.223.79.119
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: Singapore_Singapore_trojan_061
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.233.67.84
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Singapore_Singapore_trojan_062
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 194.233.68.198
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Germany_None_trojan_063
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 62.72.44.6
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_None_trojan_064
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 134.185.93.231
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_None_trojan_065
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 68.64.182.39
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Los Angeles_trojan_066
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 64.52.109.128
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -697,7 +783,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Los Angeles_trojan_060
+- name: United States_Santa Clara_trojan_067
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2087
+  server: 64.227.62.172
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Los Angeles_trojan_068
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
@@ -709,35 +807,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: United States_Santa Clara_trojan_061
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 157.245.178.181
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Iran_None_trojan_062
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.58.50.114
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_063
+- name: France_Paris_trojan_069
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 50.62.88.253
+  server: 173.245.49.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -745,59 +819,35 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_064
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 50.62.198.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Iran_None_trojan_065
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 31.59.136.20
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_066
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 149.104.110.97
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Unknown_trojan_067
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 23.177.185.138
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_068
+- name: United States_Santa Clara_trojan_070
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2083
-  server: 172.66.42.200
+  server: 165.227.60.231
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Santa Clara_trojan_071
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 165.232.54.102
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_None_trojan_072
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.167.242.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -805,11 +855,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Los Angeles_trojan_069
+- name: Iran_None_trojan_073
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 85.209.195.61
+  port: 2053
+  server: 31.58.50.110
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -817,11 +867,12 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Los Angeles_trojan_070
+- name: United States_Santa Clara_trojan_074
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 148.135.95.114
+  port: 2087
+  server: 165.227.26.242
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -829,74 +880,63 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_071
+- name: United States_None_trojan_075
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'
-  server: 142.252.220.13
+  server: 192.200.160.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Iran_None_trojan_072
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 31.58.50.114
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Los Angeles_trojan_073
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 192.210.217.68
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Iran_None_trojan_074
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 94.183.185.28
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Washington_trojan_075
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 20.106.211.232
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - name: United States_None_trojan_076
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 144.31.104.3
+  server: 107.151.188.118
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Santa Clara_trojan_077
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2087
+  server: 157.245.182.9
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Los Angeles_trojan_078
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 89.116.246.141
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Los Angeles_trojan_079
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 74.48.140.167
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -905,11 +945,23 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳
-- name: United States_None_trojan_077
+- name: United States_Santa Clara_trojan_080
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 157.245.182.9
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: None_None_trojan_081
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 23.168.72.17
+  server: 141.101.113.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -918,11 +970,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Santa Clara_trojan_078
+- name: United States_None_trojan_082
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 43.162.119.244
+  server: 135.84.74.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -930,109 +982,23 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Seattle_trojan_079
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 107.174.245.19
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Los Angeles_trojan_080
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 142.171.243.204
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_081
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 144.31.65.66
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Boardman_trojan_082
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 34.219.143.144
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United Kingdom_March_trojan_083
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 2.26.110.36
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_084
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 72.56.98.157
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Fremont_trojan_085
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 173.230.145.212
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Ashburn_trojan_086
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 150.136.61.82
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Germany_Frankfurt am Main_trojan_087
+- name: United States_Los Angeles_trojan_083
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 199.119.137.41
+  server: 85.209.195.61
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Iraq_None_trojan_084
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 178.17.53.135
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1041,23 +1007,22 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Buffalo_trojan_088
+- name: United States_New York_trojan_085
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 107.172.137.69
+  server: 80.209.240.188
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_089
+- name: Russia_None_trojan_086
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 72.56.71.235
+  server: 193.233.87.197
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1066,47 +1031,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_090
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 72.56.103.129
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_091
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 72.56.108.132
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: Türkiye_Istanbul_trojan_092
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.67.202.88
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Council Bluffs_trojan_093
+- name: United States_Ashburn_trojan_087
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 34.16.97.144
+  server: 150.136.105.229
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -1114,11 +1043,47 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_Los Angeles_trojan_094
+- name: Ukraine_Horlivka_trojan_088
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 172.235.51.42
+  server: 83.242.100.138
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Seattle_trojan_089
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 172.245.126.104
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Atlanta_trojan_090
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 92.118.112.68
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: United States_Atlanta_trojan_091
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 159.255.32.249
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1127,39 +1092,154 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  - http/1.1
-  name: United States_None_trojan_095
+- name: United States_None_trojan_092
   network: ws
-  password: trojan
-  port: 443
-  server: AZERB.NET
-  sni: store.timimi.dpdns.org
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 144.31.57.146
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
+    path: /trTelegram🇨🇳
+- name: Ireland_None_trojan_093
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 37.46.18.19
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
     headers:
-      Host: store.timimi.dpdns.org
-    max-early-data: 2560
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Buffalo_trojan_094
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 172.245.156.126
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Secaucus_trojan_095
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 166.1.160.140
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: Germany_None_trojan_096
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 57.129.15.55
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: The Netherlands_None_trojan_097
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2083
+  server: 81.85.77.14
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Buffalo_trojan_098
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 107.173.254.105
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: United States_None_trojan_099
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 72.56.107.167
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- name: United States_None_trojan_0100
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 72.56.117.8
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_Buffalo_trojan_0101
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 107.175.209.186
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: United States_None_trojan_0102
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.110.233
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-cfb
-  name: United States_None_ss_096
+  name: United States_None_ss_0103
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_097
+  name: Hong Kong_Central_vmess_0104
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Japan_Tokyo_trojan_098
+- name: Japan_Tokyo_trojan_0105
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 53018
@@ -1167,7 +1247,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_099
+- name: Hong Kong_None_trojan_0106
   network: tcp
   password: BxceQaOe
   port: 54708
@@ -1175,7 +1255,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_0100
+- name: Hong Kong_None_trojan_0107
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -1183,7 +1263,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_0101
+- name: Hong Kong_None_trojan_0108
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -1191,7 +1271,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: United States_None_trojan_0102
+- name: United States_None_trojan_0109
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -1199,7 +1279,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: United States_None_trojan_0103
+- name: United States_None_trojan_0110
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 1180
@@ -1207,7 +1287,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_0104
+- name: Japan_Tokyo_trojan_0111
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 3842
@@ -1215,7 +1295,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_0105
+- name: Hong Kong_None_trojan_0112
   network: tcp
   password: BxceQaOe
   port: 44079
@@ -1223,7 +1303,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: United States_None_trojan_0106
+- name: United States_None_trojan_0113
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 6604
@@ -1231,7 +1311,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_0107
+- name: Japan_Tokyo_trojan_0114
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 3882
@@ -1239,7 +1319,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_0108
+- name: Japan_Tokyo_trojan_0115
   network: tcp
   password: BxceQaOe
   port: 23255
@@ -1249,7 +1329,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_0109
+  name: United Kingdom_None_vmess_0116
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -1258,7 +1338,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_0110
+  name: United Kingdom_None_vmess_0117
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -1267,7 +1347,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_0111
+  name: Hong Kong_Central_vmess_0118
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1277,7 +1357,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: '0'
   cipher: auto
-  name: United Kingdom_None_vmess_0112
+  name: United Kingdom_None_vmess_0119
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -1290,7 +1370,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: United Kingdom_None_vmess_0113
+  name: United Kingdom_None_vmess_0120
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -1301,7 +1381,7 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: None_None_trojan_0114
+- name: None_None_trojan_0121
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '2096'
@@ -1316,7 +1396,7 @@ proxies:
     path: /tr
 - alterId: '0'
   cipher: auto
-  name: United Kingdom_None_vmess_0115
+  name: United Kingdom_None_vmess_0122
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -1330,7 +1410,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: Slovenia_None_vmess_0116
+  name: Slovenia_None_vmess_0123
   network: tcp
   port: '10097'
   server: 45.144.54.183
@@ -1340,7 +1420,7 @@ proxies:
   udp: true
   uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a
   xudp: true
-- name: Japan_None_trojan_0117
+- name: Japan_None_trojan_0124
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '21044'
@@ -1354,7 +1434,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: Germany_None_trojan_0118
+- name: Germany_None_trojan_0125
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'
@@ -1369,7 +1449,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_0119
+- name: United States_None_trojan_0126
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'
@@ -1384,7 +1464,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/65.0.3325.162 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: France_Paris_trojan_0120
+- name: France_Paris_trojan_0127
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'
@@ -1401,7 +1481,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: United States_None_vmess_0121
+  name: Singapore_Singapore_vmess_0128
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -1410,7 +1490,7 @@ proxies:
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Japan_Tokyo_trojan_0122
+- name: Japan_Tokyo_trojan_0129
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 41607
@@ -1423,7 +1503,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: South Korea_None_trojan_0123
+- name: South Korea_None_trojan_0130
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 18790
@@ -1436,7 +1516,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: South Korea_Gangbuk-gu_trojan_0124
+- name: South Korea_Gangbuk-gu_trojan_0131
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 19150
@@ -1450,7 +1530,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
     path: /trTelegram🇨🇳 @WangCai2
-- name: South Korea_Wanju_trojan_0125
+- name: South Korea_Wanju_trojan_0132
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 10332
@@ -1463,11 +1543,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: United States_None_trojan_0126
+- name: United States_None_trojan_0133
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'
-  server: 192.200.160.253
+  server: 142.252.220.13
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
@@ -1475,10 +1555,10 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: Russia_Moscow_trojan_0127
+- name: Russia_Moscow_trojan_0134
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: '443'
@@ -1496,13 +1576,13 @@ proxies:
 - cipher: aes-256-cfb
   country: 🇺🇸US
   delay: 609
-  name: Sweden_Stockholm_ss_0128
+  name: Sweden_Stockholm_ss_0135
   password: amazonskr05
   port: 443
   server: 51.20.187.16
   type: ss
 - cipher: aes-256-cfb
-  name: Vietnam_None_ss_0129
+  name: Vietnam_None_ss_0136
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.227
@@ -1510,25 +1590,25 @@ proxies:
   type: ss
   udp: false
 - cipher: aes-256-cfb
-  name: Vietnam_None_ss_0130
+  name: Vietnam_None_ss_0137
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.26
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: Vietnam_None_ss_0131
+  name: Vietnam_None_ss_0138
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.244
   type: ss
 - cipher: aes-256-cfb
-  name: Vietnam_None_ss_0132
+  name: Vietnam_None_ss_0139
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.155.44
   type: ss
-- name: United States_None_trojan_0133
+- name: United States_None_trojan_0140
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1540,7 +1620,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /tr+|+免费机场TG@proxyshareCN+|+
-- name: None_None_trojan_0134
+- name: None_None_trojan_0141
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1552,7 +1632,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: The Netherlands_Amsterdam_trojan_0135
+- name: The Netherlands_Amsterdam_trojan_0142
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1566,7 +1646,7 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: None_None_trojan_0136
+- name: None_None_trojan_0143
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2096
@@ -1583,26 +1663,26 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_Hong Kong_trojan_13
+- name: Japan_Tokyo_trojan_13
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 2008
-  server: 18.162.149.118
-  skip-cert-verify: false
+  port: 53018
+  server: 35.72.180.73
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_14
   network: tcp
   password: BxceQaOe
-  port: 3685
-  server: 16.163.95.49
+  port: 54708
+  server: 18.166.210.152
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -1617,78 +1697,70 @@ proxies:
 - name: Hong Kong_None_trojan_16
   network: tcp
   password: BxceQaOe
-  port: 6463
-  server: 16.162.188.88
+  port: 4099
+  server: 43.198.79.5
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Japan_Tokyo_trojan_17
+- name: United States_None_trojan_17
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 3135
-  server: 3.112.129.188
+  port: 11541
+  server: 54.46.53.87
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_18
+- name: United States_None_trojan_18
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 3135
-  server: 54.238.114.193
+  port: 1180
+  server: 54.46.53.87
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_19
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 4840
-  server: 3.112.129.188
+  port: 3842
+  server: 35.72.180.73
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_110
-  network: tcp
-  password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 2511
-  server: 54.238.114.193
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: Japan_Tokyo_trojan_111
+- name: Hong Kong_None_trojan_110
   network: tcp
   password: BxceQaOe
-  port: 4203
-  server: 54.248.24.57
+  port: 44079
+  server: 43.198.14.133
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Hong Kong_Hong Kong_trojan_112
+- name: United States_None_trojan_111
+  network: tcp
+  password: a922dfbe65cf53c7bc225fcfeb6cedbc
+  port: 6604
+  server: 54.46.53.87
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: Japan_Tokyo_trojan_112
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 3882
-  server: 18.162.149.118
+  server: 35.72.180.73
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_113
   network: tcp
-  password: a922dfbe65cf53c7bc225fcfeb6cedbc
-  port: 2663
-  server: 54.238.114.193
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: Hong Kong_None_trojan_114
-  network: tcp
   password: BxceQaOe
-  port: 44386
-  server: 18.166.29.176
+  port: 23255
+  server: 13.231.239.1
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_115
+  name: United Kingdom_None_vmess_114
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -1697,7 +1769,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_116
+  name: United Kingdom_None_vmess_115
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -1706,7 +1778,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_117
+  name: Hong Kong_Central_vmess_116
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1716,7 +1788,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_118
+  name: United Kingdom_None_vmess_117
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -1726,7 +1798,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: United Kingdom_None_vmess_119
+  name: United Kingdom_None_vmess_118
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -1754,147 +1826,153 @@ proxy-groups:
   - United States_None_trojan_012
   - United States_None_trojan_013
   - Japan_Tokyo_trojan_014
-  - Hong Kong_None_trojan_015
-  - Japan_Tokyo_trojan_016
-  - Hong Kong_Central_trojan_017
-  - Hong Kong_Central_trojan_018
-  - United States_None_trojan_019
-  - Unknown_trojan_020
+  - Japan_Tokyo_trojan_015
+  - United States_None_trojan_016
+  - Hong Kong_None_trojan_017
+  - China_None_vmess_018
+  - Hong Kong_Central_trojan_019
+  - Hong Kong_Central_trojan_020
   - Hong Kong_Wanchai_trojan_021
   - United States_None_trojan_022
-  - Hong Kong_Central_trojan_023
+  - United States_None_trojan_023
   - Hong Kong_Hong Kong_trojan_024
-  - Russia_None_trojan_025
-  - Hong Kong_Central_trojan_026
-  - Hong Kong_Hong Kong_trojan_027
-  - Hong Kong_Central_trojan_028
-  - China_None_vmess_029
-  - China_None_vmess_030
-  - Taiwan_Pingtung City_trojan_031
-  - Japan_None_trojan_032
-  - Japan_Hakusancho-sada_trojan_033
+  - Hong Kong_Hong Kong_trojan_025
+  - Russia_None_trojan_026
+  - Hong Kong_Central_trojan_027
+  - Hong Kong_Hong Kong_trojan_028
+  - Hong Kong_Central_trojan_029
+  - Taiwan_Pingtung City_trojan_030
+  - Japan_Tokyo_trojan_031
+  - Iran_None_trojan_032
+  - Japan_Osaka_trojan_033
   - Japan_None_trojan_034
-  - Japan_None_trojan_035
-  - Japan_Tokyo_trojan_036
-  - Japan_None_trojan_037
+  - Japan_Wada_trojan_035
+  - Japan_None_trojan_036
+  - Taiwan_None_vmess_037
   - Japan_Tokyo_trojan_038
   - Japan_Tokyo_trojan_039
-  - Japan_None_trojan_040
-  - United States_Ashburn_trojan_041
-  - Singapore_None_trojan_042
-  - Singapore_Singapore_trojan_043
-  - United States_None_trojan_044
-  - United States_None_trojan_045
-  - United States_None_trojan_046
-  - Singapore_Singapore_trojan_047
-  - Singapore_Singapore_trojan_048
-  - Singapore_Singapore_trojan_049
+  - Japan_Tokyo_trojan_040
+  - Japan_Osaka_trojan_041
+  - Japan_None_trojan_042
+  - Japan_Osaka_trojan_043
+  - Unknown_trojan_044
+  - Japan_Tokyo_trojan_045
+  - Singapore_Singapore_trojan_046
+  - Singapore_None_trojan_047
+  - United States_None_trojan_048
+  - Singapore_None_trojan_049
   - Singapore_Singapore_trojan_050
-  - Singapore_Singapore_trojan_051
-  - Singapore_Singapore_trojan_052
+  - United States_None_trojan_051
+  - Singapore_None_trojan_052
   - Singapore_Singapore_trojan_053
   - Singapore_Singapore_trojan_054
-  - United States_None_trojan_055
-  - United States_None_trojan_056
+  - Singapore_Singapore_trojan_055
+  - Singapore_Singapore_trojan_056
   - Singapore_Singapore_trojan_057
-  - China_None_vmess_058
-  - United States_Santa Clara_trojan_059
-  - United States_Los Angeles_trojan_060
-  - United States_Santa Clara_trojan_061
-  - Iran_None_trojan_062
-  - United States_None_trojan_063
+  - Singapore_Singapore_trojan_058
+  - Singapore_Singapore_trojan_059
+  - Singapore_Singapore_trojan_060
+  - Singapore_Singapore_trojan_061
+  - Singapore_Singapore_trojan_062
+  - Germany_None_trojan_063
   - United States_None_trojan_064
-  - Iran_None_trojan_065
-  - United States_None_trojan_066
-  - Unknown_trojan_067
-  - United States_None_trojan_068
-  - United States_Los Angeles_trojan_069
-  - United States_Los Angeles_trojan_070
-  - United States_None_trojan_071
-  - Iran_None_trojan_072
-  - United States_Los Angeles_trojan_073
-  - Iran_None_trojan_074
-  - United States_Washington_trojan_075
+  - United States_None_trojan_065
+  - United States_Los Angeles_trojan_066
+  - United States_Santa Clara_trojan_067
+  - United States_Los Angeles_trojan_068
+  - France_Paris_trojan_069
+  - United States_Santa Clara_trojan_070
+  - United States_Santa Clara_trojan_071
+  - United States_None_trojan_072
+  - Iran_None_trojan_073
+  - United States_Santa Clara_trojan_074
+  - United States_None_trojan_075
   - United States_None_trojan_076
-  - United States_None_trojan_077
-  - United States_Santa Clara_trojan_078
-  - United States_Seattle_trojan_079
-  - United States_Los Angeles_trojan_080
-  - United States_None_trojan_081
-  - United States_Boardman_trojan_082
-  - United Kingdom_March_trojan_083
-  - United States_None_trojan_084
-  - United States_Fremont_trojan_085
-  - United States_Ashburn_trojan_086
-  - Germany_Frankfurt am Main_trojan_087
-  - United States_Buffalo_trojan_088
-  - United States_None_trojan_089
-  - United States_None_trojan_090
-  - United States_None_trojan_091
-  - Türkiye_Istanbul_trojan_092
-  - United States_Council Bluffs_trojan_093
-  - United States_Los Angeles_trojan_094
-  - United States_None_trojan_095
-  - United States_None_ss_096
-  - Hong Kong_Tuen Mun_vmess_097
-  - Japan_Tokyo_trojan_098
-  - Hong Kong_None_trojan_099
-  - Hong Kong_None_trojan_0100
-  - Hong Kong_None_trojan_0101
+  - United States_Santa Clara_trojan_077
+  - United States_Los Angeles_trojan_078
+  - United States_Los Angeles_trojan_079
+  - United States_Santa Clara_trojan_080
+  - None_None_trojan_081
+  - United States_None_trojan_082
+  - United States_Los Angeles_trojan_083
+  - Iraq_None_trojan_084
+  - United States_New York_trojan_085
+  - Russia_None_trojan_086
+  - United States_Ashburn_trojan_087
+  - Ukraine_Horlivka_trojan_088
+  - United States_Seattle_trojan_089
+  - United States_Atlanta_trojan_090
+  - United States_Atlanta_trojan_091
+  - United States_None_trojan_092
+  - Ireland_None_trojan_093
+  - United States_Buffalo_trojan_094
+  - United States_Secaucus_trojan_095
+  - Germany_None_trojan_096
+  - The Netherlands_None_trojan_097
+  - United States_Buffalo_trojan_098
+  - United States_None_trojan_099
+  - United States_None_trojan_0100
+  - United States_Buffalo_trojan_0101
   - United States_None_trojan_0102
-  - United States_None_trojan_0103
-  - Japan_Tokyo_trojan_0104
-  - Hong Kong_None_trojan_0105
-  - United States_None_trojan_0106
-  - Japan_Tokyo_trojan_0107
-  - Japan_Tokyo_trojan_0108
-  - United Kingdom_None_vmess_0109
-  - United Kingdom_None_vmess_0110
-  - Hong Kong_Tuen Mun_vmess_0111
-  - United Kingdom_None_vmess_0112
-  - United Kingdom_None_vmess_0113
-  - None_None_trojan_0114
-  - United Kingdom_None_vmess_0115
-  - Slovenia_None_vmess_0116
-  - Japan_None_trojan_0117
-  - Germany_None_trojan_0118
-  - United States_None_trojan_0119
-  - France_Paris_trojan_0120
-  - United States_None_vmess_0121
-  - Japan_Tokyo_trojan_0122
-  - South Korea_None_trojan_0123
-  - South Korea_Gangbuk-gu_trojan_0124
-  - South Korea_Wanju_trojan_0125
+  - United States_None_ss_0103
+  - Hong Kong_Central_vmess_0104
+  - Japan_Tokyo_trojan_0105
+  - Hong Kong_None_trojan_0106
+  - Hong Kong_None_trojan_0107
+  - Hong Kong_None_trojan_0108
+  - United States_None_trojan_0109
+  - United States_None_trojan_0110
+  - Japan_Tokyo_trojan_0111
+  - Hong Kong_None_trojan_0112
+  - United States_None_trojan_0113
+  - Japan_Tokyo_trojan_0114
+  - Japan_Tokyo_trojan_0115
+  - United Kingdom_None_vmess_0116
+  - United Kingdom_None_vmess_0117
+  - Hong Kong_Central_vmess_0118
+  - United Kingdom_None_vmess_0119
+  - United Kingdom_None_vmess_0120
+  - None_None_trojan_0121
+  - United Kingdom_None_vmess_0122
+  - Slovenia_None_vmess_0123
+  - Japan_None_trojan_0124
+  - Germany_None_trojan_0125
   - United States_None_trojan_0126
-  - Russia_Moscow_trojan_0127
-  - Sweden_Stockholm_ss_0128
-  - Vietnam_None_ss_0129
-  - Vietnam_None_ss_0130
-  - Vietnam_None_ss_0131
-  - Vietnam_None_ss_0132
+  - France_Paris_trojan_0127
+  - Singapore_Singapore_vmess_0128
+  - Japan_Tokyo_trojan_0129
+  - South Korea_None_trojan_0130
+  - South Korea_Gangbuk-gu_trojan_0131
+  - South Korea_Wanju_trojan_0132
   - United States_None_trojan_0133
-  - None_None_trojan_0134
-  - The Netherlands_Amsterdam_trojan_0135
-  - None_None_trojan_0136
+  - Russia_Moscow_trojan_0134
+  - Sweden_Stockholm_ss_0135
+  - Vietnam_None_ss_0136
+  - Vietnam_None_ss_0137
+  - Vietnam_None_ss_0138
+  - Vietnam_None_ss_0139
+  - United States_None_trojan_0140
+  - None_None_trojan_0141
+  - The Netherlands_Amsterdam_trojan_0142
+  - None_None_trojan_0143
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
-  - Hong Kong_Hong Kong_trojan_13
+  - Hong Kong_Central_vmess_12
+  - Japan_Tokyo_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
-  - Japan_Tokyo_trojan_17
-  - Japan_Tokyo_trojan_18
+  - United States_None_trojan_17
+  - United States_None_trojan_18
   - Japan_Tokyo_trojan_19
-  - Japan_Tokyo_trojan_110
-  - Japan_Tokyo_trojan_111
-  - Hong Kong_Hong Kong_trojan_112
+  - Hong Kong_None_trojan_110
+  - United States_None_trojan_111
+  - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
-  - Hong Kong_None_trojan_114
+  - United Kingdom_None_vmess_114
   - United Kingdom_None_vmess_115
-  - United Kingdom_None_vmess_116
-  - Hong Kong_Tuen Mun_vmess_117
+  - Hong Kong_Central_vmess_116
+  - United Kingdom_None_vmess_117
   - United Kingdom_None_vmess_118
-  - United Kingdom_None_vmess_119
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1915,147 +1993,153 @@ proxy-groups:
   - United States_None_trojan_012
   - United States_None_trojan_013
   - Japan_Tokyo_trojan_014
-  - Hong Kong_None_trojan_015
-  - Japan_Tokyo_trojan_016
-  - Hong Kong_Central_trojan_017
-  - Hong Kong_Central_trojan_018
-  - United States_None_trojan_019
-  - Unknown_trojan_020
+  - Japan_Tokyo_trojan_015
+  - United States_None_trojan_016
+  - Hong Kong_None_trojan_017
+  - China_None_vmess_018
+  - Hong Kong_Central_trojan_019
+  - Hong Kong_Central_trojan_020
   - Hong Kong_Wanchai_trojan_021
   - United States_None_trojan_022
-  - Hong Kong_Central_trojan_023
+  - United States_None_trojan_023
   - Hong Kong_Hong Kong_trojan_024
-  - Russia_None_trojan_025
-  - Hong Kong_Central_trojan_026
-  - Hong Kong_Hong Kong_trojan_027
-  - Hong Kong_Central_trojan_028
-  - China_None_vmess_029
-  - China_None_vmess_030
-  - Taiwan_Pingtung City_trojan_031
-  - Japan_None_trojan_032
-  - Japan_Hakusancho-sada_trojan_033
+  - Hong Kong_Hong Kong_trojan_025
+  - Russia_None_trojan_026
+  - Hong Kong_Central_trojan_027
+  - Hong Kong_Hong Kong_trojan_028
+  - Hong Kong_Central_trojan_029
+  - Taiwan_Pingtung City_trojan_030
+  - Japan_Tokyo_trojan_031
+  - Iran_None_trojan_032
+  - Japan_Osaka_trojan_033
   - Japan_None_trojan_034
-  - Japan_None_trojan_035
-  - Japan_Tokyo_trojan_036
-  - Japan_None_trojan_037
+  - Japan_Wada_trojan_035
+  - Japan_None_trojan_036
+  - Taiwan_None_vmess_037
   - Japan_Tokyo_trojan_038
   - Japan_Tokyo_trojan_039
-  - Japan_None_trojan_040
-  - United States_Ashburn_trojan_041
-  - Singapore_None_trojan_042
-  - Singapore_Singapore_trojan_043
-  - United States_None_trojan_044
-  - United States_None_trojan_045
-  - United States_None_trojan_046
-  - Singapore_Singapore_trojan_047
-  - Singapore_Singapore_trojan_048
-  - Singapore_Singapore_trojan_049
+  - Japan_Tokyo_trojan_040
+  - Japan_Osaka_trojan_041
+  - Japan_None_trojan_042
+  - Japan_Osaka_trojan_043
+  - Unknown_trojan_044
+  - Japan_Tokyo_trojan_045
+  - Singapore_Singapore_trojan_046
+  - Singapore_None_trojan_047
+  - United States_None_trojan_048
+  - Singapore_None_trojan_049
   - Singapore_Singapore_trojan_050
-  - Singapore_Singapore_trojan_051
-  - Singapore_Singapore_trojan_052
+  - United States_None_trojan_051
+  - Singapore_None_trojan_052
   - Singapore_Singapore_trojan_053
   - Singapore_Singapore_trojan_054
-  - United States_None_trojan_055
-  - United States_None_trojan_056
+  - Singapore_Singapore_trojan_055
+  - Singapore_Singapore_trojan_056
   - Singapore_Singapore_trojan_057
-  - China_None_vmess_058
-  - United States_Santa Clara_trojan_059
-  - United States_Los Angeles_trojan_060
-  - United States_Santa Clara_trojan_061
-  - Iran_None_trojan_062
-  - United States_None_trojan_063
+  - Singapore_Singapore_trojan_058
+  - Singapore_Singapore_trojan_059
+  - Singapore_Singapore_trojan_060
+  - Singapore_Singapore_trojan_061
+  - Singapore_Singapore_trojan_062
+  - Germany_None_trojan_063
   - United States_None_trojan_064
-  - Iran_None_trojan_065
-  - United States_None_trojan_066
-  - Unknown_trojan_067
-  - United States_None_trojan_068
-  - United States_Los Angeles_trojan_069
-  - United States_Los Angeles_trojan_070
-  - United States_None_trojan_071
-  - Iran_None_trojan_072
-  - United States_Los Angeles_trojan_073
-  - Iran_None_trojan_074
-  - United States_Washington_trojan_075
+  - United States_None_trojan_065
+  - United States_Los Angeles_trojan_066
+  - United States_Santa Clara_trojan_067
+  - United States_Los Angeles_trojan_068
+  - France_Paris_trojan_069
+  - United States_Santa Clara_trojan_070
+  - United States_Santa Clara_trojan_071
+  - United States_None_trojan_072
+  - Iran_None_trojan_073
+  - United States_Santa Clara_trojan_074
+  - United States_None_trojan_075
   - United States_None_trojan_076
-  - United States_None_trojan_077
-  - United States_Santa Clara_trojan_078
-  - United States_Seattle_trojan_079
-  - United States_Los Angeles_trojan_080
-  - United States_None_trojan_081
-  - United States_Boardman_trojan_082
-  - United Kingdom_March_trojan_083
-  - United States_None_trojan_084
-  - United States_Fremont_trojan_085
-  - United States_Ashburn_trojan_086
-  - Germany_Frankfurt am Main_trojan_087
-  - United States_Buffalo_trojan_088
-  - United States_None_trojan_089
-  - United States_None_trojan_090
-  - United States_None_trojan_091
-  - Türkiye_Istanbul_trojan_092
-  - United States_Council Bluffs_trojan_093
-  - United States_Los Angeles_trojan_094
-  - United States_None_trojan_095
-  - United States_None_ss_096
-  - Hong Kong_Tuen Mun_vmess_097
-  - Japan_Tokyo_trojan_098
-  - Hong Kong_None_trojan_099
-  - Hong Kong_None_trojan_0100
-  - Hong Kong_None_trojan_0101
+  - United States_Santa Clara_trojan_077
+  - United States_Los Angeles_trojan_078
+  - United States_Los Angeles_trojan_079
+  - United States_Santa Clara_trojan_080
+  - None_None_trojan_081
+  - United States_None_trojan_082
+  - United States_Los Angeles_trojan_083
+  - Iraq_None_trojan_084
+  - United States_New York_trojan_085
+  - Russia_None_trojan_086
+  - United States_Ashburn_trojan_087
+  - Ukraine_Horlivka_trojan_088
+  - United States_Seattle_trojan_089
+  - United States_Atlanta_trojan_090
+  - United States_Atlanta_trojan_091
+  - United States_None_trojan_092
+  - Ireland_None_trojan_093
+  - United States_Buffalo_trojan_094
+  - United States_Secaucus_trojan_095
+  - Germany_None_trojan_096
+  - The Netherlands_None_trojan_097
+  - United States_Buffalo_trojan_098
+  - United States_None_trojan_099
+  - United States_None_trojan_0100
+  - United States_Buffalo_trojan_0101
   - United States_None_trojan_0102
-  - United States_None_trojan_0103
-  - Japan_Tokyo_trojan_0104
-  - Hong Kong_None_trojan_0105
-  - United States_None_trojan_0106
-  - Japan_Tokyo_trojan_0107
-  - Japan_Tokyo_trojan_0108
-  - United Kingdom_None_vmess_0109
-  - United Kingdom_None_vmess_0110
-  - Hong Kong_Tuen Mun_vmess_0111
-  - United Kingdom_None_vmess_0112
-  - United Kingdom_None_vmess_0113
-  - None_None_trojan_0114
-  - United Kingdom_None_vmess_0115
-  - Slovenia_None_vmess_0116
-  - Japan_None_trojan_0117
-  - Germany_None_trojan_0118
-  - United States_None_trojan_0119
-  - France_Paris_trojan_0120
-  - United States_None_vmess_0121
-  - Japan_Tokyo_trojan_0122
-  - South Korea_None_trojan_0123
-  - South Korea_Gangbuk-gu_trojan_0124
-  - South Korea_Wanju_trojan_0125
+  - United States_None_ss_0103
+  - Hong Kong_Central_vmess_0104
+  - Japan_Tokyo_trojan_0105
+  - Hong Kong_None_trojan_0106
+  - Hong Kong_None_trojan_0107
+  - Hong Kong_None_trojan_0108
+  - United States_None_trojan_0109
+  - United States_None_trojan_0110
+  - Japan_Tokyo_trojan_0111
+  - Hong Kong_None_trojan_0112
+  - United States_None_trojan_0113
+  - Japan_Tokyo_trojan_0114
+  - Japan_Tokyo_trojan_0115
+  - United Kingdom_None_vmess_0116
+  - United Kingdom_None_vmess_0117
+  - Hong Kong_Central_vmess_0118
+  - United Kingdom_None_vmess_0119
+  - United Kingdom_None_vmess_0120
+  - None_None_trojan_0121
+  - United Kingdom_None_vmess_0122
+  - Slovenia_None_vmess_0123
+  - Japan_None_trojan_0124
+  - Germany_None_trojan_0125
   - United States_None_trojan_0126
-  - Russia_Moscow_trojan_0127
-  - Sweden_Stockholm_ss_0128
-  - Vietnam_None_ss_0129
-  - Vietnam_None_ss_0130
-  - Vietnam_None_ss_0131
-  - Vietnam_None_ss_0132
+  - France_Paris_trojan_0127
+  - Singapore_Singapore_vmess_0128
+  - Japan_Tokyo_trojan_0129
+  - South Korea_None_trojan_0130
+  - South Korea_Gangbuk-gu_trojan_0131
+  - South Korea_Wanju_trojan_0132
   - United States_None_trojan_0133
-  - None_None_trojan_0134
-  - The Netherlands_Amsterdam_trojan_0135
-  - None_None_trojan_0136
+  - Russia_Moscow_trojan_0134
+  - Sweden_Stockholm_ss_0135
+  - Vietnam_None_ss_0136
+  - Vietnam_None_ss_0137
+  - Vietnam_None_ss_0138
+  - Vietnam_None_ss_0139
+  - United States_None_trojan_0140
+  - None_None_trojan_0141
+  - The Netherlands_Amsterdam_trojan_0142
+  - None_None_trojan_0143
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
-  - Hong Kong_Hong Kong_trojan_13
+  - Hong Kong_Central_vmess_12
+  - Japan_Tokyo_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
-  - Japan_Tokyo_trojan_17
-  - Japan_Tokyo_trojan_18
+  - United States_None_trojan_17
+  - United States_None_trojan_18
   - Japan_Tokyo_trojan_19
-  - Japan_Tokyo_trojan_110
-  - Japan_Tokyo_trojan_111
-  - Hong Kong_Hong Kong_trojan_112
+  - Hong Kong_None_trojan_110
+  - United States_None_trojan_111
+  - Japan_Tokyo_trojan_112
   - Japan_Tokyo_trojan_113
-  - Hong Kong_None_trojan_114
+  - United Kingdom_None_vmess_114
   - United Kingdom_None_vmess_115
-  - United Kingdom_None_vmess_116
-  - Hong Kong_Tuen Mun_vmess_117
+  - Hong Kong_Central_vmess_116
+  - United Kingdom_None_vmess_117
   - United Kingdom_None_vmess_118
-  - United Kingdom_None_vmess_119
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
