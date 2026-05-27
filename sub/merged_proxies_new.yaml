@@ -300,7 +300,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_032
+  name: Hong Kong_Mid Levels_vmess_032
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -423,7 +423,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_047
+  name: Hong Kong_Mid Levels_vmess_047
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -479,7 +479,7 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: United Kingdom_None_vmess_052
+  name: Indonesia_Jakarta_vmess_052
   port: 30829
   server: v29.hdacd.com
   skip-cert-verify: false
@@ -505,7 +505,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Mid Levels_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -628,7 +628,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_117
+  name: Hong Kong_Mid Levels_vmess_117
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -656,6 +656,58 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: South Korea_Cheongju-si_trojan_120
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 30303
+  server: 121.191.33.84
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: South Korea_Gangneung_trojan_121
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 12345
+  server: 59.30.42.194
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: South Korea_Jeonju_trojan_122
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: South Korea_Goyang-si_trojan_123
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 29999
+  server: 14.53.107.138
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
 proxy-groups:
 - name: 节点选择
   type: select
@@ -693,7 +745,7 @@ proxy-groups:
   - Hong Kong_None_vmess_029
   - United Kingdom_None_vmess_030
   - United States_None_ss_031
-  - Hong Kong_Tuen Mun_vmess_032
+  - Hong Kong_Mid Levels_vmess_032
   - Japan_Tokyo_trojan_033
   - Japan_Tokyo_trojan_034
   - Hong Kong_None_trojan_035
@@ -708,15 +760,15 @@ proxy-groups:
   - Hong Kong_None_trojan_044
   - United Kingdom_None_vmess_045
   - United Kingdom_None_vmess_046
-  - Hong Kong_Tuen Mun_vmess_047
+  - Hong Kong_Mid Levels_vmess_047
   - United Kingdom_None_vmess_048
   - United Kingdom_None_vmess_049
   - United States_San Francisco_ss_050
   - United Kingdom_None_vmess_051
-  - United Kingdom_None_vmess_052
+  - Indonesia_Jakarta_vmess_052
   - South Korea_Seoul_trojan_053
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Mid Levels_vmess_12
   - Japan_Tokyo_trojan_13
   - Japan_Tokyo_trojan_14
   - Hong Kong_None_trojan_15
@@ -731,9 +783,13 @@ proxy-groups:
   - Hong Kong_None_trojan_114
   - United Kingdom_None_vmess_115
   - United Kingdom_None_vmess_116
-  - Hong Kong_Tuen Mun_vmess_117
+  - Hong Kong_Mid Levels_vmess_117
   - United Kingdom_None_vmess_118
   - United Kingdom_None_vmess_119
+  - South Korea_Cheongju-si_trojan_120
+  - South Korea_Gangneung_trojan_121
+  - South Korea_Jeonju_trojan_122
+  - South Korea_Goyang-si_trojan_123
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -771,7 +827,7 @@ proxy-groups:
   - Hong Kong_None_vmess_029
   - United Kingdom_None_vmess_030
   - United States_None_ss_031
-  - Hong Kong_Tuen Mun_vmess_032
+  - Hong Kong_Mid Levels_vmess_032
   - Japan_Tokyo_trojan_033
   - Japan_Tokyo_trojan_034
   - Hong Kong_None_trojan_035
@@ -786,15 +842,15 @@ proxy-groups:
   - Hong Kong_None_trojan_044
   - United Kingdom_None_vmess_045
   - United Kingdom_None_vmess_046
-  - Hong Kong_Tuen Mun_vmess_047
+  - Hong Kong_Mid Levels_vmess_047
   - United Kingdom_None_vmess_048
   - United Kingdom_None_vmess_049
   - United States_San Francisco_ss_050
   - United Kingdom_None_vmess_051
-  - United Kingdom_None_vmess_052
+  - Indonesia_Jakarta_vmess_052
   - South Korea_Seoul_trojan_053
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Mid Levels_vmess_12
   - Japan_Tokyo_trojan_13
   - Japan_Tokyo_trojan_14
   - Hong Kong_None_trojan_15
@@ -809,9 +865,13 @@ proxy-groups:
   - Hong Kong_None_trojan_114
   - United Kingdom_None_vmess_115
   - United Kingdom_None_vmess_116
-  - Hong Kong_Tuen Mun_vmess_117
+  - Hong Kong_Mid Levels_vmess_117
   - United Kingdom_None_vmess_118
   - United Kingdom_None_vmess_119
+  - South Korea_Cheongju-si_trojan_120
+  - South Korea_Gangneung_trojan_121
+  - South Korea_Jeonju_trojan_122
+  - South Korea_Goyang-si_trojan_123
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
