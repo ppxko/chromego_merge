@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Tuen Mun_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -226,7 +226,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_025
+  name: Hong Kong_Tuen Mun_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -244,55 +244,32 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: United States_None_trojan_027
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '46424'
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_028
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '47909'
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: Canada_Montreal_ss_029
-  password: amazonskr05
-  port: 443
-  server: 3.96.152.83
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_030
+  name: Germany_Frankfurt am Main_ss_027
   password: amazonskr05
   port: 443
   server: 3.79.104.163
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-128-gcm
-  name: Romania_Bucharest_ss_031
-  password: kfuzkwdg4oynv495aywc
-  port: 13262
-  server: 86.106.84.195
+- name: United States_None_trojan_028
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  tfo: false
-  type: ss
-  udp: false
-- cipher: aes-256-cfb
-  name: Spain_Madrid_ss_032
-  password: ZET59LF6DvCC8KVt
-  port: '9005'
-  server: 5.188.181.201
-  type: ss
+  sni: fr.01.naiun.bilibili.com
+  tls: false
+  type: trojan
   udp: true
-- name: Germany_None_trojan_033
+- name: United States_None_trojan_029
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 155.117.198.83
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  type: trojan
+- name: Germany_None_trojan_030
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
   server: de-1.hysteria.ltd
@@ -308,7 +285,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Tuen Mun_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -414,7 +391,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_115
+  name: Hong Kong_Tuen Mun_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -457,7 +434,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Japan_Tokyo_trojan_015
@@ -470,17 +447,14 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Poland_None_trojan_023
   - United Kingdom_None_vmess_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Tuen Mun_vmess_025
   - United Kingdom_None_vmess_026
-  - United States_None_trojan_027
+  - Germany_Frankfurt am Main_ss_027
   - United States_None_trojan_028
-  - Canada_Montreal_ss_029
-  - Germany_Frankfurt am Main_ss_030
-  - Romania_Bucharest_ss_031
-  - Spain_Madrid_ss_032
-  - Germany_None_trojan_033
+  - United States_None_trojan_029
+  - Germany_None_trojan_030
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Japan_Tokyo_trojan_15
@@ -493,7 +467,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Poland_None_trojan_113
   - United Kingdom_None_vmess_114
-  - Hong Kong_Central_vmess_115
+  - Hong Kong_Tuen Mun_vmess_115
   - United Kingdom_None_vmess_116
   - Germany_None_trojan_117
 - name: 自动选择
@@ -513,7 +487,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Japan_Tokyo_trojan_015
@@ -526,17 +500,14 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Poland_None_trojan_023
   - United Kingdom_None_vmess_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Tuen Mun_vmess_025
   - United Kingdom_None_vmess_026
-  - United States_None_trojan_027
+  - Germany_Frankfurt am Main_ss_027
   - United States_None_trojan_028
-  - Canada_Montreal_ss_029
-  - Germany_Frankfurt am Main_ss_030
-  - Romania_Bucharest_ss_031
-  - Spain_Madrid_ss_032
-  - Germany_None_trojan_033
+  - United States_None_trojan_029
+  - Germany_None_trojan_030
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Japan_Tokyo_trojan_15
@@ -549,7 +520,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Poland_None_trojan_113
   - United Kingdom_None_vmess_114
-  - Hong Kong_Central_vmess_115
+  - Hong Kong_Tuen Mun_vmess_115
   - United Kingdom_None_vmess_116
   - Germany_None_trojan_117
 rules:
