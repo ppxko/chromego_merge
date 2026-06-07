@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tai Po_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -210,7 +210,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tai Po_vmess_023
+  name: Hong Kong_Central_vmess_023
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -316,7 +316,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tai Po_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -406,7 +406,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tai Po_vmess_113
+  name: Hong Kong_Central_vmess_113
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -449,7 +449,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tai Po_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Japan_Tokyo_trojan_015
@@ -460,7 +460,7 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - Poland_None_trojan_021
   - United Kingdom_None_vmess_022
-  - Hong Kong_Tai Po_vmess_023
+  - Hong Kong_Central_vmess_023
   - United Kingdom_None_vmess_024
   - South Korea_Songpa-gu_ss_025
   - Canada_Montreal_ss_026
@@ -473,7 +473,7 @@ proxy-groups:
   - United States_None_trojan_033
   - Germany_None_trojan_034
   - United States_None_ss_11
-  - Hong Kong_Tai Po_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Japan_Tokyo_trojan_15
@@ -484,7 +484,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - Poland_None_trojan_111
   - United Kingdom_None_vmess_112
-  - Hong Kong_Tai Po_vmess_113
+  - Hong Kong_Central_vmess_113
   - United Kingdom_None_vmess_114
   - Germany_None_trojan_115
 - name: 自动选择
@@ -504,7 +504,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tai Po_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Japan_Tokyo_trojan_015
@@ -515,7 +515,7 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - Poland_None_trojan_021
   - United Kingdom_None_vmess_022
-  - Hong Kong_Tai Po_vmess_023
+  - Hong Kong_Central_vmess_023
   - United Kingdom_None_vmess_024
   - South Korea_Songpa-gu_ss_025
   - Canada_Montreal_ss_026
@@ -528,7 +528,7 @@ proxy-groups:
   - United States_None_trojan_033
   - Germany_None_trojan_034
   - United States_None_ss_11
-  - Hong Kong_Tai Po_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Japan_Tokyo_trojan_15
@@ -539,7 +539,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - Poland_None_trojan_111
   - United Kingdom_None_vmess_112
-  - Hong Kong_Tai Po_vmess_113
+  - Hong Kong_Central_vmess_113
   - United Kingdom_None_vmess_114
   - Germany_None_trojan_115
 rules:
