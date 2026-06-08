@@ -275,7 +275,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: United Kingdom_None_vmess_031
+  name: Australia_Melbourne_vmess_031
   network: tcp
   port: 30808
   server: v8.hdacd.com
@@ -322,14 +322,6 @@ proxies:
   server: 155.117.198.83
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- name: Germany_None_trojan_037
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -472,14 +464,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: Germany_None_trojan_118
-  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
-  port: 9443
-  server: de-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: de-1.hysteria.ltd
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -516,13 +500,12 @@ proxy-groups:
   - South Korea_Songpa-gu_ss_028
   - Canada_Montreal_ss_029
   - Taiwan_Zhongli District_ss_030
-  - United Kingdom_None_vmess_031
+  - Australia_Melbourne_vmess_031
   - Canada_Montreal_ss_032
   - Russia_Moscow_ss_033
   - South Korea_Songpa-gu_ss_034
   - United States_None_ss_035
   - United States_None_trojan_036
-  - Germany_None_trojan_037
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
@@ -540,7 +523,6 @@ proxy-groups:
   - United Kingdom_None_vmess_115
   - Hong Kong_Yuen Long San Hui_vmess_116
   - United Kingdom_None_vmess_117
-  - Germany_None_trojan_118
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -577,13 +559,12 @@ proxy-groups:
   - South Korea_Songpa-gu_ss_028
   - Canada_Montreal_ss_029
   - Taiwan_Zhongli District_ss_030
-  - United Kingdom_None_vmess_031
+  - Australia_Melbourne_vmess_031
   - Canada_Montreal_ss_032
   - Russia_Moscow_ss_033
   - South Korea_Songpa-gu_ss_034
   - United States_None_ss_035
   - United States_None_trojan_036
-  - Germany_None_trojan_037
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
@@ -601,7 +582,6 @@ proxy-groups:
   - United Kingdom_None_vmess_115
   - Hong Kong_Yuen Long San Hui_vmess_116
   - United Kingdom_None_vmess_117
-  - Germany_None_trojan_118
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
