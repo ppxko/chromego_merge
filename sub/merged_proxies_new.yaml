@@ -252,24 +252,14 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: France_None_vmess_028
-  network: ws
-  port: '80'
-  server: 51.254.133.152
+- name: Germany_None_trojan_028
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: de-1.hysteria.ltd
+  type: trojan
   udp: true
-  uuid: ac8bcf5e-bb58-4e8b-b4e4-5fdea010a6c6
-  ws-opts:
-    headers:
-      Host: fr5.niekotin.de
-    path: /vmess
-  xudp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -410,6 +400,14 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: Germany_None_trojan_118
+  password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
+  port: 9443
+  server: de-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: de-1.hysteria.ltd
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -443,7 +441,7 @@ proxy-groups:
   - United Kingdom_None_vmess_025
   - Hong Kong_Tuen Mun_vmess_026
   - United Kingdom_None_vmess_027
-  - France_None_vmess_028
+  - Germany_None_trojan_028
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
@@ -461,6 +459,7 @@ proxy-groups:
   - United Kingdom_None_vmess_115
   - Hong Kong_Tuen Mun_vmess_116
   - United Kingdom_None_vmess_117
+  - Germany_None_trojan_118
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -494,7 +493,7 @@ proxy-groups:
   - United Kingdom_None_vmess_025
   - Hong Kong_Tuen Mun_vmess_026
   - United Kingdom_None_vmess_027
-  - France_None_vmess_028
+  - Germany_None_trojan_028
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
@@ -512,6 +511,7 @@ proxy-groups:
   - United Kingdom_None_vmess_115
   - Hong Kong_Tuen Mun_vmess_116
   - United Kingdom_None_vmess_117
+  - Germany_None_trojan_118
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
