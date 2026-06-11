@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Tuen Mun_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -234,7 +234,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_026
+  name: Hong Kong_Tuen Mun_vmess_026
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -278,7 +278,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Tuen Mun_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -392,7 +392,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_116
+  name: Hong Kong_Tuen Mun_vmess_116
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -427,7 +427,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Poland_None_trojan_015
@@ -441,11 +441,11 @@ proxy-groups:
   - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
   - United Kingdom_None_vmess_025
-  - Hong Kong_Central_vmess_026
+  - Hong Kong_Tuen Mun_vmess_026
   - United Kingdom_None_vmess_027
   - France_None_vmess_028
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Poland_None_trojan_15
@@ -459,7 +459,7 @@ proxy-groups:
   - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
   - United Kingdom_None_vmess_115
-  - Hong Kong_Central_vmess_116
+  - Hong Kong_Tuen Mun_vmess_116
   - United Kingdom_None_vmess_117
 - name: 自动选择
   type: url-test
@@ -478,7 +478,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Poland_None_trojan_015
@@ -492,11 +492,11 @@ proxy-groups:
   - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
   - United Kingdom_None_vmess_025
-  - Hong Kong_Central_vmess_026
+  - Hong Kong_Tuen Mun_vmess_026
   - United Kingdom_None_vmess_027
   - France_None_vmess_028
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Poland_None_trojan_15
@@ -510,7 +510,7 @@ proxy-groups:
   - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
   - United Kingdom_None_vmess_115
-  - Hong Kong_Central_vmess_116
+  - Hong Kong_Tuen Mun_vmess_116
   - United Kingdom_None_vmess_117
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
