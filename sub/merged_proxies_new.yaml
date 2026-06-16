@@ -253,34 +253,45 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-cfb
-  name: United States_None_ss_028
+  name: Canada_Montreal_ss_028
   password: amazonskr05
   port: 443
-  server: 63.183.200.172
+  server: 3.97.8.224
   skip-cert-verify: false
   type: ss
   udp: false
-- cipher: aes-256-gcm
-  name: United States_None_ss_029
-  password: dada1203
-  port: '80'
-  server: 13.135.172.147
+- cipher: aes-256-cfb
+  name: Canada_Montreal_ss_029
+  password: amazonskr05
+  port: 443
+  server: 35.183.126.173
+  skip-cert-verify: false
   type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: Australia_Sydney_ss_030
-  password: dada1203
-  port: '80'
-  server: 3.27.212.11
+  udp: false
+- cipher: chacha20-ietf-poly1305
+  name: United Kingdom_Enfield_ss_030
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.17
+  skip-cert-verify: false
   type: ss
+  udp: false
+- alpn:
+  - http/1.1
+  name: None_None_trojan_031
+  network: ws
+  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  port: '443'
+  server: saas.sin.fan
+  skip-cert-verify: false
+  sni: jy.hhllfly.kdns.fr
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: United Kingdom_London_ss_031
-  password: dada1203
-  port: '80'
-  server: 35.176.239.59
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /
 - name: Germany_None_trojan_032
   password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu
   port: 9443
@@ -307,8 +318,8 @@ proxies:
 - name: Japan_Tokyo_trojan_13
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 2008
-  server: 18.183.118.126
+  port: 53018
+  server: 43.207.198.215
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -316,7 +327,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 16.162.33.127
+  server: 18.163.84.233
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -324,55 +335,55 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 11035
-  server: 16.162.190.109
+  server: 16.163.107.220
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_16
   network: tcp
   password: BxceQaOe
-  port: 19706
-  server: 18.183.247.142
+  port: 4099
+  server: 18.181.78.148
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Japan_Tokyo_trojan_17
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 55973
-  server: 18.183.118.126
+  port: 37973
+  server: 35.75.4.144
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_18
+- name: Poland_None_trojan_18
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
-  port: 37973
-  server: 16.162.19.220
+  port: 5701
+  server: 95.40.125.63
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_19
+- name: Poland_None_trojan_19
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 6357
-  server: 18.162.187.25
+  server: 95.40.125.63
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Japan_Tokyo_trojan_110
+- name: Poland_None_trojan_110
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 29642
-  server: 18.183.118.126
+  server: 95.40.125.63
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_111
   network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 18.166.62.207
+  port: 9149
+  server: 18.163.84.233
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -380,7 +391,7 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
-  server: 18.162.187.25
+  server: 43.198.107.157
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -388,15 +399,15 @@ proxies:
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
-  server: 18.183.118.126
+  server: 43.207.198.215
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_114
   network: tcp
   password: BxceQaOe
-  port: 22057
-  server: 18.166.228.198
+  port: 41889
+  server: 18.162.213.254
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -470,10 +481,10 @@ proxy-groups:
   - United Kingdom_None_vmess_025
   - Hong Kong_Tuen Mun_vmess_026
   - United Kingdom_None_vmess_027
-  - United States_None_ss_028
-  - United States_None_ss_029
-  - Australia_Sydney_ss_030
-  - United Kingdom_London_ss_031
+  - Canada_Montreal_ss_028
+  - Canada_Montreal_ss_029
+  - United Kingdom_Enfield_ss_030
+  - None_None_trojan_031
   - Germany_None_trojan_032
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
@@ -482,9 +493,9 @@ proxy-groups:
   - Hong Kong_None_trojan_15
   - Japan_Tokyo_trojan_16
   - Japan_Tokyo_trojan_17
-  - Hong Kong_None_trojan_18
-  - Hong Kong_None_trojan_19
-  - Japan_Tokyo_trojan_110
+  - Poland_None_trojan_18
+  - Poland_None_trojan_19
+  - Poland_None_trojan_110
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
   - Japan_Tokyo_trojan_113
@@ -526,10 +537,10 @@ proxy-groups:
   - United Kingdom_None_vmess_025
   - Hong Kong_Tuen Mun_vmess_026
   - United Kingdom_None_vmess_027
-  - United States_None_ss_028
-  - United States_None_ss_029
-  - Australia_Sydney_ss_030
-  - United Kingdom_London_ss_031
+  - Canada_Montreal_ss_028
+  - Canada_Montreal_ss_029
+  - United Kingdom_Enfield_ss_030
+  - None_None_trojan_031
   - Germany_None_trojan_032
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
@@ -538,9 +549,9 @@ proxy-groups:
   - Hong Kong_None_trojan_15
   - Japan_Tokyo_trojan_16
   - Japan_Tokyo_trojan_17
-  - Hong Kong_None_trojan_18
-  - Hong Kong_None_trojan_19
-  - Japan_Tokyo_trojan_110
+  - Poland_None_trojan_18
+  - Poland_None_trojan_19
+  - Poland_None_trojan_110
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
   - Japan_Tokyo_trojan_113
