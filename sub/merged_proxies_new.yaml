@@ -233,44 +233,85 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Türkiye_Istanbul_trojan_026
-  network: tcp
-  password: SoftNetConnect
-  port: '42549'
-  server: 194.5.193.58
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
-- name: None_None_trojan_027
+- name: United States_Los Angeles_trojan_026
   network: ws
-  password: humanity
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 64.64.236.127
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: United States_Phoenix_trojan_027
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 192.243.113.108
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: United States_Los Angeles_trojan_028
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 443
+  server: 45.78.79.135
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- alpn:
+  - h2
+  - http/1.1
+  name: None_None_trojan_029
+  network: ws
+  password: bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a
   port: '443'
-  server: 104.18.152.97
+  server: HKNTT1.mmm.uw.to
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: HKNTT1.mmm.uw.to
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: United Kingdom_Enfield_ss_028
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /bc2f8931-cb3d-4a13-8198-ad0d9d5ef06a-tr
+- name: United States_Los Angeles_trojan_030
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: '443'
-  server: 82.38.31.15
-  type: ss
+  server: 154.64.235.152
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: United States_None_ss_029
-  password: yu2XnSPWhmQjxn83iJA3DA
-  port: '3478'
-  server: 207.2.120.46
-  type: ss
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /
+- name: Japan_Tokyo_trojan_031
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: '443'
+  server: 18.182.54.28
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
   udp: true
-- name: South Korea_Chuncheon_trojan_030
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /
+- name: South Korea_Chuncheon_trojan_032
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -283,7 +324,7 @@ proxies:
     headers:
       Host: tjsp.hhxaf.cc.cd
     path: /
-- name: United States_Los Angeles_trojan_031
+- name: United States_Los Angeles_trojan_033
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -296,7 +337,7 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
-- name: United States_None_trojan_032
+- name: United States_None_trojan_034
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
@@ -500,13 +541,15 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Kowloon_vmess_025
-  - Türkiye_Istanbul_trojan_026
-  - None_None_trojan_027
-  - United Kingdom_Enfield_ss_028
-  - United States_None_ss_029
-  - South Korea_Chuncheon_trojan_030
-  - United States_Los Angeles_trojan_031
-  - United States_None_trojan_032
+  - United States_Los Angeles_trojan_026
+  - United States_Phoenix_trojan_027
+  - United States_Los Angeles_trojan_028
+  - None_None_trojan_029
+  - United States_Los Angeles_trojan_030
+  - Japan_Tokyo_trojan_031
+  - South Korea_Chuncheon_trojan_032
+  - United States_Los Angeles_trojan_033
+  - United States_None_trojan_034
   - United States_None_ss_11
   - Hong Kong_Kowloon_vmess_12
   - Poland_None_trojan_13
@@ -556,13 +599,15 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Kowloon_vmess_025
-  - Türkiye_Istanbul_trojan_026
-  - None_None_trojan_027
-  - United Kingdom_Enfield_ss_028
-  - United States_None_ss_029
-  - South Korea_Chuncheon_trojan_030
-  - United States_Los Angeles_trojan_031
-  - United States_None_trojan_032
+  - United States_Los Angeles_trojan_026
+  - United States_Phoenix_trojan_027
+  - United States_Los Angeles_trojan_028
+  - None_None_trojan_029
+  - United States_Los Angeles_trojan_030
+  - Japan_Tokyo_trojan_031
+  - South Korea_Chuncheon_trojan_032
+  - United States_Los Angeles_trojan_033
+  - United States_None_trojan_034
   - United States_None_ss_11
   - Hong Kong_Kowloon_vmess_12
   - Poland_None_trojan_13
