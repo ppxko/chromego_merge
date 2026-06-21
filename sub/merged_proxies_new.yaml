@@ -151,6 +151,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: Hong Kong_None_trojan_016
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
@@ -236,7 +237,7 @@ proxies:
 - name: Switzerland_Corseaux_trojan_026
   network: tcp
   password: SoftNetConnect
-  port: '42549'
+  port: 42549
   server: 83.228.224.161
   skip-cert-verify: true
   sni: www.speedtest.net
@@ -285,45 +286,14 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: South Korea_Chuncheon_trojan_031
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+- name: India_New Delhi_trojan_031
+  password: M7v%w11Se*
   port: 443
-  server: 129.154.50.159
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: United States_Los Angeles_trojan_032
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 154.17.28.152
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: United States_None_trojan_033
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 69.63.223.42
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -363,6 +333,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+  udp: true
 - name: Hong Kong_None_trojan_16
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
@@ -437,45 +408,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: South Korea_Chuncheon_trojan_115
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 129.154.50.159
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
+- name: Switzerland_Corseaux_trojan_115
+  password: SoftNetConnect
+  port: 42549
+  server: 83.228.224.161
+  skip-cert-verify: true
+  sni: www.speedtest.net
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: United States_Los Angeles_trojan_116
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+- name: India_New Delhi_trojan_116
+  password: M7v%w11Se*
   port: 443
-  server: 154.17.28.152
-  skip-cert-verify: false
-  sni: hhcm.hhxaf.cc.cd
+  server: hyfuuf6.wsone.icu
+  skip-cert-verify: true
+  sni: hyfuuf6.wsone.icu
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      Host: hhcm.hhxaf.cc.cd
-    path: /
-- name: United States_None_trojan_117
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: 443
-  server: 69.63.223.42
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
 proxy-groups:
 - name: 节点选择
   type: select
@@ -512,9 +460,7 @@ proxy-groups:
   - Japan_Osaka_trojan_028
   - The Netherlands_None_ss_029
   - Hong Kong_None_trojan_030
-  - South Korea_Chuncheon_trojan_031
-  - United States_Los Angeles_trojan_032
-  - United States_None_trojan_033
+  - India_New Delhi_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Japan_Tokyo_trojan_13
@@ -529,9 +475,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_112
   - Hong Kong_None_trojan_113
   - Hong Kong_Central_vmess_114
-  - South Korea_Chuncheon_trojan_115
-  - United States_Los Angeles_trojan_116
-  - United States_None_trojan_117
+  - Switzerland_Corseaux_trojan_115
+  - India_New Delhi_trojan_116
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -568,9 +513,7 @@ proxy-groups:
   - Japan_Osaka_trojan_028
   - The Netherlands_None_ss_029
   - Hong Kong_None_trojan_030
-  - South Korea_Chuncheon_trojan_031
-  - United States_Los Angeles_trojan_032
-  - United States_None_trojan_033
+  - India_New Delhi_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Japan_Tokyo_trojan_13
@@ -585,9 +528,8 @@ proxy-groups:
   - Japan_Tokyo_trojan_112
   - Hong Kong_None_trojan_113
   - Hong Kong_Central_vmess_114
-  - South Korea_Chuncheon_trojan_115
-  - United States_Los Angeles_trojan_116
-  - United States_None_trojan_117
+  - Switzerland_Corseaux_trojan_115
+  - India_New Delhi_trojan_116
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
