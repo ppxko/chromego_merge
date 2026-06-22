@@ -244,7 +244,7 @@ proxies:
 - name: Switzerland_Corseaux_trojan_027
   network: tcp
   password: SoftNetConnect
-  port: 42549
+  port: '42549'
   server: 83.228.224.161
   skip-cert-verify: true
   sni: www.speedtest.net
@@ -291,22 +291,6 @@ proxies:
   server: 18.162.50.252
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: India_New Delhi_trojan_032
-  password: M7v%w11Se*
-  port: 443
-  server: hyfuuf6.wsone.icu
-  skip-cert-verify: true
-  sni: hyfuuf6.wsone.icu
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_033
-  password: BxceQaOe
-  port: 5408
-  server: 54.65.32.119
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -430,30 +414,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Switzerland_Corseaux_trojan_116
-  password: SoftNetConnect
-  port: 42549
-  server: 83.228.224.161
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
-- name: India_New Delhi_trojan_117
-  password: M7v%w11Se*
-  port: 443
-  server: hyfuuf6.wsone.icu
-  skip-cert-verify: true
-  sni: hyfuuf6.wsone.icu
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_118
-  password: BxceQaOe
-  port: 5408
-  server: 54.65.32.119
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -491,8 +451,6 @@ proxy-groups:
   - Japan_Osaka_trojan_029
   - The Netherlands_None_ss_030
   - Hong Kong_None_trojan_031
-  - India_New Delhi_trojan_032
-  - Japan_Tokyo_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Japan_Tokyo_trojan_13
@@ -508,9 +466,6 @@ proxy-groups:
   - Poland_None_trojan_113
   - Poland_None_trojan_114
   - Hong Kong_Central_vmess_115
-  - Switzerland_Corseaux_trojan_116
-  - India_New Delhi_trojan_117
-  - Japan_Tokyo_trojan_118
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -548,8 +503,6 @@ proxy-groups:
   - Japan_Osaka_trojan_029
   - The Netherlands_None_ss_030
   - Hong Kong_None_trojan_031
-  - India_New Delhi_trojan_032
-  - Japan_Tokyo_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Japan_Tokyo_trojan_13
@@ -565,9 +518,6 @@ proxy-groups:
   - Poland_None_trojan_113
   - Poland_None_trojan_114
   - Hong Kong_Central_vmess_115
-  - Switzerland_Corseaux_trojan_116
-  - India_New Delhi_trojan_117
-  - Japan_Tokyo_trojan_118
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
