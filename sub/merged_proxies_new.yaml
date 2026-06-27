@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Yuen Long San Hui_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -209,7 +209,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_023
+  name: Hong Kong_Yuen Long San Hui_vmess_023
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -217,44 +217,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: United States_None_trojan_024
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 199.181.197.176
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /MiTiVPN=fL
-- alpn:
-  - http/1.1
-  name: United Kingdom_None_trojan_025
+- name: United Arab Emirates_None_trojan_024
   network: ws
   password: MITIVPN
-  port: '443'
-  server: 164.38.155.135
-  skip-cert-verify: false
-  sni: 95r.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /MiTiVPN=De
-- alpn:
-  - http/1.1
-  name: United Arab Emirates_None_trojan_026
-  network: ws
-  password: MITIVPN
-  port: '443'
+  port: 443
   server: 94.140.0.100
   skip-cert-verify: false
   sni: 95r.ir
@@ -262,15 +228,25 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.135 Safari/537.36
+      Host: 95r.ir
     path: /MiTiVPN=Usa
-- alpn:
-  - http/1.1
-  name: The Netherlands_None_trojan_027
+- name: United Kingdom_None_trojan_025
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=De
+- name: The Netherlands_None_trojan_026
   network: ws
   password: MiTiVPN
-  port: '443'
+  port: 443
   server: 45.131.4.118
   skip-cert-verify: false
   sni: 95r.ir
@@ -278,158 +254,21 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      Host: 95r.ir
     path: /MiTiVPN=Se
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /45577/mehdi
-  name: United States_None_trojan_028
-  network: grpc
-  password: 0r94LJ1UL7
+- name: United States_None_trojan_027
+  network: ws
+  password: Mitivpn
   port: 443
-  server: news.xbxcdv.qzz.io
+  server: iranpoems.ir
   skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /21711/mehdi
-  name: United States_None_trojan_029
-  network: grpc
-  password: 7ksBbnyHJ5
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
+  sni: www.gamingdll.ir
   type: trojan
   udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /18646/mehdi
-  name: United States_None_trojan_030
-  network: grpc
-  password: EUbLdomS4e
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /39381/mehdi
-  name: United States_None_trojan_031
-  network: grpc
-  password: TBmpmD1jao
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /58079/mehdi
-  name: None_None_trojan_032
-  network: grpc
-  password: YNuQCAHivL
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /22336/mehdi
-  name: United States_None_trojan_033
-  network: grpc
-  password: bIRx1F5IFH
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /46491/mehdi
-  name: United States_None_trojan_034
-  network: grpc
-  password: n37tZ8Qw4T
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /24516/mehdi
-  name: None_None_trojan_035
-  network: grpc
-  password: pkZXzD25rz
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /51706/mehdi
-  name: None_None_trojan_036
-  network: grpc
-  password: rYZGeAZe9a
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  grpc-opts:
-    grpc-service-name: /19184/mehdi
-  name: United States_None_trojan_037
-  network: grpc
-  password: wrPtJr9hfh
-  port: '443'
-  server: news.xbxcdv.qzz.io
-  skip-cert-verify: false
-  sni: news.xbxcdv.qzz.io
-  type: trojan
-  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -438,7 +277,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Yuen Long San Hui_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -527,7 +366,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_113
+  name: Hong Kong_Yuen Long San Hui_vmess_113
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -535,6 +374,58 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: United Arab Emirates_None_trojan_114
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 94.140.0.100
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Usa
+- name: United Kingdom_None_trojan_115
+  network: ws
+  password: MITIVPN
+  port: 443
+  server: 164.38.155.135
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=De
+- name: The Netherlands_None_trojan_116
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 45.131.4.118
+  skip-cert-verify: false
+  sni: 95r.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: 95r.ir
+    path: /MiTiVPN=Se
+- name: United States_None_trojan_117
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: iranpoems.ir
+  skip-cert-verify: false
+  sni: www.gamingdll.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.gamingdll.ir
+    path: /usa=mitivpn
 proxy-groups:
 - name: 节点选择
   type: select
@@ -552,7 +443,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - United States_None_trojan_013
   - Hong Kong_None_trojan_014
   - United States_None_trojan_015
@@ -563,23 +454,13 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - United States_None_trojan_021
   - United States_None_trojan_022
-  - Hong Kong_Central_vmess_023
-  - United States_None_trojan_024
+  - Hong Kong_Yuen Long San Hui_vmess_023
+  - United Arab Emirates_None_trojan_024
   - United Kingdom_None_trojan_025
-  - United Arab Emirates_None_trojan_026
-  - The Netherlands_None_trojan_027
-  - United States_None_trojan_028
-  - United States_None_trojan_029
-  - United States_None_trojan_030
-  - United States_None_trojan_031
-  - None_None_trojan_032
-  - United States_None_trojan_033
-  - United States_None_trojan_034
-  - None_None_trojan_035
-  - None_None_trojan_036
-  - United States_None_trojan_037
+  - The Netherlands_None_trojan_026
+  - United States_None_trojan_027
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - United States_None_trojan_13
   - Hong Kong_None_trojan_14
   - United States_None_trojan_15
@@ -590,7 +471,11 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United States_None_trojan_111
   - United States_None_trojan_112
-  - Hong Kong_Central_vmess_113
+  - Hong Kong_Yuen Long San Hui_vmess_113
+  - United Arab Emirates_None_trojan_114
+  - United Kingdom_None_trojan_115
+  - The Netherlands_None_trojan_116
+  - United States_None_trojan_117
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -608,7 +493,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - United States_None_trojan_013
   - Hong Kong_None_trojan_014
   - United States_None_trojan_015
@@ -619,23 +504,13 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - United States_None_trojan_021
   - United States_None_trojan_022
-  - Hong Kong_Central_vmess_023
-  - United States_None_trojan_024
+  - Hong Kong_Yuen Long San Hui_vmess_023
+  - United Arab Emirates_None_trojan_024
   - United Kingdom_None_trojan_025
-  - United Arab Emirates_None_trojan_026
-  - The Netherlands_None_trojan_027
-  - United States_None_trojan_028
-  - United States_None_trojan_029
-  - United States_None_trojan_030
-  - United States_None_trojan_031
-  - None_None_trojan_032
-  - United States_None_trojan_033
-  - United States_None_trojan_034
-  - None_None_trojan_035
-  - None_None_trojan_036
-  - United States_None_trojan_037
+  - The Netherlands_None_trojan_026
+  - United States_None_trojan_027
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - United States_None_trojan_13
   - Hong Kong_None_trojan_14
   - United States_None_trojan_15
@@ -646,7 +521,11 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United States_None_trojan_111
   - United States_None_trojan_112
-  - Hong Kong_Central_vmess_113
+  - Hong Kong_Yuen Long San Hui_vmess_113
+  - United Arab Emirates_None_trojan_114
+  - United Kingdom_None_trojan_115
+  - The Netherlands_None_trojan_116
+  - United States_None_trojan_117
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
