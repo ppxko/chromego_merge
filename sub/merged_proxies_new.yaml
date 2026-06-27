@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -209,7 +209,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_023
+  name: Hong Kong_Central_vmess_023
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -266,7 +266,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -355,7 +355,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_113
+  name: Hong Kong_Central_vmess_113
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -380,7 +380,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Sha Tin Wai_vmess_012
+  - Hong Kong_Central_vmess_012
   - United States_None_trojan_013
   - Hong Kong_None_trojan_014
   - United States_None_trojan_015
@@ -391,12 +391,12 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - United States_None_trojan_021
   - United States_None_trojan_022
-  - Hong Kong_Sha Tin Wai_vmess_023
+  - Hong Kong_Central_vmess_023
   - Canada_Toronto_vmess_024
   - United Kingdom_Enfield_ss_025
   - Canada_Toronto_vmess_026
   - United States_None_ss_11
-  - Hong Kong_Sha Tin Wai_vmess_12
+  - Hong Kong_Central_vmess_12
   - United States_None_trojan_13
   - Hong Kong_None_trojan_14
   - United States_None_trojan_15
@@ -407,7 +407,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United States_None_trojan_111
   - United States_None_trojan_112
-  - Hong Kong_Sha Tin Wai_vmess_113
+  - Hong Kong_Central_vmess_113
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -425,7 +425,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Sha Tin Wai_vmess_012
+  - Hong Kong_Central_vmess_012
   - United States_None_trojan_013
   - Hong Kong_None_trojan_014
   - United States_None_trojan_015
@@ -436,12 +436,12 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - United States_None_trojan_021
   - United States_None_trojan_022
-  - Hong Kong_Sha Tin Wai_vmess_023
+  - Hong Kong_Central_vmess_023
   - Canada_Toronto_vmess_024
   - United Kingdom_Enfield_ss_025
   - Canada_Toronto_vmess_026
   - United States_None_ss_11
-  - Hong Kong_Sha Tin Wai_vmess_12
+  - Hong Kong_Central_vmess_12
   - United States_None_trojan_13
   - Hong Kong_None_trojan_14
   - United States_None_trojan_15
@@ -452,7 +452,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United States_None_trojan_111
   - United States_None_trojan_112
-  - Hong Kong_Sha Tin Wai_vmess_113
+  - Hong Kong_Central_vmess_113
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
