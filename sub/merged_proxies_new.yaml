@@ -30,7 +30,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Yuen Long San Hui_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -119,7 +119,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_113
+  name: Hong Kong_Yuen Long San Hui_vmess_113
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -186,7 +186,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - United States_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -197,7 +197,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United States_None_trojan_111
   - Hong Kong_None_trojan_112
-  - Hong Kong_Central_vmess_113
+  - Hong Kong_Yuen Long San Hui_vmess_113
   - United Arab Emirates_None_trojan_114
   - United Kingdom_None_trojan_115
   - The Netherlands_None_trojan_116
@@ -209,7 +209,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - United States_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -220,7 +220,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - United States_None_trojan_111
   - Hong Kong_None_trojan_112
-  - Hong Kong_Central_vmess_113
+  - Hong Kong_Yuen Long San Hui_vmess_113
   - United Arab Emirates_None_trojan_114
   - United Kingdom_None_trojan_115
   - The Netherlands_None_trojan_116
