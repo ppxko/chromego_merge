@@ -130,7 +130,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Yuen Long San Hui_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -229,7 +229,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_025
+  name: Hong Kong_Yuen Long San Hui_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -285,41 +285,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: Canada_Ottawa_trojan_032
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: petrolicious.com
-  skip-cert-verify: false
-  sni: NL-L-ll.MaQror.ir
-  type: trojan
+- cipher: aes-256-gcm
+  name: Hong Kong_Hong Kong_ss_032
+  password: gXtfJmxrZ8Qkkd2k
+  port: '16025'
+  server: c722s2.portablesubmarines.com
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
 - alpn:
   - http/1.1
-  name: Canada_Ottawa_trojan_033
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: petrolicious.com
-  skip-cert-verify: false
-  sni: S-o-W.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
-- alpn:
-  - http/1.1
-  name: None_None_trojan_034
+  name: None_None_trojan_033
   network: ws
   password: MiTiVPN
   port: '443'
@@ -330,50 +305,54 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
-- alpn:
-  - http/1.1
-  name: None_None_trojan_035
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: 104.25.193.8
-  skip-cert-verify: false
-  sni: G-Dee.MaQror.ir
-  type: trojan
+- cipher: aes-256-gcm
+  name: Hong Kong_Hong Kong_ss_034
+  password: gXtfJmxrZ8Qkkd2k
+  port: '16025'
+  server: c722s1.portablesubmarines.com
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
-- alpn:
-  - http/1.1
-  name: Canada_Ottawa_trojan_036
-  network: ws
-  password: MITIVPN
-  port: '443'
-  server: petrolicious.com
-  skip-cert-verify: false
-  sni: G-Dee.MaQror.ir
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_Hong Kong_vmess_035
+  network: tcp
+  port: '16025'
+  server: c722s3.portablesubmarines.com
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
-- name: Hong Kong_None_trojan_037
-  password: BxceQaOe
-  port: '44265'
-  server: 18.163.116.155
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_Hong Kong_vmess_036
+  network: tcp
+  port: '16025'
+  server: c722s4.portablesubmarines.com
+  type: vmess
   udp: true
-- name: United Arab Emirates_None_trojan_038
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: Hong Kong_Hong Kong_vmess_037
+  network: tcp
+  port: '16025'
+  server: c722s5.portablesubmarines.com
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
+- cipher: aes-256-gcm
+  name: Hong Kong_Hong Kong_ss_038
+  password: gXtfJmxrZ8Qkkd2k
+  port: '16025'
+  server: 45.78.26.146
+  type: ss
+  udp: true
+- name: United Arab Emirates_None_trojan_039
   network: ws
   password: MITIVPN
   port: 443
@@ -386,7 +365,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_039
+- name: United Kingdom_None_trojan_040
   network: ws
   password: MITIVPN
   port: 443
@@ -399,7 +378,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_040
+- name: The Netherlands_None_trojan_041
   network: ws
   password: MiTiVPN
   port: 443
@@ -412,7 +391,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_041
+- name: United States_None_trojan_042
   network: ws
   password: Mitivpn
   port: 443
@@ -433,7 +412,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Yuen Long San Hui_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -532,7 +511,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_115
+  name: Hong Kong_Yuen Long San Hui_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -657,7 +636,7 @@ proxy-groups:
   - United States_None_vmess_09
   - United States_None_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - Hong Kong_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -670,25 +649,26 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Poland_Skarszewy_trojan_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Yuen Long San Hui_vmess_025
   - Hong Kong_None_trojan_026
   - Hong Kong_None_trojan_027
   - Hong Kong_None_trojan_028
   - Poland_None_trojan_029
   - Hong Kong_None_trojan_030
   - Hong Kong_None_trojan_031
-  - Canada_Ottawa_trojan_032
-  - Canada_Ottawa_trojan_033
-  - None_None_trojan_034
-  - None_None_trojan_035
-  - Canada_Ottawa_trojan_036
-  - Hong Kong_None_trojan_037
-  - United Arab Emirates_None_trojan_038
-  - United Kingdom_None_trojan_039
-  - The Netherlands_None_trojan_040
-  - United States_None_trojan_041
+  - Hong Kong_Hong Kong_ss_032
+  - None_None_trojan_033
+  - Hong Kong_Hong Kong_ss_034
+  - Hong Kong_Hong Kong_vmess_035
+  - Hong Kong_Hong Kong_vmess_036
+  - Hong Kong_Hong Kong_vmess_037
+  - Hong Kong_Hong Kong_ss_038
+  - United Arab Emirates_None_trojan_039
+  - United Kingdom_None_trojan_040
+  - The Netherlands_None_trojan_041
+  - United States_None_trojan_042
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -701,7 +681,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
   - Poland_Skarszewy_trojan_114
-  - Hong Kong_Central_vmess_115
+  - Hong Kong_Yuen Long San Hui_vmess_115
   - Hong Kong_None_trojan_116
   - Hong Kong_None_trojan_117
   - Hong Kong_None_trojan_118
@@ -729,7 +709,7 @@ proxy-groups:
   - United States_None_vmess_09
   - United States_None_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - Hong Kong_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -742,25 +722,26 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Poland_Skarszewy_trojan_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Yuen Long San Hui_vmess_025
   - Hong Kong_None_trojan_026
   - Hong Kong_None_trojan_027
   - Hong Kong_None_trojan_028
   - Poland_None_trojan_029
   - Hong Kong_None_trojan_030
   - Hong Kong_None_trojan_031
-  - Canada_Ottawa_trojan_032
-  - Canada_Ottawa_trojan_033
-  - None_None_trojan_034
-  - None_None_trojan_035
-  - Canada_Ottawa_trojan_036
-  - Hong Kong_None_trojan_037
-  - United Arab Emirates_None_trojan_038
-  - United Kingdom_None_trojan_039
-  - The Netherlands_None_trojan_040
-  - United States_None_trojan_041
+  - Hong Kong_Hong Kong_ss_032
+  - None_None_trojan_033
+  - Hong Kong_Hong Kong_ss_034
+  - Hong Kong_Hong Kong_vmess_035
+  - Hong Kong_Hong Kong_vmess_036
+  - Hong Kong_Hong Kong_vmess_037
+  - Hong Kong_Hong Kong_ss_038
+  - United Arab Emirates_None_trojan_039
+  - United Kingdom_None_trojan_040
+  - The Netherlands_None_trojan_041
+  - United States_None_trojan_042
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -773,7 +754,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
   - Poland_Skarszewy_trojan_114
-  - Hong Kong_Central_vmess_115
+  - Hong Kong_Yuen Long San Hui_vmess_115
   - Hong Kong_None_trojan_116
   - Hong Kong_None_trojan_117
   - Hong Kong_None_trojan_118
