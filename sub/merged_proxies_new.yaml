@@ -137,59 +137,59 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_None_trojan_013
+- name: Poland_None_trojan_013
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 2008
-  server: 16.163.138.198
+  port: 32583
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_014
   network: tcp
   password: BxceQaOe
-  port: 4374
-  server: 16.162.33.88
+  port: 50115
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_015
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 16.162.119.181
+  port: 27161
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_016
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 18.162.113.168
+  port: 4099
+  server: 16.162.24.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_017
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 55973
-  server: 16.163.50.86
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: Hong Kong_None_trojan_018
+- name: Poland_None_trojan_017
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 3743
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_019
+- name: Poland_None_trojan_018
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 6357
-  server: 18.162.58.236
+  port: 55973
+  server: 95.40.44.165
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: Poland_None_trojan_019
+  network: tcp
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 29642
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -204,32 +204,32 @@ proxies:
 - name: Hong Kong_None_trojan_021
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.166.66.1
+  port: 22459
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_022
+- name: Poland_None_trojan_022
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_023
+- name: Poland_None_trojan_023
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.138.198
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_024
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 18.162.111.216
+  port: 11353
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -245,51 +245,58 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - http/1.1
-  name: United States_None_trojan_026
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 141.193.213.21
-  skip-cert-verify: true
-  sni: fffffl-lls.MaQror.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
-- alpn:
-  - http/1.1
-  name: None_None_trojan_027
+  name: None_None_trojan_026
   network: ws
   password: MITIVPN
   port: '443'
   server: www.speedtest.net
   skip-cert-verify: true
-  sni: De-Ge-N.MaQror.ir
+  sni: u---as.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=de
-- name: United States_San Francisco_trojan_028
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
+- cipher: chacha20-ietf-poly1305
+  name: United Kingdom_London_ss_027
+  password: j1HaUANVRdB5ltSqhLYPWm
+  port: '14475'
+  server: 45.83.181.155
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: Taiwan_Miaoli_vmess_028
+  network: tcp
+  port: '11886'
+  server: tttttt.ly123.edu.kg
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad
+  xudp: true
+- alpn:
+  - http/1.1
+  name: None_None_trojan_029
   network: ws
-  password: humanity
+  password: MITIVPN
   port: '443'
-  server: 172.64.146.211
-  skip-cert-verify: true
-  sni: www.gossipglove.com
+  server: 104.17.148.22
+  skip-cert-verify: false
+  sni: u---as.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: United Arab Emirates_None_trojan_029
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
+- name: United Arab Emirates_None_trojan_030
   network: ws
   password: MITIVPN
   port: 443
@@ -302,7 +309,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_030
+- name: United Kingdom_None_trojan_031
   network: ws
   password: MITIVPN
   port: 443
@@ -315,7 +322,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_031
+- name: The Netherlands_None_trojan_032
   network: ws
   password: MiTiVPN
   port: 443
@@ -328,7 +335,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_032
+- name: United States_None_trojan_033
   network: ws
   password: Mitivpn
   port: 443
@@ -356,59 +363,59 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_None_trojan_13
+- name: Poland_None_trojan_13
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 2008
-  server: 16.163.138.198
+  port: 32583
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_14
   network: tcp
   password: BxceQaOe
-  port: 4374
-  server: 16.162.33.88
+  port: 50115
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_15
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 16.162.119.181
+  port: 27161
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_16
   network: tcp
   password: BxceQaOe
-  port: 47656
-  server: 18.162.113.168
+  port: 4099
+  server: 16.162.24.7
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_17
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 55973
-  server: 16.163.50.86
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: Hong Kong_None_trojan_18
+- name: Poland_None_trojan_17
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 3743
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_19
+- name: Poland_None_trojan_18
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: 6357
-  server: 18.162.58.236
+  port: 55973
+  server: 95.40.44.165
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: Poland_None_trojan_19
+  network: tcp
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 29642
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -423,32 +430,32 @@ proxies:
 - name: Hong Kong_None_trojan_111
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.166.66.1
+  port: 22459
+  server: 16.163.145.82
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_112
+- name: Poland_None_trojan_112
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
-  server: 16.163.50.86
+  server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_113
+- name: Poland_None_trojan_113
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.138.198
+  server: 95.40.1.25
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_114
   network: tcp
   password: BxceQaOe
-  port: 22657
-  server: 18.162.111.216
+  port: 11353
+  server: 16.162.220.240
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -532,39 +539,40 @@ proxy-groups:
   - United States_None_vmess_010
   - United States_None_ss_011
   - Hong Kong_Central_vmess_012
-  - Hong Kong_None_trojan_013
+  - Poland_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
   - Hong Kong_None_trojan_016
-  - Hong Kong_None_trojan_017
-  - Hong Kong_None_trojan_018
-  - Hong Kong_None_trojan_019
+  - Poland_None_trojan_017
+  - Poland_None_trojan_018
+  - Poland_None_trojan_019
   - Hong Kong_None_trojan_020
   - Hong Kong_None_trojan_021
-  - Hong Kong_None_trojan_022
-  - Hong Kong_None_trojan_023
+  - Poland_None_trojan_022
+  - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_trojan_026
-  - None_None_trojan_027
-  - United States_San Francisco_trojan_028
-  - United Arab Emirates_None_trojan_029
-  - United Kingdom_None_trojan_030
-  - The Netherlands_None_trojan_031
-  - United States_None_trojan_032
+  - None_None_trojan_026
+  - United Kingdom_London_ss_027
+  - Taiwan_Miaoli_vmess_028
+  - None_None_trojan_029
+  - United Arab Emirates_None_trojan_030
+  - United Kingdom_None_trojan_031
+  - The Netherlands_None_trojan_032
+  - United States_None_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
-  - Hong Kong_None_trojan_13
+  - Poland_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
-  - Hong Kong_None_trojan_17
-  - Hong Kong_None_trojan_18
-  - Hong Kong_None_trojan_19
+  - Poland_None_trojan_17
+  - Poland_None_trojan_18
+  - Poland_None_trojan_19
   - Hong Kong_None_trojan_110
   - Hong Kong_None_trojan_111
-  - Hong Kong_None_trojan_112
-  - Hong Kong_None_trojan_113
+  - Poland_None_trojan_112
+  - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
   - United Arab Emirates_None_trojan_116
@@ -589,39 +597,40 @@ proxy-groups:
   - United States_None_vmess_010
   - United States_None_ss_011
   - Hong Kong_Central_vmess_012
-  - Hong Kong_None_trojan_013
+  - Poland_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
   - Hong Kong_None_trojan_016
-  - Hong Kong_None_trojan_017
-  - Hong Kong_None_trojan_018
-  - Hong Kong_None_trojan_019
+  - Poland_None_trojan_017
+  - Poland_None_trojan_018
+  - Poland_None_trojan_019
   - Hong Kong_None_trojan_020
   - Hong Kong_None_trojan_021
-  - Hong Kong_None_trojan_022
-  - Hong Kong_None_trojan_023
+  - Poland_None_trojan_022
+  - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_trojan_026
-  - None_None_trojan_027
-  - United States_San Francisco_trojan_028
-  - United Arab Emirates_None_trojan_029
-  - United Kingdom_None_trojan_030
-  - The Netherlands_None_trojan_031
-  - United States_None_trojan_032
+  - None_None_trojan_026
+  - United Kingdom_London_ss_027
+  - Taiwan_Miaoli_vmess_028
+  - None_None_trojan_029
+  - United Arab Emirates_None_trojan_030
+  - United Kingdom_None_trojan_031
+  - The Netherlands_None_trojan_032
+  - United States_None_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
-  - Hong Kong_None_trojan_13
+  - Poland_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
-  - Hong Kong_None_trojan_17
-  - Hong Kong_None_trojan_18
-  - Hong Kong_None_trojan_19
+  - Poland_None_trojan_17
+  - Poland_None_trojan_18
+  - Poland_None_trojan_19
   - Hong Kong_None_trojan_110
   - Hong Kong_None_trojan_111
-  - Hong Kong_None_trojan_112
-  - Hong Kong_None_trojan_113
+  - Poland_None_trojan_112
+  - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
   - United Arab Emirates_None_trojan_116
