@@ -130,7 +130,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -235,7 +235,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_025
+  name: Hong Kong_Central_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -243,7 +243,16 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United Arab Emirates_None_trojan_026
+- name: China_Shanghai_trojan_026
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  tls: true
+  type: trojan
+  udp: true
+- name: United Arab Emirates_None_trojan_027
   network: ws
   password: MITIVPN
   port: 443
@@ -256,7 +265,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_027
+- name: United Kingdom_None_trojan_028
   network: ws
   password: MITIVPN
   port: 443
@@ -269,7 +278,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_028
+- name: The Netherlands_None_trojan_029
   network: ws
   password: MiTiVPN
   port: 443
@@ -282,7 +291,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_029
+- name: United States_None_trojan_030
   network: ws
   password: Mitivpn
   port: 443
@@ -303,7 +312,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -408,7 +417,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Kowloon_vmess_115
+  name: Hong Kong_Central_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -485,7 +494,7 @@ proxy-groups:
   - United States_None_vmess_09
   - United States_None_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Kowloon_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -498,13 +507,14 @@ proxy-groups:
   - Poland_None_trojan_022
   - Hong Kong_None_trojan_023
   - Poland_None_trojan_024
-  - Hong Kong_Kowloon_vmess_025
-  - United Arab Emirates_None_trojan_026
-  - United Kingdom_None_trojan_027
-  - The Netherlands_None_trojan_028
-  - United States_None_trojan_029
+  - Hong Kong_Central_vmess_025
+  - China_Shanghai_trojan_026
+  - United Arab Emirates_None_trojan_027
+  - United Kingdom_None_trojan_028
+  - The Netherlands_None_trojan_029
+  - United States_None_trojan_030
   - United States_None_ss_11
-  - Hong Kong_Kowloon_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -517,7 +527,7 @@ proxy-groups:
   - Poland_None_trojan_112
   - Hong Kong_None_trojan_113
   - Poland_None_trojan_114
-  - Hong Kong_Kowloon_vmess_115
+  - Hong Kong_Central_vmess_115
   - United Arab Emirates_None_trojan_116
   - United Kingdom_None_trojan_117
   - The Netherlands_None_trojan_118
@@ -539,7 +549,7 @@ proxy-groups:
   - United States_None_vmess_09
   - United States_None_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Kowloon_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -552,13 +562,14 @@ proxy-groups:
   - Poland_None_trojan_022
   - Hong Kong_None_trojan_023
   - Poland_None_trojan_024
-  - Hong Kong_Kowloon_vmess_025
-  - United Arab Emirates_None_trojan_026
-  - United Kingdom_None_trojan_027
-  - The Netherlands_None_trojan_028
-  - United States_None_trojan_029
+  - Hong Kong_Central_vmess_025
+  - China_Shanghai_trojan_026
+  - United Arab Emirates_None_trojan_027
+  - United Kingdom_None_trojan_028
+  - The Netherlands_None_trojan_029
+  - United States_None_trojan_030
   - United States_None_ss_11
-  - Hong Kong_Kowloon_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
   - Poland_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -571,7 +582,7 @@ proxy-groups:
   - Poland_None_trojan_112
   - Hong Kong_None_trojan_113
   - Poland_None_trojan_114
-  - Hong Kong_Kowloon_vmess_115
+  - Hong Kong_Central_vmess_115
   - United Arab Emirates_None_trojan_116
   - United Kingdom_None_trojan_117
   - The Netherlands_None_trojan_118
