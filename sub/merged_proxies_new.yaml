@@ -236,29 +236,124 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: China_Shanghai_trojan_025
+  network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
+  port: '39001'
   server: 114.80.8.128
   skip-cert-verify: true
-  sni: www.yrtok.com
-  tls: true
+  sni: 114.80.8.128
   type: trojan
   udp: true
 - cipher: aes-256-cfb
   name: United States_Columbus_ss_026
   password: amazonskr05
+  port: 443
+  server: 3.14.249.239
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: None_None_trojan_027
+  network: ws
+  password: '666'
   port: '443'
-  server: 3.142.134.224
+  server: 104.18.33.209
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: Hong Kong_None_trojan_028
+  password: BxceQaOe
+  port: '34638'
+  server: 18.162.154.153
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: Hong Kong_None_trojan_029
+  password: BxceQaOe
+  port: '51396'
+  server: 43.199.202.97
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_030
+  network: tcp
+  password: PI36027154
+  port: '443'
+  server: rich-mule.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_031
+  network: tcp
+  password: PI36027154
+  port: '443'
+  server: rich-mule.rooster465.autos
+  skip-cert-verify: false
+  sni: rich-mule.rooster465.autos
+  type: trojan
+  udp: true
+- name: Poland_None_trojan_032
+  password: bb839d14960b7a4fb1e95a3aef990528
+  port: '6357'
+  server: 95.40.50.224
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: United States_Columbus_ss_033
+  password: amazonskr05
+  port: '443'
+  server: 13.58.60.229
+  type: ss
+  udp: true
+- name: None_None_trojan_034
+  network: ws
+  password: '666'
+  port: '443'
+  server: yx.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- cipher: aes-256-cfb
+  name: France_Paris_ss_035
+  password: amazonskr05
+  port: '443'
+  server: 35.180.199.237
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: United States_Columbus_ss_027
+  name: United States_Columbus_ss_036
   password: amazonskr05
   port: '443'
-  server: 3.14.249.239
+  server: 3.16.130.237
   type: ss
   udp: true
-- name: United Arab Emirates_None_trojan_028
+- cipher: aes-256-cfb
+  name: United States_None_ss_037
+  password: amazonskr05
+  port: '443'
+  server: 13.193.101.147
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: France_Paris_ss_038
+  password: amazonskr05
+  port: '443'
+  server: 51.44.170.232
+  type: ss
+  udp: true
+- name: United Arab Emirates_None_trojan_039
   network: ws
   password: MITIVPN
   port: 443
@@ -271,7 +366,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_029
+- name: United Kingdom_None_trojan_040
   network: ws
   password: MITIVPN
   port: 443
@@ -284,7 +379,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_030
+- name: The Netherlands_None_trojan_041
   network: ws
   password: MiTiVPN
   port: 443
@@ -297,7 +392,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_031
+- name: United States_None_trojan_042
   network: ws
   password: Mitivpn
   port: 443
@@ -507,11 +602,22 @@ proxy-groups:
   - Hong Kong_Central_vmess_024
   - China_Shanghai_trojan_025
   - United States_Columbus_ss_026
-  - United States_Columbus_ss_027
-  - United Arab Emirates_None_trojan_028
-  - United Kingdom_None_trojan_029
-  - The Netherlands_None_trojan_030
-  - United States_None_trojan_031
+  - None_None_trojan_027
+  - Hong Kong_None_trojan_028
+  - Hong Kong_None_trojan_029
+  - Japan_Tokyo_trojan_030
+  - Japan_Tokyo_trojan_031
+  - Poland_None_trojan_032
+  - United States_Columbus_ss_033
+  - None_None_trojan_034
+  - France_Paris_ss_035
+  - United States_Columbus_ss_036
+  - United States_None_ss_037
+  - France_Paris_ss_038
+  - United Arab Emirates_None_trojan_039
+  - United Kingdom_None_trojan_040
+  - The Netherlands_None_trojan_041
+  - United States_None_trojan_042
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Poland_None_trojan_13
@@ -562,11 +668,22 @@ proxy-groups:
   - Hong Kong_Central_vmess_024
   - China_Shanghai_trojan_025
   - United States_Columbus_ss_026
-  - United States_Columbus_ss_027
-  - United Arab Emirates_None_trojan_028
-  - United Kingdom_None_trojan_029
-  - The Netherlands_None_trojan_030
-  - United States_None_trojan_031
+  - None_None_trojan_027
+  - Hong Kong_None_trojan_028
+  - Hong Kong_None_trojan_029
+  - Japan_Tokyo_trojan_030
+  - Japan_Tokyo_trojan_031
+  - Poland_None_trojan_032
+  - United States_Columbus_ss_033
+  - None_None_trojan_034
+  - France_Paris_ss_035
+  - United States_Columbus_ss_036
+  - United States_None_ss_037
+  - France_Paris_ss_038
+  - United Arab Emirates_None_trojan_039
+  - United Kingdom_None_trojan_040
+  - The Netherlands_None_trojan_041
+  - United States_None_trojan_042
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Poland_None_trojan_13
