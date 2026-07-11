@@ -243,41 +243,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_026
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: Hong Kong_None_trojan_027
-  password: BxceQaOe
-  port: '29443'
-  server: 43.199.252.80
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: France_Paris_ss_028
-  password: amazonskr05
-  port: '443'
-  server: 13.37.239.23
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: France_Paris_ss_029
+  name: France_Paris_ss_026
   password: amazonskr05
   port: '443'
   server: 15.188.74.101
   type: ss
   udp: true
-- name: United Arab Emirates_None_trojan_030
+- name: United Arab Emirates_None_trojan_027
   network: ws
   password: MITIVPN
   port: 443
@@ -290,7 +263,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_031
+- name: United Kingdom_None_trojan_028
   network: ws
   password: MITIVPN
   port: 443
@@ -303,7 +276,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_032
+- name: The Netherlands_None_trojan_029
   network: ws
   password: MiTiVPN
   port: 443
@@ -316,7 +289,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_033
+- name: United States_None_trojan_030
   network: ws
   password: Mitivpn
   port: 443
@@ -533,14 +506,11 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - China_None_vmess_026
-  - Hong Kong_None_trojan_027
-  - France_Paris_ss_028
-  - France_Paris_ss_029
-  - United Arab Emirates_None_trojan_030
-  - United Kingdom_None_trojan_031
-  - The Netherlands_None_trojan_032
-  - United States_None_trojan_033
+  - France_Paris_ss_026
+  - United Arab Emirates_None_trojan_027
+  - United Kingdom_None_trojan_028
+  - The Netherlands_None_trojan_029
+  - United States_None_trojan_030
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - United States_None_trojan_13
@@ -591,14 +561,11 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - China_None_vmess_026
-  - Hong Kong_None_trojan_027
-  - France_Paris_ss_028
-  - France_Paris_ss_029
-  - United Arab Emirates_None_trojan_030
-  - United Kingdom_None_trojan_031
-  - The Netherlands_None_trojan_032
-  - United States_None_trojan_033
+  - France_Paris_ss_026
+  - United Arab Emirates_None_trojan_027
+  - United Kingdom_None_trojan_028
+  - The Netherlands_None_trojan_029
+  - United States_None_trojan_030
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - United States_None_trojan_13
