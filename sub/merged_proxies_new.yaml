@@ -233,26 +233,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- grpc-opts:
-    grpc-service-name: zhs
-  name: China_None_trojan_026
-  network: grpc
-  password: c68526b9-f9e1-49a3-9711-e57d5c717563
-  port: 16335
-  server: dev.aoliuqu.press
-  skip-cert-verify: true
-  sni: dev.aoliuqu.press
-  type: trojan
-  udp: true
-- name: China_Shanghai_trojan_027
+- name: China_Shanghai_trojan_026
   network: tcp
   password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: '39001'
+  port: 39001
   server: 114.80.8.128
   skip-cert-verify: true
-  sni: www.yrtok.com
+  sni: 114.80.8.128
   tls: true
   type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: Russia_Moscow_ss_027
+  password: cfe685726eea2c4b
+  port: '10921'
+  server: 185.22.154.103
+  type: ss
   udp: true
 - name: United Arab Emirates_None_trojan_028
   network: ws
@@ -510,8 +506,8 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - United States_None_trojan_024
   - Hong Kong_Kowloon_vmess_025
-  - China_None_trojan_026
-  - China_Shanghai_trojan_027
+  - China_Shanghai_trojan_026
+  - Russia_Moscow_ss_027
   - United Arab Emirates_None_trojan_028
   - United Kingdom_None_trojan_029
   - The Netherlands_None_trojan_030
@@ -566,8 +562,8 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - United States_None_trojan_024
   - Hong Kong_Kowloon_vmess_025
-  - China_None_trojan_026
-  - China_Shanghai_trojan_027
+  - China_Shanghai_trojan_026
+  - Russia_Moscow_ss_027
   - United Arab Emirates_None_trojan_028
   - United Kingdom_None_trojan_029
   - The Netherlands_None_trojan_030
