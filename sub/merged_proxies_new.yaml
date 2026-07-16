@@ -233,43 +233,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- grpc-opts:
-    grpc-service-name: zhs
-  name: Japan_Tokyo_trojan_026
-  network: grpc
-  password: f0283949-16ba-3060-89f4-4dacb9451ce7
-  port: 2087
-  server: jpdhn3.susun.co
-  skip-cert-verify: true
-  sni: jpdhn3.susun.co
-  type: trojan
-- name: United States_Boardman_trojan_027
-  password: OD90375861
+- name: The Netherlands_None_trojan_026
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
-  server: nearby-muskrat.rooster465.autos
+  server: 188.164.248.122
   skip-cert-verify: true
-  sni: nearby-muskrat.rooster465.autos
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
-- name: United States_Boardman_trojan_028
-  password: CF68213490
-  port: 443
-  server: balanced-puma.rooster465.autos
-  skip-cert-verify: true
-  sni: balanced-puma.rooster465.autos
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: United States_Los Angeles_ss_029
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)6db9d46:44797
-    mode: tls
-  port: 2377
-  server: 88.210.36.109
-  type: ss
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
 - alterId: '0'
   cipher: auto
-  name: The Netherlands_Amsterdam_vmess_030
+  name: The Netherlands_None_vmess_027
   network: tcp
   port: '18339'
   server: c87s5.portablesubmarines.com
@@ -279,7 +257,79 @@ proxies:
   udp: true
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
   xudp: true
-- name: United Arab Emirates_None_trojan_031
+- name: Singapore_Singapore_trojan_028
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: driving-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: driving-antelope.rooster465.autos
+  type: trojan
+  udp: true
+- name: Singapore_Singapore_trojan_029
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: topical-shark.rooster465.autos
+  skip-cert-verify: false
+  sni: topical-shark.rooster465.autos
+  type: trojan
+  udp: true
+- name: South Korea_Incheon_trojan_030
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: thorough-foxhound.rooster465.autos
+  skip-cert-verify: false
+  sni: thorough-foxhound.rooster465.autos
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_031
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: ace-liger.rooster465.autos
+  skip-cert-verify: false
+  sni: ace-liger.rooster465.autos
+  type: trojan
+  udp: true
+- name: Singapore_Singapore_trojan_032
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: bold-eagle.rooster465.autos
+  skip-cert-verify: false
+  sni: bold-eagle.rooster465.autos
+  type: trojan
+  udp: true
+- name: Singapore_Singapore_trojan_033
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: allowed-moose.rooster465.autos
+  skip-cert-verify: false
+  sni: allowed-moose.rooster465.autos
+  type: trojan
+  udp: true
+- name: South Korea_Incheon_trojan_034
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: gentle-platypus.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-platypus.rooster465.autos
+  type: trojan
+  udp: true
+- name: Singapore_Singapore_trojan_035
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: amazing-troll.rooster465.autos
+  skip-cert-verify: false
+  sni: amazing-troll.rooster465.autos
+  type: trojan
+  udp: true
+- name: United Arab Emirates_None_trojan_036
   network: ws
   password: MITIVPN
   port: 443
@@ -292,7 +342,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_032
+- name: United Kingdom_None_trojan_037
   network: ws
   password: MITIVPN
   port: 443
@@ -305,7 +355,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_033
+- name: The Netherlands_None_trojan_038
   network: ws
   password: MiTiVPN
   port: 443
@@ -318,7 +368,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_034
+- name: United States_None_trojan_039
   network: ws
   password: Mitivpn
   port: 443
@@ -535,15 +585,20 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Poland_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Japan_Tokyo_trojan_026
-  - United States_Boardman_trojan_027
-  - United States_Boardman_trojan_028
-  - United States_Los Angeles_ss_029
-  - The Netherlands_Amsterdam_vmess_030
-  - United Arab Emirates_None_trojan_031
-  - United Kingdom_None_trojan_032
-  - The Netherlands_None_trojan_033
-  - United States_None_trojan_034
+  - The Netherlands_None_trojan_026
+  - The Netherlands_None_vmess_027
+  - Singapore_Singapore_trojan_028
+  - Singapore_Singapore_trojan_029
+  - South Korea_Incheon_trojan_030
+  - Japan_Tokyo_trojan_031
+  - Singapore_Singapore_trojan_032
+  - Singapore_Singapore_trojan_033
+  - South Korea_Incheon_trojan_034
+  - Singapore_Singapore_trojan_035
+  - United Arab Emirates_None_trojan_036
+  - United Kingdom_None_trojan_037
+  - The Netherlands_None_trojan_038
+  - United States_None_trojan_039
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -594,15 +649,20 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Poland_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Japan_Tokyo_trojan_026
-  - United States_Boardman_trojan_027
-  - United States_Boardman_trojan_028
-  - United States_Los Angeles_ss_029
-  - The Netherlands_Amsterdam_vmess_030
-  - United Arab Emirates_None_trojan_031
-  - United Kingdom_None_trojan_032
-  - The Netherlands_None_trojan_033
-  - United States_None_trojan_034
+  - The Netherlands_None_trojan_026
+  - The Netherlands_None_vmess_027
+  - Singapore_Singapore_trojan_028
+  - Singapore_Singapore_trojan_029
+  - South Korea_Incheon_trojan_030
+  - Japan_Tokyo_trojan_031
+  - Singapore_Singapore_trojan_032
+  - Singapore_Singapore_trojan_033
+  - South Korea_Incheon_trojan_034
+  - Singapore_Singapore_trojan_035
+  - United Arab Emirates_None_trojan_036
+  - United Kingdom_None_trojan_037
+  - The Netherlands_None_trojan_038
+  - United States_None_trojan_039
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
