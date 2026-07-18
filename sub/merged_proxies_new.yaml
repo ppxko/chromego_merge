@@ -237,22 +237,9 @@ proxies:
   name: Germany_Frankfurt am Main_ss_026
   password: amazonskr05
   port: 443
-  server: 3.71.12.190
+  server: 35.156.204.162
   type: ss
-- name: Spain_Barcelona_trojan_027
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-- cipher: aes-256-gcm
-  name: Hong Kong_Hong Kong_ss_028
-  password: gXtfJmxrZ8Qkkd2k
-  port: 16025
-  server: c722s1.portablesubmarines.com
-  type: ss
-- name: The Netherlands_None_trojan_029
+- name: The Netherlands_None_trojan_027
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -264,102 +251,95 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- cipher: aes-256-cfb
-  name: United States_Columbus_ss_030
-  password: amazonskr05
-  port: 443
-  server: 18.221.194.108
-  type: ss
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: United States_Fremont_vmess_031
+- name: United States_None_trojan_028
   network: tcp
-  port: '16025'
-  server: c722s801.portablesubmarines.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: Japan_Tokyo_vmess_032
-  network: raw
-  port: '10049'
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-  xudp: true
-- cipher: aes-256-cfb
-  name: United States_None_ss_033
-  password: amazonskr05
-  port: '443'
-  server: 63.183.207.82
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_Columbus_ss_034
-  password: amazonskr05
-  port: '443'
-  server: 13.59.56.221
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: United States_Fremont_vmess_035
-  network: raw
-  port: '16025'
-  server: c722s801.portablesubmarines.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- name: Australia_Sydney_trojan_036
-  network: tcp
-  password: XG59623478
-  port: '443'
-  server: 82.117.225.216
-  skip-cert-verify: false
-  sni: concise-buck.rooster465.autos
+  password: BxceQaOe
+  port: '32434'
+  server: 54.46.125.103
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: Finland_Helsinki_vmess_037
+- name: Japan_Tokyo_trojan_029
   network: tcp
-  port: '52525'
-  server: 65.109.219.124
+  password: HW85960347
+  port: '443'
+  server: exciting-turtle.rooster465.autos
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 358f44f0-2686-46c8-9cc6-ec52abd66df4
-  xudp: true
-- cipher: aes-256-cfb
-  name: United Kingdom_London_ss_038
-  password: amazonskr05
-  port: '443'
-  server: 3.8.78.225
-  type: ss
+  sni: exciting-turtle.rooster465.autos
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: United Kingdom_London_ss_039
+  name: Germany_Frankfurt am Main_ss_030
   password: amazonskr05
   port: '443'
-  server: 18.171.62.49
+  server: 54.93.186.149
   type: ss
   udp: true
-- name: United Arab Emirates_None_trojan_040
+- name: Singapore_Singapore_trojan_031
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: major-cobra.rooster465.autos
+  skip-cert-verify: false
+  sni: major-cobra.rooster465.autos
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_032
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: sharing-fawn.rooster465.autos
+  skip-cert-verify: false
+  sni: sharing-fawn.rooster465.autos
+  type: trojan
+  udp: true
+- name: Singapore_Singapore_trojan_033
+  network: tcp
+  password: JA96378052
+  port: '443'
+  server: modest-coral.rooster465.autos
+  skip-cert-verify: false
+  sni: modest-coral.rooster465.autos
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_034
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: lucky-primate.rooster465.autos
+  skip-cert-verify: false
+  sni: lucky-primate.rooster465.autos
+  type: trojan
+  udp: true
+- name: Singapore_Singapore_trojan_035
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: quality-sheepdog.rooster465.autos
+  skip-cert-verify: false
+  sni: quality-sheepdog.rooster465.autos
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_036
+  network: tcp
+  password: JA96378052
+  port: '443'
+  server: bursting-baboon.rooster465.autos
+  skip-cert-verify: false
+  sni: bursting-baboon.rooster465.autos
+  type: trojan
+  udp: true
+- name: United States_None_trojan_037
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: saved-mantis.rooster465.autos
+  skip-cert-verify: false
+  sni: saved-mantis.rooster465.autos
+  type: trojan
+  udp: true
+- name: United Arab Emirates_None_trojan_038
   network: ws
   password: MITIVPN
   port: 443
@@ -372,7 +352,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_041
+- name: United Kingdom_None_trojan_039
   network: ws
   password: MITIVPN
   port: 443
@@ -385,7 +365,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_042
+- name: The Netherlands_None_trojan_040
   network: ws
   password: MiTiVPN
   port: 443
@@ -398,7 +378,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_043
+- name: United States_None_trojan_041
   network: ws
   password: Mitivpn
   port: 443
@@ -616,23 +596,21 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Yuen Long San Hui_vmess_025
   - Germany_Frankfurt am Main_ss_026
-  - Spain_Barcelona_trojan_027
-  - Hong Kong_Hong Kong_ss_028
-  - The Netherlands_None_trojan_029
-  - United States_Columbus_ss_030
-  - United States_Fremont_vmess_031
-  - Japan_Tokyo_vmess_032
-  - United States_None_ss_033
-  - United States_Columbus_ss_034
-  - United States_Fremont_vmess_035
-  - Australia_Sydney_trojan_036
-  - Finland_Helsinki_vmess_037
-  - United Kingdom_London_ss_038
-  - United Kingdom_London_ss_039
-  - United Arab Emirates_None_trojan_040
-  - United Kingdom_None_trojan_041
-  - The Netherlands_None_trojan_042
-  - United States_None_trojan_043
+  - The Netherlands_None_trojan_027
+  - United States_None_trojan_028
+  - Japan_Tokyo_trojan_029
+  - Germany_Frankfurt am Main_ss_030
+  - Singapore_Singapore_trojan_031
+  - Japan_Tokyo_trojan_032
+  - Singapore_Singapore_trojan_033
+  - Japan_Tokyo_trojan_034
+  - Singapore_Singapore_trojan_035
+  - Japan_Tokyo_trojan_036
+  - United States_None_trojan_037
+  - United Arab Emirates_None_trojan_038
+  - United Kingdom_None_trojan_039
+  - The Netherlands_None_trojan_040
+  - United States_None_trojan_041
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
@@ -684,23 +662,21 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Yuen Long San Hui_vmess_025
   - Germany_Frankfurt am Main_ss_026
-  - Spain_Barcelona_trojan_027
-  - Hong Kong_Hong Kong_ss_028
-  - The Netherlands_None_trojan_029
-  - United States_Columbus_ss_030
-  - United States_Fremont_vmess_031
-  - Japan_Tokyo_vmess_032
-  - United States_None_ss_033
-  - United States_Columbus_ss_034
-  - United States_Fremont_vmess_035
-  - Australia_Sydney_trojan_036
-  - Finland_Helsinki_vmess_037
-  - United Kingdom_London_ss_038
-  - United Kingdom_London_ss_039
-  - United Arab Emirates_None_trojan_040
-  - United Kingdom_None_trojan_041
-  - The Netherlands_None_trojan_042
-  - United States_None_trojan_043
+  - The Netherlands_None_trojan_027
+  - United States_None_trojan_028
+  - Japan_Tokyo_trojan_029
+  - Germany_Frankfurt am Main_ss_030
+  - Singapore_Singapore_trojan_031
+  - Japan_Tokyo_trojan_032
+  - Singapore_Singapore_trojan_033
+  - Japan_Tokyo_trojan_034
+  - Singapore_Singapore_trojan_035
+  - Japan_Tokyo_trojan_036
+  - United States_None_trojan_037
+  - United Arab Emirates_None_trojan_038
+  - United Kingdom_None_trojan_039
+  - The Netherlands_None_trojan_040
+  - United States_None_trojan_041
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
