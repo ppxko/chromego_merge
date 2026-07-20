@@ -233,73 +233,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_Central_trojan_026
-  password: OccIqeORGQwiNkwS
-  port: '19128'
-  server: jpbgp.netvigor.cc
+- name: The Netherlands_None_trojan_026
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: '443'
+  server: 188.164.248.122
   skip-cert-verify: false
-  sni: yazhou10.dynu.net
+  sni: space.byu.id.yxls.eu.cc
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_027
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: Japan_Tokyo_vmess_028
-  network: ws
-  port: '12890'
-  server: cs.ktmcn.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   ws-opts:
     headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: Japan_Tokyo_vmess_029
-  network: ws
-  port: '12897'
-  server: gtm1.ktmwan.net
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /in-pdr
+- name: Hong Kong_None_trojan_027
+  password: BxceQaOe
+  port: '41421'
+  server: 43.198.13.164
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
   udp: true
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-  xudp: true
-- cipher: aes-256-gcm
-  name: Unknown_ss_030
-  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
-  port: '1416'
-  server: n.j.y.y.h.z.g.e.d.hk06-ae5.entry.v51124-5.qpon
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: China_None_ss_031
-  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
-  port: '20028'
-  server: s.n.y.5.8.z.4.e.d.ar01-ae5.entry.v51124-5.qpon
-  type: ss
-  udp: true
-- name: United Arab Emirates_None_trojan_032
+- name: United Arab Emirates_None_trojan_028
   network: ws
   password: MITIVPN
   port: 443
@@ -312,7 +268,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_033
+- name: United Kingdom_None_trojan_029
   network: ws
   password: MITIVPN
   port: 443
@@ -325,7 +281,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_034
+- name: The Netherlands_None_trojan_030
   network: ws
   password: MiTiVPN
   port: 443
@@ -338,7 +294,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_035
+- name: United States_None_trojan_031
   network: ws
   password: Mitivpn
   port: 443
@@ -555,16 +511,12 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Hong Kong_Central_trojan_026
-  - China_None_vmess_027
-  - Japan_Tokyo_vmess_028
-  - Japan_Tokyo_vmess_029
-  - Unknown_ss_030
-  - China_None_ss_031
-  - United Arab Emirates_None_trojan_032
-  - United Kingdom_None_trojan_033
-  - The Netherlands_None_trojan_034
-  - United States_None_trojan_035
+  - The Netherlands_None_trojan_026
+  - Hong Kong_None_trojan_027
+  - United Arab Emirates_None_trojan_028
+  - United Kingdom_None_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_None_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -615,16 +567,12 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Hong Kong_Central_trojan_026
-  - China_None_vmess_027
-  - Japan_Tokyo_vmess_028
-  - Japan_Tokyo_vmess_029
-  - Unknown_ss_030
-  - China_None_ss_031
-  - United Arab Emirates_None_trojan_032
-  - United Kingdom_None_trojan_033
-  - The Netherlands_None_trojan_034
-  - United States_None_trojan_035
+  - The Netherlands_None_trojan_026
+  - Hong Kong_None_trojan_027
+  - United Arab Emirates_None_trojan_028
+  - United Kingdom_None_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_None_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
