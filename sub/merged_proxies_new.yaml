@@ -245,23 +245,16 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: South Korea_None_trojan_027
-  password: IQ68037294
-  port: 443
-  server: pet-albacore.rooster465.autos
-  skip-cert-verify: true
-  sni: pet-albacore.rooster465.autos
-  type: trojan
-- name: Japan_Tokyo_trojan_028
+- name: Hong Kong_None_trojan_027
   network: tcp
-  password: IQ68037294
-  port: '443'
-  server: square-anchovy.rooster465.autos
-  skip-cert-verify: false
-  sni: square-anchovy.rooster465.autos
+  password: BxceQaOe
+  port: '9149'
+  server: 18.163.84.233
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: United Arab Emirates_None_trojan_029
+- name: United Arab Emirates_None_trojan_028
   network: ws
   password: MITIVPN
   port: 443
@@ -274,7 +267,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_030
+- name: United Kingdom_None_trojan_029
   network: ws
   password: MITIVPN
   port: 443
@@ -287,7 +280,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_031
+- name: The Netherlands_None_trojan_030
   network: ws
   password: MiTiVPN
   port: 443
@@ -300,7 +293,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_032
+- name: United States_None_trojan_031
   network: ws
   password: Mitivpn
   port: 443
@@ -518,12 +511,11 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
   - The Netherlands_None_trojan_026
-  - South Korea_None_trojan_027
-  - Japan_Tokyo_trojan_028
-  - United Arab Emirates_None_trojan_029
-  - United Kingdom_None_trojan_030
-  - The Netherlands_None_trojan_031
-  - United States_None_trojan_032
+  - Hong Kong_None_trojan_027
+  - United Arab Emirates_None_trojan_028
+  - United Kingdom_None_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_None_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -575,12 +567,11 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
   - The Netherlands_None_trojan_026
-  - South Korea_None_trojan_027
-  - Japan_Tokyo_trojan_028
-  - United Arab Emirates_None_trojan_029
-  - United Kingdom_None_trojan_030
-  - The Netherlands_None_trojan_031
-  - United States_None_trojan_032
+  - Hong Kong_None_trojan_027
+  - United Arab Emirates_None_trojan_028
+  - United Kingdom_None_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_None_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
