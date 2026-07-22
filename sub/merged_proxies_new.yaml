@@ -233,19 +233,44 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_None_trojan_026
+- alpn:
+  - http/1.1
+  name: None_None_trojan_026
   network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
+  password: MITIVPN
+  port: '443'
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+- name: The Netherlands_None_trojan_027
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: '443'
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /in-pdr
-- name: United Arab Emirates_None_trojan_027
+- cipher: aes-256-gcm
+  name: Hong Kong_None_ss_028
+  password: 29a97a3d-e429-499d-8693-b539c349b6bd
+  port: 13005
+  server: ss.017.node-for-bigairport.win
+  type: ss
+  udp: true
+- name: United Arab Emirates_None_trojan_029
   network: ws
   password: MITIVPN
   port: 443
@@ -258,7 +283,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Usa
-- name: United Kingdom_None_trojan_028
+- name: United Kingdom_None_trojan_030
   network: ws
   password: MITIVPN
   port: 443
@@ -271,7 +296,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=De
-- name: The Netherlands_None_trojan_029
+- name: The Netherlands_None_trojan_031
   network: ws
   password: MiTiVPN
   port: 443
@@ -284,7 +309,7 @@ proxies:
     headers:
       Host: 95r.ir
     path: /MiTiVPN=Se
-- name: United States_None_trojan_030
+- name: United States_None_trojan_032
   network: ws
   password: Mitivpn
   port: 443
@@ -501,11 +526,13 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Yuen Long San Hui_vmess_025
-  - The Netherlands_None_trojan_026
-  - United Arab Emirates_None_trojan_027
-  - United Kingdom_None_trojan_028
-  - The Netherlands_None_trojan_029
-  - United States_None_trojan_030
+  - None_None_trojan_026
+  - The Netherlands_None_trojan_027
+  - Hong Kong_None_ss_028
+  - United Arab Emirates_None_trojan_029
+  - United Kingdom_None_trojan_030
+  - The Netherlands_None_trojan_031
+  - United States_None_trojan_032
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
@@ -556,11 +583,13 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Yuen Long San Hui_vmess_025
-  - The Netherlands_None_trojan_026
-  - United Arab Emirates_None_trojan_027
-  - United Kingdom_None_trojan_028
-  - The Netherlands_None_trojan_029
-  - United States_None_trojan_030
+  - None_None_trojan_026
+  - The Netherlands_None_trojan_027
+  - Hong Kong_None_ss_028
+  - United Arab Emirates_None_trojan_029
+  - United Kingdom_None_trojan_030
+  - The Netherlands_None_trojan_031
+  - United States_None_trojan_032
   - United States_None_ss_11
   - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
