@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -225,7 +225,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_025
+  name: Hong Kong_Central_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -233,7 +233,37 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: The Netherlands_None_trojan_026
+- name: Japan_Tokyo_trojan_026
+  password: AQ71834695
+  port: 443
+  server: harmless-akita.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: United Kingdom_Epping_trojan_027
+  password: AQ71834695
+  port: 443
+  server: better-silkworm.rooster465.autos
+  skip-cert-verify: true
+  sni: better-silkworm.rooster465.autos
+  type: trojan
+  udp: true
+- name: Japan_Tokyo_trojan_028
+  password: AQ71834695
+  port: 443
+  server: tops-marlin.rooster465.autos
+  skip-cert-verify: true
+  sni: tops-marlin.rooster465.autos
+  type: trojan
+  udp: true
+- name: United Kingdom_Epping_trojan_029
+  password: AQ71834695
+  port: 443
+  server: alert-monster.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: The Netherlands_None_trojan_030
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -246,7 +276,63 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- name: None_None_trojan_027
+- alterId: 0
+  cipher: auto
+  name: United States_Ashburn_vmess_031
+  network: ws
+  port: 443
+  server: 6jdvarazgu3qqr6q.v.3dns.vip
+  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: United States_None_vmess_032
+  network: ws
+  port: 443
+  server: lcv8v9l7oyamxxfz.v.3dns.vip
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: Taiwan_Chang-hua_vmess_033
+  network: ws
+  port: 2096
+  server: twdx6.baidupi.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
+- name: Japan_Tokyo_trojan_034
+  network: tcp
+  password: AQ71834695
+  port: '443'
+  server: fit-heron.rooster465.autos
+  skip-cert-verify: true
+  sni: fit-heron.rooster465.autos
+  type: trojan
+  udp: true
+- name: None_None_trojan_035
   network: ws
   password: humanity
   port: 443
@@ -267,7 +353,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -277,64 +363,64 @@ proxies:
 - name: Hong Kong_None_trojan_13
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 13118
-  server: 18.166.29.24
+  port: 47867
+  server: 18.166.67.128
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: United States_None_trojan_14
+- name: Hong Kong_None_trojan_14
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 54.46.125.192
+  port: 7674
+  server: 16.162.119.232
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_15
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 16.163.144.226
+  port: 39412
+  server: 43.198.187.250
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_16
+- name: Japan_Tokyo_trojan_16
   network: tcp
   password: BxceQaOe
-  port: 27826
-  server: 43.198.210.48
+  port: 6102
+  server: 18.183.93.4
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: United States_None_trojan_17
+- name: Hong Kong_None_trojan_17
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 13.158.67.26
+  port: 38937
+  server: 16.162.91.50
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_18
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 18.163.181.97
+  port: 40138
+  server: 16.163.57.145
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_19
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.166.29.24
+  port: 6357
+  server: 18.166.67.128
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_110
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.163.181.97
+  port: 6357
+  server: 16.162.91.50
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -349,30 +435,30 @@ proxies:
 - name: Hong Kong_None_trojan_112
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 49277
-  server: 18.163.181.97
+  port: 17005
+  server: 18.163.123.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_113
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 18.163.181.97
+  port: 49277
+  server: 18.163.123.29
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Japan_Tokyo_trojan_114
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 35.77.116.7
+  port: 34638
+  server: 18.183.93.4
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_115
+  name: Hong Kong_Central_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -423,7 +509,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Yuen Long San Hui_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - United States_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -436,16 +522,24 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Japan_Tokyo_trojan_024
-  - Hong Kong_Yuen Long San Hui_vmess_025
-  - The Netherlands_None_trojan_026
-  - None_None_trojan_027
+  - Hong Kong_Central_vmess_025
+  - Japan_Tokyo_trojan_026
+  - United Kingdom_Epping_trojan_027
+  - Japan_Tokyo_trojan_028
+  - United Kingdom_Epping_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_Ashburn_vmess_031
+  - United States_None_vmess_032
+  - Taiwan_Chang-hua_vmess_033
+  - Japan_Tokyo_trojan_034
+  - None_None_trojan_035
   - United States_None_ss_11
-  - Hong Kong_Yuen Long San Hui_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
-  - United States_None_trojan_14
+  - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
-  - Hong Kong_None_trojan_16
-  - United States_None_trojan_17
+  - Japan_Tokyo_trojan_16
+  - Hong Kong_None_trojan_17
   - Hong Kong_None_trojan_18
   - Hong Kong_None_trojan_19
   - Hong Kong_None_trojan_110
@@ -453,7 +547,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
   - Japan_Tokyo_trojan_114
-  - Hong Kong_Yuen Long San Hui_vmess_115
+  - Hong Kong_Central_vmess_115
   - The Netherlands_None_trojan_116
   - None_None_trojan_117
 - name: 自动选择
@@ -473,7 +567,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Yuen Long San Hui_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - United States_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -486,16 +580,24 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Japan_Tokyo_trojan_024
-  - Hong Kong_Yuen Long San Hui_vmess_025
-  - The Netherlands_None_trojan_026
-  - None_None_trojan_027
+  - Hong Kong_Central_vmess_025
+  - Japan_Tokyo_trojan_026
+  - United Kingdom_Epping_trojan_027
+  - Japan_Tokyo_trojan_028
+  - United Kingdom_Epping_trojan_029
+  - The Netherlands_None_trojan_030
+  - United States_Ashburn_vmess_031
+  - United States_None_vmess_032
+  - Taiwan_Chang-hua_vmess_033
+  - Japan_Tokyo_trojan_034
+  - None_None_trojan_035
   - United States_None_ss_11
-  - Hong Kong_Yuen Long San Hui_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
-  - United States_None_trojan_14
+  - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
-  - Hong Kong_None_trojan_16
-  - United States_None_trojan_17
+  - Japan_Tokyo_trojan_16
+  - Hong Kong_None_trojan_17
   - Hong Kong_None_trojan_18
   - Hong Kong_None_trojan_19
   - Hong Kong_None_trojan_110
@@ -503,7 +605,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
   - Japan_Tokyo_trojan_114
-  - Hong Kong_Yuen Long San Hui_vmess_115
+  - Hong Kong_Central_vmess_115
   - The Netherlands_None_trojan_116
   - None_None_trojan_117
 rules:
