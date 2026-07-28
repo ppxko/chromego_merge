@@ -236,45 +236,67 @@ proxies:
 - name: United States_None_trojan_026
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20085
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  type: trojan
-- name: United States_None_trojan_027
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20066'
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_028
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_029
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20085'
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: United States_None_vmess_027
+  network: ws
+  port: 443
+  server: 192.204.57.30
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
+  ws-opts:
+    path: /speed
+- alterId: '0'
+  cipher: auto
+  name: United States_San Jose_vmess_028
+  network: ws
+  port: '33208'
+  server: cu2.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: cu2.ainivp.com
+    path: /ray
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: United States_None_vmess_029
+  network: ws
+  port: '33402'
+  server: cu4.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
+  ws-opts:
+    headers:
+      Host: cu4.ainivp.com
+    path: /ray
+  xudp: true
 - name: United States_None_trojan_030
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20068
-  server: oplosgru-c.catcat321.com
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
+  sni: de.catxstar.com
   tls: true
   type: trojan
   udp: true
 - name: United States_None_trojan_031
-  network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20066'
+  port: '20085'
   server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   type: trojan
@@ -282,9 +304,10 @@ proxies:
 - name: United States_None_trojan_032
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20085'
-  server: hkdcrtc-e.catcat321.com
+  port: '20041'
+  server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
+  sni: de.catxstar.com
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -408,6 +431,70 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: Japan_None_trojan_116
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr2.tube-cat.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: None_None_trojan_117
+  network: ws
+  password: MITIVPN
+  port: 2053
+  server: 104.17.147.22
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: None_None_trojan_118
+  network: ws
+  password: MiTiVPN
+  port: 2087
+  server: 104.18.6.178
+  skip-cert-verify: true
+  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
+- name: United States_None_trojan_119
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: United States_None_trojan_120
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20004
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_121
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_122
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -440,9 +527,9 @@ proxy-groups:
   - Poland_None_trojan_024
   - Hong Kong_Central_vmess_025
   - United States_None_trojan_026
-  - United States_None_trojan_027
-  - United States_None_trojan_028
-  - United States_None_trojan_029
+  - United States_None_vmess_027
+  - United States_San Jose_vmess_028
+  - United States_None_vmess_029
   - United States_None_trojan_030
   - United States_None_trojan_031
   - United States_None_trojan_032
@@ -461,6 +548,13 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Poland_None_trojan_114
   - Hong Kong_Central_vmess_115
+  - Japan_None_trojan_116
+  - None_None_trojan_117
+  - None_None_trojan_118
+  - United States_None_trojan_119
+  - United States_None_trojan_120
+  - United States_None_trojan_121
+  - United States_None_trojan_122
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -493,9 +587,9 @@ proxy-groups:
   - Poland_None_trojan_024
   - Hong Kong_Central_vmess_025
   - United States_None_trojan_026
-  - United States_None_trojan_027
-  - United States_None_trojan_028
-  - United States_None_trojan_029
+  - United States_None_vmess_027
+  - United States_San Jose_vmess_028
+  - United States_None_vmess_029
   - United States_None_trojan_030
   - United States_None_trojan_031
   - United States_None_trojan_032
@@ -514,6 +608,13 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Poland_None_trojan_114
   - Hong Kong_Central_vmess_115
+  - Japan_None_trojan_116
+  - None_None_trojan_117
+  - None_None_trojan_118
+  - United States_None_trojan_119
+  - United States_None_trojan_120
+  - United States_None_trojan_121
+  - United States_None_trojan_122
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
