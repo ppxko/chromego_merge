@@ -233,7 +233,69 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_San Francisco_trojan_026
+- cipher: aes-256-cfb
+  name: United States_None_ss_026
+  password: amazonskr05
+  port: 443
+  server: 100.58.124.178
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: Ukraine_Kyiv_ss_027
+  password: XF0klw7870vXn3uQIxe19Q
+  port: '1080'
+  server: 194.54.80.37
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: Romania_None_ss_028
+  password: XF0klw7870vXn3uQIxe19Q
+  port: '1080'
+  server: 146.70.254.238
+  type: ss
+  udp: true
+- name: Hong Kong_Hong Kong_trojan_029
+  network: tcp
+  password: FC60532879
+  port: '443'
+  server: saved-mudfish.rooster465.autos
+  skip-cert-verify: false
+  sni: saved-mudfish.rooster465.autos
+  type: trojan
+  udp: true
+- name: Luxembourg_None_trojan_030
+  network: tcp
+  password: FC60532879
+  port: '443'
+  server: quick-tiger.rooster465.autos
+  skip-cert-verify: false
+  sni: quick-tiger.rooster465.autos
+  type: trojan
+  udp: true
+- name: United States_None_trojan_031
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20023
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_032
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_033
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20041
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- name: United States_San Francisco_trojan_034
   network: ws
   password: humanity
   port: 443
@@ -246,7 +308,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
-- name: United States_None_trojan_027
+- name: United States_None_trojan_035
   network: ws
   password: humanity
   port: 443
@@ -437,8 +499,16 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Japan_Tokyo_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_San Francisco_trojan_026
-  - United States_None_trojan_027
+  - United States_None_ss_026
+  - Ukraine_Kyiv_ss_027
+  - Romania_None_ss_028
+  - Hong Kong_Hong Kong_trojan_029
+  - Luxembourg_None_trojan_030
+  - United States_None_trojan_031
+  - United States_None_trojan_032
+  - United States_None_trojan_033
+  - United States_San Francisco_trojan_034
+  - United States_None_trojan_035
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -487,8 +557,16 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Japan_Tokyo_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_San Francisco_trojan_026
-  - United States_None_trojan_027
+  - United States_None_ss_026
+  - Ukraine_Kyiv_ss_027
+  - Romania_None_ss_028
+  - Hong Kong_Hong Kong_trojan_029
+  - Luxembourg_None_trojan_030
+  - United States_None_trojan_031
+  - United States_None_trojan_032
+  - United States_None_trojan_033
+  - United States_San Francisco_trojan_034
+  - United States_None_trojan_035
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
