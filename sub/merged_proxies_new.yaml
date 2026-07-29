@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Tuen Mun_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -225,7 +225,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_025
+  name: Hong Kong_Tuen Mun_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -235,79 +235,252 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: United States_None_trojan_026
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20085
+  port: 20041
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+- alpn:
+  - http/1.1
+  name: None_None_trojan_027
+  network: ws
+  password: MITIVPN
+  port: '8443'
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: mehrosaboran---mehrosaboran-7.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/55.0.2883.87 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa
+- cipher: chacha20-ietf-poly1305
+  name: Switzerland_Nyon_ss_028
+  password: kvrov4vd4iszb3aw
+  port: '25026'
+  server: koviraaa.kovira2.ir
+  type: ss
+  udp: true
+- name: Japan_None_trojan_029
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 9450
+  server: rr1.tube-cat.com
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: United States_None_trojan_030
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_027
-  network: ws
-  port: 443
-  server: 192.204.57.30
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 4da9adf3-8c0c-48a7-92ac-429c72a76ef8
-  ws-opts:
-    path: /speed
-- alterId: '0'
-  cipher: auto
-  name: United States_San Jose_vmess_028
-  network: ws
-  port: '33208'
-  server: cu2.ainivp.com
+- cipher: aes-256-cfb
+  name: South Korea_None_ss_031
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_032
+  password: fjlfjafl231303831
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '1313'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
   udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu2.ainivp.com
-    path: /ray
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: United States_None_vmess_029
-  network: ws
-  port: '33402'
-  server: cu4.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_033
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '857'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
   udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu4.ainivp.com
-    path: /ray
-  xudp: true
-- name: United States_None_trojan_030
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_034
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '911'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_035
+  password: ayu1245
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '909'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_036
+  password: ay2loud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '906'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_037
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '8001'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_038
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '9022'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_039
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '20012'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_040
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '819'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_041
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '9052'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_042
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '9047'
+  server: 260323.1.0.l2.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_043
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '812'
+  server: 260323.1.0.l2.unclemanco.com
+  type: ss
+  udp: true
+- name: Japan_None_trojan_044
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+  port: 9450
+  server: rr2.tube-cat.com
   skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: true
   type: trojan
   udp: true
-- name: United States_None_trojan_031
+- name: None_None_trojan_045
+  network: ws
+  password: MITIVPN
+  port: 2053
+  server: 104.17.147.22
+  skip-cert-verify: true
+  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: ikk---7-MiTiVPN----o.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
+- name: None_None_trojan_046
+  network: ws
+  password: MiTiVPN
+  port: 2087
+  server: 104.18.6.178
+  skip-cert-verify: true
+  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
+- name: United States_None_trojan_047
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20085'
-  server: hkdcrtc-e.catcat321.com
+  port: 20056
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: United States_None_trojan_032
-  network: tcp
+- name: United States_None_trojan_048
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
+  port: 20004
+  server: oplosgru-c.catcat321.com
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_049
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20056
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_050
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -318,7 +491,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_12
+  name: Hong Kong_Tuen Mun_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -329,23 +502,23 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
-  server: 18.163.118.58
+  server: 16.162.55.106
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_14
+- name: United States_None_trojan_14
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 95.40.61.23
+  port: 27161
+  server: 54.46.75.237
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_15
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 43.199.34.153
+  port: 11035
+  server: 16.162.34.239
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -361,15 +534,15 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
-  server: 18.162.62.144
+  server: 18.163.111.105
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_18
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 18.163.85.97
+  port: 4099
+  server: 18.167.12.183
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -377,53 +550,53 @@ proxies:
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
-  server: 18.163.180.201
+  server: 16.162.55.106
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_110
+- name: Japan_Tokyo_trojan_110
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.163.180.201
+  port: 6357
+  server: 57.183.19.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_111
   network: tcp
   password: BxceQaOe
-  port: 9194
-  server: 18.162.152.65
+  port: 45744
+  server: 18.166.236.71
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: Hong Kong_None_trojan_112
+- name: United States_None_trojan_112
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
-  server: 16.162.105.149
+  server: 54.46.50.201
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_113
+- name: Japan_Tokyo_trojan_113
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
-  server: 16.162.105.149
+  server: 57.183.19.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_114
+- name: Hong Kong_None_trojan_114
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 95.41.27.1
+  port: 38961
+  server: 18.166.236.71
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_115
+  name: Hong Kong_Tuen Mun_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -512,7 +685,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -525,29 +698,47 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Poland_None_trojan_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Tuen Mun_vmess_025
   - United States_None_trojan_026
-  - United States_None_vmess_027
-  - United States_San Jose_vmess_028
-  - United States_None_vmess_029
+  - None_None_trojan_027
+  - Switzerland_Nyon_ss_028
+  - Japan_None_trojan_029
   - United States_None_trojan_030
-  - United States_None_trojan_031
-  - United States_None_trojan_032
+  - South Korea_None_ss_031
+  - United States_Los Angeles_ss_032
+  - United States_Los Angeles_ss_033
+  - United States_Los Angeles_ss_034
+  - United States_Los Angeles_ss_035
+  - United States_Los Angeles_ss_036
+  - United States_Los Angeles_ss_037
+  - United States_Los Angeles_ss_038
+  - United States_Los Angeles_ss_039
+  - United States_Los Angeles_ss_040
+  - United States_Los Angeles_ss_041
+  - United States_Los Angeles_ss_042
+  - United States_Los Angeles_ss_043
+  - Japan_None_trojan_044
+  - None_None_trojan_045
+  - None_None_trojan_046
+  - United States_None_trojan_047
+  - United States_None_trojan_048
+  - United States_None_trojan_049
+  - United States_None_trojan_050
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
-  - Poland_None_trojan_14
+  - United States_None_trojan_14
   - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
   - Hong Kong_None_trojan_17
   - Hong Kong_None_trojan_18
   - Hong Kong_None_trojan_19
-  - Hong Kong_None_trojan_110
+  - Japan_Tokyo_trojan_110
   - Hong Kong_None_trojan_111
-  - Hong Kong_None_trojan_112
-  - Hong Kong_None_trojan_113
-  - Poland_None_trojan_114
-  - Hong Kong_Central_vmess_115
+  - United States_None_trojan_112
+  - Japan_Tokyo_trojan_113
+  - Hong Kong_None_trojan_114
+  - Hong Kong_Tuen Mun_vmess_115
   - Japan_None_trojan_116
   - None_None_trojan_117
   - None_None_trojan_118
@@ -572,7 +763,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - Hong Kong_None_trojan_013
   - Poland_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -585,29 +776,47 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Poland_None_trojan_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Tuen Mun_vmess_025
   - United States_None_trojan_026
-  - United States_None_vmess_027
-  - United States_San Jose_vmess_028
-  - United States_None_vmess_029
+  - None_None_trojan_027
+  - Switzerland_Nyon_ss_028
+  - Japan_None_trojan_029
   - United States_None_trojan_030
-  - United States_None_trojan_031
-  - United States_None_trojan_032
+  - South Korea_None_ss_031
+  - United States_Los Angeles_ss_032
+  - United States_Los Angeles_ss_033
+  - United States_Los Angeles_ss_034
+  - United States_Los Angeles_ss_035
+  - United States_Los Angeles_ss_036
+  - United States_Los Angeles_ss_037
+  - United States_Los Angeles_ss_038
+  - United States_Los Angeles_ss_039
+  - United States_Los Angeles_ss_040
+  - United States_Los Angeles_ss_041
+  - United States_Los Angeles_ss_042
+  - United States_Los Angeles_ss_043
+  - Japan_None_trojan_044
+  - None_None_trojan_045
+  - None_None_trojan_046
+  - United States_None_trojan_047
+  - United States_None_trojan_048
+  - United States_None_trojan_049
+  - United States_None_trojan_050
   - United States_None_ss_11
-  - Hong Kong_Central_vmess_12
+  - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
-  - Poland_None_trojan_14
+  - United States_None_trojan_14
   - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
   - Hong Kong_None_trojan_17
   - Hong Kong_None_trojan_18
   - Hong Kong_None_trojan_19
-  - Hong Kong_None_trojan_110
+  - Japan_Tokyo_trojan_110
   - Hong Kong_None_trojan_111
-  - Hong Kong_None_trojan_112
-  - Hong Kong_None_trojan_113
-  - Poland_None_trojan_114
-  - Hong Kong_Central_vmess_115
+  - United States_None_trojan_112
+  - Japan_Tokyo_trojan_113
+  - Hong Kong_None_trojan_114
+  - Hong Kong_Tuen Mun_vmess_115
   - Japan_None_trojan_116
   - None_None_trojan_117
   - None_None_trojan_118
