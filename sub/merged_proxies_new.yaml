@@ -135,7 +135,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_014
   network: tcp
   password: BxceQaOe
@@ -168,7 +167,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: Japan_Tokyo_trojan_018
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -177,7 +175,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_019
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -239,33 +236,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_026
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_027
-  network: tcp
-  password: i99Cef
-  port: '28101'
-  server: 209.248.32.115
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_028
-  network: tcp
-  password: i99Cef
-  port: '28101'
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -421,9 +391,6 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
-  - United States_None_trojan_026
-  - United States_None_trojan_027
-  - United States_None_trojan_028
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
@@ -470,9 +437,6 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
-  - United States_None_trojan_026
-  - United States_None_trojan_027
-  - United States_None_trojan_028
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
