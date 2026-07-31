@@ -236,6 +236,48 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: United States_None_trojan_026
+  network: tcp
+  password: i99Cef
+  port: '28101'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_027
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '8001'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_028
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '835'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_029
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '914'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -391,6 +433,10 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
+  - United States_None_trojan_026
+  - United States_Los Angeles_ss_027
+  - United States_Los Angeles_ss_028
+  - United States_Los Angeles_ss_029
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
@@ -437,6 +483,10 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
+  - United States_None_trojan_026
+  - United States_Los Angeles_ss_027
+  - United States_Los Angeles_ss_028
+  - United States_Los Angeles_ss_029
   - United States_None_ss_11
   - Hong Kong_Tuen Mun_vmess_12
   - Hong Kong_None_trojan_13
