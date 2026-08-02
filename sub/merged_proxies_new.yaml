@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -217,7 +217,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_024
+  name: Hong Kong_Central_vmess_024
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -225,7 +225,38 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: None_None_trojan_025
+- cipher: aes-256-cfb
+  name: Sweden_Stockholm_ss_025
+  password: amazonskr05
+  port: 443
+  server: 13.61.5.244
+  type: ss
+  udp: true
+- grpc-opts:
+    grpc-service-name: /28786/4U7gXXHftA
+  name: United Kingdom_Sheffield_trojan_026
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: '443'
+  server: 31.76.251.127.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: The Netherlands_Amsterdam_ss_027
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: '45819'
+  server: 84.235.160.109
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: United Kingdom_Cardiff_ss_028
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: '61312'
+  server: 129.151.64.234
+  type: ss
+  udp: true
+- name: None_None_trojan_029
   network: ws
   password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
   port: 2096
@@ -246,7 +277,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Central_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -343,7 +374,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_114
+  name: Hong Kong_Central_vmess_114
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -381,7 +412,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - Japan_Tokyo_trojan_014
   - Japan_Tokyo_trojan_015
@@ -393,10 +424,14 @@ proxy-groups:
   - Hong Kong_None_trojan_021
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
-  - Hong Kong_Tuen Mun_vmess_024
-  - None_None_trojan_025
+  - Hong Kong_Central_vmess_024
+  - Sweden_Stockholm_ss_025
+  - United Kingdom_Sheffield_trojan_026
+  - The Netherlands_Amsterdam_ss_027
+  - United Kingdom_Cardiff_ss_028
+  - None_None_trojan_029
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
   - Japan_Tokyo_trojan_14
   - Japan_Tokyo_trojan_15
@@ -408,7 +443,7 @@ proxy-groups:
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
-  - Hong Kong_Tuen Mun_vmess_114
+  - Hong Kong_Central_vmess_114
   - United States_None_trojan_115
 - name: 自动选择
   type: url-test
@@ -427,7 +462,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
   - Japan_Tokyo_trojan_014
   - Japan_Tokyo_trojan_015
@@ -439,10 +474,14 @@ proxy-groups:
   - Hong Kong_None_trojan_021
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
-  - Hong Kong_Tuen Mun_vmess_024
-  - None_None_trojan_025
+  - Hong Kong_Central_vmess_024
+  - Sweden_Stockholm_ss_025
+  - United Kingdom_Sheffield_trojan_026
+  - The Netherlands_Amsterdam_ss_027
+  - United Kingdom_Cardiff_ss_028
+  - None_None_trojan_029
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
   - Japan_Tokyo_trojan_14
   - Japan_Tokyo_trojan_15
@@ -454,7 +493,7 @@ proxy-groups:
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
-  - Hong Kong_Tuen Mun_vmess_114
+  - Hong Kong_Central_vmess_114
   - United States_None_trojan_115
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
