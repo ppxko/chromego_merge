@@ -235,79 +235,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Sweden_Stockholm_ss_026
-  password: amazonskr05
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: United Kingdom_Isleworth_trojan_026
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
   port: 443
-  server: 16.171.111.98
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_Ashburn_ss_027
-  password: amazonskr05
-  port: 443
-  server: 54.196.207.151
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: South Korea_None_ss_028
-  password: qwerREWQ@@
-  port: 2078
-  server: 27.255.82.134
+  server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
-  type: ss
-  udp: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: United Kingdom_Isleworth_trojan_027
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+  udp: true
+- alterId: '1'
+  cipher: auto
+  name: Japan_Tokyo_vmess_028
+  network: tcp
+  port: 11777
+  server: r8f4n-g05.jp02-e3-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 8ee65c79-4487-32ff-b896-62c8dce05921
+  xudp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: United Kingdom_Isleworth_trojan_029
   network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: Bulgaria_None_trojan_030
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: United Kingdom_Isleworth_trojan_031
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: Bulgaria_None_trojan_032
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: United Kingdom_Cardiff_ss_033
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.64.45
-  type: ss
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: United Kingdom_Isleworth_trojan_034
-  network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
   server: 31.76.11.46.cdn-one.org
@@ -317,18 +281,17 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: United Kingdom_Isleworth_trojan_035
+  name: United Kingdom_Isleworth_trojan_030
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
   server: 31.76.11.46.cdn-one.org
   skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
 - grpc-opts:
     grpc-service-name: /28786/4U7gXXHftA
-  name: United Kingdom_Sheffield_trojan_036
+  name: United Kingdom_Sheffield_trojan_031
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -336,7 +299,7 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_037
+- name: Hong Kong_None_trojan_032
   password: BxceQaOe
   port: 29443
   server: 18.166.249.45
@@ -346,7 +309,7 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: Bulgaria_None_trojan_038
+  name: Bulgaria_None_trojan_033
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -357,7 +320,17 @@ proxies:
   udp: true
 - grpc-opts:
     grpc-service-name: /56227/rSnUrv2yXU
-  name: Bulgaria_None_trojan_039
+  name: Bulgaria_None_trojan_034
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: Bulgaria_None_trojan_035
   network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
@@ -366,7 +339,17 @@ proxies:
   sni: 83.143.112.140.cdn-one.org
   type: trojan
   udp: true
-- name: United States_None_trojan_040
+- grpc-opts:
+    grpc-service-name: /56227/rSnUrv2yXU
+  name: Bulgaria_None_trojan_036
+  network: grpc
+  password: 32b2m2w7hsdd93z7
+  port: 443
+  server: 83.143.112.140.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: United States_None_trojan_037
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: Hkdcrtc-e.catcat321.com
@@ -374,7 +357,7 @@ proxies:
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: United States_None_trojan_041
+- name: United States_None_trojan_038
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -382,7 +365,7 @@ proxies:
   sni: hkdcrtc-e.catcat321.com
   type: trojan
   udp: true
-- name: United States_None_trojan_042
+- name: United States_None_trojan_039
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20041
   server: hkdcrtc-e.catcat321.com
@@ -670,23 +653,20 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Sweden_Stockholm_ss_026
-  - United States_Ashburn_ss_027
-  - South Korea_None_ss_028
+  - United Kingdom_Isleworth_trojan_026
+  - United Kingdom_Isleworth_trojan_027
+  - Japan_Tokyo_vmess_028
   - United Kingdom_Isleworth_trojan_029
-  - Bulgaria_None_trojan_030
-  - United Kingdom_Isleworth_trojan_031
-  - Bulgaria_None_trojan_032
-  - United Kingdom_Cardiff_ss_033
-  - United Kingdom_Isleworth_trojan_034
-  - United Kingdom_Isleworth_trojan_035
-  - United Kingdom_Sheffield_trojan_036
-  - Hong Kong_None_trojan_037
-  - Bulgaria_None_trojan_038
-  - Bulgaria_None_trojan_039
-  - United States_None_trojan_040
-  - United States_None_trojan_041
-  - United States_None_trojan_042
+  - United Kingdom_Isleworth_trojan_030
+  - United Kingdom_Sheffield_trojan_031
+  - Hong Kong_None_trojan_032
+  - Bulgaria_None_trojan_033
+  - Bulgaria_None_trojan_034
+  - Bulgaria_None_trojan_035
+  - Bulgaria_None_trojan_036
+  - United States_None_trojan_037
+  - United States_None_trojan_038
+  - United States_None_trojan_039
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Poland_None_trojan_13
@@ -746,23 +726,20 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Sweden_Stockholm_ss_026
-  - United States_Ashburn_ss_027
-  - South Korea_None_ss_028
+  - United Kingdom_Isleworth_trojan_026
+  - United Kingdom_Isleworth_trojan_027
+  - Japan_Tokyo_vmess_028
   - United Kingdom_Isleworth_trojan_029
-  - Bulgaria_None_trojan_030
-  - United Kingdom_Isleworth_trojan_031
-  - Bulgaria_None_trojan_032
-  - United Kingdom_Cardiff_ss_033
-  - United Kingdom_Isleworth_trojan_034
-  - United Kingdom_Isleworth_trojan_035
-  - United Kingdom_Sheffield_trojan_036
-  - Hong Kong_None_trojan_037
-  - Bulgaria_None_trojan_038
-  - Bulgaria_None_trojan_039
-  - United States_None_trojan_040
-  - United States_None_trojan_041
-  - United States_None_trojan_042
+  - United Kingdom_Isleworth_trojan_030
+  - United Kingdom_Sheffield_trojan_031
+  - Hong Kong_None_trojan_032
+  - Bulgaria_None_trojan_033
+  - Bulgaria_None_trojan_034
+  - Bulgaria_None_trojan_035
+  - Bulgaria_None_trojan_036
+  - United States_None_trojan_037
+  - United States_None_trojan_038
+  - United States_None_trojan_039
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Poland_None_trojan_13
