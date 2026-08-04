@@ -237,70 +237,31 @@ proxies:
   name: Japan_Tokyo_ss_026
   password: amazonskr05
   port: 443
-  server: 13.231.179.245
+  server: 13.231.162.164
   type: ss
   udp: true
-- name: Hong Kong_None_trojan_027
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_028
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_029
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_030
+- name: Hong Kong_Hong Kong_trojan_027
   password: ND91608427
   port: 443
-  server: definite-sturgeon.rooster465.autos
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
+  sni: upright-hamster.rooster465.autos
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_031
+- name: Ireland_Dublin_trojan_028
   password: ND91608427
   port: 443
-  server: upright-impala.rooster465.autos
+  server: skilled-lioness.rooster465.autos
   skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
+  sni: skilled-lioness.rooster465.autos
   type: trojan
   udp: true
-- name: South Korea_Incheon_trojan_032
+- name: Romania_None_trojan_029
   password: ND91608427
   port: 443
-  server: definite-malamute.rooster465.autos
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- name: South Korea_Incheon_trojan_033
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
-  udp: true
-- name: The Netherlands_None_trojan_034
-  password: 1BARPLkaLl
-  port: 32914
-  server: 45.130.22.70
-  skip-cert-verify: true
-  sni: 45.130.22.70
+  sni: eager-louse.rooster465.autos
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -424,67 +385,28 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_None_trojan_116
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_117
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_118
-  password: BxceQaOe
-  port: 9149
-  server: 16.162.22.218
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_119
+- name: Hong Kong_Hong Kong_trojan_116
   password: ND91608427
   port: 443
-  server: definite-sturgeon.rooster465.autos
+  server: upright-hamster.rooster465.autos
   skip-cert-verify: true
-  sni: definite-sturgeon.rooster465.autos
+  sni: upright-hamster.rooster465.autos
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_120
+- name: Ireland_Dublin_trojan_117
   password: ND91608427
   port: 443
-  server: upright-impala.rooster465.autos
+  server: skilled-lioness.rooster465.autos
   skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
+  sni: skilled-lioness.rooster465.autos
   type: trojan
   udp: true
-- name: South Korea_Incheon_trojan_121
+- name: Romania_None_trojan_118
   password: ND91608427
   port: 443
-  server: definite-malamute.rooster465.autos
+  server: eager-louse.rooster465.autos
   skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- name: South Korea_Incheon_trojan_122
-  password: ND91608427
-  port: 443
-  server: moved-meerkat.rooster465.autos
-  skip-cert-verify: true
-  sni: moved-meerkat.rooster465.autos
-  type: trojan
-  udp: true
-- name: The Netherlands_None_trojan_123
-  password: 1BARPLkaLl
-  port: 32914
-  server: 45.130.22.70
-  skip-cert-verify: true
-  sni: 45.130.22.70
+  sni: eager-louse.rooster465.autos
   type: trojan
   udp: true
 proxy-groups:
@@ -519,14 +441,9 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
   - Japan_Tokyo_ss_026
-  - Hong Kong_None_trojan_027
-  - Hong Kong_None_trojan_028
-  - Hong Kong_None_trojan_029
-  - Japan_Tokyo_trojan_030
-  - Japan_Tokyo_trojan_031
-  - South Korea_Incheon_trojan_032
-  - South Korea_Incheon_trojan_033
-  - The Netherlands_None_trojan_034
+  - Hong Kong_Hong Kong_trojan_027
+  - Ireland_Dublin_trojan_028
+  - Romania_None_trojan_029
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -542,14 +459,9 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
-  - Hong Kong_None_trojan_116
-  - Hong Kong_None_trojan_117
-  - Hong Kong_None_trojan_118
-  - Japan_Tokyo_trojan_119
-  - Japan_Tokyo_trojan_120
-  - South Korea_Incheon_trojan_121
-  - South Korea_Incheon_trojan_122
-  - The Netherlands_None_trojan_123
+  - Hong Kong_Hong Kong_trojan_116
+  - Ireland_Dublin_trojan_117
+  - Romania_None_trojan_118
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -582,14 +494,9 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
   - Japan_Tokyo_ss_026
-  - Hong Kong_None_trojan_027
-  - Hong Kong_None_trojan_028
-  - Hong Kong_None_trojan_029
-  - Japan_Tokyo_trojan_030
-  - Japan_Tokyo_trojan_031
-  - South Korea_Incheon_trojan_032
-  - South Korea_Incheon_trojan_033
-  - The Netherlands_None_trojan_034
+  - Hong Kong_Hong Kong_trojan_027
+  - Ireland_Dublin_trojan_028
+  - Romania_None_trojan_029
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -605,14 +512,9 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
-  - Hong Kong_None_trojan_116
-  - Hong Kong_None_trojan_117
-  - Hong Kong_None_trojan_118
-  - Japan_Tokyo_trojan_119
-  - Japan_Tokyo_trojan_120
-  - South Korea_Incheon_trojan_121
-  - South Korea_Incheon_trojan_122
-  - The Netherlands_None_trojan_123
+  - Hong Kong_Hong Kong_trojan_116
+  - Ireland_Dublin_trojan_117
+  - Romania_None_trojan_118
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
