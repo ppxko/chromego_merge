@@ -233,23 +233,14 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_026
-  password: 41c406e2-12b5-41f2-a329-d0621052d675
-  port: 20066
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
 - cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_027
+  name: Japan_Tokyo_ss_026
   password: amazonskr05
   port: 443
-  server: 13.231.162.164
+  server: 13.231.179.245
   type: ss
   udp: true
-- name: Hong Kong_None_trojan_028
+- name: Hong Kong_None_trojan_027
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
@@ -257,14 +248,14 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_029
+- name: Hong Kong_None_trojan_028
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_030
+- name: Hong Kong_None_trojan_029
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
@@ -272,7 +263,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_031
+- name: Japan_Tokyo_trojan_030
   password: ND91608427
   port: 443
   server: definite-sturgeon.rooster465.autos
@@ -280,7 +271,7 @@ proxies:
   sni: definite-sturgeon.rooster465.autos
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_032
+- name: Japan_Tokyo_trojan_031
   password: ND91608427
   port: 443
   server: upright-impala.rooster465.autos
@@ -288,7 +279,7 @@ proxies:
   sni: upright-impala.rooster465.autos
   type: trojan
   udp: true
-- name: South Korea_Incheon_trojan_033
+- name: South Korea_Incheon_trojan_032
   password: ND91608427
   port: 443
   server: definite-malamute.rooster465.autos
@@ -296,7 +287,7 @@ proxies:
   sni: definite-malamute.rooster465.autos
   type: trojan
   udp: true
-- name: South Korea_Incheon_trojan_034
+- name: South Korea_Incheon_trojan_033
   password: ND91608427
   port: 443
   server: moved-meerkat.rooster465.autos
@@ -304,7 +295,7 @@ proxies:
   sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
-- name: The Netherlands_None_trojan_035
+- name: The Netherlands_None_trojan_034
   password: 1BARPLkaLl
   port: 32914
   server: 45.130.22.70
@@ -527,16 +518,15 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_trojan_026
-  - Japan_Tokyo_ss_027
+  - Japan_Tokyo_ss_026
+  - Hong Kong_None_trojan_027
   - Hong Kong_None_trojan_028
   - Hong Kong_None_trojan_029
-  - Hong Kong_None_trojan_030
+  - Japan_Tokyo_trojan_030
   - Japan_Tokyo_trojan_031
-  - Japan_Tokyo_trojan_032
+  - South Korea_Incheon_trojan_032
   - South Korea_Incheon_trojan_033
-  - South Korea_Incheon_trojan_034
-  - The Netherlands_None_trojan_035
+  - The Netherlands_None_trojan_034
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -591,16 +581,15 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_trojan_026
-  - Japan_Tokyo_ss_027
+  - Japan_Tokyo_ss_026
+  - Hong Kong_None_trojan_027
   - Hong Kong_None_trojan_028
   - Hong Kong_None_trojan_029
-  - Hong Kong_None_trojan_030
+  - Japan_Tokyo_trojan_030
   - Japan_Tokyo_trojan_031
-  - Japan_Tokyo_trojan_032
+  - South Korea_Incheon_trojan_032
   - South Korea_Incheon_trojan_033
-  - South Korea_Incheon_trojan_034
-  - The Netherlands_None_trojan_035
+  - The Netherlands_None_trojan_034
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
