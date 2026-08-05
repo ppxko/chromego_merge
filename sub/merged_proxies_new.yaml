@@ -198,9 +198,7 @@ proxies:
   server: 95.40.205.94
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
-  tls: true
   type: trojan
-  udp: true
 - name: Hong Kong_None_trojan_022
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -235,45 +233,28 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: China_None_trojan_026
+- name: United States_None_trojan_026
   password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 40783
-  server: 106.75.132.91
+  port: '39221'
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
-  type: trojan
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: Brazil_Goiânia_trojan_027
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: '443'
-  server: 177.3.208.169
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
+  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- name: Hong Kong_Hong Kong_trojan_028
-  password: ND91608427
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_027
+  password: amazonskr05
   port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
+  server: 13.231.227.228
+  type: ss
   udp: true
-- name: Ireland_Dublin_trojan_029
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
+- name: United States_None_trojan_028
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '53199'
+  server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- name: Romania_None_trojan_030
-  password: ND91608427
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: true
-  sni: eager-louse.rooster465.autos
+  sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
 - cipher: aes-256-cfb
@@ -397,30 +378,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Hong Kong_Hong Kong_trojan_116
-  password: ND91608427
-  port: 443
-  server: upright-hamster.rooster465.autos
-  skip-cert-verify: true
-  sni: upright-hamster.rooster465.autos
-  type: trojan
-  udp: true
-- name: Ireland_Dublin_trojan_117
-  password: ND91608427
-  port: 443
-  server: skilled-lioness.rooster465.autos
-  skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
-  type: trojan
-  udp: true
-- name: Romania_None_trojan_118
-  password: ND91608427
-  port: 443
-  server: eager-louse.rooster465.autos
-  skip-cert-verify: true
-  sni: eager-louse.rooster465.autos
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -452,11 +409,9 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - China_None_trojan_026
-  - Brazil_Goiânia_trojan_027
-  - Hong Kong_Hong Kong_trojan_028
-  - Ireland_Dublin_trojan_029
-  - Romania_None_trojan_030
+  - United States_None_trojan_026
+  - Japan_Tokyo_ss_027
+  - United States_None_trojan_028
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -472,9 +427,6 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
-  - Hong Kong_Hong Kong_trojan_116
-  - Ireland_Dublin_trojan_117
-  - Romania_None_trojan_118
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -506,11 +458,9 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - China_None_trojan_026
-  - Brazil_Goiânia_trojan_027
-  - Hong Kong_Hong Kong_trojan_028
-  - Ireland_Dublin_trojan_029
-  - Romania_None_trojan_030
+  - United States_None_trojan_026
+  - Japan_Tokyo_ss_027
+  - United States_None_trojan_028
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -526,9 +476,6 @@ proxy-groups:
   - Hong Kong_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
-  - Hong Kong_Hong Kong_trojan_116
-  - Ireland_Dublin_trojan_117
-  - Romania_None_trojan_118
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
