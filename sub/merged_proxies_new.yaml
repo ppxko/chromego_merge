@@ -234,13 +234,6 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_026
-  password: amazonskr05
-  port: '443'
-  server: 13.115.57.197
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
   port: 443
@@ -392,7 +385,6 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Japan_Tokyo_ss_026
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -439,7 +431,6 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - Japan_Tokyo_ss_026
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
