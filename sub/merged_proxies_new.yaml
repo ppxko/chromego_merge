@@ -233,25 +233,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: United States_None_trojan_026
-  password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '39221'
-  server: speed-01.aliyun-web-tracker.cn
-  skip-cert-verify: true
-  sni: speed-01.aliyun-web-tracker.cn
-  type: trojan
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_026
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_027
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
-  udp: true
-- name: United States_None_trojan_028
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: United States_None_trojan_027
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
-  port: '53199'
+  port: 53199
   server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
   sni: speed-01.aliyun-web-tracker.cn
@@ -409,9 +406,8 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_trojan_026
-  - Japan_Tokyo_ss_027
-  - United States_None_trojan_028
+  - China_None_vmess_026
+  - United States_None_trojan_027
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -458,9 +454,8 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_trojan_026
-  - Japan_Tokyo_ss_027
-  - United States_None_trojan_028
+  - China_None_vmess_026
+  - United States_None_trojan_027
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
