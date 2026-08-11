@@ -142,6 +142,7 @@ proxies:
   server: 16.162.3.11
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: false
   type: trojan
   udp: true
 - name: Hong Kong_None_trojan_015
@@ -226,28 +227,47 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: Hong Kong_None_trojan_025
-  password: BxceQaOe
-  port: '39024'
-  server: 18.166.226.204
+- name: Singapore_Singapore_trojan_025
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-sg6.251313.xyz
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: www.cloudflare.com
   type: trojan
   udp: true
-- alterId: '0'
-  cipher: auto
-  name: United States_None_vmess_026
-  network: tcp
-  port: '29072'
-  server: 366-1095.rabbitpro-in-3.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: United States_None_trojan_026
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 443
+  server: starlink-sg5.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
-  xudp: true
 - name: Hong Kong_None_trojan_027
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21521
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: Hong Kong_None_trojan_028
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21523
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: United States_None_trojan_029
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 10010
+  server: z-sg1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- name: Hong Kong_None_trojan_030
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -255,7 +275,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_028
+- name: Japan_Tokyo_trojan_031
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -423,10 +443,13 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - Hong Kong_None_trojan_025
-  - United States_None_vmess_026
+  - Singapore_Singapore_trojan_025
+  - United States_None_trojan_026
   - Hong Kong_None_trojan_027
-  - Japan_Tokyo_trojan_028
+  - Hong Kong_None_trojan_028
+  - United States_None_trojan_029
+  - Hong Kong_None_trojan_030
+  - Japan_Tokyo_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Japan_Tokyo_trojan_13
@@ -473,10 +496,13 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - Hong Kong_None_trojan_025
-  - United States_None_vmess_026
+  - Singapore_Singapore_trojan_025
+  - United States_None_trojan_026
   - Hong Kong_None_trojan_027
-  - Japan_Tokyo_trojan_028
+  - Hong Kong_None_trojan_028
+  - United States_None_trojan_029
+  - Hong Kong_None_trojan_030
+  - Japan_Tokyo_trojan_031
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Japan_Tokyo_trojan_13
