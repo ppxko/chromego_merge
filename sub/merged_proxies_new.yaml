@@ -238,30 +238,24 @@ proxies:
   network: ws
   password: humanity
   port: '443'
-  server: www.ignitelimit.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_027
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.21.46.3
+  server: www.speedtest.org
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
     path: /assignment
+- client-fingerprint: chrome
+  name: Japan_Tokyo_trojan_027
+  password: d050aca3-9df2-4461-90ec-92373c1d7636
+  port: '44184'
+  server: v2jp.k1.ssnss.live
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: Hong Kong_None_trojan_028
   password: BxceQaOe
   port: 27161
@@ -463,7 +457,7 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
   - None_None_trojan_026
-  - None_None_trojan_027
+  - Japan_Tokyo_trojan_027
   - Hong Kong_None_trojan_028
   - Hong Kong_None_trojan_029
   - Japan_Tokyo_trojan_030
@@ -517,7 +511,7 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Tuen Mun_vmess_025
   - None_None_trojan_026
-  - None_None_trojan_027
+  - Japan_Tokyo_trojan_027
   - Hong Kong_None_trojan_028
   - Hong Kong_None_trojan_029
   - Japan_Tokyo_trojan_030
