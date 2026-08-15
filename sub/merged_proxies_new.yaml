@@ -225,310 +225,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Japan_Tokyo_trojan_025
-  password: FH72359861
-  port: 443
-  server: welcome-owl.rooster465.autos
-  skip-cert-verify: true
-  sni: welcome-owl.rooster465.autos
-  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_025
+  password: f552e8bf-9b43-3654-8efa-b7cb366431e8
+  port: '20026'
+  server: l.d.w.a.5.4.z.9.6.ar01-ae5.entry.v51124-3a.qpon
+  type: ss
   udp: true
-- name: Japan_Tokyo_trojan_026
-  password: FH72359861
-  port: 443
-  server: equal-labrador.rooster465.autos
-  skip-cert-verify: true
-  sni: equal-labrador.rooster465.autos
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_027
-  password: FH72359861
-  port: 443
-  server: bright-quagga.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: United States_None_trojan_028
-  password: FH72359861
-  port: 443
-  server: driven-bulldog.rooster465.autos
-  skip-cert-verify: true
-  sni: driven-bulldog.rooster465.autos
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_029
-  password: FH72359861
-  port: 443
-  server: lasting-jaguar.rooster465.autos
-  skip-cert-verify: true
-  sni: lasting-jaguar.rooster465.autos
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_030
-  password: FH72359861
-  port: 443
-  server: communal-troll.rooster465.autos
-  skip-cert-verify: true
-  sni: communal-troll.rooster465.autos
-  type: trojan
-  udp: true
-- name: United States_None_trojan_031
-  password: FH72359861
-  port: 443
-  server: grateful-leech.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_032
-  password: FH72359861
-  port: 443
-  server: engaged-lionfish.rooster465.autos
-  skip-cert-verify: true
-  sni: engaged-lionfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: Japan_Tokyo_trojan_033
-  password: FH72359861
-  port: 443
-  server: living-hagfish.rooster465.autos
-  skip-cert-verify: true
-  sni: living-hagfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: Singapore_Singapore_trojan_034
-  password: FH72359861
-  port: 443
-  server: select-chipmunk.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-- name: Singapore_Singapore_trojan_035
-  password: FH72359861
-  port: 443
-  server: master-possum.rooster465.autos
-  skip-cert-verify: true
-  sni: master-possum.rooster465.autos
-  type: trojan
-  udp: true
-- name: United States_None_trojan_036
-  password: FH72359861
-  port: 443
-  server: square-guinea.rooster465.autos
-  skip-cert-verify: true
-  sni: square-guinea.rooster465.autos
-  type: trojan
-  udp: true
-- name: Singapore_Singapore_trojan_037
-  password: FH72359861
-  port: 443
-  server: certain-egret.rooster465.autos
-  skip-cert-verify: true
-  sni: certain-egret.rooster465.autos
-  type: trojan
-  udp: true
-- name: Singapore_Singapore_trojan_038
-  password: FH72359861
-  port: 443
-  server: charming-ox.rooster465.autos
-  skip-cert-verify: true
-  sni: charming-ox.rooster465.autos
-  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_026
+  password: 9306aebe-da01-3301-8bf0-8d24a461674e
+  port: '1814'
+  server: x.2.w.9.p.e.y.8.d.hk05-ae5.entry.v51124-4.qpon
+  type: ss
   udp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: United States_None_vmess_039
+  name: France_None_vmess_027
   network: ws
-  port: '443'
-  server: rush-6it6b.teeopp.quest
-  servername: rush-6it6b.teeopp.quest
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: fd15f1d9-a3f5-41e3-a755-f3e7bb32d78d
   ws-opts:
     headers:
-      Host: rush-6it6b.teeopp.quest
-    path: /video/kz49hf/gbin5jve.m3u8
+      Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
+    path: /
   xudp: true
-- cipher: aes-256-cfb
-  name: United States_Columbus_ss_040
-  password: amazonskr05
-  port: 443
-  server: 18.189.171.163
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_041
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 13.212.116.190
-  skip-cert-verify: false
-  sni: musical-terrier.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_042
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 13.231.180.231
-  skip-cert-verify: false
-  sni: set-gazelle.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_043
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 13.231.237.228
-  skip-cert-verify: false
-  sni: classic-pug.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_044
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 18.183.226.106
-  skip-cert-verify: false
-  sni: living-hagfish.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_045
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 18.183.245.11
-  skip-cert-verify: false
-  sni: bright-buffalo.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_046
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 3.0.133.8
-  skip-cert-verify: false
-  sni: social-cod.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_047
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 3.112.250.103
-  skip-cert-verify: false
-  sni: flexible-pony.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Ireland_Dublin_trojan_048
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 3.253.78.205
-  skip-cert-verify: false
-  sni: balanced-heron.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Germany_Frankfurt am Main_trojan_049
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 35.159.21.7
-  skip-cert-verify: false
-  sni: summary-lemming.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: South Korea_Incheon_trojan_050
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 43.202.61.210
-  skip-cert-verify: false
-  sni: loyal-molly.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_051
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 52.196.34.5
-  skip-cert-verify: false
-  sni: welcome-owl.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: South Korea_Incheon_trojan_052
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 54.180.158.231
-  skip-cert-verify: false
-  sni: precise-locust.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_053
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 54.238.194.119
-  skip-cert-verify: false
-  sni: relaxing-marten.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_054
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 54.254.235.88
-  skip-cert-verify: false
-  sni: charming-ox.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_055
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 54.64.38.110
-  skip-cert-verify: false
-  sni: equal-labrador.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: United States_None_trojan_056
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 56.10.68.149
-  skip-cert-verify: false
-  sni: square-guinea.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_057
-  network: tcp
-  password: FH72359861
-  port: '443'
-  server: 57.180.23.141
-  skip-cert-verify: false
-  sni: engaged-lionfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: Hong Kong_None_trojan_058
+- name: Hong Kong_None_trojan_028
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -536,7 +265,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_059
+- name: Hong Kong_None_trojan_029
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -544,7 +273,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_060
+- name: Japan_Tokyo_trojan_030
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -719,42 +448,12 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - Japan_Tokyo_trojan_025
-  - Japan_Tokyo_trojan_026
-  - Japan_Tokyo_trojan_027
-  - United States_None_trojan_028
-  - Japan_Tokyo_trojan_029
+  - China_None_ss_025
+  - China_None_ss_026
+  - France_None_vmess_027
+  - Hong Kong_None_trojan_028
+  - Hong Kong_None_trojan_029
   - Japan_Tokyo_trojan_030
-  - United States_None_trojan_031
-  - Japan_Tokyo_trojan_032
-  - Japan_Tokyo_trojan_033
-  - Singapore_Singapore_trojan_034
-  - Singapore_Singapore_trojan_035
-  - United States_None_trojan_036
-  - Singapore_Singapore_trojan_037
-  - Singapore_Singapore_trojan_038
-  - United States_None_vmess_039
-  - United States_Columbus_ss_040
-  - Singapore_Singapore_trojan_041
-  - Japan_Tokyo_trojan_042
-  - Japan_Tokyo_trojan_043
-  - Japan_Tokyo_trojan_044
-  - Japan_Tokyo_trojan_045
-  - Singapore_Singapore_trojan_046
-  - Japan_Tokyo_trojan_047
-  - Ireland_Dublin_trojan_048
-  - Germany_Frankfurt am Main_trojan_049
-  - South Korea_Incheon_trojan_050
-  - Japan_Tokyo_trojan_051
-  - South Korea_Incheon_trojan_052
-  - Japan_Tokyo_trojan_053
-  - Singapore_Singapore_trojan_054
-  - Japan_Tokyo_trojan_055
-  - United States_None_trojan_056
-  - Japan_Tokyo_trojan_057
-  - Hong Kong_None_trojan_058
-  - Hong Kong_None_trojan_059
-  - Japan_Tokyo_trojan_060
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -802,42 +501,12 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - Japan_Tokyo_trojan_025
-  - Japan_Tokyo_trojan_026
-  - Japan_Tokyo_trojan_027
-  - United States_None_trojan_028
-  - Japan_Tokyo_trojan_029
+  - China_None_ss_025
+  - China_None_ss_026
+  - France_None_vmess_027
+  - Hong Kong_None_trojan_028
+  - Hong Kong_None_trojan_029
   - Japan_Tokyo_trojan_030
-  - United States_None_trojan_031
-  - Japan_Tokyo_trojan_032
-  - Japan_Tokyo_trojan_033
-  - Singapore_Singapore_trojan_034
-  - Singapore_Singapore_trojan_035
-  - United States_None_trojan_036
-  - Singapore_Singapore_trojan_037
-  - Singapore_Singapore_trojan_038
-  - United States_None_vmess_039
-  - United States_Columbus_ss_040
-  - Singapore_Singapore_trojan_041
-  - Japan_Tokyo_trojan_042
-  - Japan_Tokyo_trojan_043
-  - Japan_Tokyo_trojan_044
-  - Japan_Tokyo_trojan_045
-  - Singapore_Singapore_trojan_046
-  - Japan_Tokyo_trojan_047
-  - Ireland_Dublin_trojan_048
-  - Germany_Frankfurt am Main_trojan_049
-  - South Korea_Incheon_trojan_050
-  - Japan_Tokyo_trojan_051
-  - South Korea_Incheon_trojan_052
-  - Japan_Tokyo_trojan_053
-  - Singapore_Singapore_trojan_054
-  - Japan_Tokyo_trojan_055
-  - United States_None_trojan_056
-  - Japan_Tokyo_trojan_057
-  - Hong Kong_None_trojan_058
-  - Hong Kong_None_trojan_059
-  - Japan_Tokyo_trojan_060
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
