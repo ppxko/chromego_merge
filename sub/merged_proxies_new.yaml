@@ -225,29 +225,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: China_None_ss_025
-  password: f552e8bf-9b43-3654-8efa-b7cb366431e8
-  port: '20026'
-  server: l.d.w.a.5.4.z.9.6.ar01-ae5.entry.v51124-3a.qpon
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: China_None_ss_026
-  password: 9306aebe-da01-3301-8bf0-8d24a461674e
-  port: '1814'
-  server: x.2.w.9.p.e.y.8.d.hk05-ae5.entry.v51124-4.qpon
-  type: ss
-  udp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: France_None_vmess_027
+  name: France_None_vmess_025
   network: ws
-  port: '16632'
+  port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
@@ -256,8 +242,69 @@ proxies:
     headers:
       Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
     path: /
-  xudp: true
-- name: Hong Kong_None_trojan_028
+- client-fingerprint: chrome
+  name: None_None_trojan_026
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assignment
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_027
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8103
+  server: cn01.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_028
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8108
+  server: cn02.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_029
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8102
+  server: cn01.somethingstranges.com
+  type: ss
+- name: Hong Kong_Hong Kong_trojan_030
+  network: tcp
+  password: HC04361579
+  port: 443
+  server: eminent-lamb.rooster465.autos
+  sni: eminent-lamb.rooster465.autos
+  type: trojan
+- cipher: chacha20-ietf
+  name: United Kingdom_Gosport_ss_031
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8106
+  server: cn02.somethingstranges.com
+  type: ss
+- name: Hong Kong_None_trojan_032
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -265,7 +312,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_029
+- name: Hong Kong_None_trojan_033
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -273,7 +320,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_030
+- name: Japan_Tokyo_trojan_034
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -448,12 +495,16 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - China_None_ss_025
-  - China_None_ss_026
-  - France_None_vmess_027
-  - Hong Kong_None_trojan_028
-  - Hong Kong_None_trojan_029
-  - Japan_Tokyo_trojan_030
+  - France_None_vmess_025
+  - None_None_trojan_026
+  - United Kingdom_Gosport_ss_027
+  - United Kingdom_Gosport_ss_028
+  - United Kingdom_Gosport_ss_029
+  - Hong Kong_Hong Kong_trojan_030
+  - United Kingdom_Gosport_ss_031
+  - Hong Kong_None_trojan_032
+  - Hong Kong_None_trojan_033
+  - Japan_Tokyo_trojan_034
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -501,12 +552,16 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - China_None_ss_025
-  - China_None_ss_026
-  - France_None_vmess_027
-  - Hong Kong_None_trojan_028
-  - Hong Kong_None_trojan_029
-  - Japan_Tokyo_trojan_030
+  - France_None_vmess_025
+  - None_None_trojan_026
+  - United Kingdom_Gosport_ss_027
+  - United Kingdom_Gosport_ss_028
+  - United Kingdom_Gosport_ss_029
+  - Hong Kong_Hong Kong_trojan_030
+  - United Kingdom_Gosport_ss_031
+  - Hong Kong_None_trojan_032
+  - Hong Kong_None_trojan_033
+  - Japan_Tokyo_trojan_034
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
