@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_012
+  name: Hong Kong_Sham Tseng_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -217,7 +217,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_024
+  name: Hong Kong_Sham Tseng_vmess_024
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -225,89 +225,193 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: Sweden_Stockholm_trojan_025
-  password: fg20mtCFHy
-  port: 5612
-  server: 172.234.100.80
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_025
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
   skip-cert-verify: true
-  sni: yugdv.southbyte.xyz
+  tls: false
+  type: vmess
+  uuid: b655fa09-40b8-4317-a713-87a793dde9d0
+  ws-opts:
+    headers:
+      Host: 883147dc12db58e094e3f13e202fe20c.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  name: Singapore_Singapore_trojan_026
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: well-goshawk.rooster465.autos
+  skip-cert-verify: false
+  sni: well-goshawk.rooster465.autos
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_026
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21107'
-  server: 211.91.158.27
-  type: ss
-  udp: true
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
   name: France_None_vmess_027
   network: ws
-  port: 16632
+  port: '16632'
   server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  uuid: 0c657913-e593-4893-9555-f88478c33a4b
   ws-opts:
     headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: 0
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: United States_None_vmess_028
-  network: http
-  port: 52080
-  server: 38.246.226.240
+- client-fingerprint: chrome
+  name: None_None_trojan_028
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.210
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_029
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.235
-  type: ss
-  udp: true
-- name: Germany_Frankfurt am Main_trojan_030
-  network: tcp
-  password: fg20mtCFHy
-  port: 5859
-  server: 209.38.240.27
-  skip-cert-verify: true
-  sni: uyped.southbyte.xyz
+  sni: www.ignitelimit.com
   type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: United States_None_trojan_029
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: South Korea_Incheon_trojan_030
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: 3.36.124.155
+  skip-cert-verify: false
+  sni: novel-kodiak.rooster465.autos
+  type: trojan
+  udp: true
 - client-fingerprint: chrome
   name: Japan_Tokyo_trojan_031
   network: tcp
   password: EQ30679154
   port: '443'
-  server: upright-sheepdog.rooster465.autos
+  server: 57.180.56.235
   skip-cert-verify: false
-  sni: upright-sheepdog.rooster465.autos
+  sni: gentle-perch.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: United Kingdom_Newport_trojan_032
+  name: France_Paris_trojan_032
+  network: tcp
+  password: fg20mtCFHy
+  port: 5577
+  server: 172.232.42.44
+  skip-cert-verify: true
+  sni: gtyxz.southbyte.xyz
+  type: trojan
+- client-fingerprint: chrome
+  name: Singapore_Singapore_trojan_033
   network: tcp
   password: EQ30679154
   port: '443'
-  server: pretty-mollusk.rooster465.autos
+  server: 47.129.160.142
   skip-cert-verify: false
+  sni: well-goshawk.rooster465.autos
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_033
+- client-fingerprint: chrome
+  name: Japan_Tokyo_trojan_034
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: gentle-perch.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-perch.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: South Korea_Incheon_trojan_035
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: novel-kodiak.rooster465.autos
+  skip-cert-verify: false
+  sni: novel-kodiak.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: Japan_Tokyo_trojan_036
+  network: tcp
+  password: fg20mtCFHy
+  port: '5710'
+  server: 172.105.197.232
+  skip-cert-verify: true
+  sni: jpcaw.southbyte.xyz
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: None_None_trojan_037
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.1
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: Singapore_Singapore_trojan_038
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: direct-hawk.rooster465.autos
+  skip-cert-verify: false
+  sni: direct-hawk.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_039
+  network: ws
+  port: 16622
+  server: t.cnmjcn.cyou
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b43b4eb3-3874-474d-a2fb-ddf1d15b1398
+  ws-opts:
+    headers:
+      Host: d86f6b4af87f7763136b32ebe64db573.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: Hong Kong_None_trojan_040
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -315,7 +419,7 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: Hong Kong_None_trojan_034
+- name: Hong Kong_None_trojan_041
   password: BxceQaOe
   port: 27161
   server: 16.162.3.11
@@ -323,7 +427,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_035
+- name: Japan_Tokyo_trojan_042
   password: 7d8e6db4-96cc-4710-afc0-619edde2d7a1
   port: 55682
   server: t11.qifei.app
@@ -339,7 +443,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Sham Tseng_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -436,7 +540,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_114
+  name: Hong Kong_Sham Tseng_vmess_114
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -485,7 +589,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Sham Tseng_vmess_012
   - Hong Kong_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -497,20 +601,27 @@ proxy-groups:
   - Hong Kong_None_trojan_021
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
-  - Hong Kong_Tuen Mun_vmess_024
-  - Sweden_Stockholm_trojan_025
-  - China_None_ss_026
+  - Hong Kong_Sham Tseng_vmess_024
+  - France_None_vmess_025
+  - Singapore_Singapore_trojan_026
   - France_None_vmess_027
-  - United States_None_vmess_028
-  - China_None_ss_029
-  - Germany_Frankfurt am Main_trojan_030
+  - None_None_trojan_028
+  - United States_None_trojan_029
+  - South Korea_Incheon_trojan_030
   - Japan_Tokyo_trojan_031
-  - United Kingdom_Newport_trojan_032
-  - Hong Kong_None_trojan_033
-  - Hong Kong_None_trojan_034
-  - Japan_Tokyo_trojan_035
+  - France_Paris_trojan_032
+  - Singapore_Singapore_trojan_033
+  - Japan_Tokyo_trojan_034
+  - South Korea_Incheon_trojan_035
+  - Japan_Tokyo_trojan_036
+  - None_None_trojan_037
+  - Singapore_Singapore_trojan_038
+  - France_None_vmess_039
+  - Hong Kong_None_trojan_040
+  - Hong Kong_None_trojan_041
+  - Japan_Tokyo_trojan_042
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Sham Tseng_vmess_12
   - Hong Kong_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -522,7 +633,7 @@ proxy-groups:
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
-  - Hong Kong_Tuen Mun_vmess_114
+  - Hong Kong_Sham Tseng_vmess_114
   - Hong Kong_None_trojan_115
   - Hong Kong_None_trojan_116
   - Japan_Tokyo_trojan_117
@@ -543,7 +654,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Sham Tseng_vmess_012
   - Hong Kong_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -555,20 +666,27 @@ proxy-groups:
   - Hong Kong_None_trojan_021
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
-  - Hong Kong_Tuen Mun_vmess_024
-  - Sweden_Stockholm_trojan_025
-  - China_None_ss_026
+  - Hong Kong_Sham Tseng_vmess_024
+  - France_None_vmess_025
+  - Singapore_Singapore_trojan_026
   - France_None_vmess_027
-  - United States_None_vmess_028
-  - China_None_ss_029
-  - Germany_Frankfurt am Main_trojan_030
+  - None_None_trojan_028
+  - United States_None_trojan_029
+  - South Korea_Incheon_trojan_030
   - Japan_Tokyo_trojan_031
-  - United Kingdom_Newport_trojan_032
-  - Hong Kong_None_trojan_033
-  - Hong Kong_None_trojan_034
-  - Japan_Tokyo_trojan_035
+  - France_Paris_trojan_032
+  - Singapore_Singapore_trojan_033
+  - Japan_Tokyo_trojan_034
+  - South Korea_Incheon_trojan_035
+  - Japan_Tokyo_trojan_036
+  - None_None_trojan_037
+  - Singapore_Singapore_trojan_038
+  - France_None_vmess_039
+  - Hong Kong_None_trojan_040
+  - Hong Kong_None_trojan_041
+  - Japan_Tokyo_trojan_042
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Sham Tseng_vmess_12
   - Hong Kong_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -580,7 +698,7 @@ proxy-groups:
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
   - Hong Kong_None_trojan_113
-  - Hong Kong_Tuen Mun_vmess_114
+  - Hong Kong_Sham Tseng_vmess_114
   - Hong Kong_None_trojan_115
   - Hong Kong_None_trojan_116
   - Japan_Tokyo_trojan_117
