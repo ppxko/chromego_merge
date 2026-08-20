@@ -226,49 +226,75 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: United States_Columbus_ss_025
-  password: amazonskr05
-  port: '443'
-  server: 18.188.213.207
+  name: China_Guangzhou_ss_025
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 120.232.253.90
   type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: China_None_ss_026
+  name: Germany_Frankfurt am Main_ss_026
+  password: amazonskr05
+  port: 443
+  server: 52.59.195.252
+  type: ss
+- cipher: aes-256-cfb
+  name: United States_Columbus_ss_027
+  password: amazonskr05
+  port: 443
+  server: 3.145.35.194
+  type: ss
+- cipher: aes-256-cfb
+  name: China_None_ss_028
   password: 7eadc6dbe2ae
   port: '65443'
   server: 121.46.230.235
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_027
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.234
-  type: ss
+- client-fingerprint: chrome
+  name: None_None_trojan_029
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.36
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
+    path: /assignment
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: United States_None_vmess_030
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
 - cipher: aes-256-cfb
-  name: China_Guangzhou_ss_028
+  name: China_Guangzhou_ss_031
   password: 7eadc6dbe2ae
   port: '65443'
   server: 120.232.253.96
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: China_Guangzhou_ss_029
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 120.232.253.97
+  name: United States_Columbus_ss_032
+  password: amazonskr05
+  port: 443
+  server: 3.144.19.187
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_030
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_031
+  name: Singapore_Singapore_trojan_033
   network: tcp
   password: EQ30679154
   port: '443'
@@ -276,53 +302,6 @@ proxies:
   skip-cert-verify: false
   sni: picked-hamster.rooster465.autos
   type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_032
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: 3.113.25.197
-  skip-cert-verify: true
-  sni: wealthy-gobbler.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_033
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: concise-grackle.rooster465.autos
-  skip-cert-verify: false
-  sni: concise-grackle.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_034
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: internal-raccoon.rooster465.autos
-  skip-cert-verify: false
-  sni: internal-raccoon.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_035
-  network: tcp
-  password: EQ30679154
-  port: '443'
-  server: modest-bat.rooster465.autos
-  skip-cert-verify: false
-  sni: modest-bat.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: China_Guangzhou_ss_036
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 120.232.253.89
-  type: ss
   udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
@@ -467,18 +446,15 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - United States_Columbus_ss_025
-  - China_None_ss_026
-  - China_None_ss_027
-  - China_Guangzhou_ss_028
-  - China_Guangzhou_ss_029
-  - China_None_ss_030
-  - Singapore_Singapore_trojan_031
-  - Japan_Tokyo_trojan_032
-  - Japan_Tokyo_trojan_033
-  - Singapore_Singapore_trojan_034
-  - Singapore_Singapore_trojan_035
-  - China_Guangzhou_ss_036
+  - China_Guangzhou_ss_025
+  - Germany_Frankfurt am Main_ss_026
+  - United States_Columbus_ss_027
+  - China_None_ss_028
+  - None_None_trojan_029
+  - United States_None_vmess_030
+  - China_Guangzhou_ss_031
+  - United States_Columbus_ss_032
+  - Singapore_Singapore_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -523,18 +499,15 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Hong Kong_None_trojan_023
   - Hong Kong_Central_vmess_024
-  - United States_Columbus_ss_025
-  - China_None_ss_026
-  - China_None_ss_027
-  - China_Guangzhou_ss_028
-  - China_Guangzhou_ss_029
-  - China_None_ss_030
-  - Singapore_Singapore_trojan_031
-  - Japan_Tokyo_trojan_032
-  - Japan_Tokyo_trojan_033
-  - Singapore_Singapore_trojan_034
-  - Singapore_Singapore_trojan_035
-  - China_Guangzhou_ss_036
+  - China_Guangzhou_ss_025
+  - Germany_Frankfurt am Main_ss_026
+  - United States_Columbus_ss_027
+  - China_None_ss_028
+  - None_None_trojan_029
+  - United States_None_vmess_030
+  - China_Guangzhou_ss_031
+  - United States_Columbus_ss_032
+  - Singapore_Singapore_trojan_033
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
