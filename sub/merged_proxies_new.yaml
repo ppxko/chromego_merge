@@ -129,65 +129,65 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: Hong Kong_None_trojan_013
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 14684
-  server: 43.199.143.104
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_014
+- name: Hong Kong_None_trojan_014
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 95.40.89.31
+  port: 27161
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Poland_None_trojan_015
+- name: Hong Kong_None_trojan_015
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 95.40.89.31
+  port: 27161
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_016
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 16.162.100.208
+  port: 16691
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Poland_None_trojan_017
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14625
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 54876
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_018
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55647
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 38936
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_019
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
-  server: 16.162.100.124
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_020
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.100.124
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -195,31 +195,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 16.162.100.208
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_022
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 34039
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_023
+- name: Poland_None_trojan_023
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 28051
-  server: 18.163.126.92
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_024
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.163.74.15
+  port: 53001
+  server: 43.199.47.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -233,181 +233,109 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: United States_None_ss_026
-  password: amazonskr05
-  port: 443
-  server: 63.186.69.235
-  type: ss
-- cipher: aes-256-cfb
-  name: France_Paris_ss_027
-  password: amazonskr05
-  port: 443
-  server: 13.38.46.203
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: None_None_vmess_028
-  network: ws
-  port: '443'
-  server: node.socks5.kdns.fr
-  servername: chest-own-llp-collections.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: e1ed0569-bfe4-468f-aa9a-63819e8229ef
-  ws-opts:
-    headers:
-      Host: chest-own-llp-collections.trycloudflare.com
-    path: /e1ed0569-bfe4-468f-aa9a-63819e8229ef-vm
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: France_None_vmess_029
-  network: ws
-  port: '16622'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b312c029-18bb-43c8-bc5a-b4f8d193853c
-  ws-opts:
-    headers:
-      Host: 09a25e0678d5f69a5bb882d9f6441ad2.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: United States_San Francisco_vmess_030
-  network: ws
-  port: '443'
-  server: node.socks5.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 36dba83c-5b10-48aa-aee3-6d85790a9bf3
-  ws-opts:
-    headers:
-      Host: smaller-independently-ball-mil.trycloudflare.com
-    path: /36dba83c-5b10-48aa-aee3-6d85790a9bf3-vm
-  xudp: true
 - client-fingerprint: chrome
-  name: None_None_trojan_031
+  name: None_None_trojan_026
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.152.204
+  server: 104.18.152.246
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: United States_None_vmess_032
-  network: http
-  port: 52080
-  server: 38.246.226.240
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_027
+  password: a12cloud1
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 904
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_028
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9054
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-256-cfb
+  name: Germany_Frankfurt am Main_ss_029
+  password: amazonskr05
+  port: 443
+  server: 3.75.226.122
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_030
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9059
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_031
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9060
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- cipher: aes-128-gcm
+  name: United States_Los Angeles_ss_032
+  password: dajkdkjda&dja*/?
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 19999
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- client-fingerprint: chrome
+  name: Hong Kong_None_trojan_033
+  password: BxceQaOe
+  port: '27161'
+  server: 43.198.21.141
   skip-cert-verify: true
-  type: vmess
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- cipher: aes-256-cfb
-  name: France_Paris_ss_033
-  password: amazonskr05
-  port: 443
-  server: 51.44.167.151
-  type: ss
-- cipher: aes-256-cfb
-  name: France_Paris_ss_034
-  password: amazonskr05
-  port: 443
-  server: 13.38.78.128
-  type: ss
-- cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_035
-  password: amazonskr05
-  port: 443
-  server: 63.176.139.123
-  type: ss
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: Hong Kong_None_trojan_034
+  password: BxceQaOe
+  port: '16691'
+  server: 43.198.21.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: Hong Kong_None_trojan_035
+  password: BxceQaOe
+  port: '53001'
+  server: 43.199.47.78
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: France_Paris_ss_036
+  name: Germany_Frankfurt am Main_ss_036
   password: amazonskr05
-  port: 443
-  server: 51.44.170.194
-  type: ss
-- cipher: aes-256-cfb
-  name: Thailand_Bangkok_ss_037
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 103.169.67.34
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_Columbus_ss_038
-  password: amazonskr05
-  port: 443
-  server: 3.145.61.0
-  type: ss
-- alterId: '0'
-  cipher: auto
-  name: None_None_vmess_039
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: written-maple-inquiries-exceptional.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: ca63bc09-a7b3-47c2-8fe5-7233c38ad489
-  ws-opts:
-    headers:
-      Host: written-maple-inquiries-exceptional.trycloudflare.com
-    path: /ca63bc09-a7b3-47c2-8fe5-7233c38ad489-vm
-- alterId: '0'
-  cipher: auto
-  name: None_None_vmess_040
-  network: ws
   port: '443'
-  server: node.socks5.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f683235c-54b0-4442-bf0d-812d3804946e
-  ws-opts:
-    headers:
-      Host: ericsson-lab-managed-oem.trycloudflare.com
-    path: /f683235c-54b0-4442-bf0d-812d3804946e-vm
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: None_None_vmess_041
-  network: ws
-  port: 443
-  server: node.socks5.kdns.fr
-  servername: brake-substance-shared-dual.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3abf004b-aec7-4da9-b47c-8ebdfa3e005c
-  ws-opts:
-    headers:
-      Host: brake-substance-shared-dual.trycloudflare.com
-    path: /3abf004b-aec7-4da9-b47c-8ebdfa3e005c-vm
-  xudp: true
-- cipher: aes-256-gcm
-  name: China_None_ss_042
-  password: b160be88-28c2-31bb-a153-8b050228f0c3
-  port: '484'
-  server: f.d.o.2.3.i.9.9.6.jp02-ae5.entry.v51124-3a.qpon
+  server: 3.76.102.125
   type: ss
   udp: true
 - cipher: aes-256-cfb
@@ -427,65 +355,65 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: Hong Kong_None_trojan_13
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 14684
-  server: 43.199.143.104
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Poland_None_trojan_14
+- name: Hong Kong_None_trojan_14
   network: tcp
   password: BxceQaOe
-  port: 11231
-  server: 95.40.89.31
+  port: 27161
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: Poland_None_trojan_15
+- name: Hong Kong_None_trojan_15
   network: tcp
   password: BxceQaOe
-  port: 7674
-  server: 95.40.89.31
+  port: 27161
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_16
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 16.162.100.208
+  port: 16691
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Poland_None_trojan_17
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14625
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 54876
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_18
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55647
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 38936
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_19
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 45744
-  server: 16.162.100.124
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_110
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 32434
-  server: 16.162.100.124
+  server: 16.162.109.29
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -493,31 +421,31 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 45744
-  server: 16.162.100.208
+  server: 16.162.121.244
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: Hong Kong_None_trojan_112
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 39024
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 34039
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: Hong Kong_None_trojan_113
+- name: Poland_None_trojan_113
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
+  password: d5517dedef425597a1b9fdbaad99544e
   port: 28051
-  server: 18.163.126.92
+  server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: Hong Kong_None_trojan_114
   network: tcp
   password: BxceQaOe
-  port: 10418
-  server: 18.163.74.15
+  port: 53001
+  server: 43.199.47.78
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -550,8 +478,8 @@ proxy-groups:
   - United States_None_ss_011
   - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
-  - Poland_None_trojan_014
-  - Poland_None_trojan_015
+  - Hong Kong_None_trojan_014
+  - Hong Kong_None_trojan_015
   - Hong Kong_None_trojan_016
   - Poland_None_trojan_017
   - Hong Kong_None_trojan_018
@@ -559,31 +487,25 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - Hong Kong_None_trojan_021
   - Hong Kong_None_trojan_022
-  - Hong Kong_None_trojan_023
+  - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_ss_026
-  - France_Paris_ss_027
-  - None_None_vmess_028
-  - France_None_vmess_029
-  - United States_San Francisco_vmess_030
-  - None_None_trojan_031
-  - United States_None_vmess_032
-  - France_Paris_ss_033
-  - France_Paris_ss_034
-  - Germany_Frankfurt am Main_ss_035
-  - France_Paris_ss_036
-  - Thailand_Bangkok_ss_037
-  - United States_Columbus_ss_038
-  - None_None_vmess_039
-  - None_None_vmess_040
-  - None_None_vmess_041
-  - China_None_ss_042
+  - None_None_trojan_026
+  - United States_Los Angeles_ss_027
+  - United States_Los Angeles_ss_028
+  - Germany_Frankfurt am Main_ss_029
+  - United States_Los Angeles_ss_030
+  - United States_Los Angeles_ss_031
+  - United States_Los Angeles_ss_032
+  - Hong Kong_None_trojan_033
+  - Hong Kong_None_trojan_034
+  - Hong Kong_None_trojan_035
+  - Germany_Frankfurt am Main_ss_036
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
-  - Poland_None_trojan_14
-  - Poland_None_trojan_15
+  - Hong Kong_None_trojan_14
+  - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
   - Poland_None_trojan_17
   - Hong Kong_None_trojan_18
@@ -591,7 +513,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
-  - Hong Kong_None_trojan_113
+  - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
 - name: 自动选择
@@ -613,8 +535,8 @@ proxy-groups:
   - United States_None_ss_011
   - Hong Kong_Central_vmess_012
   - Hong Kong_None_trojan_013
-  - Poland_None_trojan_014
-  - Poland_None_trojan_015
+  - Hong Kong_None_trojan_014
+  - Hong Kong_None_trojan_015
   - Hong Kong_None_trojan_016
   - Poland_None_trojan_017
   - Hong Kong_None_trojan_018
@@ -622,31 +544,25 @@ proxy-groups:
   - Hong Kong_None_trojan_020
   - Hong Kong_None_trojan_021
   - Hong Kong_None_trojan_022
-  - Hong Kong_None_trojan_023
+  - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
-  - United States_None_ss_026
-  - France_Paris_ss_027
-  - None_None_vmess_028
-  - France_None_vmess_029
-  - United States_San Francisco_vmess_030
-  - None_None_trojan_031
-  - United States_None_vmess_032
-  - France_Paris_ss_033
-  - France_Paris_ss_034
-  - Germany_Frankfurt am Main_ss_035
-  - France_Paris_ss_036
-  - Thailand_Bangkok_ss_037
-  - United States_Columbus_ss_038
-  - None_None_vmess_039
-  - None_None_vmess_040
-  - None_None_vmess_041
-  - China_None_ss_042
+  - None_None_trojan_026
+  - United States_Los Angeles_ss_027
+  - United States_Los Angeles_ss_028
+  - Germany_Frankfurt am Main_ss_029
+  - United States_Los Angeles_ss_030
+  - United States_Los Angeles_ss_031
+  - United States_Los Angeles_ss_032
+  - Hong Kong_None_trojan_033
+  - Hong Kong_None_trojan_034
+  - Hong Kong_None_trojan_035
+  - Germany_Frankfurt am Main_ss_036
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
-  - Poland_None_trojan_14
-  - Poland_None_trojan_15
+  - Hong Kong_None_trojan_14
+  - Hong Kong_None_trojan_15
   - Hong Kong_None_trojan_16
   - Poland_None_trojan_17
   - Hong Kong_None_trojan_18
@@ -654,7 +570,7 @@ proxy-groups:
   - Hong Kong_None_trojan_110
   - Hong Kong_None_trojan_111
   - Hong Kong_None_trojan_112
-  - Hong Kong_None_trojan_113
+  - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
   - Hong Kong_Central_vmess_115
 rules:
