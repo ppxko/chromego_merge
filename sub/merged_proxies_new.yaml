@@ -239,15 +239,21 @@ proxies:
   port: 65443
   server: 121.46.230.138
   type: ss
+- cipher: aes-256-cfb
+  name: China_None_ss_027
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.136
+  type: ss
+  udp: true
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: France_None_vmess_027
+  name: France_None_vmess_028
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -258,48 +264,6 @@ proxies:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_028
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21107'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_029
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_030
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_031
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21121'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_032
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21108'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_033
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.44
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -453,13 +417,8 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
   - China_None_ss_026
-  - France_None_vmess_027
-  - China_None_ss_028
-  - China_None_ss_029
-  - China_None_ss_030
-  - China_None_ss_031
-  - China_None_ss_032
-  - China_None_ss_033
+  - China_None_ss_027
+  - France_None_vmess_028
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
@@ -507,13 +466,8 @@ proxy-groups:
   - Hong Kong_None_trojan_024
   - Hong Kong_Central_vmess_025
   - China_None_ss_026
-  - France_None_vmess_027
-  - China_None_ss_028
-  - China_None_ss_029
-  - China_None_ss_030
-  - China_None_ss_031
-  - China_None_ss_032
-  - China_None_ss_033
+  - China_None_ss_027
+  - France_None_vmess_028
   - United States_None_ss_11
   - Hong Kong_Central_vmess_12
   - Hong Kong_None_trojan_13
