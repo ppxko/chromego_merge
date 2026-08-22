@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_012
+  name: Hong Kong_Yuen Long San Hui_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -225,7 +225,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_025
+  name: Hong Kong_Yuen Long San Hui_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -233,159 +233,77 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_026
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21105'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_027
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21107'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_028
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21113'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_029
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21118'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_030
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21120'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_031
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21125'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_032
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21126'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_033
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21104'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_034
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21107'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_035
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21108'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_036
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21113'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_037
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21116'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_038
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_039
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21122'
-  server: 211.91.158.44
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: China_None_ss_040
+  name: China_None_ss_026
   password: 7eadc6dbe2ae
   port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_041
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21109'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_042
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21114'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_043
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21103'
-  server: 211.91.158.44
+  server: 121.46.230.136
   type: ss
   udp: true
 - alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  http-opts:
+  - http/1.1
+  client-fingerprint: chrome
+  name: The Netherlands_Amsterdam_trojan_027
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: 3865895-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
+  udp: true
+  ws-opts:
     headers:
-      Host:
-      - www.apple.com
-    path:
-    - /
-  name: Germany_None_vmess_044
-  network: http
-  port: '80'
-  server: 167.233.242.189
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_028
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 7209d7ee-cfd0-46c0-a580-d92e2f0c801c
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: China_None_ss_045
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21103'
-  server: 211.91.158.26
-  type: ss
+- client-fingerprint: chrome
+  name: None_None_trojan_029
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.133
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_030
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.230
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
 - cipher: aes-256-cfb
   name: United States_None_ss_11
   password: amazonskr05
@@ -394,7 +312,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_12
+  name: Hong Kong_Yuen Long San Hui_vmess_12
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -499,7 +417,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_115
+  name: Hong Kong_Yuen Long San Hui_vmess_115
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -524,7 +442,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - Hong Kong_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -537,29 +455,14 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
-  - Hong Kong_Tuen Mun_vmess_025
+  - Hong Kong_Yuen Long San Hui_vmess_025
   - China_None_ss_026
-  - China_None_ss_027
-  - China_None_ss_028
-  - China_None_ss_029
-  - China_None_ss_030
-  - China_None_ss_031
-  - China_None_ss_032
-  - China_None_ss_033
-  - China_None_ss_034
-  - China_None_ss_035
-  - China_None_ss_036
-  - China_None_ss_037
-  - China_None_ss_038
-  - China_None_ss_039
-  - China_None_ss_040
-  - China_None_ss_041
-  - China_None_ss_042
-  - China_None_ss_043
-  - Germany_None_vmess_044
-  - China_None_ss_045
+  - The Netherlands_Amsterdam_trojan_027
+  - France_None_vmess_028
+  - None_None_trojan_029
+  - None_None_trojan_030
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -572,7 +475,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
-  - Hong Kong_Tuen Mun_vmess_115
+  - Hong Kong_Yuen Long San Hui_vmess_115
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -590,7 +493,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Tuen Mun_vmess_012
+  - Hong Kong_Yuen Long San Hui_vmess_012
   - Hong Kong_None_trojan_013
   - Hong Kong_None_trojan_014
   - Hong Kong_None_trojan_015
@@ -603,29 +506,14 @@ proxy-groups:
   - Hong Kong_None_trojan_022
   - Poland_None_trojan_023
   - Hong Kong_None_trojan_024
-  - Hong Kong_Tuen Mun_vmess_025
+  - Hong Kong_Yuen Long San Hui_vmess_025
   - China_None_ss_026
-  - China_None_ss_027
-  - China_None_ss_028
-  - China_None_ss_029
-  - China_None_ss_030
-  - China_None_ss_031
-  - China_None_ss_032
-  - China_None_ss_033
-  - China_None_ss_034
-  - China_None_ss_035
-  - China_None_ss_036
-  - China_None_ss_037
-  - China_None_ss_038
-  - China_None_ss_039
-  - China_None_ss_040
-  - China_None_ss_041
-  - China_None_ss_042
-  - China_None_ss_043
-  - Germany_None_vmess_044
-  - China_None_ss_045
+  - The Netherlands_Amsterdam_trojan_027
+  - France_None_vmess_028
+  - None_None_trojan_029
+  - None_None_trojan_030
   - United States_None_ss_11
-  - Hong Kong_Tuen Mun_vmess_12
+  - Hong Kong_Yuen Long San Hui_vmess_12
   - Hong Kong_None_trojan_13
   - Hong Kong_None_trojan_14
   - Hong Kong_None_trojan_15
@@ -638,7 +526,7 @@ proxy-groups:
   - Hong Kong_None_trojan_112
   - Poland_None_trojan_113
   - Hong Kong_None_trojan_114
-  - Hong Kong_Tuen Mun_vmess_115
+  - Hong Kong_Yuen Long San Hui_vmess_115
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
