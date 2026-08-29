@@ -496,44 +496,52 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: United States_None_trojan_129
-  network: ws
-  password: humanity
-  port: '443'
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: United Kingdom_London_ss_129
+  password: amazonskr05
+  port: 443
+  server: 35.176.118.152
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: None_None_trojan_130
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.14.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: Ireland_Dublin_ss_130
+  password: amazonskr05
+  port: 443
+  server: 176.34.158.52
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36
-    path: /assignment
-- alterId: '0'
+- alterId: 0
   cipher: auto
-  name: United States_Los Angeles_vmess_131
-  network: http
-  port: 40733
-  server: 38.147.160.203
+  name: France_None_vmess_131
+  network: ws
+  port: 16617
+  server: p4.cnb.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 655300ee-f085-4b62-bc56-207e1c095a4a
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_132
+  network: ws
+  port: 16626
+  server: p4.cnb.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6ee2a7ba-cd92-427f-ac4f-2f8d284e316c
+  ws-opts:
+    headers:
+      Host: 5b22547ba5cc9b83a7a9534b4a7cf9ea.mobgslb.tbcache.com
+    path: /
+  xudp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -599,9 +607,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_126
   - Hong Kong_None_trojan_127
   - China_None_ss_128
-  - United States_None_trojan_129
-  - None_None_trojan_130
-  - United States_Los Angeles_vmess_131
+  - United Kingdom_London_ss_129
+  - Ireland_Dublin_ss_130
+  - France_None_vmess_131
+  - France_None_vmess_132
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -667,9 +676,10 @@ proxy-groups:
   - Japan_Tokyo_trojan_126
   - Hong Kong_None_trojan_127
   - China_None_ss_128
-  - United States_None_trojan_129
-  - None_None_trojan_130
-  - United States_Los Angeles_vmess_131
+  - United Kingdom_London_ss_129
+  - Ireland_Dublin_ss_130
+  - France_None_vmess_131
+  - France_None_vmess_132
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
