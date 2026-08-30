@@ -21,19 +21,311 @@ dns:
   nameserver:
   - 223.5.5.5
   - 8.8.8.8
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_11
+  network: tcp
+  port: '80'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_12
+  network: tcp
+  port: '81'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_13
+  network: tcp
+  port: '82'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_14
+  network: tcp
+  port: '83'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_15
+  network: tcp
+  port: '84'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_16
+  network: tcp
+  port: '85'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_17
+  network: tcp
+  port: '86'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_18
+  network: tcp
+  port: '87'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_19
+  network: tcp
+  port: '88'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_110
+  network: tcp
+  port: '89'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: United States_None_ss_111
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Central_vmess_112
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: China_None_ss_113
+  password: Butterfly123@qwe9527
+  port: 10001
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: China_None_ss_114
+  password: Butterfly123@qwe9527
+  port: 10006
+  server: 112.28.141.77
+  type: ss
+- name: Poland_None_trojan_115
+  network: tcp
+  password: BxceQaOe
+  port: 53001
+  server: 95.40.24.249
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: Japan_Tokyo_trojan_116
+  password: BxceQaOe
+  port: 1103
+  server: 54.168.189
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: Hong Kong_None_trojan_117
+  password: BxceQaOe
+  port: 9408
+  server: 18.163.11126
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_118
+  password: Butterfly123@qwe9527
+  port: 40001
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: China_None_ss_119
+  password: Butterfly123@qwe9527
+  port: 40002
+  server: 103.236.66.4
+  type: ss
+- name: Singapore_Singapore_trojan_120
+  network: tcp
+  password: BxceQaOe
+  port: 41421
+  server: 54.255.201.71
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_121
+  password: Butterfly123@qwe9527
+  port: 50003
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: China_None_ss_122
+  password: Butterfly123@qwe9527
+  port: 50001
+  server: 103.236.66.4
+  type: ss
+- name: Hong Kong_None_trojan_123
+  network: tcp
+  password: BxceQaOe
+  port: 1431
+  server: 43.198.210.207
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_124
+  password: Butterfly123@qwe9527
+  port: 30001
+  server: 36.33.35.105
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Central_vmess_125
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: Japan_Tokyo_trojan_126
+  network: tcp
+  password: BxceQaOe
+  port: 25982
+  server: 52.195.148.119
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: Hong Kong_None_trojan_127
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 18.163.115.126
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- cipher: aes-256-cfb
+  name: China_None_ss_128
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: China_None_ss_129
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: United Kingdom_London_ss_130
+  password: amazonskr05
+  port: '443'
+  server: 18.170.37.90
+  type: ss
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
   proxies:
   - 自动选择
   - DIRECT
+  - Unknown_vmess_11
+  - Unknown_vmess_12
+  - Unknown_vmess_13
+  - Unknown_vmess_14
+  - Unknown_vmess_15
+  - Unknown_vmess_16
+  - Unknown_vmess_17
+  - Unknown_vmess_18
+  - Unknown_vmess_19
+  - Unknown_vmess_110
+  - United States_None_ss_111
+  - Hong Kong_Central_vmess_112
+  - China_None_ss_113
+  - China_None_ss_114
+  - Poland_None_trojan_115
+  - Japan_Tokyo_trojan_116
+  - Hong Kong_None_trojan_117
+  - China_None_ss_118
+  - China_None_ss_119
+  - Singapore_Singapore_trojan_120
+  - China_None_ss_121
+  - China_None_ss_122
+  - Hong Kong_None_trojan_123
+  - China_None_ss_124
+  - Hong Kong_Central_vmess_125
+  - Japan_Tokyo_trojan_126
+  - Hong Kong_None_trojan_127
+  - China_None_ss_128
+  - China_None_ss_129
+  - United Kingdom_London_ss_130
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
-  proxies: []
+  proxies:
+  - Unknown_vmess_11
+  - Unknown_vmess_12
+  - Unknown_vmess_13
+  - Unknown_vmess_14
+  - Unknown_vmess_15
+  - Unknown_vmess_16
+  - Unknown_vmess_17
+  - Unknown_vmess_18
+  - Unknown_vmess_19
+  - Unknown_vmess_110
+  - United States_None_ss_111
+  - Hong Kong_Central_vmess_112
+  - China_None_ss_113
+  - China_None_ss_114
+  - Poland_None_trojan_115
+  - Japan_Tokyo_trojan_116
+  - Hong Kong_None_trojan_117
+  - China_None_ss_118
+  - China_None_ss_119
+  - Singapore_Singapore_trojan_120
+  - China_None_ss_121
+  - China_None_ss_122
+  - Hong Kong_None_trojan_123
+  - China_None_ss_124
+  - Hong Kong_Central_vmess_125
+  - Japan_Tokyo_trojan_126
+  - Hong Kong_None_trojan_127
+  - China_None_ss_128
+  - China_None_ss_129
+  - United Kingdom_London_ss_130
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
