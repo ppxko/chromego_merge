@@ -219,51 +219,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_026
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: France_None_vmess_026
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
 - cipher: aes-256-cfb
   name: China_None_ss_027
   password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
+  port: 65443
+  server: 121.46.230.137
   type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_028
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: France_None_vmess_029
-  network: ws
-  port: 16626
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
-  ws-opts:
-    headers:
-      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
-    path: /
-  xudp: true
 - alterId: '0'
   cipher: auto
-  name: France_None_vmess_030
+  name: France_None_vmess_028
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -277,31 +255,41 @@ proxies:
       Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
   xudp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_031
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
+- cipher: chacha20-ietf-poly1305
+  name: Poland_None_ss_029
+  password: 86bf33ea-62d9-49a1-9bd0-73e45f6e1403
+  port: '40013'
+  server: us1002.lunartrace.io
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: France_None_vmess_032
+- client-fingerprint: chrome
+  name: None_None_trojan_030
   network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
+  password: humanity
+  port: '443'
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- alterId: 2
+  cipher: auto
+  name: China_None_vmess_031
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
-  ws-opts:
-    headers:
-      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
-    path: /
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
 - client-fingerprint: chrome
-  name: United States_None_trojan_033
+  name: United States_None_trojan_032
   network: tcp
   password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
   port: '14492'
@@ -310,48 +298,6 @@ proxies:
   sni: un5.sonofthewinds.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: United States_None_trojan_034
-  network: tcp
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: '14460'
-  server: adakv1-s01.sonofthewinds.com
-  skip-cert-verify: false
-  sni: vs1.sonofthewinds.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: France_None_vmess_035
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
-  ws-opts:
-    headers:
-      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: United States_None_vmess_036
-  network: http
-  port: '52080'
-  server: 38.246.226.240
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -549,71 +495,83 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_126
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_127
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- alterId: 2
-  cipher: auto
-  name: China_None_vmess_128
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: France_None_vmess_129
+  name: France_None_vmess_126
   network: ws
-  port: 16626
+  port: 16632
   server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
-  ws-opts:
-    headers:
-      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- alterId: '0'
-  cipher: auto
-  name: France_None_vmess_130
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
   uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
       Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
-  xudp: true
 - cipher: aes-256-cfb
-  name: China_None_ss_131
+  name: China_None_ss_127
   password: 7eadc6dbe2ae
   port: '65443'
-  server: 121.46.230.232
+  server: 121.46.230.138
   type: ss
   udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: None_None_trojan_128
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: Thailand_Bangkok_ss_129
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 103.169.67.34
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: None_None_trojan_130
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.219
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: United States_None_trojan_131
+  network: ws
+  password: humanity
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: France_None_vmess_132
@@ -624,64 +582,44 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 62e0878c-ff8c-4a67-b18f-89886e24750c
-  ws-opts:
-    headers:
-      Host: 706a0a2fb2f7729acf9a103060a7abc3.mobgslb.tbcache.com
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: United States_None_trojan_133
-  network: tcp
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: '14492'
-  server: adakv1-u03.sonofthewinds.com
-  skip-cert-verify: false
-  sni: un5.sonofthewinds.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: United States_None_trojan_134
-  network: tcp
-  password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
-  port: '14460'
-  server: adakv1-s01.sonofthewinds.com
-  skip-cert-verify: false
-  sni: vs1.sonofthewinds.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: France_None_vmess_135
-  network: ws
-  port: 16632
-  server: t.cnmjcn.cyou
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
   uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
       Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: United States_None_vmess_136
-  network: http
-  port: '52080'
-  server: 38.246.226.240
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: Canada_Montreal_ss_133
+  password: amazonskr05
+  port: 443
+  server: 3.97.16.160
+  type: ss
   udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
+- cipher: aes-256-cfb
+  name: China_None_ss_134
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.137
+  type: ss
+- alpn:
+  - h3
+  - ' h2'
+  - ' http/1.1'
+  client-fingerprint: chrome
+  name: United Kingdom_High Wycombe_trojan_135
+  network: ws
+  password: humanity
+  port: '443'
+  server: 185.75.243.102
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
+        like Gecko) Chrome/5.0.342.1 Safari/533.2
+    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -713,17 +651,13 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
-  - China_None_ss_026
+  - France_None_vmess_026
   - China_None_ss_027
-  - China_None_vmess_028
-  - France_None_vmess_029
-  - France_None_vmess_030
-  - China_None_ss_031
-  - France_None_vmess_032
-  - United States_None_trojan_033
-  - United States_None_trojan_034
-  - France_None_vmess_035
-  - United States_None_vmess_036
+  - France_None_vmess_028
+  - Poland_None_ss_029
+  - None_None_trojan_030
+  - China_None_vmess_031
+  - United States_None_trojan_032
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -749,17 +683,16 @@ proxy-groups:
   - Hong Kong_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - China_None_ss_126
+  - France_None_vmess_126
   - China_None_ss_127
-  - China_None_vmess_128
-  - France_None_vmess_129
-  - France_None_vmess_130
-  - China_None_ss_131
+  - None_None_trojan_128
+  - Thailand_Bangkok_ss_129
+  - None_None_trojan_130
+  - United States_None_trojan_131
   - France_None_vmess_132
-  - United States_None_trojan_133
-  - United States_None_trojan_134
-  - France_None_vmess_135
-  - United States_None_vmess_136
+  - Canada_Montreal_ss_133
+  - China_None_ss_134
+  - United Kingdom_High Wycombe_trojan_135
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -791,17 +724,13 @@ proxy-groups:
   - Hong Kong_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
-  - China_None_ss_026
+  - France_None_vmess_026
   - China_None_ss_027
-  - China_None_vmess_028
-  - France_None_vmess_029
-  - France_None_vmess_030
-  - China_None_ss_031
-  - France_None_vmess_032
-  - United States_None_trojan_033
-  - United States_None_trojan_034
-  - France_None_vmess_035
-  - United States_None_vmess_036
+  - France_None_vmess_028
+  - Poland_None_ss_029
+  - None_None_trojan_030
+  - China_None_vmess_031
+  - United States_None_trojan_032
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -827,17 +756,16 @@ proxy-groups:
   - Hong Kong_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - China_None_ss_126
+  - France_None_vmess_126
   - China_None_ss_127
-  - China_None_vmess_128
-  - France_None_vmess_129
-  - France_None_vmess_130
-  - China_None_ss_131
+  - None_None_trojan_128
+  - Thailand_Bangkok_ss_129
+  - None_None_trojan_130
+  - United States_None_trojan_131
   - France_None_vmess_132
-  - United States_None_trojan_133
-  - United States_None_trojan_134
-  - France_None_vmess_135
-  - United States_None_vmess_136
+  - Canada_Montreal_ss_133
+  - China_None_ss_134
+  - United Kingdom_High Wycombe_trojan_135
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
