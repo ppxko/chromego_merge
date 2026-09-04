@@ -226,35 +226,6 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_027
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_None_ss_028
-  password: amazonskr05
-  port: '443'
-  server: 16.52.44.169
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Canada_Montreal_ss_029
-  password: amazonskr05
-  port: '443'
-  server: 15.156.204.87
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Canada_Montreal_ss_030
-  password: amazonskr05
-  port: '443'
-  server: 35.182.118.89
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -459,35 +430,6 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_127
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.137
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_None_ss_128
-  password: amazonskr05
-  port: '443'
-  server: 16.52.44.169
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Canada_Montreal_ss_129
-  password: amazonskr05
-  port: '443'
-  server: 15.156.204.87
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Canada_Montreal_ss_130
-  password: amazonskr05
-  port: '443'
-  server: 35.182.118.89
-  type: ss
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -520,10 +462,6 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
   - China_None_ss_026
-  - China_None_ss_027
-  - United States_None_ss_028
-  - Canada_Montreal_ss_029
-  - Canada_Montreal_ss_030
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -550,10 +488,6 @@ proxy-groups:
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
   - China_None_ss_126
-  - China_None_ss_127
-  - United States_None_ss_128
-  - Canada_Montreal_ss_129
-  - Canada_Montreal_ss_130
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -586,10 +520,6 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
   - China_None_ss_026
-  - China_None_ss_027
-  - United States_None_ss_028
-  - Canada_Montreal_ss_029
-  - Canada_Montreal_ss_030
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -616,10 +546,6 @@ proxy-groups:
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
   - China_None_ss_126
-  - China_None_ss_127
-  - United States_None_ss_128
-  - Canada_Montreal_ss_129
-  - Canada_Montreal_ss_130
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
