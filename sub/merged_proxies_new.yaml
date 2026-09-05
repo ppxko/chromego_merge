@@ -223,8 +223,32 @@ proxies:
   name: China_None_ss_026
   password: 7eadc6dbe2ae
   port: '65443'
-  server: 121.46.230.138
+  server: 121.46.230.232
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: United Kingdom_London_ss_027
+  password: amazonskr05
+  port: 443
+  server: 13.40.17.62
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: Ireland_Dublin_ss_028
+  password: amazonskr05
+  port: '443'
+  server: 54.229.177.209
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: Germany_None_trojan_029
+  network: tcp
+  password: 2EXii6JlhaDvgSiTsC
+  port: '8444'
+  server: ggboy.ggboyz.online
+  skip-cert-verify: true
+  sni: ggboy.ggboyz.online
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -430,6 +454,18 @@ proxies:
   server: 121.46.230.138
   type: ss
   udp: true
+- alterId: '0'
+  cipher: auto
+  name: Singapore_Singapore_vmess_127
+  network: tcp
+  port: '11985'
+  server: board-02.ddnskunlun.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a8bcce43-abda-315b-8e81-e3e65bcb3d07
+  xudp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -462,6 +498,9 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
   - China_None_ss_026
+  - United Kingdom_London_ss_027
+  - Ireland_Dublin_ss_028
+  - Germany_None_trojan_029
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -488,6 +527,7 @@ proxy-groups:
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
   - China_None_ss_126
+  - Singapore_Singapore_vmess_127
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -520,6 +560,9 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
   - China_None_ss_026
+  - United Kingdom_London_ss_027
+  - Ireland_Dublin_ss_028
+  - Germany_None_trojan_029
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -546,6 +589,7 @@ proxy-groups:
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
   - China_None_ss_126
+  - Singapore_Singapore_vmess_127
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
