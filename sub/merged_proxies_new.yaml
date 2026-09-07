@@ -222,22 +222,8 @@ proxies:
 - cipher: aes-256-cfb
   name: China_None_ss_026
   password: 7eadc6dbe2ae
-  port: 65443
+  port: '65443'
   server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_027
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.137
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_028
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
   type: ss
   udp: true
 - alterId: 0
@@ -437,27 +423,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_126
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_127
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.137
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: China_None_ss_128
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
-  type: ss
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -490,8 +455,6 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
   - China_None_ss_026
-  - China_None_ss_027
-  - China_None_ss_028
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -517,9 +480,6 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - China_None_ss_126
-  - China_None_ss_127
-  - China_None_ss_128
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -552,8 +512,6 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
   - China_None_ss_026
-  - China_None_ss_027
-  - China_None_ss_028
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -579,9 +537,6 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - China_None_ss_126
-  - China_None_ss_127
-  - China_None_ss_128
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
