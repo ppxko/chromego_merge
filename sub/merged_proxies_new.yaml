@@ -221,71 +221,26 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: United States_None_trojan_026
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10044
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: United States_None_trojan_027
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10045
   server: z-sg1.6send.com
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: Japan_None_trojan_028
+- name: Japan_Tokyo_trojan_027
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10010
+  port: 10009
   server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: China_None_ss_029
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: France_None_ss_030
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 95.170.13.47
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Ireland_None_ss_031
+  name: United Kingdom_London_ss_028
   password: amazonskr05
-  port: 443
-  server: 54.247.231.139
+  port: '443'
+  server: 18.170.35.229
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Ireland_Dublin_ss_032
-  password: amazonskr05
-  port: 443
-  server: 54.216.102.222
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_None_ss_033
-  password: amazonskr05
-  port: 443
-  server: 16.52.76.17
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: Hong Kong_Kowloon_trojan_034
-  password: d742752c-4231-4695-801e-f06d77f0f277
-  port: '52224'
-  server: hk04.qianmoip.win
-  skip-cert-verify: true
-  sni: taobao.com
-  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -486,71 +441,26 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: Singapore_Singapore_trojan_126
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10044
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- name: Singapore_Singapore_trojan_127
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: 10045
   server: z-sg1.6send.com
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- name: Japan_Tokyo_trojan_128
+- name: Japan_Tokyo_trojan_127
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10010
+  port: 10009
   server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
 - cipher: aes-256-cfb
-  name: China_None_ss_129
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: France_None_ss_130
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 95.170.13.47
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Ireland_None_ss_131
+  name: United Kingdom_London_ss_128
   password: amazonskr05
-  port: 443
-  server: 54.247.231.139
+  port: '443'
+  server: 18.170.35.229
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Ireland_Dublin_ss_132
-  password: amazonskr05
-  port: 443
-  server: 54.216.102.222
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_None_ss_133
-  password: amazonskr05
-  port: 443
-  server: 16.52.76.17
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: Hong Kong_Kowloon_trojan_134
-  password: d742752c-4231-4695-801e-f06d77f0f277
-  port: '52224'
-  server: hk04.qianmoip.win
-  skip-cert-verify: true
-  sni: taobao.com
-  type: trojan
   udp: true
 proxy-groups:
 - name: 节点选择
@@ -584,14 +494,8 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
   - United States_None_trojan_026
-  - United States_None_trojan_027
-  - Japan_None_trojan_028
-  - China_None_ss_029
-  - France_None_ss_030
-  - Ireland_None_ss_031
-  - Ireland_Dublin_ss_032
-  - United States_None_ss_033
-  - Hong Kong_Kowloon_trojan_034
+  - Japan_Tokyo_trojan_027
+  - United Kingdom_London_ss_028
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -618,14 +522,8 @@ proxy-groups:
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
   - Singapore_Singapore_trojan_126
-  - Singapore_Singapore_trojan_127
-  - Japan_Tokyo_trojan_128
-  - China_None_ss_129
-  - France_None_ss_130
-  - Ireland_None_ss_131
-  - Ireland_Dublin_ss_132
-  - United States_None_ss_133
-  - Hong Kong_Kowloon_trojan_134
+  - Japan_Tokyo_trojan_127
+  - United Kingdom_London_ss_128
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -658,14 +556,8 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
   - United States_None_trojan_026
-  - United States_None_trojan_027
-  - Japan_None_trojan_028
-  - China_None_ss_029
-  - France_None_ss_030
-  - Ireland_None_ss_031
-  - Ireland_Dublin_ss_032
-  - United States_None_ss_033
-  - Hong Kong_Kowloon_trojan_034
+  - Japan_Tokyo_trojan_027
+  - United Kingdom_London_ss_028
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -692,14 +584,8 @@ proxy-groups:
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
   - Singapore_Singapore_trojan_126
-  - Singapore_Singapore_trojan_127
-  - Japan_Tokyo_trojan_128
-  - China_None_ss_129
-  - France_None_ss_130
-  - Ireland_None_ss_131
-  - Ireland_Dublin_ss_132
-  - United States_None_ss_133
-  - Hong Kong_Kowloon_trojan_134
+  - Japan_Tokyo_trojan_127
+  - United Kingdom_London_ss_128
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
