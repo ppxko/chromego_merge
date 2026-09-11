@@ -219,6 +219,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: United Kingdom_London_ss_026
+  password: amazonskr05
+  port: '443'
+  server: 52.56.143.197
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -416,6 +423,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: United Kingdom_London_ss_126
+  password: amazonskr05
+  port: '443'
+  server: 52.56.143.197
+  type: ss
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -447,6 +461,7 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
+  - United Kingdom_London_ss_026
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -472,6 +487,7 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
+  - United Kingdom_London_ss_126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -503,6 +519,7 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
+  - United Kingdom_London_ss_026
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -528,6 +545,7 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
+  - United Kingdom_London_ss_126
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
