@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -211,7 +211,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_025
+  name: Hong Kong_Central_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -219,42 +219,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_026
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_None_ss_027
-  password: amazonskr05
-  port: '443'
-  server: 16.52.168.26
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: Seychelles_None_trojan_028
-  network: ws
-  password: humanity
-  port: '443'
-  server: 45.130.125.158
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- cipher: aes-256-cfb
-  name: United States_None_ss_029
-  password: amazonskr05
-  port: '443'
-  server: 16.52.165.74
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -353,7 +317,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_112
+  name: Hong Kong_Central_vmess_112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -444,7 +408,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Yuen Long San Hui_vmess_125
+  name: Hong Kong_Central_vmess_125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -452,43 +416,42 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: United States_None_ss_126
-  password: BWyPPTusFKhGgzKh
-  port: '8388'
-  server: 64.177.90.30
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: China_None_ss_127
+  name: China_None_ss_126
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.138
   type: ss
   udp: true
-- name: Japan_Tokyo_trojan_128
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: 10010
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: United States_None_ss_127
+  password: amazonskr05
+  port: '443'
+  server: 16.52.168.26
+  type: ss
   udp: true
 - client-fingerprint: chrome
-  name: None_None_trojan_129
+  name: Seychelles_None_trojan_128
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.46
+  server: 45.130.125.158
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
     path: /assignment
+- cipher: aes-256-cfb
+  name: United States_None_ss_129
+  password: amazonskr05
+  port: '443'
+  server: 16.52.165.74
+  type: ss
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -506,7 +469,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Yuen Long San Hui_vmess_012
+  - Hong Kong_Central_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -519,11 +482,7 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Yuen Long San Hui_vmess_025
-  - China_None_ss_026
-  - United States_None_ss_027
-  - Seychelles_None_trojan_028
-  - United States_None_ss_029
+  - Hong Kong_Central_vmess_025
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -535,7 +494,7 @@ proxy-groups:
   - Unknown_vmess_19
   - Unknown_vmess_110
   - United States_None_ss_111
-  - Hong Kong_Yuen Long San Hui_vmess_112
+  - Hong Kong_Central_vmess_112
   - China_None_ss_113
   - China_None_ss_114
   - Hong Kong_None_trojan_115
@@ -548,11 +507,11 @@ proxy-groups:
   - China_None_ss_122
   - United States_None_trojan_123
   - China_None_ss_124
-  - Hong Kong_Yuen Long San Hui_vmess_125
-  - United States_None_ss_126
-  - China_None_ss_127
-  - Japan_Tokyo_trojan_128
-  - None_None_trojan_129
+  - Hong Kong_Central_vmess_125
+  - China_None_ss_126
+  - United States_None_ss_127
+  - Seychelles_None_trojan_128
+  - United States_None_ss_129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -570,7 +529,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Yuen Long San Hui_vmess_012
+  - Hong Kong_Central_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -583,11 +542,7 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Yuen Long San Hui_vmess_025
-  - China_None_ss_026
-  - United States_None_ss_027
-  - Seychelles_None_trojan_028
-  - United States_None_ss_029
+  - Hong Kong_Central_vmess_025
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -599,7 +554,7 @@ proxy-groups:
   - Unknown_vmess_19
   - Unknown_vmess_110
   - United States_None_ss_111
-  - Hong Kong_Yuen Long San Hui_vmess_112
+  - Hong Kong_Central_vmess_112
   - China_None_ss_113
   - China_None_ss_114
   - Hong Kong_None_trojan_115
@@ -612,11 +567,11 @@ proxy-groups:
   - China_None_ss_122
   - United States_None_trojan_123
   - China_None_ss_124
-  - Hong Kong_Yuen Long San Hui_vmess_125
-  - United States_None_ss_126
-  - China_None_ss_127
-  - Japan_Tokyo_trojan_128
-  - None_None_trojan_129
+  - Hong Kong_Central_vmess_125
+  - China_None_ss_126
+  - United States_None_ss_127
+  - Seychelles_None_trojan_128
+  - United States_None_ss_129
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
