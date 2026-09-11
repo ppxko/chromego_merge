@@ -416,42 +416,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: China_None_ss_126
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_None_ss_127
-  password: amazonskr05
-  port: '443'
-  server: 16.52.168.26
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: Seychelles_None_trojan_128
-  network: ws
-  password: humanity
-  port: '443'
-  server: 45.130.125.158
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /assignment
-- cipher: aes-256-cfb
-  name: United States_None_ss_129
-  password: amazonskr05
-  port: '443'
-  server: 16.52.165.74
-  type: ss
-  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -508,10 +472,6 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - China_None_ss_126
-  - United States_None_ss_127
-  - Seychelles_None_trojan_128
-  - United States_None_ss_129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -568,10 +528,6 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - China_None_ss_126
-  - United States_None_ss_127
-  - Seychelles_None_trojan_128
-  - United States_None_ss_129
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
