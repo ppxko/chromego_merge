@@ -219,11 +219,60 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: United States_None_trojan_026
+  network: tcp
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: '10044'
+  server: z-sg1.6send.com
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: United States_San Francisco_vmess_027
+  network: ws
+  port: '443'
+  server: www.shopify.com
+  servername: yoga-suggesting-recording-calls.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+  ws-opts:
+    headers:
+      Host: yoga-suggesting-recording-calls.trycloudflare.com
+    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+  xudp: true
+- client-fingerprint: chrome
+  name: Japan_None_trojan_028
+  network: tcp
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: '10008'
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: Japan_None_trojan_029
+  network: tcp
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: '10009'
+  server: z-jp1.1card.cc
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
+  udp: true
 - cipher: aes-256-cfb
-  name: United Kingdom_London_ss_026
+  name: United Kingdom_London_ss_030
   password: amazonskr05
   port: '443'
-  server: 52.56.143.197
+  server: 18.130.133.149
   type: ss
   udp: true
 - alterId: 0
@@ -423,11 +472,60 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: United Kingdom_None_ss_126
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 82.110.60.9
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
-  name: United Kingdom_London_ss_126
+  name: Canada_Montreal_ss_127
+  password: amazonskr05
+  port: 443
+  server: 35.182.182.58
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: United States_None_ss_128
   password: amazonskr05
   port: '443'
-  server: 52.56.143.197
+  server: 16.52.165.74
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: United States_None_trojan_129
+  network: tcp
+  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
+  port: '10008'
+  server: z-jp2.1card.cc
+  skip-cert-verify: true
+  sni: z-jp2.1card.cc
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: Canada_Montreal_ss_130
+  password: amazonskr05
+  port: '443'
+  server: 15.223.195.102
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: Ireland_Dublin_ss_131
+  password: amazonskr05
+  port: '443'
+  server: 52.211.103.59
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: Taiwan_Taichung_ss_132
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)aee97b7:155033
+    mode: tls
+  port: '2377'
+  server: 61.216.165.233
   type: ss
   udp: true
 proxy-groups:
@@ -461,7 +559,11 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
-  - United Kingdom_London_ss_026
+  - United States_None_trojan_026
+  - United States_San Francisco_vmess_027
+  - Japan_None_trojan_028
+  - Japan_None_trojan_029
+  - United Kingdom_London_ss_030
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -487,7 +589,13 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - United Kingdom_London_ss_126
+  - United Kingdom_None_ss_126
+  - Canada_Montreal_ss_127
+  - United States_None_ss_128
+  - United States_None_trojan_129
+  - Canada_Montreal_ss_130
+  - Ireland_Dublin_ss_131
+  - Taiwan_Taichung_ss_132
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -519,7 +627,11 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
-  - United Kingdom_London_ss_026
+  - United States_None_trojan_026
+  - United States_San Francisco_vmess_027
+  - Japan_None_trojan_028
+  - Japan_None_trojan_029
+  - United Kingdom_London_ss_030
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -545,7 +657,13 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - United Kingdom_London_ss_126
+  - United Kingdom_None_ss_126
+  - Canada_Montreal_ss_127
+  - United States_None_ss_128
+  - United States_None_trojan_129
+  - Canada_Montreal_ss_130
+  - Ireland_Dublin_ss_131
+  - Taiwan_Taichung_ss_132
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
