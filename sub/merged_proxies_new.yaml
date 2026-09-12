@@ -220,60 +220,14 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_026
+  name: Japan_Tokyo_trojan_026
   network: tcp
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10044'
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: United States_San Francisco_vmess_027
-  network: ws
-  port: '443'
-  server: www.shopify.com
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-  ws-opts:
-    headers:
-      Host: yoga-suggesting-recording-calls.trycloudflare.com
-    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-  xudp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_028
-  network: tcp
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10008'
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_029
-  network: tcp
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10009'
+  port: '10010'
   server: z-jp1.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: United Kingdom_London_ss_030
-  password: amazonskr05
-  port: '443'
-  server: 18.130.133.149
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto
@@ -473,61 +427,46 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: Singapore_Singapore_trojan_126
-  network: tcp
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10044'
-  server: z-sg1.6send.com
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  type: trojan
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: None_None_vmess_127
-  network: ws
-  port: '443'
-  server: www.shopify.com
-  servername: yoga-suggesting-recording-calls.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
-  ws-opts:
-    headers:
-      Host: yoga-suggesting-recording-calls.trycloudflare.com
-    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
-  xudp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_128
+  name: Japan_Tokyo_trojan_126
   network: tcp
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: '10008'
   server: z-jp2.1card.cc
   skip-cert-verify: true
-  sni: www.cloudflare.com
+  sni: z-jp2.1card.cc
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_129
+  name: Japan_Tokyo_trojan_127
   network: tcp
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
   port: '10009'
-  server: z-jp1.1card.cc
+  server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: United Kingdom_London_ss_130
-  password: amazonskr05
-  port: '443'
-  server: 18.130.133.149
+- cipher: chacha20-ietf-poly1305
+  name: Denmark_None_ss_128
+  password: c58d16e593d44f42
+  port: '11001'
+  server: 158.173.221.214
   type: ss
   udp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  country: 🇺🇸US
+  h2-opts: {}
+  http-opts: {}
+  name: Hong Kong_Central_vmess_129
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  servername: mfyousheng.nl.eu.org
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 proxy-groups:
 - name: 节点选择
   type: select
@@ -559,11 +498,7 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
-  - Singapore_Singapore_trojan_026
-  - United States_San Francisco_vmess_027
-  - Japan_Tokyo_trojan_028
-  - Japan_Tokyo_trojan_029
-  - United Kingdom_London_ss_030
+  - Japan_Tokyo_trojan_026
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -589,11 +524,10 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - Singapore_Singapore_trojan_126
-  - None_None_vmess_127
-  - Japan_Tokyo_trojan_128
-  - Japan_Tokyo_trojan_129
-  - United Kingdom_London_ss_130
+  - Japan_Tokyo_trojan_126
+  - Japan_Tokyo_trojan_127
+  - Denmark_None_ss_128
+  - Hong Kong_Central_vmess_129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -625,11 +559,7 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
-  - Singapore_Singapore_trojan_026
-  - United States_San Francisco_vmess_027
-  - Japan_Tokyo_trojan_028
-  - Japan_Tokyo_trojan_029
-  - United Kingdom_London_ss_030
+  - Japan_Tokyo_trojan_026
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -655,11 +585,10 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - Singapore_Singapore_trojan_126
-  - None_None_vmess_127
-  - Japan_Tokyo_trojan_128
-  - Japan_Tokyo_trojan_129
-  - United Kingdom_London_ss_130
+  - Japan_Tokyo_trojan_126
+  - Japan_Tokyo_trojan_127
+  - Denmark_None_ss_128
+  - Hong Kong_Central_vmess_129
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
