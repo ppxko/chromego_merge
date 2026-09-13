@@ -219,16 +219,67 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_026
-  network: tcp
+- name: Japan_Tokyo_trojan_026
   password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10010'
-  server: z-jp1.1card.cc
+  port: 10012
+  server: z-jp2.1card.cc
   skip-cert-verify: true
   sni: www.cloudflare.com
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  name: United States_Columbus_trojan_027
+  password: 06da30be2ce5ece28204119359fe4eb3
+  port: '443'
+  server: clash2.deep-links.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: None_None_trojan_028
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.7.70
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: United States_None_trojan_029
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.221.242
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_030
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.14
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -427,46 +478,40 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_126
-  network: tcp
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10008'
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: z-jp2.1card.cc
+  name: None_None_trojan_126
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: Japan_Tokyo_trojan_127
-  network: tcp
-  password: ultra@kWZdAzt_IH593eGLRjdxnBZ0
-  port: '10009'
-  server: z-jp2.1card.cc
-  skip-cert-verify: true
-  sni: www.cloudflare.com
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: Seychelles_None_trojan_127
+  network: ws
+  password: humanity
+  port: '443'
+  server: 45.130.125.158
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: Denmark_None_ss_128
-  password: c58d16e593d44f42
-  port: '11001'
-  server: 158.173.221.214
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  country: 🇺🇸US
-  h2-opts: {}
-  http-opts: {}
-  name: Hong Kong_Central_vmess_129
-  network: tcp
-  port: 30830
-  server: v30.hdacd.com
-  servername: mfyousheng.nl.eu.org
-  skip-cert-verify: true
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -499,6 +544,10 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
   - Japan_Tokyo_trojan_026
+  - United States_Columbus_trojan_027
+  - None_None_trojan_028
+  - United States_None_trojan_029
+  - None_None_trojan_030
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -524,10 +573,8 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - Japan_Tokyo_trojan_126
-  - Japan_Tokyo_trojan_127
-  - Denmark_None_ss_128
-  - Hong Kong_Central_vmess_129
+  - None_None_trojan_126
+  - Seychelles_None_trojan_127
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -560,6 +607,10 @@ proxy-groups:
   - China_None_ss_024
   - Hong Kong_Tuen Mun_vmess_025
   - Japan_Tokyo_trojan_026
+  - United States_Columbus_trojan_027
+  - None_None_trojan_028
+  - United States_None_trojan_029
+  - None_None_trojan_030
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -585,10 +636,8 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Tuen Mun_vmess_125
-  - Japan_Tokyo_trojan_126
-  - Japan_Tokyo_trojan_127
-  - Denmark_None_ss_128
-  - Hong Kong_Central_vmess_129
+  - None_None_trojan_126
+  - Seychelles_None_trojan_127
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
