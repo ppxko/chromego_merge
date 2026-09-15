@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_012
+  name: Hong Kong_Central_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -211,7 +211,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_025
+  name: Hong Kong_Central_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -317,7 +317,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_112
+  name: Hong Kong_Central_vmess_112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -408,7 +408,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Sha Tin Wai_vmess_125
+  name: Hong Kong_Central_vmess_125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -416,6 +416,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: United States_Columbus_ss_126
+  password: amazonskr05
+  port: '443'
+  server: 3.144.113.215
+  type: ss
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -433,7 +440,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Sha Tin Wai_vmess_012
+  - Hong Kong_Central_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -446,7 +453,7 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Sha Tin Wai_vmess_025
+  - Hong Kong_Central_vmess_025
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -458,7 +465,7 @@ proxy-groups:
   - Unknown_vmess_19
   - Unknown_vmess_110
   - United States_None_ss_111
-  - Hong Kong_Sha Tin Wai_vmess_112
+  - Hong Kong_Central_vmess_112
   - China_None_ss_113
   - China_None_ss_114
   - Hong Kong_None_trojan_115
@@ -471,7 +478,8 @@ proxy-groups:
   - China_None_ss_122
   - United States_None_trojan_123
   - China_None_ss_124
-  - Hong Kong_Sha Tin Wai_vmess_125
+  - Hong Kong_Central_vmess_125
+  - United States_Columbus_ss_126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -489,7 +497,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Sha Tin Wai_vmess_012
+  - Hong Kong_Central_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -502,7 +510,7 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Sha Tin Wai_vmess_025
+  - Hong Kong_Central_vmess_025
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -514,7 +522,7 @@ proxy-groups:
   - Unknown_vmess_19
   - Unknown_vmess_110
   - United States_None_ss_111
-  - Hong Kong_Sha Tin Wai_vmess_112
+  - Hong Kong_Central_vmess_112
   - China_None_ss_113
   - China_None_ss_114
   - Hong Kong_None_trojan_115
@@ -527,7 +535,8 @@ proxy-groups:
   - China_None_ss_122
   - United States_None_trojan_123
   - China_None_ss_124
-  - Hong Kong_Sha Tin Wai_vmess_125
+  - Hong Kong_Central_vmess_125
+  - United States_Columbus_ss_126
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
