@@ -219,21 +219,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: None_None_trojan_026
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: Germany_Frankfurt am Main_ss_026
+  password: amazonskr05
   port: '443'
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  server: 18.194.210.177
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /assignment
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -431,21 +423,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: None_None_trojan_126
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: Germany_Frankfurt am Main_ss_126
+  password: amazonskr05
   port: '443'
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  server: 18.194.210.177
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -477,7 +461,7 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
-  - None_None_trojan_026
+  - Germany_Frankfurt am Main_ss_026
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -503,7 +487,7 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - None_None_trojan_126
+  - Germany_Frankfurt am Main_ss_126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -535,7 +519,7 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
-  - None_None_trojan_026
+  - Germany_Frankfurt am Main_ss_026
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -561,7 +545,7 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - None_None_trojan_126
+  - Germany_Frankfurt am Main_ss_126
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
