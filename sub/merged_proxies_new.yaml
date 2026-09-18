@@ -219,13 +219,99 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_026
-  password: amazonskr05
+- client-fingerprint: chrome
+  name: None_None_trojan_026
+  network: ws
+  password: humanity
   port: '443'
-  server: 18.194.210.177
+  server: 104.21.8.107
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /assignment
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: Taiwan_Xihu_vmess_027
+  network: ws
+  port: '443'
+  server: 7dba81fc3a0b.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: 7dba81fc3a0b.oylfmxz.cn
+    path: /
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: United States_None_trojan_028
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: United States_None_trojan_029
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel.tirexnet.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /assignment
+- cipher: chacha20-ietf-poly1305
+  name: Germany_None_ss_030
+  password: VuR-wK82ssFWKyLbZAVtv6vAPY3Uh1Zt
+  port: '1080'
+  server: config-germany.zelnora.ir
   type: ss
   udp: true
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: ios
+  name: United States_Everett_trojan_031
+  network: ws
+  password: 047c5913-4618-010c-6a52-bb584d71d8b6
+  port: '443'
+  server: solipor-production-7697.up.railway.app
+  skip-cert-verify: false
+  sni: solipor-production-7697.up.railway.app
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /trojan-ws
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -423,11 +509,15 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_126
-  password: amazonskr05
-  port: '443'
-  server: 18.194.210.177
+- cipher: chacha20-ietf-poly1305
+  name: Taiwan_Taichung_ss_126
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 817aa69.default.nintendo.com:112719
+    mode: tls
+  port: 2377
+  server: 60.249.39.170
   type: ss
   udp: true
 proxy-groups:
@@ -461,7 +551,12 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
-  - Germany_Frankfurt am Main_ss_026
+  - None_None_trojan_026
+  - Taiwan_Xihu_vmess_027
+  - United States_None_trojan_028
+  - United States_None_trojan_029
+  - Germany_None_ss_030
+  - United States_Everett_trojan_031
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -487,7 +582,7 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - Germany_Frankfurt am Main_ss_126
+  - Taiwan_Taichung_ss_126
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -519,7 +614,12 @@ proxy-groups:
   - United States_None_trojan_023
   - China_None_ss_024
   - Hong Kong_Central_vmess_025
-  - Germany_Frankfurt am Main_ss_026
+  - None_None_trojan_026
+  - Taiwan_Xihu_vmess_027
+  - United States_None_trojan_028
+  - United States_None_trojan_029
+  - Germany_None_ss_030
+  - United States_Everett_trojan_031
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -545,7 +645,7 @@ proxy-groups:
   - United States_None_trojan_123
   - China_None_ss_124
   - Hong Kong_Central_vmess_125
-  - Germany_Frankfurt am Main_ss_126
+  - Taiwan_Taichung_ss_126
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
