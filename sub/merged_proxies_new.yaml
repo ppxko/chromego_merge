@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Kowloon_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -211,7 +211,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_025
+  name: Hong Kong_Kowloon_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -219,6 +219,279 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: China_None_ss_026
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: The Netherlands_Amsterdam_vmess_027
+  network: ws
+  port: '80'
+  server: 188.114.96.19
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: United States_Santa Clara_ss_028
+  password: 063aee2ed1124285b5d8a8b049e24cba
+  port: '443'
+  server: 107.174.88.128
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: France_Paris_ss_029
+  password: amazonskr05
+  port: '443'
+  server: 15.237.252.23
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_11
+  network: tcp
+  port: '80'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_12
+  network: tcp
+  port: '81'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_13
+  network: tcp
+  port: '82'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_14
+  network: tcp
+  port: '83'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_15
+  network: tcp
+  port: '84'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_16
+  network: tcp
+  port: '85'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_17
+  network: tcp
+  port: '86'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_18
+  network: tcp
+  port: '87'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_19
+  network: tcp
+  port: '88'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- alterId: 0
+  cipher: auto
+  name: Unknown_vmess_110
+  network: tcp
+  port: '89'
+  server: 127.0.0.53
+  tls: false
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+- cipher: aes-256-cfb
+  name: United States_None_ss_111
+  password: amazonskr05
+  port: 443
+  server: 63.180.254.10
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Kowloon_vmess_112
+  port: 30807
+  server: v10.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-gcm
+  name: China_None_ss_113
+  password: Butterfly123@qwe9527
+  port: 10001
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: China_None_ss_114
+  password: Butterfly123@qwe9527
+  port: 10006
+  server: 112.28.141.77
+  type: ss
+- name: Hong Kong_None_trojan_115
+  network: tcp
+  password: BxceQaOe
+  port: 2716
+  server: 43.199.146.46
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: Singapore_Singapore_trojan_116
+  network: tcp
+  password: BxceQaOe
+  port: 51391
+  server: 13.215.162.132
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: Japan_Tokyo_trojan_117
+  network: tcp
+  password: BxceQaOe
+  port: 3893
+  server: 35.73.128.210
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_118
+  password: Butterfly123@qwe9527
+  port: 40001
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: China_None_ss_119
+  password: Butterfly123@qwe9527
+  port: 40002
+  server: 103.236.66.4
+  type: ss
+- name: Singapore_Singapore_trojan_120
+  network: tcp
+  password: BxceQaOe
+  port: 41142
+  server: 54.251.190.150
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_121
+  password: Butterfly123@qwe9527
+  port: 50001
+  server: 103.236.66.4
+  type: ss
+- cipher: aes-256-gcm
+  name: China_None_ss_122
+  password: Butterfly123@qwe9527
+  port: 50003
+  server: 103.236.66.4
+  type: ss
+- name: United States_None_trojan_123
+  network: tcp
+  password: BxceQaOe
+  port: 443
+  server: 100.42.228.109
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- cipher: aes-256-gcm
+  name: China_None_ss_124
+  password: Butterfly123@qwe9527
+  port: 30001
+  server: 36.33.35.105
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: Hong Kong_Kowloon_vmess_125
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: China_None_ss_126
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.139
+  type: ss
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: The Netherlands_Amsterdam_vmess_127
+  network: ws
+  port: '80'
+  server: 188.114.96.19
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
+    path: /
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: United States_Santa Clara_ss_128
+  password: 063aee2ed1124285b5d8a8b049e24cba
+  port: '443'
+  server: 107.174.88.128
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: France_Paris_ss_129
+  password: amazonskr05
+  port: '443'
+  server: 15.237.252.23
+  type: ss
+  udp: true
 proxy-groups:
 - name: 节点选择
   type: select
@@ -236,7 +509,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Kowloon_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -249,7 +522,40 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Kowloon_vmess_025
+  - China_None_ss_026
+  - The Netherlands_Amsterdam_vmess_027
+  - United States_Santa Clara_ss_028
+  - France_Paris_ss_029
+  - Unknown_vmess_11
+  - Unknown_vmess_12
+  - Unknown_vmess_13
+  - Unknown_vmess_14
+  - Unknown_vmess_15
+  - Unknown_vmess_16
+  - Unknown_vmess_17
+  - Unknown_vmess_18
+  - Unknown_vmess_19
+  - Unknown_vmess_110
+  - United States_None_ss_111
+  - Hong Kong_Kowloon_vmess_112
+  - China_None_ss_113
+  - China_None_ss_114
+  - Hong Kong_None_trojan_115
+  - Singapore_Singapore_trojan_116
+  - Japan_Tokyo_trojan_117
+  - China_None_ss_118
+  - China_None_ss_119
+  - Singapore_Singapore_trojan_120
+  - China_None_ss_121
+  - China_None_ss_122
+  - United States_None_trojan_123
+  - China_None_ss_124
+  - Hong Kong_Kowloon_vmess_125
+  - China_None_ss_126
+  - The Netherlands_Amsterdam_vmess_127
+  - United States_Santa Clara_ss_128
+  - France_Paris_ss_129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -267,7 +573,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Kowloon_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -280,7 +586,40 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Central_vmess_025
+  - Hong Kong_Kowloon_vmess_025
+  - China_None_ss_026
+  - The Netherlands_Amsterdam_vmess_027
+  - United States_Santa Clara_ss_028
+  - France_Paris_ss_029
+  - Unknown_vmess_11
+  - Unknown_vmess_12
+  - Unknown_vmess_13
+  - Unknown_vmess_14
+  - Unknown_vmess_15
+  - Unknown_vmess_16
+  - Unknown_vmess_17
+  - Unknown_vmess_18
+  - Unknown_vmess_19
+  - Unknown_vmess_110
+  - United States_None_ss_111
+  - Hong Kong_Kowloon_vmess_112
+  - China_None_ss_113
+  - China_None_ss_114
+  - Hong Kong_None_trojan_115
+  - Singapore_Singapore_trojan_116
+  - Japan_Tokyo_trojan_117
+  - China_None_ss_118
+  - China_None_ss_119
+  - Singapore_Singapore_trojan_120
+  - China_None_ss_121
+  - China_None_ss_122
+  - United States_None_trojan_123
+  - China_None_ss_124
+  - Hong Kong_Kowloon_vmess_125
+  - China_None_ss_126
+  - The Netherlands_Amsterdam_vmess_127
+  - United States_Santa Clara_ss_128
+  - France_Paris_ss_129
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
