@@ -120,7 +120,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_012
+  name: Hong Kong_Tuen Mun_vmess_012
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -211,7 +211,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_025
+  name: Hong Kong_Tuen Mun_vmess_025
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -219,20 +219,117 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: France_Paris_ss_026
-  password: amazonskr05
+- name: None_None_trojan_026
+  network: ws
+  password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   port: 443
-  server: 15.237.196.230
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_027
-  password: amazonskr05
+  server: jp3.998998.best
+  skip-cert-verify: true
+  sni: nat11.outsidemyheart.space
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nat11.outsidemyheart.space
+    path: /w4e5yh0p945y3
+- alterId: '0'
+  cipher: auto
+  name: Taiwan_Chang-hua_vmess_027
+  network: ws
   port: '443'
-  server: 63.176.107.205
-  type: ss
+  server: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  servername: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: None_None_trojan_028
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.50
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_029
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.225
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_030
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.144
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - play-apps-features.googleusercontent.com
+    path:
+    - /
+  name: Ukraine_None_vmess_031
+  network: http
+  port: '50665'
+  server: 91.224.75.56
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: Germany_None_trojan_032
+  network: ws
+  password: Km/pIG4AGCjCOiGWj5FsWA==
+  port: '25040'
+  server: node8.quaxly.com
+  skip-cert-verify: true
+  sni: /gay-anal
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /node8.quaxly.com
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -331,7 +428,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_112
+  name: Hong Kong_Tuen Mun_vmess_112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -422,7 +519,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_125
+  name: Hong Kong_Tuen Mun_vmess_125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -430,20 +527,117 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: France_Paris_ss_126
-  password: amazonskr05
+- name: None_None_trojan_126
+  network: ws
+  password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   port: 443
-  server: 15.237.196.230
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: Germany_Frankfurt am Main_ss_127
-  password: amazonskr05
+  server: jp3.998998.best
+  skip-cert-verify: true
+  sni: nat11.outsidemyheart.space
+  type: trojan
+  ws-opts:
+    headers:
+      Host: nat11.outsidemyheart.space
+    path: /w4e5yh0p945y3
+- alterId: '0'
+  cipher: auto
+  name: Taiwan_Chang-hua_vmess_127
+  network: ws
   port: '443'
-  server: 63.176.107.205
-  type: ss
+  server: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  servername: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
   udp: true
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: dee2309db4944c248b6d4372c6641e25.oylfmxz.cn
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: None_None_trojan_128
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.50
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_129
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.225
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_130
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.144
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  http-opts:
+    headers:
+      Host:
+      - play-apps-features.googleusercontent.com
+    path:
+    - /
+  name: Ukraine_None_vmess_131
+  network: http
+  port: '50665'
+  server: 91.224.75.56
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: Germany_None_trojan_132
+  network: ws
+  password: Km/pIG4AGCjCOiGWj5FsWA==
+  port: '25040'
+  server: node8.quaxly.com
+  skip-cert-verify: true
+  sni: /gay-anal
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
+    path: /node8.quaxly.com
 proxy-groups:
 - name: 节点选择
   type: select
@@ -461,7 +655,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -474,9 +668,14 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Central_vmess_025
-  - France_Paris_ss_026
-  - Germany_Frankfurt am Main_ss_027
+  - Hong Kong_Tuen Mun_vmess_025
+  - None_None_trojan_026
+  - Taiwan_Chang-hua_vmess_027
+  - None_None_trojan_028
+  - None_None_trojan_029
+  - None_None_trojan_030
+  - Ukraine_None_vmess_031
+  - Germany_None_trojan_032
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -488,7 +687,7 @@ proxy-groups:
   - Unknown_vmess_19
   - Unknown_vmess_110
   - United States_None_ss_111
-  - Hong Kong_Central_vmess_112
+  - Hong Kong_Tuen Mun_vmess_112
   - China_None_ss_113
   - China_None_ss_114
   - Hong Kong_None_trojan_115
@@ -501,9 +700,14 @@ proxy-groups:
   - China_None_ss_122
   - United States_None_trojan_123
   - China_None_ss_124
-  - Hong Kong_Central_vmess_125
-  - France_Paris_ss_126
-  - Germany_Frankfurt am Main_ss_127
+  - Hong Kong_Tuen Mun_vmess_125
+  - None_None_trojan_126
+  - Taiwan_Chang-hua_vmess_127
+  - None_None_trojan_128
+  - None_None_trojan_129
+  - None_None_trojan_130
+  - Ukraine_None_vmess_131
+  - Germany_None_trojan_132
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -521,7 +725,7 @@ proxy-groups:
   - Unknown_vmess_09
   - Unknown_vmess_010
   - United States_None_ss_011
-  - Hong Kong_Central_vmess_012
+  - Hong Kong_Tuen Mun_vmess_012
   - China_None_ss_013
   - China_None_ss_014
   - Hong Kong_None_trojan_015
@@ -534,9 +738,14 @@ proxy-groups:
   - China_None_ss_022
   - United States_None_trojan_023
   - China_None_ss_024
-  - Hong Kong_Central_vmess_025
-  - France_Paris_ss_026
-  - Germany_Frankfurt am Main_ss_027
+  - Hong Kong_Tuen Mun_vmess_025
+  - None_None_trojan_026
+  - Taiwan_Chang-hua_vmess_027
+  - None_None_trojan_028
+  - None_None_trojan_029
+  - None_None_trojan_030
+  - Ukraine_None_vmess_031
+  - Germany_None_trojan_032
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -548,7 +757,7 @@ proxy-groups:
   - Unknown_vmess_19
   - Unknown_vmess_110
   - United States_None_ss_111
-  - Hong Kong_Central_vmess_112
+  - Hong Kong_Tuen Mun_vmess_112
   - China_None_ss_113
   - China_None_ss_114
   - Hong Kong_None_trojan_115
@@ -561,9 +770,14 @@ proxy-groups:
   - China_None_ss_122
   - United States_None_trojan_123
   - China_None_ss_124
-  - Hong Kong_Central_vmess_125
-  - France_Paris_ss_126
-  - Germany_Frankfurt am Main_ss_127
+  - Hong Kong_Tuen Mun_vmess_125
+  - None_None_trojan_126
+  - Taiwan_Chang-hua_vmess_127
+  - None_None_trojan_128
+  - None_None_trojan_129
+  - None_None_trojan_130
+  - Ukraine_None_vmess_131
+  - Germany_None_trojan_132
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
