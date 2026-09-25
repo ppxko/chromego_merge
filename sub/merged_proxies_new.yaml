@@ -127,75 +127,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: China_None_ss_013
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: China_None_ss_014
-  password: Butterfly123@qwe9527
-  port: 10006
-  server: 112.28.141.77
-  type: ss
-- name: Hong Kong_None_trojan_015
-  network: tcp
-  password: BxceQaOe
-  port: 2716
-  server: 43.199.146.46
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: Singapore_Singapore_trojan_016
-  network: tcp
-  password: BxceQaOe
-  port: 51391
-  server: 13.215.162.132
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: Japan_Tokyo_trojan_017
-  network: tcp
-  password: BxceQaOe
-  port: 3893
-  server: 35.73.128.210
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- cipher: aes-256-gcm
-  name: China_None_ss_018
-  password: Butterfly123@qwe9527
-  port: 40001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: China_None_ss_019
-  password: Butterfly123@qwe9527
-  port: 40002
-  server: 103.236.66.4
-  type: ss
-- name: Singapore_Singapore_trojan_020
-  network: tcp
-  password: BxceQaOe
-  port: 41142
-  server: 54.251.190.150
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- cipher: aes-256-gcm
-  name: China_None_ss_021
-  password: Butterfly123@qwe9527
-  port: 50001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: China_None_ss_022
-  password: Butterfly123@qwe9527
-  port: 50003
-  server: 103.236.66.4
-  type: ss
-- name: United States_None_trojan_023
+- name: United States_None_trojan_013
   network: tcp
   password: BxceQaOe
   port: 443
@@ -203,15 +135,94 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: China_None_ss_024
-  password: Butterfly123@qwe9527
-  port: 30001
-  server: 36.33.35.105
+- alterId: 0
+  cipher: auto
+  name: Taiwan_Chang-hua_vmess_014
+  network: ws
+  port: '443'
+  server: 24864168545164.oylfmxz.cn
+  servername: 24864168545164.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: 24864168545164.oylfmxz.cn
+    path: /
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_015
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_016
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_017
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36603
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: France_None_ss_018
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36604
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_019
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36609
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_020
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: France_None_ss_021
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd.bjnet2.com
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_025
+  name: Hong Kong_Tuen Mun_vmess_022
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -219,30 +230,100 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_026
-  password: amazonskr05
-  port: 443
-  server: 54.199.248.166
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: United States_Ashburn_ss_027
-  password: amazonskr05
-  port: 443
-  server: 54.147.191.121
-  type: ss
-  udp: true
-- alterId: '0'
-  cipher: auto
-  name: Japan_Osaka_vmess_028
+- client-fingerprint: chrome
+  name: None_None_trojan_023
   network: ws
-  port: 23462
-  server: 64.176.51.214
-  type: vmess
-  uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
+  password: humanity
+  port: '443'
+  server: 104.16.174.44
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
   ws-opts:
-    path: /a15206
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_024
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_025
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.117
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_026
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.244
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_027
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.46
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: Seychelles_None_trojan_028
+  network: ws
+  password: humanity
+  port: '443'
+  server: 45.130.125.158
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -348,75 +429,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: China_None_ss_113
-  password: Butterfly123@qwe9527
-  port: 10001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: China_None_ss_114
-  password: Butterfly123@qwe9527
-  port: 10006
-  server: 112.28.141.77
-  type: ss
-- name: Hong Kong_None_trojan_115
-  network: tcp
-  password: BxceQaOe
-  port: 2716
-  server: 43.199.146.46
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: Singapore_Singapore_trojan_116
-  network: tcp
-  password: BxceQaOe
-  port: 51391
-  server: 13.215.162.132
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: Japan_Tokyo_trojan_117
-  network: tcp
-  password: BxceQaOe
-  port: 3893
-  server: 35.73.128.210
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- cipher: aes-256-gcm
-  name: China_None_ss_118
-  password: Butterfly123@qwe9527
-  port: 40001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: China_None_ss_119
-  password: Butterfly123@qwe9527
-  port: 40002
-  server: 103.236.66.4
-  type: ss
-- name: Singapore_Singapore_trojan_120
-  network: tcp
-  password: BxceQaOe
-  port: 41142
-  server: 54.251.190.150
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- cipher: aes-256-gcm
-  name: China_None_ss_121
-  password: Butterfly123@qwe9527
-  port: 50001
-  server: 103.236.66.4
-  type: ss
-- cipher: aes-256-gcm
-  name: China_None_ss_122
-  password: Butterfly123@qwe9527
-  port: 50003
-  server: 103.236.66.4
-  type: ss
-- name: United States_None_trojan_123
+- name: United States_None_trojan_113
   network: tcp
   password: BxceQaOe
   port: 443
@@ -424,15 +437,94 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-gcm
-  name: China_None_ss_124
-  password: Butterfly123@qwe9527
-  port: 30001
-  server: 36.33.35.105
+- alterId: 0
+  cipher: auto
+  name: Taiwan_Chang-hua_vmess_114
+  network: ws
+  port: '443'
+  server: 24864168545164.oylfmxz.cn
+  servername: 24864168545164.oylfmxz.cn
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  ws-opts:
+    headers:
+      Host: 24864168545164.oylfmxz.cn
+    path: /
+- cipher: aes-128-gcm
+  name: France_None_ss_115
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_116
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36602
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: France_None_ss_117
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36603
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_118
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36604
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: France_None_ss_119
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36609
+  server: gd.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: Hong Kong_Hong Kong_ss_120
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: France_None_ss_121
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd.bjnet2.com
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Tuen Mun_vmess_125
+  name: Hong Kong_Tuen Mun_vmess_122
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -440,37 +532,100 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-gcm
-  name: United States_None_ss_126
-  password: 665e00335bb2fb5f7ee8243952205e5e
-  port: 2087
-  server: 74.222.12.141
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: Iran_None_ss_127
-  password: cVvgP0Bz69hsErPBvqKbwQ
-  port: '2070'
-  server: p1tun3.greewebservices.ir
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: Japan_Osaka_vmess_128
+- client-fingerprint: chrome
+  name: None_None_trojan_123
   network: ws
-  port: '23462'
-  server: 64.176.51.214
+  password: humanity
+  port: '443'
+  server: 104.16.174.44
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: 95c5abc1-018d-4628-89a7-25ab9c62ab74
   ws-opts:
-    headers: {}
-    path: /a15206
-  xudp: true
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_124
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.208
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_125
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.117
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_126
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.244
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2272.101 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_127
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.46
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  name: Seychelles_None_trojan_128
+  network: ws
+  password: humanity
+  port: '443'
+  server: 45.130.125.158
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -489,22 +644,22 @@ proxy-groups:
   - Unknown_vmess_010
   - United States_None_ss_011
   - Hong Kong_Tuen Mun_vmess_012
-  - China_None_ss_013
-  - China_None_ss_014
-  - Hong Kong_None_trojan_015
-  - Singapore_Singapore_trojan_016
-  - Japan_Tokyo_trojan_017
-  - China_None_ss_018
-  - China_None_ss_019
-  - Singapore_Singapore_trojan_020
-  - China_None_ss_021
-  - China_None_ss_022
-  - United States_None_trojan_023
-  - China_None_ss_024
-  - Hong Kong_Tuen Mun_vmess_025
-  - Japan_Tokyo_ss_026
-  - United States_Ashburn_ss_027
-  - Japan_Osaka_vmess_028
+  - United States_None_trojan_013
+  - Taiwan_Chang-hua_vmess_014
+  - Hong Kong_Hong Kong_ss_015
+  - Hong Kong_Hong Kong_ss_016
+  - Hong Kong_Hong Kong_ss_017
+  - France_None_ss_018
+  - Hong Kong_Hong Kong_ss_019
+  - Hong Kong_Hong Kong_ss_020
+  - France_None_ss_021
+  - Hong Kong_Tuen Mun_vmess_022
+  - None_None_trojan_023
+  - None_None_trojan_024
+  - None_None_trojan_025
+  - None_None_trojan_026
+  - None_None_trojan_027
+  - Seychelles_None_trojan_028
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -517,22 +672,22 @@ proxy-groups:
   - Unknown_vmess_110
   - United States_None_ss_111
   - Hong Kong_Tuen Mun_vmess_112
-  - China_None_ss_113
-  - China_None_ss_114
-  - Hong Kong_None_trojan_115
-  - Singapore_Singapore_trojan_116
-  - Japan_Tokyo_trojan_117
-  - China_None_ss_118
-  - China_None_ss_119
-  - Singapore_Singapore_trojan_120
-  - China_None_ss_121
-  - China_None_ss_122
-  - United States_None_trojan_123
-  - China_None_ss_124
-  - Hong Kong_Tuen Mun_vmess_125
-  - United States_None_ss_126
-  - Iran_None_ss_127
-  - Japan_Osaka_vmess_128
+  - United States_None_trojan_113
+  - Taiwan_Chang-hua_vmess_114
+  - France_None_ss_115
+  - Hong Kong_Hong Kong_ss_116
+  - France_None_ss_117
+  - Hong Kong_Hong Kong_ss_118
+  - France_None_ss_119
+  - Hong Kong_Hong Kong_ss_120
+  - France_None_ss_121
+  - Hong Kong_Tuen Mun_vmess_122
+  - None_None_trojan_123
+  - None_None_trojan_124
+  - None_None_trojan_125
+  - None_None_trojan_126
+  - None_None_trojan_127
+  - Seychelles_None_trojan_128
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -551,22 +706,22 @@ proxy-groups:
   - Unknown_vmess_010
   - United States_None_ss_011
   - Hong Kong_Tuen Mun_vmess_012
-  - China_None_ss_013
-  - China_None_ss_014
-  - Hong Kong_None_trojan_015
-  - Singapore_Singapore_trojan_016
-  - Japan_Tokyo_trojan_017
-  - China_None_ss_018
-  - China_None_ss_019
-  - Singapore_Singapore_trojan_020
-  - China_None_ss_021
-  - China_None_ss_022
-  - United States_None_trojan_023
-  - China_None_ss_024
-  - Hong Kong_Tuen Mun_vmess_025
-  - Japan_Tokyo_ss_026
-  - United States_Ashburn_ss_027
-  - Japan_Osaka_vmess_028
+  - United States_None_trojan_013
+  - Taiwan_Chang-hua_vmess_014
+  - Hong Kong_Hong Kong_ss_015
+  - Hong Kong_Hong Kong_ss_016
+  - Hong Kong_Hong Kong_ss_017
+  - France_None_ss_018
+  - Hong Kong_Hong Kong_ss_019
+  - Hong Kong_Hong Kong_ss_020
+  - France_None_ss_021
+  - Hong Kong_Tuen Mun_vmess_022
+  - None_None_trojan_023
+  - None_None_trojan_024
+  - None_None_trojan_025
+  - None_None_trojan_026
+  - None_None_trojan_027
+  - Seychelles_None_trojan_028
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -579,22 +734,22 @@ proxy-groups:
   - Unknown_vmess_110
   - United States_None_ss_111
   - Hong Kong_Tuen Mun_vmess_112
-  - China_None_ss_113
-  - China_None_ss_114
-  - Hong Kong_None_trojan_115
-  - Singapore_Singapore_trojan_116
-  - Japan_Tokyo_trojan_117
-  - China_None_ss_118
-  - China_None_ss_119
-  - Singapore_Singapore_trojan_120
-  - China_None_ss_121
-  - China_None_ss_122
-  - United States_None_trojan_123
-  - China_None_ss_124
-  - Hong Kong_Tuen Mun_vmess_125
-  - United States_None_ss_126
-  - Iran_None_ss_127
-  - Japan_Osaka_vmess_128
+  - United States_None_trojan_113
+  - Taiwan_Chang-hua_vmess_114
+  - France_None_ss_115
+  - Hong Kong_Hong Kong_ss_116
+  - France_None_ss_117
+  - Hong Kong_Hong Kong_ss_118
+  - France_None_ss_119
+  - Hong Kong_Hong Kong_ss_120
+  - France_None_ss_121
+  - Hong Kong_Tuen Mun_vmess_122
+  - None_None_trojan_123
+  - None_None_trojan_124
+  - None_None_trojan_125
+  - None_None_trojan_126
+  - None_None_trojan_127
+  - Seychelles_None_trojan_128
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
