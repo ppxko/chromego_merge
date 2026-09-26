@@ -171,7 +171,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_017
+  name: France_None_ss_017
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -181,7 +181,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: France_None_ss_018
+  name: Hong Kong_Hong Kong_ss_018
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -191,7 +191,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: France_None_ss_019
+  name: Hong Kong_Hong Kong_ss_019
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -230,22 +230,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: France_None_vmess_023
-  network: ws
-  port: '16626'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a004e196-8e94-4d17-b95d-fa02fa68038e
-  ws-opts:
-    headers:
-      Host: 4b413f3013048c48708eb5ac1ac3d90d.mobgslb.tbcache.com
-    path: /
-  xudp: true
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_023
+  password: amazonskr05
+  port: 443
+  server: 18.179.37.17
+  type: ss
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -395,7 +385,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_117
+  name: France_None_ss_117
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -415,7 +405,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_119
+  name: France_None_ss_119
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -454,22 +444,12 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: '0'
-  cipher: auto
-  name: France_None_vmess_123
-  network: ws
-  port: '16626'
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a004e196-8e94-4d17-b95d-fa02fa68038e
-  ws-opts:
-    headers:
-      Host: 4b413f3013048c48708eb5ac1ac3d90d.mobgslb.tbcache.com
-    path: /
-  xudp: true
+- cipher: aes-256-cfb
+  name: Japan_Tokyo_ss_123
+  password: amazonskr05
+  port: 443
+  server: 18.179.37.17
+  type: ss
 proxy-groups:
 - name: 节点选择
   type: select
@@ -492,13 +472,13 @@ proxy-groups:
   - Taiwan_Chang-hua_vmess_014
   - France_None_ss_015
   - Hong Kong_Hong Kong_ss_016
-  - Hong Kong_Hong Kong_ss_017
-  - France_None_ss_018
-  - France_None_ss_019
+  - France_None_ss_017
+  - Hong Kong_Hong Kong_ss_018
+  - Hong Kong_Hong Kong_ss_019
   - Hong Kong_Hong Kong_ss_020
   - Hong Kong_Hong Kong_ss_021
   - Hong Kong_Tuen Mun_vmess_022
-  - France_None_vmess_023
+  - Japan_Tokyo_ss_023
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -515,13 +495,13 @@ proxy-groups:
   - Taiwan_Chang-hua_vmess_114
   - Hong Kong_Hong Kong_ss_115
   - Hong Kong_Hong Kong_ss_116
-  - Hong Kong_Hong Kong_ss_117
+  - France_None_ss_117
   - France_None_ss_118
-  - Hong Kong_Hong Kong_ss_119
+  - France_None_ss_119
   - Hong Kong_Hong Kong_ss_120
   - France_None_ss_121
   - Hong Kong_Tuen Mun_vmess_122
-  - France_None_vmess_123
+  - Japan_Tokyo_ss_123
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -544,13 +524,13 @@ proxy-groups:
   - Taiwan_Chang-hua_vmess_014
   - France_None_ss_015
   - Hong Kong_Hong Kong_ss_016
-  - Hong Kong_Hong Kong_ss_017
-  - France_None_ss_018
-  - France_None_ss_019
+  - France_None_ss_017
+  - Hong Kong_Hong Kong_ss_018
+  - Hong Kong_Hong Kong_ss_019
   - Hong Kong_Hong Kong_ss_020
   - Hong Kong_Hong Kong_ss_021
   - Hong Kong_Tuen Mun_vmess_022
-  - France_None_vmess_023
+  - Japan_Tokyo_ss_023
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -567,13 +547,13 @@ proxy-groups:
   - Taiwan_Chang-hua_vmess_114
   - Hong Kong_Hong Kong_ss_115
   - Hong Kong_Hong Kong_ss_116
-  - Hong Kong_Hong Kong_ss_117
+  - France_None_ss_117
   - France_None_ss_118
-  - Hong Kong_Hong Kong_ss_119
+  - France_None_ss_119
   - Hong Kong_Hong Kong_ss_120
   - France_None_ss_121
   - Hong Kong_Tuen Mun_vmess_122
-  - France_None_vmess_123
+  - Japan_Tokyo_ss_123
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
