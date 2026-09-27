@@ -151,7 +151,7 @@ proxies:
       Host: 24864168545164.oylfmxz.cn
     path: /
 - cipher: aes-128-gcm
-  name: France_None_ss_015
+  name: Hong Kong_Hong Kong_ss_015
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -171,7 +171,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: France_None_ss_017
+  name: Hong Kong_Hong Kong_ss_017
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -191,7 +191,7 @@ proxies:
   server: gd.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_019
+  name: France_None_ss_019
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -230,12 +230,21 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_023
-  password: amazonskr05
-  port: 443
-  server: 18.179.37.17
-  type: ss
+- client-fingerprint: chrome
+  name: None_None_trojan_023
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -365,7 +374,7 @@ proxies:
       Host: 24864168545164.oylfmxz.cn
     path: /
 - cipher: aes-128-gcm
-  name: Hong Kong_Hong Kong_ss_115
+  name: France_None_ss_115
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -385,7 +394,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: France_None_ss_117
+  name: Hong Kong_Hong Kong_ss_117
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -425,7 +434,7 @@ proxies:
   server: gd2.bjnet2.com
   type: ss
 - cipher: aes-128-gcm
-  name: France_None_ss_121
+  name: Hong Kong_Hong Kong_ss_121
   password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
   plugin: obfs
   plugin-opts:
@@ -444,12 +453,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: Japan_Tokyo_ss_123
-  password: amazonskr05
-  port: 443
-  server: 18.179.37.17
-  type: ss
 proxy-groups:
 - name: 节点选择
   type: select
@@ -470,15 +473,15 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_012
   - United States_None_trojan_013
   - Taiwan_Chang-hua_vmess_014
-  - France_None_ss_015
+  - Hong Kong_Hong Kong_ss_015
   - Hong Kong_Hong Kong_ss_016
-  - France_None_ss_017
+  - Hong Kong_Hong Kong_ss_017
   - Hong Kong_Hong Kong_ss_018
-  - Hong Kong_Hong Kong_ss_019
+  - France_None_ss_019
   - Hong Kong_Hong Kong_ss_020
   - Hong Kong_Hong Kong_ss_021
   - Hong Kong_Tuen Mun_vmess_022
-  - Japan_Tokyo_ss_023
+  - None_None_trojan_023
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -493,15 +496,14 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_112
   - United States_None_trojan_113
   - Taiwan_Chang-hua_vmess_114
-  - Hong Kong_Hong Kong_ss_115
+  - France_None_ss_115
   - Hong Kong_Hong Kong_ss_116
-  - France_None_ss_117
+  - Hong Kong_Hong Kong_ss_117
   - France_None_ss_118
   - France_None_ss_119
   - Hong Kong_Hong Kong_ss_120
-  - France_None_ss_121
+  - Hong Kong_Hong Kong_ss_121
   - Hong Kong_Tuen Mun_vmess_122
-  - Japan_Tokyo_ss_123
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -522,15 +524,15 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_012
   - United States_None_trojan_013
   - Taiwan_Chang-hua_vmess_014
-  - France_None_ss_015
+  - Hong Kong_Hong Kong_ss_015
   - Hong Kong_Hong Kong_ss_016
-  - France_None_ss_017
+  - Hong Kong_Hong Kong_ss_017
   - Hong Kong_Hong Kong_ss_018
-  - Hong Kong_Hong Kong_ss_019
+  - France_None_ss_019
   - Hong Kong_Hong Kong_ss_020
   - Hong Kong_Hong Kong_ss_021
   - Hong Kong_Tuen Mun_vmess_022
-  - Japan_Tokyo_ss_023
+  - None_None_trojan_023
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -545,15 +547,14 @@ proxy-groups:
   - Hong Kong_Tuen Mun_vmess_112
   - United States_None_trojan_113
   - Taiwan_Chang-hua_vmess_114
-  - Hong Kong_Hong Kong_ss_115
+  - France_None_ss_115
   - Hong Kong_Hong Kong_ss_116
-  - France_None_ss_117
+  - Hong Kong_Hong Kong_ss_117
   - France_None_ss_118
   - France_None_ss_119
   - Hong Kong_Hong Kong_ss_120
-  - France_None_ss_121
+  - Hong Kong_Hong Kong_ss_121
   - Hong Kong_Tuen Mun_vmess_122
-  - Japan_Tokyo_ss_123
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
