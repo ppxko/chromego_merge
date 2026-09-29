@@ -317,27 +317,40 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: None_None_vmess_026
+- client-fingerprint: chrome
+  name: None_None_trojan_026
   network: ws
-  port: 2083
-  server: cdn.sfacg.uk
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  password: humanity
+  port: '443'
+  server: 162.159.136.234
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- cipher: aes-256-cfb
-  name: United States_Ashburn_ss_027
-  password: amazonskr05
-  port: 443
-  server: 54.234.217.115
-  type: ss
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: None_None_trojan_027
+  network: ws
+  password: humanity
+  port: '443'
+  server: 198.41.223.96
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /assignment
 - alterId: 0
   cipher: auto
   name: Unknown_vmess_11
@@ -633,27 +646,70 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: None_None_vmess_126
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: None_None_trojan_126
   network: ws
-  port: 2083
-  server: cdn.sfacg.uk
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
+  password: humanity
+  port: '443'
+  server: 104.21.46.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: or3.sfacg.uk
-    path: /or3
-- cipher: aes-256-cfb
-  name: United States_Ashburn_ss_127
-  password: amazonskr05
-  port: 443
-  server: 54.234.217.115
-  type: ss
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_127
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /assignment
+- client-fingerprint: chrome
+  name: None_None_trojan_128
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: United States_None_trojan_129
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.188.109
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /assignment
 proxy-groups:
 - name: 节点选择
   type: select
@@ -685,8 +741,8 @@ proxy-groups:
   - United States_None_vmess_023
   - Singapore_None_vmess_024
   - Hong Kong_Central_vmess_025
-  - None_None_vmess_026
-  - United States_Ashburn_ss_027
+  - None_None_trojan_026
+  - None_None_trojan_027
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -712,8 +768,10 @@ proxy-groups:
   - United States_None_vmess_123
   - Singapore_None_vmess_124
   - Hong Kong_Central_vmess_125
-  - None_None_vmess_126
-  - United States_Ashburn_ss_127
+  - None_None_trojan_126
+  - None_None_trojan_127
+  - None_None_trojan_128
+  - United States_None_trojan_129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -745,8 +803,8 @@ proxy-groups:
   - United States_None_vmess_023
   - Singapore_None_vmess_024
   - Hong Kong_Central_vmess_025
-  - None_None_vmess_026
-  - United States_Ashburn_ss_027
+  - None_None_trojan_026
+  - None_None_trojan_027
   - Unknown_vmess_11
   - Unknown_vmess_12
   - Unknown_vmess_13
@@ -772,8 +830,10 @@ proxy-groups:
   - United States_None_vmess_123
   - Singapore_None_vmess_124
   - Hong Kong_Central_vmess_125
-  - None_None_vmess_126
-  - United States_Ashburn_ss_127
+  - None_None_trojan_126
+  - None_None_trojan_127
+  - None_None_trojan_128
+  - United States_None_trojan_129
 rules:
 - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,节点选择
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
