@@ -485,7 +485,7 @@ proxies:
     headers:
       Host: id1.nathaya.web.id
     path: /trojan
-- name: None_None_trojan_063
+- name: United States_San Francisco_trojan_063
   network: ws
   password: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
   port: 443
@@ -510,7 +510,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_066
+  name: Hong Kong_Tuen Mun_vmess_066
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -699,7 +699,7 @@ proxies:
     path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_079
+  name: Hong Kong_Tuen Mun_vmess_079
   network: tcp
   port: 30807
   server: v10.hdacd.com
@@ -789,7 +789,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: United States_None_vmess_090
+  name: None_None_vmess_090
   network: ws
   port: 443
   server: yg1.ygkkk.dpdns.org
@@ -907,10 +907,10 @@ proxy-groups:
   - United States_None_trojan_060
   - None_None_trojan_061
   - None_None_trojan_062
-  - None_None_trojan_063
+  - United States_San Francisco_trojan_063
   - Malaysia_Kuala Lumpur_trojan_064
   - United States_None_ss_065
-  - Hong Kong_Central_vmess_066
+  - Hong Kong_Tuen Mun_vmess_066
   - Hong Kong_Hong Kong_vmess_067
   - Hong Kong_Hong Kong_vmess_068
   - Hong Kong_Hong Kong_vmess_069
@@ -923,7 +923,7 @@ proxy-groups:
   - Singapore_None_vmess_076
   - United States_None_vmess_077
   - Singapore_None_vmess_078
-  - Hong Kong_Central_vmess_079
+  - Hong Kong_Tuen Mun_vmess_079
   - United States_None_trojan_080
   - United States_None_trojan_081
   - United States_None_trojan_082
@@ -934,7 +934,7 @@ proxy-groups:
   - United States_None_trojan_087
   - United States_None_trojan_088
   - United States_None_trojan_089
-  - United States_None_vmess_090
+  - None_None_vmess_090
   - Czechia_None_ss_091
   - Unknown_vmess_11
   - Unknown_vmess_12
@@ -1007,10 +1007,10 @@ proxy-groups:
   - United States_None_trojan_060
   - None_None_trojan_061
   - None_None_trojan_062
-  - None_None_trojan_063
+  - United States_San Francisco_trojan_063
   - Malaysia_Kuala Lumpur_trojan_064
   - United States_None_ss_065
-  - Hong Kong_Central_vmess_066
+  - Hong Kong_Tuen Mun_vmess_066
   - Hong Kong_Hong Kong_vmess_067
   - Hong Kong_Hong Kong_vmess_068
   - Hong Kong_Hong Kong_vmess_069
@@ -1023,7 +1023,7 @@ proxy-groups:
   - Singapore_None_vmess_076
   - United States_None_vmess_077
   - Singapore_None_vmess_078
-  - Hong Kong_Central_vmess_079
+  - Hong Kong_Tuen Mun_vmess_079
   - United States_None_trojan_080
   - United States_None_trojan_081
   - United States_None_trojan_082
@@ -1034,7 +1034,7 @@ proxy-groups:
   - United States_None_trojan_087
   - United States_None_trojan_088
   - United States_None_trojan_089
-  - United States_None_vmess_090
+  - None_None_vmess_090
   - Czechia_None_ss_091
   - Unknown_vmess_11
   - Unknown_vmess_12
